@@ -41,6 +41,7 @@ function addMusic(no, title, time, album) {
 	track_html += "<tr class='track' data-track_idx='" + no + "'>";
 	track_html += "<td class='text-right'>" + no + "</td>";
 	track_html += "<td>" + title + "</td>";
+  track_html += '<td><button class="download btn btn-default btn-xs">ダウンロード</button></td>';
 	track_html += "<td>" + convertDuration(time*1000) + "</td>";
   track_html += "<td>" + album + "</td>";
 	track_html += "</tr>";

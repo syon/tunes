@@ -96,6 +96,9 @@ a {
 .sidebar li.tower:before {
   content: "\e184";
 }
+.sidebar li.disc:before {
+  content: "\e201";
+}
 .sidebar li.tag:before {
   content: "\e041";
 }
@@ -125,6 +128,21 @@ a {
   font-size: 12px;
   border-bottom: 1px solid #ddd;
 }
-.table>tbody>tr>td {
+#musiclist.table>tbody>tr>td {
   border: 0;
+}
+#musiclist button.download {
+  font-size: 11px;
+  letter-spacing: -0.15em;
+  color: #4D2B8C;
+  /*background-color: rgba(77, 43, 140, 0.1);*/
+  border-color: #79589F;
+}
+#musiclist button.download:before {
+  content: "\e197";
+  font-size: 11px;
+  font-family: 'Glyphicons Halflings';
+  padding-right: 4px;
+  position: relative;
+  top: 1px;
 }
