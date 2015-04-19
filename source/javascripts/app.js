@@ -1,9 +1,22 @@
 $(function() {
+
+  // Sidebar Click
   $(document).on('click', '.sidebar li', function(ev){
     ev.preventDefault();
+    $('.sidebar li').removeClass('active');
+    $(this).addClass('active');
     var tracklist = $('a',this)[0].hash.replace("#",'');
     getTracks(tracklist);
   });
+
+  // Musiclist Title Click
+  $(document).on('click', '#musiclist td.title', function(){
+    $('#musiclist tr').removeClass('active');
+    $(this).closest('tr').addClass('active');
+    var target = "#" + $(this).closest('tr').data('track_no') + " a";
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click();
+  });
+
 });
 
 !function() {
@@ -39,7 +52,7 @@ function applyView(data) {
       if (idx == 0) {
         $('.sm2-playlist-target ul.sm2-playlist-bd').append('<li>'+rec.title+'</li>');
       }
-      $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+mp3_url+'">'+rec.title+'</a></li>');
+      $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li id="'+(idx+1)+'"><a href="'+mp3_url+'">'+rec.title+'</a></li>');
       // for table
       addMusic(idx+1, rec.title, rec.time, listname);
     });
@@ -48,9 +61,9 @@ function applyView(data) {
 
 function addMusic(no, title, time, album) {
 	var track_html = "";
-	track_html += "<tr class='track' data-track_idx='" + no + "'>";
+	track_html += "<tr class='track' data-track_no='" + no + "'>";
 	track_html += "<td class='text-right'>" + no + "</td>";
-	track_html += "<td>" + title + "</td>";
+	track_html += "<td class='title'>" + title + "</td>";
   track_html += '<td><button class="download btn btn-default btn-xs">ダウンロード</button></td>';
 	track_html += "<td>" + convertDuration(time*1000) + "</td>";
   track_html += "<td>" + album + "</td>";
