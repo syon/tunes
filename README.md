@@ -1,9 +1,7 @@
-AWAKE
+Tunes
 =====
 
-I'm awakening in the new world
-
-## RUNNING
+### Play
 
 ```
 $ bundle exec middleman build
