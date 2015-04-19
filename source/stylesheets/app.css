@@ -4,7 +4,7 @@
 html, body, #content, #wrapper { height: 100%; }
 body {
   margin: 0;
-  color: #6E5BAA;
+  color: #4D2B8C;
 }
 #content {
   position: absolute;
@@ -26,15 +26,17 @@ div {
   padding: 0;
 }
 .playerside {
-  background: #7056BF;
+  background: #4D2B8C;
 }
 #navi {
   height: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(77, 43, 140, 0.2);
+}
+a {
+  color: #4D2B8C;
 }
 .nav-pills>li>a {
   padding: 2px 14px;
-  color: #79589F;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background: #79589F;
@@ -55,20 +57,52 @@ div {
   height: 100%;
   overflow: auto;
   padding-top: 77px;
-  background: rgb(245,244,248);
+  background: rgba(77, 43, 140, 0.1);
   border-right: 1px solid #ddd;
-  padding-left: 12px;
 }
 .sidebar .category {
-  font-size: 16px;
-  color: #999;
+  padding-left: 12px;
+  font-size: 14px;
+  color: #888;
 }
 .sidebar ul {
-  /* padding-left: 14px; */
+   padding-left: 0px;
 }
 .sidebar li {
-  /* list-style: none; */
+  padding-left: 12px;
+  list-style: none;
+  line-height: 1.8;
 }
+.sidebar li:hover {
+  background: #DAD5E8;
+  cursor: pointer;
+}
+.sidebar li:hover a {
+  text-decoration: underline;
+}
+.sidebar li.active {
+  color: #fff;
+  background: #4D2B8C;
+}
+.sidebar li:before {
+  font-family: 'Glyphicons Halflings';
+  padding-right: 4px;
+  position: relative;
+  top: 1px;
+}
+.sidebar li.music:before {
+  content: "\e002";
+}
+.sidebar li.tower:before {
+  content: "\e184";
+}
+.sidebar li.tag:before {
+  content: "\e041";
+}
+.sidebar li.star:before {
+  content: "\e006";
+}
+
 .main {
   padding-top: 77px;
   margin-left: 250px;
@@ -78,7 +112,7 @@ div {
 }
 .sm2-bar-ui .sm2-main-controls,
 .sm2-bar-ui .sm2-playlist-drawer {
-  background-color: #7056BF !important;
+  background-color: #4D2B8C !important;
 }
 .listinfo {
   padding: 1px 0 1px 20px;
