@@ -18,8 +18,8 @@ end
 activate :livereload
 
 # Google Analytics
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-37634759-2'
-end
+#activate :google_analytics do |ga|
+#  ga.tracking_id = 'UA-********-*'
+#end
 
 puts "============ config.rb ============"

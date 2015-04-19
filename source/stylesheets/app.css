@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+html, body, #content, #wrapper { height: 100%; }
+body {
+  margin: 0;
+  color: #6E5BAA;
+}
+#content {
+  position: absolute;
+  width: 100%;
+}
+#wrapper {
+  position: absolute;
+  width: 100%;
+}
+div {
+  /*border: 1px solid #faa;*/
+}
+#player {
+  position: fixed;
+  z-index: 9;
+  background: #fff;
+}
+#player-bar>div {
+  padding: 0;
+}
+.playerside {
+  background: #7056BF;
+}
+#navi {
+  height: 30px;
+  border-bottom: 1px solid #eee;
+}
+.nav-pills>li>a {
+  padding: 2px 14px;
+  color: #79589F;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background: #79589F;
+}
+.cell {
+  display: table-cell;
+}
+.playerside {
+  height: 42px;
+}
+#logo {
+  width: 160px;
+  height: 42px;
+}
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  padding-top: 77px;
+  background: rgb(245,244,248);
+  border-right: 1px solid #ddd;
+  padding-left: 12px;
+}
+.sidebar .category {
+  font-size: 16px;
+  color: #999;
+}
+.sidebar ul {
+  /* padding-left: 14px; */
+}
+.sidebar li {
+  /* list-style: none; */
+}
+.main {
+  padding-top: 77px;
+  margin-left: 250px;
+}
+.sm2-bar-ui {
+  border-radius: 0 !important;
+}
+.sm2-bar-ui .sm2-main-controls,
+.sm2-bar-ui .sm2-playlist-drawer {
+  background-color: #7056BF !important;
+}
+.listinfo {
+  padding: 1px 0 1px 20px;
+  background: #f8f8f8;
+}
+.listinfo h2 {
+  margin-top: 10px;
+}
+#musiclist th {
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.table>tbody>tr>td {
+  border: 0;
+}

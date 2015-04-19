@@ -1,11 +1,73 @@
 ---
 layout: layout
-title: Welcome to Middleman
-description: Description Here
+title: tunes
 ---
 
-.l-main.container
-  .text-center
-    h1 Middleman is Watching
-    p
-      == link_to "Read Online Documentation", "http://middlemanapp.com/"
+#content
+
+  #player
+    #player-bar.row
+      .col-md-2.playerside
+        #logo.dummy
+      .col-md-8#sm2player
+        == partial 'layouts/player'
+      .col-md-2.playerside
+
+    #navi
+      .row
+        .col-md-4
+          ul.nav.nav-pills style="padding-left:8px;"
+            li.active
+              a href="#"
+                span class="glyphicon glyphicon-music" aria-hidden="true"
+        .col-md-5
+          ul.nav.nav-pills
+            li
+              a href="#"
+                span class="glyphicon glyphicon-home" aria-hidden="true"
+                | &nbsp;TOP
+            li.active
+              a href="#" BGM素材
+            li
+              a href="#" 利用規約
+            li
+              a href="#" 作曲依頼
+        .col-md-3
+
+  #wrapper
+    .sidebar
+      h3.category Featured
+      ul
+        li abc
+        li abc
+        li abc
+        li abc
+      h3.category Playlists
+      ul
+        li abc
+        li abc
+        li abc
+        li abc
+      h3.category Tags
+      ul
+        li abc
+        li abc
+        li abc
+        li abc
+      h3.category You
+      ul
+        li
+          span class="glyphicon glyphicon-star" aria-hidden="true"
+          | &nbsp;Favorites
+
+    .main
+      .listinfo
+        h2 Midnight Celebration
+        p 11 曲 ・ 32分
+      table#musiclist.table.table-striped.table-hover
+        thead
+          th
+          th Title
+          th Time
+          th Album
+        tbody.tracks
