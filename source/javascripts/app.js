@@ -2,6 +2,11 @@ $(function() {
     $(window).on('load', function() {
         console.log("Hello from app.js");
     });
+  $(document).on('click', '.sidebar li a', function(ev){
+    ev.preventDefault();
+    var tracklist = this.hash.replace("#",'');
+    getTracks(tracklist);
+  });
 });
 
 !function() {
@@ -26,13 +31,18 @@ function applyView(data) {
   var server_url = "http://oto-no-sono.com" + data.path;
   $('.listinfo>.listname').text(listname);
   $('ul.sm2-playlist-bd').empty();
-  $('.tracks').empty();
-  data.tracks.forEach(function(rec,idx) {
-    // for playlist
-    var mp3_url = server_url + rec.filename;
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+mp3_url+'">'+rec.title+'</a></li>');
-    // for table
-    addMusic(idx+1, rec.title, rec.time, listname);
+  var myPromise = $.when(
+    $('.tracks tr').fadeOut()
+  );
+  myPromise.done(function() {
+    $('.tracks tr').remove();
+    data.tracks.forEach(function(rec,idx) {
+      // for playlist
+      var mp3_url = server_url + rec.filename;
+      $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+mp3_url+'">'+rec.title+'</a></li>');
+      // for table
+      addMusic(idx+1, rec.title, rec.time, listname);
+    });
   });
 }
 
