@@ -1,10 +1,7 @@
 $(function() {
-    $(window).on('load', function() {
-        console.log("Hello from app.js");
-    });
-  $(document).on('click', '.sidebar li a', function(ev){
+  $(document).on('click', '.sidebar li', function(ev){
     ev.preventDefault();
-    var tracklist = this.hash.replace("#",'');
+    var tracklist = $('a',this)[0].hash.replace("#",'');
     getTracks(tracklist);
   });
 });
@@ -39,6 +36,9 @@ function applyView(data) {
     data.tracks.forEach(function(rec,idx) {
       // for playlist
       var mp3_url = server_url + rec.filename;
+      if (idx == 0) {
+        $('.sm2-playlist-target ul.sm2-playlist-bd').append('<li>'+rec.title+'</li>');
+      }
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+mp3_url+'">'+rec.title+'</a></li>');
       // for table
       addMusic(idx+1, rec.title, rec.time, listname);
