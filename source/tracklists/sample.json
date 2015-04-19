@@ -1,0 +1,125 @@
+{
+  "listname": "Sample Tracks",
+  "path": "/musics/sample/",
+  "tracks": [
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 1",
+    "time": 98,
+    "filename": "01.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 2",
+    "time": 98,
+    "filename": "02.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 3",
+    "time": 98,
+    "filename": "03.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 4",
+    "time": 98,
+    "filename": "04.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 5",
+    "time": 98,
+    "filename": "05.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 6",
+    "time": 98,
+    "filename": "06.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 7",
+    "time": 98,
+    "filename": "07.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 8",
+    "time": 98,
+    "filename": "08.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 9",
+    "time": 98,
+    "filename": "09.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 10",
+    "time": 98,
+    "filename": "10.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 11",
+    "time": 98,
+    "filename": "11.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 12",
+    "time": 98,
+    "filename": "12.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 13",
+    "time": 98,
+    "filename": "13.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 14",
+    "time": 98,
+    "filename": "14.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 15",
+    "time": 98,
+    "filename": "15.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 16",
+    "time": 98,
+    "filename": "16.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 17",
+    "time": 98,
+    "filename": "17.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 18",
+    "time": 98,
+    "filename": "18.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 19",
+    "time": 98,
+    "filename": "19.mp3"
+  },
+  {
+    "artist": "Sample Artist",
+    "title": "Sample Music Title 20",
+    "time": 98,
+    "filename": "20.mp3"
+  }
+]}

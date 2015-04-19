@@ -1,32 +1,38 @@
 $(function() {
     $(window).on('load', function() {
-        console.log("Hello from all.js");
+        console.log("Hello from app.js");
     });
 });
 
-(function() {
+!function() {
+  getTracks('midnight');
+}();
+
+function getTracks(tracklist_name) {
   $.ajax({
-    url: 'tracks.json',
+    url: "tracklists/" + tracklist_name + ".json",
     dataType: 'json',
     success: function(data) {
-      init(data);
+      applyView(data);
     }.bind(this),
     error: function(xhr, status, err) {
       console.error(status, err.toString());
     }.bind(this)
   });
-}());
+}
 
-function init(data) {
-  console.log("init:",data);
+function applyView(data) {
+  var listname = data.listname;
+  var server_url = "http://oto-no-sono.com" + data.path;
+  $('.listinfo>.listname').text(listname);
   $('ul.sm2-playlist-bd').empty();
   $('.tracks').empty();
-  data.forEach(function(data,idx) {
+  data.tracks.forEach(function(rec,idx) {
     // for playlist
-    var url = "http://oto-no-sono.com/musics/midnight-celebration/" + data.filename;
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+url+'">'+data.title+'</a></li>');
+    var mp3_url = server_url + rec.filename;
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li><a href="'+mp3_url+'">'+rec.title+'</a></li>');
     // for table
-    addMusic(idx+1, data.title, data.time, 'Midnight Celebration');
+    addMusic(idx+1, rec.title, rec.time, listname);
   });
 }
 

@@ -1,4 +1,7 @@
-[
+{
+  "listname": "Midnight Celebration",
+  "path": "/musics/midnight-celebration/",
+  "tracks": [
   {
     "artist": "Andy Hiroyuki",
     "title": "Blissful Night",
@@ -65,4 +68,4 @@
     "time": 55,
     "filename": "11.mp3"
   }
-]
+]}
