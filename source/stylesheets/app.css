@@ -84,6 +84,9 @@ a {
   color: #fff;
   background: #4D2B8C;
 }
+.sidebar li.active a {
+  color: #fff;
+}
 .sidebar li:before {
   font-family: 'Glyphicons Halflings';
   padding-right: 4px;
@@ -124,12 +127,23 @@ a {
 .listinfo h2 {
   margin-top: 10px;
 }
+#musiclist.table-hover>tbody>tr:hover {
+  background: rgba(77, 43, 140, 0.15);
+}
 #musiclist th {
   font-size: 12px;
   border-bottom: 1px solid #ddd;
 }
 #musiclist.table>tbody>tr>td {
   border: 0;
+}
+#musiclist tr.active td {
+  color: #fff;
+  background: #4D2B8C;
+}
+#musiclist td.title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #musiclist button.download {
   font-size: 11px;
@@ -145,4 +159,13 @@ a {
   padding-right: 4px;
   position: relative;
   top: 1px;
+}
+#musiclist button.download.btn-default.active,
+#musiclist button.download.btn-default.focus,
+#musiclist button.download.btn-default:active,
+#musiclist button.download.btn-default:focus,
+#musiclist button.download.btn-default:hover,
+#musiclist button.download.open>.dropdown-toggle.btn-default {
+  color: #fff;
+  background: #62449A;
 }
