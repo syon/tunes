@@ -174,3 +174,19 @@ a {
   color: #fff;
   background: #62449A;
 }
+#musiclist .tag {
+  font-size: 11px;
+  letter-spacing: -0.15em;
+  background: #fdd;
+  padding: 6px 10px;
+  margin: 0 4px;
+  border-radius: 2px;
+}
+#musiclist .tag:before {
+  content: "\e041";
+  font-size: 11px;
+  font-family: 'Glyphicons Halflings';
+  padding-right: 4px;
+  position: relative;
+  top: 1px;
+}

@@ -1,3 +1,5 @@
+//= require "underscore-min"
+
 $(function() {
 
   // Sidebar Click
@@ -20,7 +22,7 @@ $(function() {
 });
 
 !function() {
-  getTracks('midnight');
+  getTracks('game_novel');
 }();
 
 function getTracks(tracklist_name) {
@@ -54,19 +56,19 @@ function applyView(data) {
       }
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append('<li id="'+(idx+1)+'"><a href="'+mp3_url+'">'+rec.title+'</a></li>');
       // for table
-      addMusic(idx+1, rec.title, rec.time, listname);
+      addMusic(idx+1, rec.title, rec.time, rec.tags);
     });
   });
 }
 
-function addMusic(no, title, time, album) {
+function addMusic(no, title, time, tags) {
 	var track_html = "";
 	track_html += "<tr class='track' data-track_no='" + no + "'>";
 	track_html += "<td class='text-right'>" + no + "</td>";
 	track_html += "<td class='title'>" + title + "</td>";
   track_html += '<td><button class="download btn btn-default btn-xs">ダウンロード</button></td>';
 	track_html += "<td>" + convertDuration(time*1000) + "</td>";
-  track_html += "<td>" + album + "</td>";
+  track_html += "<td class='tags'>" + makeTagsElem(tags) + "</td>";
 	track_html += "</tr>";
 	$('#musiclist tbody').append(track_html);
 }
@@ -77,4 +79,10 @@ function convertDuration(ms) {
 	var s = String(Math.round((ms - h * 3600000 - m * 60000)/1000)+ 100).substring(1);
 	var hm = Number(h)*60 + Number(m);
 	return hm+':'+s;
+}
+
+function makeTagsElem(tags) {
+  return tags.map(function(tag){
+    return '<span class="tag">' + tag + '</span>';
+  }).join("");
 }
