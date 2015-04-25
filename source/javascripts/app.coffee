@@ -7,10 +7,10 @@ $ ->
   tunes.getTracks 'game_novel'
 
   # Sidebar Click
-  $(document).on 'click', '.sidebar li', (ev) =>
+  $(document).on 'click', '.sidebar li', (ev) ->
     ev.preventDefault()
     $('.sidebar li').removeClass 'active'
-    $(this).addClass 'active'
+    $(@).addClass 'active'
     tracklist = $('a', this)[0].hash.replace('#', '')
     tunes.getTracks tracklist
     return
@@ -24,8 +24,8 @@ $ ->
     return
 
   # Download
-  $(document).on 'click', '#musiclist button.download', =>
-    track_no = $(this).closest('tr').data('track_no')
+  $(document).on 'click', '#musiclist button.download', ->
+    track_no = $(@).closest('tr').data('track_no')
     tunes.download track_no
     return
   return

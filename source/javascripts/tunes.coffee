@@ -25,20 +25,23 @@ class window.Tunes
     server_url = 'http://oto-no-sono.com' + data.path
     $('.listinfo>.listname').text listname
     $('ul.sm2-playlist-bd').empty()
-    myPromise = $.when($('.tracks tr').fadeOut())
+    $('.track').remove()
+    myPromise = $.when(Tunes.appendTrackAll(server_url, data.tracks))
     myPromise.done =>
-      $('.tracks tr').remove()
-      data.tracks.forEach (rec, idx) =>
-        # for playlist
-        mp3_url = server_url + rec.filename
-        if idx == 0
-          $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
-        $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
-        # for table
-        Tunes.appendTrack idx + 1, rec.title, rec.time, rec.tags
-        return
+      $('.track').fadeIn()
       return
     return
+
+  @appendTrackAll: (server_url, tracks) ->
+    tracks.forEach (rec, idx) ->
+      # for playlist
+      mp3_url = server_url + rec.filename
+      if idx == 0
+        $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
+      $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
+      # for table
+      Tunes.appendTrack idx + 1, rec.title, rec.time, rec.tags
+      return
 
   @appendTrack: (tno, title, time, tags) ->
     track_html = ''
@@ -60,6 +63,7 @@ class window.Tunes
     hm + ':' + s
 
   @makeTagsElem: (tags) ->
+    return '' unless tags
     tags.map((tag) ->
       '<span class="tag">' + tag + '</span>'
     ).join ''

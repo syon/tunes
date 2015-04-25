@@ -22,8 +22,12 @@ div {
   z-index: 9;
   background: #fff;
 }
-#player-bar>div {
-  padding: 0;
+#player-bar {
+  background: #4D2B8C;
+
+  &>div {
+    padding: 0;
+  }
 }
 .playerside {
   background: #4D2B8C;
@@ -138,6 +142,9 @@ a {
 }
 
 #musiclist {
+  .track {
+    display: none;
+  }
   &.table-hover>tbody>tr:hover {
     background: rgba(77, 43, 140, 0.15);
   }
