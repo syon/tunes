@@ -1,4 +1,5 @@
 //= require "underscore-min"
+//= require "FileSaver.min"
 
 $(function() {
 
@@ -19,17 +20,26 @@ $(function() {
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click();
   });
 
+  // Download
+  $(document).on('click', '#musiclist button.download', function(){
+    var track_no = $(this).closest('tr').data('track_no');
+    download(track_no);
+  });
+
 });
 
 !function() {
   getTracks('game_novel');
 }();
 
+var __music;
+
 function getTracks(tracklist_name) {
   $.ajax({
     url: "tracklists/" + tracklist_name + ".json",
     dataType: 'json',
     success: function(data) {
+      __music = data;
       applyView(data);
     }.bind(this),
     error: function(xhr, status, err) {
@@ -85,4 +95,19 @@ function makeTagsElem(tags) {
   return tags.map(function(tag){
     return '<span class="tag">' + tag + '</span>';
   }).join("");
+}
+
+function download(track_no) {
+  var xhr = new XMLHttpRequest();
+  var track = __music.tracks[track_no - 1];
+  var path = __music.path + track.filename;
+  xhr.open('GET', path, true);
+  xhr.filename = track.filename;
+  xhr.responseType = 'blob';
+  xhr.send();
+  xhr.onload = function(){
+    if (this.status == 200) {
+      saveAs(this.response, this.filename);
+    }
+  }
 }
