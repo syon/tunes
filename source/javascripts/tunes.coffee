@@ -3,6 +3,7 @@ class window.Tunes
   constructor: ->
     # console.log @
 
+  server_webroot: 'http://oto-no-sono.com'
   music: {}
 
   getTracks: (tracklist_name) ->
@@ -22,7 +23,7 @@ class window.Tunes
 
   applyView: (data) ->
     listname = data.listname
-    server_url = 'http://oto-no-sono.com' + data.path
+    server_url = @server_webroot + data.path
     $('.listinfo>.listname').text listname
     $('ul.sm2-playlist-bd').empty()
     $('.track').remove()
@@ -71,7 +72,7 @@ class window.Tunes
   download: (track_no) ->
     xhr = new XMLHttpRequest
     track = @music.tracks[track_no - 1]
-    path = @music.path + track.filename
+    path = @server_webroot + @music.path + track.filename
     xhr.open 'GET', path, true
     xhr.filename = track.filename
     xhr.responseType = 'blob'
