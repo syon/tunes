@@ -4,14 +4,14 @@ class window.Tunes
     # console.log @
 
   @server_webroot: 'http://oto-no-sono.com'
-  music: {}
+  musics: {}
 
   getTracks: (tracklist_name) ->
     $.ajax
       url: 'tracklists/' + tracklist_name + '.json'
       dataType: 'json'
       success: ((data) ->
-        @music = data
+        @musics = data
         @applyView data
         return
       ).bind(this)
@@ -70,8 +70,8 @@ class window.Tunes
 
   download: (track_no) ->
     xhr = new XMLHttpRequest
-    track = @music.tracks[track_no - 1]
-    path = @server_webroot + @music.path + track.filename
+    track = @musics.tracks[track_no - 1]
+    path = Tunes.server_webroot + track.filepath
     xhr.open 'GET', path, true
     xhr.filename = track.filename
     xhr.responseType = 'blob'

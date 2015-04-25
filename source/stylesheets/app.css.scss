@@ -92,6 +92,11 @@ a {
     list-style: none;
     line-height: 1.8;
 
+    &.new:after {
+      content: "New!";
+      color: red;
+      margin-left: 5px;
+    }
     &:hover {
       background: rgba($maincolor, 0.1);
       cursor: pointer;
