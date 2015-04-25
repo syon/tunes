@@ -1,10 +1,13 @@
+$maincolor: #4D2B8C;
+$deepcolor: #79589F;
+
 * {
   box-sizing: border-box;
 }
 html, body, #content, #wrapper { height: 100%; }
 body {
   margin: 0;
-  color: #4D2B8C;
+  color: $maincolor;
 }
 #content {
   position: absolute;
@@ -23,19 +26,19 @@ div {
   background: #fff;
 }
 #player-bar {
-  background: #4D2B8C;
+  background: $maincolor;
 
   &>div {
     padding: 0;
   }
 }
 .playerside {
-  background: #4D2B8C;
+  background: $maincolor;
   height: 42px;
 }
 #navi {
   position: absolute;
-  border-bottom: 1px solid rgba(77, 43, 140, 0.2);
+  border-bottom: 1px solid rgba($maincolor, 0.2);
   top: 42px;
   background: #fff;
   width: 100%;
@@ -43,13 +46,21 @@ div {
   padding-top: 5px;
 }
 a {
-  color: #4D2B8C;
+  color: $maincolor;
 }
-.nav-pills>li>a {
-  padding: 2px 14px;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background: #79589F;
+.nav-pills {
+  li {
+    &>a {
+      padding: 2px 14px;
+    }
+    &.active {
+      &>a,
+      &>a:focus,
+      &>a:hover {
+        background: $deepcolor;
+      }
+    }
+  }
 }
 .cell {
   display: table-cell;
@@ -65,7 +76,7 @@ a {
   height: 100%;
   overflow: auto;
   padding-top: 77px;
-  background: rgba(77, 43, 140, 0.1);
+  background: rgba($maincolor, 0.1);
   border-right: 1px solid #ddd;
 
   .category {
@@ -82,18 +93,20 @@ a {
     line-height: 1.8;
 
     &:hover {
-      background: #DAD5E8;
+      background: rgba($maincolor, 0.1);
       cursor: pointer;
-    }
-    &:hover a {
-      text-decoration: underline;
+
+      a {
+        text-decoration: underline;
+      }
     }
     &.active {
       color: #fff;
-      background: #4D2B8C;
-    }
-    &.active a {
-      color: #fff;
+      background: $maincolor;
+
+      a {
+        color: #fff;
+      }
     }
     &:before {
       font-family: 'Glyphicons Halflings';
@@ -128,7 +141,7 @@ a {
 
   .sm2-main-controls,
   .sm2-playlist-drawer {
-    background-color: #4D2B8C !important;
+    background-color: $maincolor !important;
   }
 }
 
@@ -146,7 +159,7 @@ a {
     display: none;
   }
   &.table-hover>tbody>tr:hover {
-    background: rgba(77, 43, 140, 0.15);
+    background: rgba($maincolor, 0.15);
   }
   th {
     font-size: 12px;
@@ -157,7 +170,7 @@ a {
   }
   tr.active td {
     color: #fff;
-    background: #4D2B8C;
+    background: $maincolor;
   }
   td.title:hover {
     text-decoration: underline;
@@ -167,9 +180,9 @@ a {
   button.download {
     font-size: 11px;
     letter-spacing: -0.15em;
-    color: #4D2B8C;
-    /*background-color: rgba(77, 43, 140, 0.1);*/
-    border-color: #79589F;
+    color: $maincolor;
+    /*background-color: rgba($maincolor, 0.1);*/
+    border-color: $deepcolor;
 
     &:before {
       content: "\e197";
