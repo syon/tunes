@@ -3,7 +3,7 @@ class window.Tunes
   constructor: ->
     # console.log @
 
-  server_webroot: 'http://oto-no-sono.com'
+  @server_webroot: 'http://oto-no-sono.com'
   music: {}
 
   getTracks: (tracklist_name) ->
@@ -23,20 +23,19 @@ class window.Tunes
 
   applyView: (data) ->
     listname = data.listname
-    server_url = @server_webroot + data.path
     $('.listinfo>.listname').text listname
     $('ul.sm2-playlist-bd').empty()
     $('.track').remove()
-    myPromise = $.when(Tunes.appendTrackAll(server_url, data.tracks))
+    myPromise = $.when(Tunes.appendTrackAll(data.tracks))
     myPromise.done =>
       $('.track').fadeIn()
       return
     return
 
-  @appendTrackAll: (server_url, tracks) ->
+  @appendTrackAll: (tracks) ->
     tracks.forEach (rec, idx) ->
       # for playlist
-      mp3_url = server_url + rec.filename
+      mp3_url = Tunes.server_webroot + rec.filepath
       if idx == 0
         $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'

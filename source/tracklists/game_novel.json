@@ -1,30 +1,59 @@
 {
   "listname": "サウンドノベル",
-  "path": "/musics/novel/",
   "tracks": [
     {
-      "filename": "aiwotsutaerukotoba.mp3",
+      "filepath": "/materials/novel/aiwotsutaerukotoba.mp3",
       "title": "愛を伝える言葉",
       "time": 98,
       "tags": ["ピアノ", "繊細"]
     },
     {
-      "filename": "itsumonokimi.mp3",
+      "filepath": "/materials/novel/itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 98,
       "tags": ["明るい"]
     },
     {
-      "filename": "amenochiame.mp3",
+      "filepath": "/materials/novel/amenochiame.mp3",
       "title": "雨のち雨",
       "time": 98,
       "tags": ["悲しい"]
     },
     {
-      "filename": "tabinooyado.mp3",
+      "filepath": "/materials/novel/tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 98,
       "tags": ["安らぎ"]
+    },
+    {
+      "filepath": "/materials/novel/Hope.mp3",
+      "title": "Hope",
+      "time": 98,
+      "tags": ["安らぎ"]
+    },
+    {
+      "filepath": "/materials/novel/InTheRoom.mp3",
+      "title": "室内で",
+      "time": 98,
+      "tags": ["悲しい"]
+    },
+    {
+      "filepath": "/materials/novel/kaisou.mp3",
+      "title": "記憶のオルゴール",
+      "time": 98,
+      "tags": ["悲しい"]
+    },
+    {
+      "filepath": "/materials/novel/MainStreet.mp3",
+      "title": "Main street",
+      "time": 98,
+      "tags": ["探偵"]
+    },
+    {
+      "filepath": "/materials/novel/ThemeofDetictive.mp3",
+      "title": "Theme of Detictive",
+      "time": 98,
+      "tags": ["探偵"]
     }
   ]
 }
