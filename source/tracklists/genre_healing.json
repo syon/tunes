@@ -1,0 +1,11 @@
+{
+  "listname": "ヒーリング",
+  "tracks": [
+    {
+      "filepath": "/materials/HealingVoyager.mp3",
+      "title": "Healing Voyager",
+      "time": 98,
+      "tags": ["神秘的"]
+    }
+  ]
+}

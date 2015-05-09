@@ -1,0 +1,17 @@
+{
+  "listname": "映画音楽",
+  "tracks": [
+    {
+      "filepath": "/materials/epic1.mp3",
+      "title": "Epic1",
+      "time": 98,
+      "tags": ["暗い", "重厚"]
+    },
+    {
+      "filepath": "/materials/epic2.mp3",
+      "title": "Epic2",
+      "time": 98,
+      "tags": ["壮大"]
+    }
+  ]
+}
