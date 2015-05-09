@@ -91,7 +91,15 @@ a {
     padding-left: 12px;
     list-style: none;
     line-height: 1.8;
+    position: relative;
 
+    .count {
+      position: relative;
+      right: 12px;
+      top: 2px;
+      float: right;
+      color: #888;
+    }
     &.new:after {
       content: "New!";
       color: red;
@@ -180,6 +188,12 @@ a {
   td.title:hover {
     text-decoration: underline;
     cursor: pointer;
+  }
+  tr:hover,
+  tr.active {
+    .tag {
+      color: $maincolor;
+    }
   }
 
   button.download {
