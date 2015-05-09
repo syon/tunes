@@ -1,0 +1,11 @@
+{
+  "listname": "夜",
+  "tracks": [
+    {
+      "filepath": "/materials/MachiNoTomoshibi.mp3",
+      "title": "街の灯火",
+      "time": 98,
+      "tags": ["夜"]
+    }
+  ]
+}
