@@ -1,0 +1,23 @@
+{
+  "listname": "ハードボイルド",
+  "tracks": [
+    {
+      "filepath": "/materials/MainStreet.mp3",
+      "title": "Main Street",
+      "time": 98,
+      "tags": ["ハードボイルド"]
+    },
+    {
+      "filepath": "/materials/MainStreet2015.mp3",
+      "title": "Main Street 2015",
+      "time": 98,
+      "tags": ["ハードボイルド"]
+    },
+    {
+      "filepath": "/materials/ThemeofDetictive.mp3",
+      "title": "Theme of Detictive",
+      "time": 98,
+      "tags": ["ハードボイルド"]
+    }
+  ]
+}
