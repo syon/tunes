@@ -10,7 +10,7 @@ json_dir = "source/tracklists/"
 #
 # Write info on mp3 file with CSV
 #
-csv = CSV.table(json_dir + "_def.csv")
+csv = CSV.table(json_dir + "_def.tsv", col_sep:"\t")
 musics = {}
 csv.map do |df|
   music = {}
