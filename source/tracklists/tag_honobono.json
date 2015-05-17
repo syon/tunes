@@ -1,11 +1,14 @@
 {
-  "listname": "ほのぼの",
+  "listname": "ほのぼの・穏やか",
   "tracks": [
     {
       "filepath": "/materials/AttakaShichu.mp3",
       "title": "あったかシチュー",
-      "time": 98,
-      "tags": ["ほのぼの"]
+      "time": 87,
+      "tags": [
+        "穏やか",
+        "かわいい"
+      ]
     }
   ]
 }

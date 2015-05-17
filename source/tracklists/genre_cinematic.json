@@ -3,15 +3,23 @@
   "tracks": [
     {
       "filepath": "/materials/epic1.mp3",
-      "title": "Epic1",
-      "time": 98,
-      "tags": ["暗い", "重厚"]
+      "title": "epic1",
+      "time": 19,
+      "tags": [
+        "壮大",
+        "重厚",
+        "暗い",
+        "不気味"
+      ]
     },
     {
       "filepath": "/materials/epic2.mp3",
-      "title": "Epic2",
-      "time": 98,
-      "tags": ["壮大"]
+      "title": "epic2",
+      "time": 25,
+      "tags": [
+        "壮大",
+        "重厚"
+      ]
     }
   ]
 }

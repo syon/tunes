@@ -41,7 +41,7 @@ csv.map do |df|
   music[:title]  = df[:title]
   music[:artist] = df[:artist]
   music[:album]  = df[:album]
-  music[:tags]   = df[:tags].split "/"
+  music[:tags]   = df[:tags].split "/" if df[:tags]
 
   musics[cate_id] = music
 end

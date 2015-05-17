@@ -4,8 +4,12 @@
     {
       "filepath": "/materials/ResortHotel.mp3",
       "title": "リゾートホテル",
-      "time": 98,
-      "tags": ["ボサノバ"]
+      "time": 44,
+      "tags": [
+        "ボサノバ",
+        "明るい",
+        "穏やか"
+      ]
     }
   ]
 }

@@ -3,9 +3,13 @@
   "tracks": [
     {
       "filepath": "/materials/HealingVoyager.mp3",
-      "title": "Healing Voyager",
-      "time": 98,
-      "tags": ["神秘的"]
+      "title": "Healing voyager",
+      "time": 170,
+      "tags": [
+        "ヒーリング",
+        "神秘的",
+        "回想"
+      ]
     }
   ]
 }
