@@ -12,9 +12,9 @@ json_dir = "source/tracklists/"
 #
 csv = CSV.table(json_dir + "_def.csv")
 musics = {}
-csv.map do |rec|
+csv.map do |df|
   music = {}
-  cate_id = rec[:filename]
+  cate_id = df[:filename]
   path = base_dir + cate_id
   begin
     AudioInfo.open(path) do |info|
@@ -22,11 +22,19 @@ csv.map do |rec|
     end
   rescue
   end
+
   TagLib::MPEG::File.open(path) do |file|
-    music[:title] = rec[:title]
-    music[:artist] = rec[:artist]
-    music[:tags] = rec[:tags].split "/"
+    file.tag.title  = df[:title]
+    file.tag.artist = df[:artist]
+    file.tag.album  = df[:album]
+    file.save
   end
+
+  music[:title]  = df[:title]
+  music[:artist] = df[:artist]
+  music[:album]  = df[:album]
+  music[:tags]   = df[:tags].split "/"
+
   musics[cate_id] = music
 end
 
