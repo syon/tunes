@@ -4,32 +4,49 @@
     {
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
-      "time": 98,
-      "tags": ["8bit", "明るい", "疾走感"]
+      "time": 10,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
     },
     {
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
-      "time": 98,
-      "tags": ["8bit", "明るい", "疾走感"]
+      "time": 11,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
     },
     {
       "filepath": "/materials/8bit_retrotitle.mp3",
       "title": "レトロタイトル",
-      "time": 98,
-      "tags": ["8bit", "かわいい"]
+      "time": 19,
+      "tags": [
+        "8bit",
+        "かわいい"
+      ]
     },
     {
       "filepath": "/materials/8bit_rockman5.mp3",
       "title": "ロックマン５ ステージセレクト",
-      "time": 98,
-      "tags": ["8bit", "カバー"]
+      "time": 17,
+      "tags": [
+        "8bit",
+        "カバー"
+      ]
     },
     {
       "filepath": "/materials/8bit_sousakaishi.mp3",
       "title": "捜査開始",
-      "time": 98,
-      "tags": ["8bit", "探偵"]
+      "time": 19,
+      "tags": [
+        "8bit",
+        "ハードボイルド"
+      ]
     }
   ]
 }
