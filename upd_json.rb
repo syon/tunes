@@ -24,9 +24,17 @@ csv.map do |df|
   end
 
   TagLib::MPEG::File.open(path) do |file|
-    file.tag.title  = df[:title]
-    file.tag.artist = df[:artist]
-    file.tag.album  = df[:album]
+    ## Cannot embed Japanese...
+    ## cf. http://www.rubydoc.info/gems/taglib-ruby/TagLib/ID3v2/Tag
+    # tag = file.id3v2_tag
+    # tag.title  = df[:title]
+    # z = tag.frame_list('TIT2').first
+    # z.text = df[:title]
+    # z.text_encoding = TagLib::String::UTF8
+    tag = file.tag
+    tag.title  = df[:title]
+    tag.artist = df[:artist]
+    tag.album  = df[:album]
     file.save
   end
 
