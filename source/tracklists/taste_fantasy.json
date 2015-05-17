@@ -1,0 +1,46 @@
+{
+  "listname": "ファンタジー",
+  "tracks": [
+    {
+      "filepath": "/materials/METROPOLIS.mp3",
+      "title": "METROPOLIS",
+      "time": 127,
+      "tags": [
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/RequiemOfTheDarkness.mp3",
+      "title": "Requiem of the Darkness",
+      "time": 85,
+      "tags": [
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/Soldier.mp3",
+      "title": "ソルジャーマーチ",
+      "time": 112,
+      "tags": [
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/TheWinner.mp3",
+      "title": "The winner",
+      "time": 64,
+      "tags": [
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/EndingTheme.mp3",
+      "title": "ENDING THEME",
+      "time": 151,
+      "tags": [
+        "ゴシック",
+        "ファンタジー"
+      ]
+    }
+  ]
+}

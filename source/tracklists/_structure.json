@@ -74,6 +74,38 @@
     }
   },
   {
+    "tag_mysterious": {
+      "listname": "神秘的",
+      "tracks": [
+        "RinneTensei.mp3",
+        "KiokuNoUmi.mp3",
+        "Tokiwasure.mp3",
+        "HealingVoyager.mp3",
+        "MachiNoTomoshibi.mp3"
+      ]
+    }
+  },
+  {
+    "tag_speedy": {
+      "listname": "疾走感",
+      "tracks": [
+        "8bit_fly.mp3",
+        "8bit_stage2.mp3",
+        "MachineWorld.mp3"
+      ]
+    }
+  },
+  {
+    "tag_comical": {
+      "listname": "コミカル",
+      "tracks": [
+        "NightWalking.mp3",
+        "hadakanoousama.mp3",
+        "koushinkyoku.mp3"
+      ]
+    }
+  },
+  {
     "tag_honobono": {
       "listname": "ほのぼの・穏やか",
       "tracks": [
@@ -98,6 +130,18 @@
         "KiokuNoUmi.mp3",
         "NatsuMatsuri.mp3",
         "MachiNoTomoshibi.mp3"
+      ]
+    }
+  },
+  {
+    "taste_fantasy": {
+      "listname": "ファンタジー",
+      "tracks": [
+        "METROPOLIS.mp3",
+        "RequiemOfTheDarkness.mp3",
+        "Soldier.mp3",
+        "TheWinner.mp3",
+        "EndingTheme.mp3"
       ]
     }
   },

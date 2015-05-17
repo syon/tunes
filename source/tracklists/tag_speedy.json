@@ -1,0 +1,34 @@
+{
+  "listname": "疾走感",
+  "tracks": [
+    {
+      "filepath": "/materials/8bit_fly.mp3",
+      "title": "Fly!",
+      "time": 10,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_stage2.mp3",
+      "title": "ステージ２",
+      "time": 11,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/MachineWorld.mp3",
+      "title": "Machine world",
+      "time": 139,
+      "tags": [
+        "サイバー",
+        "疾走感"
+      ]
+    }
+  ]
+}
