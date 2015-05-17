@@ -15,12 +15,18 @@
         "MainStreet2015.mp3",
         "oborozuki.mp3",
         "Shiawasenokairou.mp3",
-        "rinnetensei.mp3",
-        "Shiawasenokairou.mp3",
+        "RinneTensei.mp3",
         "WakokuWithIntro.mp3",
         "Wakoku.mp3",
         "ThemeofDetictive.mp3",
-        "KiokuNoUmi.mp3"
+        "KiokuNoUmi.mp3",
+        "SenkaNoNakaDe.mp3",
+        "IsekaiNoMonogatari.mp3",
+        "NatsuMatsuri.mp3",
+        "Natsukusa.mp3",
+        "Kishu.mp3",
+        "TsukiyoWoTerasuHotaru.mp3",
+        "Tokiwasure.mp3"
       ]
     }
   },
@@ -61,7 +67,9 @@
     "tag_grandeur": {
       "listname": "壮大",
       "tracks": [
-        "RinneTensei.mp3"
+        "RinneTensei.mp3",
+        "epic1.mp3",
+        "epic2.mp3"
       ]
     }
   },
@@ -69,7 +77,16 @@
     "tag_honobono": {
       "listname": "ほのぼの・穏やか",
       "tracks": [
-        "AttakaShichu.mp3"
+        "tabinooyado.mp3",
+        "Hope.mp3",
+        "Shiawasenokairou.mp3",
+        "WakokuWithIntro.mp3",
+        "Wakoku.mp3",
+        "Natsukusa.mp3",
+        "TsukiyoWoTerasuHotaru.mp3",
+        "AttakaShichu.mp3",
+        "MachiNoTomoshibi.mp3",
+        "ResortHotel.mp3"
       ]
     }
   },
@@ -77,6 +94,9 @@
     "tag_night": {
       "listname": "夜",
       "tracks": [
+        "oborozuki.mp3",
+        "KiokuNoUmi.mp3",
+        "NatsuMatsuri.mp3",
         "MachiNoTomoshibi.mp3"
       ]
     }
@@ -105,6 +125,7 @@
     "taste_hardboiled": {
       "listname": "ハードボイルド",
       "tracks": [
+        "8bit_sousakaishi.mp3",
         "MainStreet.mp3",
         "MainStreet2015.mp3",
         "ThemeofDetictive.mp3"
@@ -115,11 +136,11 @@
     "taste_japanese": {
       "listname": "和風",
       "tracks": [
-        "tabinooyado.mp3",
         "oborozuki.mp3",
         "RinneTensei.mp3",
         "WakokuWithIntro.mp3",
-        "Wakoku.mp3"
+        "Wakoku.mp3",
+        "NatsuMatsuri.mp3"
       ]
     }
   }

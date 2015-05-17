@@ -6,10 +6,31 @@
       "title": "輪廻転生",
       "time": 132,
       "tags": [
+        "サウンドノベル",
         "和風",
         "壮大",
         "神秘的",
         "クライマックス"
+      ]
+    },
+    {
+      "filepath": "/materials/epic1.mp3",
+      "title": "epic1",
+      "time": 19,
+      "tags": [
+        "壮大",
+        "重厚",
+        "暗い",
+        "不気味"
+      ]
+    },
+    {
+      "filepath": "/materials/epic2.mp3",
+      "title": "epic2",
+      "time": 25,
+      "tags": [
+        "壮大",
+        "重厚"
       ]
     }
   ]

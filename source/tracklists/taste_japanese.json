@@ -2,18 +2,11 @@
   "listname": "和風",
   "tracks": [
     {
-      "filepath": "/materials/tabinooyado.mp3",
-      "title": "旅のお宿",
-      "time": 126,
-      "tags": [
-        "安らぎ"
-      ]
-    },
-    {
       "filepath": "/materials/oborozuki.mp3",
       "title": "おぼろ月",
       "time": 144,
       "tags": [
+        "サウンドノベル",
         "和風",
         "夜"
       ]
@@ -23,6 +16,7 @@
       "title": "輪廻転生",
       "time": 132,
       "tags": [
+        "サウンドノベル",
         "和風",
         "壮大",
         "神秘的",
@@ -34,6 +28,7 @@
       "title": "倭国（イントロ有）",
       "time": 102,
       "tags": [
+        "サウンドノベル",
         "和風",
         "穏やか"
       ]
@@ -43,8 +38,20 @@
       "title": "倭国",
       "time": 102,
       "tags": [
+        "サウンドノベル",
         "和風",
         "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/NatsuMatsuri.mp3",
+      "title": "夏祭り",
+      "time": 128,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "夜",
+        "明るい"
       ]
     }
   ]
