@@ -32,6 +32,26 @@
         "壮大",
         "重厚"
       ]
+    },
+    {
+      "filepath": "/materials/Parade.mp3",
+      "title": "Parade",
+      "time": 63,
+      "tags": [
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "TakeOff",
+      "time": 38,
+      "tags": [
+        "壮大",
+        "明るい",
+        "疾走感"
+      ]
     }
   ]
 }
