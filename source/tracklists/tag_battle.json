@@ -1,0 +1,13 @@
+{
+  "listname": "バトル",
+  "tracks": [
+    {
+      "filepath": "/materials/TatakaiNoMai.mp3",
+      "title": "戦いの舞い",
+      "time": 183,
+      "tags": [
+        "バトル"
+      ]
+    }
+  ]
+}

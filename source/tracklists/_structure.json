@@ -64,6 +64,14 @@
     }
   },
   {
+    "tag_battle": {
+      "listname": "バトル",
+      "tracks": [
+        "TatakaiNoMai.mp3"
+      ]
+    }
+  },
+  {
     "tag_grandeur": {
       "listname": "壮大",
       "tracks": [
@@ -118,7 +126,8 @@
         "TsukiyoWoTerasuHotaru.mp3",
         "AttakaShichu.mp3",
         "MachiNoTomoshibi.mp3",
-        "ResortHotel.mp3"
+        "ResortHotel.mp3",
+        "YomichiWoNukete.mp3"
       ]
     }
   },
@@ -129,7 +138,8 @@
         "oborozuki.mp3",
         "KiokuNoUmi.mp3",
         "NatsuMatsuri.mp3",
-        "MachiNoTomoshibi.mp3"
+        "MachiNoTomoshibi.mp3",
+        "YomichiWoNukete.mp3"
       ]
     }
   },
@@ -141,7 +151,8 @@
         "RequiemOfTheDarkness.mp3",
         "Soldier.mp3",
         "TheWinner.mp3",
-        "EndingTheme.mp3"
+        "EndingTheme.mp3",
+        "TatakaiNoMai.mp3"
       ]
     }
   },
@@ -185,6 +196,23 @@
         "WakokuWithIntro.mp3",
         "Wakoku.mp3",
         "NatsuMatsuri.mp3"
+      ]
+    }
+  },
+  {
+    "taste_horror": {
+      "listname": "ホラー・サスペンス",
+      "tracks": [
+        "oborozuki.mp3"
+      ]
+    }
+  },
+  {
+    "tag_dark": {
+      "listname": "暗い",
+      "tracks": [
+        "epic1.mp3",
+        "Giwaku.mp3"
       ]
     }
   }

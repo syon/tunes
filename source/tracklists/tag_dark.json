@@ -1,0 +1,27 @@
+{
+  "listname": "暗い",
+  "tracks": [
+    {
+      "filepath": "/materials/epic1.mp3",
+      "title": "epic1",
+      "time": 19,
+      "tags": [
+        "壮大",
+        "重厚",
+        "暗い",
+        "不気味"
+      ]
+    },
+    {
+      "filepath": "/materials/Giwaku.mp3",
+      "title": "疑惑",
+      "time": 128,
+      "tags": [
+        "ピアノ",
+        "重厚",
+        "暗い",
+        "不気味"
+      ]
+    }
+  ]
+}
