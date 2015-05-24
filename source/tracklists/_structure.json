@@ -1,5 +1,26 @@
 [
   {
+    "game_rpg": {
+      "listname": "RPG",
+      "tracks": [
+        "SenkaNoNakaDe.mp3",
+        "Kishu.mp3",
+        "Parade.mp3",
+        "Wakoku.mp3"
+      ]
+    }
+  },
+  {
+    "game_srpg": {
+      "listname": "シミュレーションRPG",
+      "tracks": [
+        "SenkaNoNakaDe.mp3",
+        "Kishu.mp3",
+        "Parade.mp3"
+      ]
+    }
+  },
+  {
     "game_novel": {
       "listname": "サウンドノベル",
       "tracks": [
@@ -27,6 +48,14 @@
         "Kishu.mp3",
         "TsukiyoWoTerasuHotaru.mp3",
         "Tokiwasure.mp3"
+      ]
+    }
+  },
+  {
+    "game_shooting": {
+      "listname": "シューティング",
+      "tracks": [
+        "TakeOff.mp3"
       ]
     }
   },

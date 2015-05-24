@@ -1,5 +1,5 @@
 {
-  "listname": "RPG",
+  "listname": "シミュレーションRPG",
   "tracks": [
     {
       "filepath": "/materials/SenkaNoNakaDe.mp3",
@@ -31,16 +31,6 @@
         "ファンタジー",
         "壮大",
         "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Wakoku.mp3",
-      "title": "倭国",
-      "time": 102,
-      "tags": [
-        "サウンドノベル",
-        "和風",
-        "穏やか"
       ]
     }
   ]
