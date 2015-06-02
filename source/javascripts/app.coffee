@@ -28,4 +28,18 @@ $ ->
     track_no = $(@).closest('tr').data('track_no')
     tunes.download track_no
     return
-  return
+
+  $.ajax
+    url: 'tracklists/__summary.json'
+    dataType: 'json'
+    success: ((data) ->
+      Object.keys(data).map((key) ->
+        p = $('[href="#'+key+'"]').parent()
+        p.append('<span class="count">'+data[key].count+'</span>')
+      )
+      return
+    ).bind(this)
+    error: ((xhr, status, err) ->
+      console.error status, err.toString()
+      return
+    ).bind(this)

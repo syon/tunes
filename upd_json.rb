@@ -58,6 +58,7 @@ end
 #
 # Update tracklist json
 #
+summary = {}
 open(json_dir + "_structure.json") do |io|
   categories = JSON.load(io)
   categories.each do |cate|
@@ -94,5 +95,14 @@ open(json_dir + "_structure.json") do |io|
     open(jpath, 'w') do |io|
       io.write json_data
     end
+
+    obj = {}
+    obj[:count] = category[:tracks].length
+    summary[cate_name] = obj
   end
+end
+
+summary_data = JSON.pretty_generate(summary)
+open(json_dir + "__summary.json", 'w') do |io|
+  io.write summary_data
 end

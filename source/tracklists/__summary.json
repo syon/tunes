@@ -1,0 +1,65 @@
+{
+  "game_rpg": {
+    "count": 4
+  },
+  "game_srpg": {
+    "count": 3
+  },
+  "game_novel": {
+    "count": 24
+  },
+  "game_shooting": {
+    "count": 1
+  },
+  "tag_climax": {
+    "count": 1
+  },
+  "tag_battle": {
+    "count": 3
+  },
+  "tag_cheerful": {
+    "count": 9
+  },
+  "tag_dark": {
+    "count": 2
+  },
+  "tag_sad": {
+    "count": 3
+  },
+  "tag_grandeur": {
+    "count": 7
+  },
+  "tag_mysterious": {
+    "count": 5
+  },
+  "tag_speedy": {
+    "count": 5
+  },
+  "tag_comical": {
+    "count": 3
+  },
+  "tag_honobono": {
+    "count": 12
+  },
+  "tag_night": {
+    "count": 5
+  },
+  "taste_fantasy": {
+    "count": 7
+  },
+  "taste_cyber": {
+    "count": 1
+  },
+  "taste_famicon": {
+    "count": 5
+  },
+  "taste_hardboiled": {
+    "count": 4
+  },
+  "taste_japanese": {
+    "count": 5
+  },
+  "taste_horror": {
+    "count": 2
+  }
+}

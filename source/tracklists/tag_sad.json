@@ -1,0 +1,35 @@
+{
+  "listname": "悲しい",
+  "tracks": [
+    {
+      "filepath": "/materials/amenochiame.mp3",
+      "title": "雨のち雨",
+      "time": 108,
+      "tags": [
+        "サウンドノベル",
+        "悲しい",
+        "オルゴール"
+      ]
+    },
+    {
+      "filepath": "/materials/kaisou.mp3",
+      "title": "記憶のオルゴール",
+      "time": 187,
+      "tags": [
+        "サウンドノベル",
+        "悲しい"
+      ]
+    },
+    {
+      "filepath": "/materials/IsekaiNoMonogatari.mp3",
+      "title": "異世界の物語",
+      "time": 66,
+      "tags": [
+        "サウンドノベル",
+        "悲しい",
+        "回想",
+        "オルゴール"
+      ]
+    }
+  ]
+}
