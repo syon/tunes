@@ -59,6 +59,14 @@
         "壮大",
         "明るい"
       ]
+    },
+    {
+      "filepath": "/materials/FieldTheme.mp3",
+      "title": "Field Theme",
+      "time": 95,
+      "tags": [
+        "ファンタジー"
+      ]
     }
   ]
 }

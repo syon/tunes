@@ -108,7 +108,9 @@
         "epic1.mp3",
         "epic2.mp3",
         "Parade.mp3",
-        "TakeOff.mp3"
+        "TakeOff.mp3",
+        "Operations.mp3",
+        "Sorrow.mp3"
       ]
     }
   },
@@ -159,7 +161,8 @@
         "AttakaShichu.mp3",
         "MachiNoTomoshibi.mp3",
         "ResortHotel.mp3",
-        "YomichiWoNukete.mp3"
+        "YomichiWoNukete.mp3",
+        "VillageInTheForest.mp3"
       ]
     }
   },
@@ -185,7 +188,8 @@
         "TheWinner.mp3",
         "EndingTheme.mp3",
         "TatakaiNoMai.mp3",
-        "Parade.mp3"
+        "Parade.mp3",
+        "FieldTheme.mp3"
       ]
     }
   },

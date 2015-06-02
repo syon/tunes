@@ -52,6 +52,24 @@
         "明るい",
         "疾走感"
       ]
+    },
+    {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 64,
+      "tags": [
+        "壮大",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Sorrow.mp3",
+      "title": "Sorrow",
+      "time": 97,
+      "tags": [
+        "壮大",
+        "緊張感"
+      ]
     }
   ]
 }
