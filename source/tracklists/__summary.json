@@ -11,37 +11,37 @@
   "game_shooting": {
     "count": 1
   },
-  "tag_climax": {
+  "scene_climax": {
     "count": 1
   },
-  "tag_battle": {
+  "scene_battle": {
     "count": 3
   },
-  "tag_cheerful": {
+  "scene_cheerful": {
     "count": 9
   },
-  "tag_dark": {
+  "scene_dark": {
     "count": 2
   },
-  "tag_sad": {
+  "scene_sad": {
     "count": 3
   },
-  "tag_grandeur": {
+  "scene_grandeur": {
     "count": 7
   },
-  "tag_mysterious": {
+  "scene_mysterious": {
     "count": 5
   },
-  "tag_speedy": {
+  "scene_speedy": {
     "count": 5
   },
-  "tag_comical": {
+  "scene_comical": {
     "count": 3
   },
-  "tag_honobono": {
+  "scene_honobono": {
     "count": 12
   },
-  "tag_night": {
+  "scene_night": {
     "count": 5
   },
   "taste_fantasy": {
