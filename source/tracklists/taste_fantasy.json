@@ -43,18 +43,12 @@
       ]
     },
     {
-      "filepath": "/materials/TatakaiNoMai.mp3",
-      "title": "戦いの舞い",
-      "time": 183,
-      "tags": [
-        "バトル"
-      ]
-    },
-    {
       "filepath": "/materials/Parade.mp3",
       "title": "Parade",
       "time": 63,
       "tags": [
+        "RPG",
+        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"

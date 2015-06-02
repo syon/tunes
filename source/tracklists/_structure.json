@@ -2,254 +2,163 @@
   {
     "game_rpg": {
       "listname": "RPG",
-      "tracks": [
-        "SenkaNoNakaDe.mp3",
-        "Kishu.mp3",
-        "Parade.mp3",
-        "Wakoku.mp3"
+      "tags": [
+        "RPG"
       ]
     }
   },
   {
     "game_srpg": {
       "listname": "シミュレーションRPG",
-      "tracks": [
-        "SenkaNoNakaDe.mp3",
-        "Kishu.mp3",
-        "Parade.mp3"
+      "tags": [
+        "SRPG"
       ]
     }
   },
   {
     "game_novel": {
       "listname": "サウンドノベル",
-      "tracks": [
-        "aiwotsutaerukotoba.mp3",
-        "kugatsunoaozora.mp3",
-        "itsumonokimi.mp3",
-        "amenochiame.mp3",
-        "tabinooyado.mp3",
-        "Hope.mp3",
-        "InTheRoom.mp3",
-        "kaisou.mp3",
-        "MainStreet.mp3",
-        "MainStreet2015.mp3",
-        "oborozuki.mp3",
-        "Shiawasenokairou.mp3",
-        "RinneTensei.mp3",
-        "WakokuWithIntro.mp3",
-        "Wakoku.mp3",
-        "ThemeofDetictive.mp3",
-        "KiokuNoUmi.mp3",
-        "SenkaNoNakaDe.mp3",
-        "IsekaiNoMonogatari.mp3",
-        "NatsuMatsuri.mp3",
-        "Natsukusa.mp3",
-        "Kishu.mp3",
-        "TsukiyoWoTerasuHotaru.mp3",
-        "Tokiwasure.mp3"
+      "tags": [
+        "サウンドノベル"
       ]
     }
   },
   {
     "game_shooting": {
       "listname": "シューティング",
-      "tracks": [
-        "TakeOff.mp3"
-      ]
-    }
-  },
-  {
-    "genre_bossanova": {
-      "listname": "ボサノバ",
-      "tracks": [
-        "ResortHotel.mp3"
-      ]
-    }
-  },
-  {
-    "genre_cinematic": {
-      "listname": "映画音楽",
-      "tracks": [
-        "epic1.mp3",
-        "epic2.mp3"
-      ]
-    }
-  },
-  {
-    "genre_healing": {
-      "listname": "ヒーリング",
-      "tracks": [
-        "HealingVoyager.mp3"
+      "tags": [
+        "シューティング"
       ]
     }
   },
   {
     "tag_climax": {
       "listname": "クライマックス",
-      "tracks": [
-        "RinneTensei.mp3"
+      "tags": [
+        "クライマックス"
       ]
     }
   },
   {
     "tag_battle": {
       "listname": "バトル",
-      "tracks": [
-        "TatakaiNoMai.mp3"
+      "tags": [
+        "バトル"
+      ]
+    }
+  },
+  {
+    "tag_cheerful": {
+      "listname": "明るい",
+      "tags": [
+        "明るい"
       ]
     }
   },
   {
     "tag_grandeur": {
       "listname": "壮大",
-      "tracks": [
-        "RinneTensei.mp3",
-        "epic1.mp3",
-        "epic2.mp3",
-        "Parade.mp3",
-        "TakeOff.mp3",
-        "Operations.mp3",
-        "Sorrow.mp3"
+      "tags": [
+        "壮大"
       ]
     }
   },
   {
     "tag_mysterious": {
       "listname": "神秘的",
-      "tracks": [
-        "RinneTensei.mp3",
-        "KiokuNoUmi.mp3",
-        "Tokiwasure.mp3",
-        "HealingVoyager.mp3",
-        "MachiNoTomoshibi.mp3"
+      "tags": [
+        "神秘的"
       ]
     }
   },
   {
     "tag_speedy": {
       "listname": "疾走感",
-      "tracks": [
-        "8bit_fly.mp3",
-        "8bit_stage2.mp3",
-        "MachineWorld.mp3",
-        "TakeOff.mp3"
+      "tags": [
+        "疾走感"
       ]
     }
   },
   {
     "tag_comical": {
       "listname": "コミカル",
-      "tracks": [
-        "NightWalking.mp3",
-        "hadakanoousama.mp3",
-        "koushinkyoku.mp3"
+      "tags": [
+        "コミカル"
       ]
     }
   },
   {
     "tag_honobono": {
       "listname": "ほのぼの・穏やか",
-      "tracks": [
-        "tabinooyado.mp3",
-        "Hope.mp3",
-        "Shiawasenokairou.mp3",
-        "WakokuWithIntro.mp3",
-        "Wakoku.mp3",
-        "Natsukusa.mp3",
-        "TsukiyoWoTerasuHotaru.mp3",
-        "AttakaShichu.mp3",
-        "MachiNoTomoshibi.mp3",
-        "ResortHotel.mp3",
-        "YomichiWoNukete.mp3",
-        "VillageInTheForest.mp3"
+      "tags": [
+        "穏やか",
+        "安らぎ"
       ]
     }
   },
   {
     "tag_night": {
       "listname": "夜",
-      "tracks": [
-        "oborozuki.mp3",
-        "KiokuNoUmi.mp3",
-        "NatsuMatsuri.mp3",
-        "MachiNoTomoshibi.mp3",
-        "YomichiWoNukete.mp3"
+      "tags": [
+        "夜"
       ]
     }
   },
   {
     "taste_fantasy": {
       "listname": "ファンタジー",
-      "tracks": [
-        "METROPOLIS.mp3",
-        "RequiemOfTheDarkness.mp3",
-        "Soldier.mp3",
-        "TheWinner.mp3",
-        "EndingTheme.mp3",
-        "TatakaiNoMai.mp3",
-        "Parade.mp3",
-        "FieldTheme.mp3"
+      "tags": [
+        "ファンタジー"
       ]
     }
   },
   {
     "taste_cyber": {
       "listname": "サイバー・エレクトリック",
-      "tracks": [
-        "MachineWorld.mp3"
+      "tags": [
+        "サイバー"
       ]
     }
   },
   {
     "taste_famicon": {
       "listname": "ファミコン",
-      "tracks": [
-        "8bit_fly.mp3",
-        "8bit_stage2.mp3",
-        "8bit_retrotitle.mp3",
-        "8bit_rockman5.mp3",
-        "8bit_sousakaishi.mp3"
+      "tags": [
+        "8bit"
       ]
     }
   },
   {
     "taste_hardboiled": {
       "listname": "ハードボイルド",
-      "tracks": [
-        "8bit_sousakaishi.mp3",
-        "MainStreet.mp3",
-        "MainStreet2015.mp3",
-        "ThemeofDetictive.mp3"
+      "tags": [
+        "ハードボイルド"
       ]
     }
   },
   {
     "taste_japanese": {
       "listname": "和風",
-      "tracks": [
-        "oborozuki.mp3",
-        "RinneTensei.mp3",
-        "WakokuWithIntro.mp3",
-        "Wakoku.mp3",
-        "NatsuMatsuri.mp3"
+      "tags": [
+        "和風"
       ]
     }
   },
   {
     "taste_horror": {
       "listname": "ホラー・サスペンス",
-      "tracks": [
-        "oborozuki.mp3"
+      "tags": [
+        "ホラー",
+        "サスペンス",
+        "不気味"
       ]
     }
   },
   {
     "tag_dark": {
       "listname": "暗い",
-      "tracks": [
-        "epic1.mp3",
-        "Giwaku.mp3"
+      "tags": [
+        "暗い"
       ]
     }
   }

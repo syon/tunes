@@ -35,8 +35,18 @@
       "title": "TakeOff",
       "time": 38,
       "tags": [
+        "シューティング",
         "壮大",
         "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 64,
+      "tags": [
+        "壮大",
         "疾走感"
       ]
     }

@@ -2,10 +2,23 @@
   "listname": "RPG",
   "tracks": [
     {
+      "filepath": "/materials/Wakoku.mp3",
+      "title": "倭国",
+      "time": 102,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
       "filepath": "/materials/SenkaNoNakaDe.mp3",
       "title": "戦火の中で",
       "time": 58,
       "tags": [
+        "RPG",
+        "SRPG",
         "サウンドノベル",
         "緊張感",
         "バトル",
@@ -17,6 +30,8 @@
       "title": "奇襲",
       "time": 86,
       "tags": [
+        "RPG",
+        "SRPG",
         "サウンドノベル",
         "緊張感",
         "バトル",
@@ -28,19 +43,11 @@
       "title": "Parade",
       "time": 63,
       "tags": [
+        "RPG",
+        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Wakoku.mp3",
-      "title": "倭国",
-      "time": 102,
-      "tags": [
-        "サウンドノベル",
-        "和風",
-        "穏やか"
       ]
     }
   ]

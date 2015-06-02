@@ -1,0 +1,100 @@
+{
+  "listname": "明るい",
+  "tracks": [
+    {
+      "filepath": "/materials/8bit_fly.mp3",
+      "title": "Fly!",
+      "time": 10,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_stage2.mp3",
+      "title": "ステージ２",
+      "time": 11,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/itsumonokimi.mp3",
+      "title": "いつものキミ",
+      "time": 152,
+      "tags": [
+        "サウンドノベル",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/NatsuMatsuri.mp3",
+      "title": "夏祭り",
+      "time": 128,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "夜",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Natsukusa.mp3",
+      "title": "夏草",
+      "time": 86,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
+      "title": "月夜ヲ照ラス蛍",
+      "time": 89,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/ResortHotel.mp3",
+      "title": "リゾートホテル",
+      "time": 44,
+      "tags": [
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Parade.mp3",
+      "title": "Parade",
+      "time": 63,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "TakeOff",
+      "time": 38,
+      "tags": [
+        "シューティング",
+        "壮大",
+        "明るい",
+        "疾走感"
+      ]
+    }
+  ]
+}

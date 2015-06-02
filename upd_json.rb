@@ -7,11 +7,19 @@ require 'ap'
 base_dir = "/Users/syon/Dropbox/sion_andy/音の園/materials（リリース版）/"
 json_dir = "source/tracklists/"
 
+def find_tagmatch_music_list(musics, tag)
+  list = []
+  musics.each do |m|
+    list.push(m) if m[:tags].include? tag
+  end
+  list
+end
+
 #
 # Write info on mp3 file with CSV
 #
 csv = CSV.table(json_dir + "_def.tsv", col_sep:"\t")
-musics = {}
+musics = []
 csv.map do |df|
   music = {}
   cate_id = df[:filename]
@@ -38,12 +46,13 @@ csv.map do |df|
     file.save
   end
 
-  music[:title]  = df[:title]
-  music[:artist] = df[:artist]
-  music[:album]  = df[:album]
-  music[:tags]   = df[:tags].split "/" if df[:tags]
+  music[:filename] = df[:filename]
+  music[:title]    = df[:title]
+  music[:artist]   = df[:artist]
+  music[:album]    = df[:album]
+  music[:tags]     = df[:tags].split "/" if df[:tags]
 
-  musics[cate_id] = music
+  musics.push music
 end
 
 #
@@ -54,11 +63,25 @@ open(json_dir + "_structure.json") do |io|
   categories.each do |cate|
     cate_name = cate.keys.first
     category = {listname: cate[cate_name].listname, tracks: []}
-    cate[cate_name].tracks.each do |filename|
-      music = musics[filename]
-      next unless music
+    # cate[cate_name].tracks.each do |filename|
+    #   music = musics[filename]
+    #   next unless music
+    #   track = {
+    #     :filepath => "/materials/#{filename}",
+    #     :title => music[:title],
+    #     :time => music[:time],
+    #     :tags => music[:tags]
+    #   }
+    #   category[:tracks].push(track)
+    # end
+
+    match_list = []
+    cate[cate_name].tags.each do |tag|
+      match_list = find_tagmatch_music_list musics, tag
+    end
+    match_list.each do |music|
       track = {
-        :filepath => "/materials/#{filename}",
+        :filepath => "/materials/#{music[:filename]}",
         :title => music[:title],
         :time => music[:time],
         :tags => music[:tags]

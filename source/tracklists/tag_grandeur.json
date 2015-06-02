@@ -2,18 +2,6 @@
   "listname": "壮大",
   "tracks": [
     {
-      "filepath": "/materials/RinneTensei.mp3",
-      "title": "輪廻転生",
-      "time": 132,
-      "tags": [
-        "サウンドノベル",
-        "和風",
-        "壮大",
-        "神秘的",
-        "クライマックス"
-      ]
-    },
-    {
       "filepath": "/materials/epic1.mp3",
       "title": "epic1",
       "time": 19,
@@ -34,10 +22,24 @@
       ]
     },
     {
+      "filepath": "/materials/RinneTensei.mp3",
+      "title": "輪廻転生",
+      "time": 132,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "壮大",
+        "神秘的",
+        "クライマックス"
+      ]
+    },
+    {
       "filepath": "/materials/Parade.mp3",
       "title": "Parade",
       "time": 63,
       "tags": [
+        "RPG",
+        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"
@@ -48,6 +50,7 @@
       "title": "TakeOff",
       "time": 38,
       "tags": [
+        "シューティング",
         "壮大",
         "明るい",
         "疾走感"
