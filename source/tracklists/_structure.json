@@ -129,6 +129,14 @@
     }
   },
   {
+    "taste_gothic": {
+      "listname": "ゴシック・教会",
+      "tags": [
+        "ゴシック"
+      ]
+    }
+  },
+  {
     "taste_cyber": {
       "listname": "サイバー・エレクトリック",
       "tags": [
