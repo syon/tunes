@@ -8,23 +8,61 @@
 
 
 app = angular.module('App', [ 'ngMaterial' ])
-app.controller 'AppCtrl', ['$scope', '$mdSidenav', ($scope, $mdSidenav) ->
+app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
 
-    $scope.toggleSidenav = (menuId) ->
-      $mdSidenav(menuId).toggle()
-      return
-
+  $scope.toggleSidenav = (menuId) ->
+    $mdSidenav(menuId).toggle()
     return
+
+  return
 ]
+
+
+app.config(($mdThemingProvider) ->
+  $mdThemingProvider.theme('altTheme').primaryPalette 'purple'
+  return
+)
+app.config(($mdIconProvider) ->
+  $mdIconProvider
+    .iconSet('social', 'img/icons/sets/social-icons.svg', 24)
+    .defaultIconSet('img/icons/sets/core-icons.svg', 24)
+)
+
+app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
+
+  $scope.tracklist
+
+  $scope.getTracks = (trackId) ->
+    $http.post('tracklists/'+trackId+'.json')
+      .success((data) ->
+        console.log(data);
+        $scope.tracklist = data
+      )
+      .error((data, status, headers, config) ->
+        $scope.ing = false;
+        $scope.err = "Error! -- data:" + data + "  status:" + status
+      )
+
+  $scope.play = (trackId) ->
+    target = "#" + trackId + " a"
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+
+  $scope.getTracks("game_novel")
+
+  imagePath = 'img/list/60.jpeg'
+  $scope.listname = "List Name is here"
+  return
+]
+
 
 $ ->
   tunes = new Tunes
   tunes.getTracks 'game_novel'
 
   # Sidebar Click
-  $(document).on 'click', '.sidebar li', (ev) ->
+  $(document).on 'click', '.tracklistlink', (ev) ->
     ev.preventDefault()
-    $('.sidebar li').removeClass 'active'
+    $('.tracklistlink').removeClass 'active'
     $(@).addClass 'active'
     tracklist = $('a', this)[0].hash.replace('#', '')
     tunes.getTracks tracklist

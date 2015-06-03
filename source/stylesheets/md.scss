@@ -478,9 +478,23 @@ md-toolbar.demo-toolbar .md-button {
 
 }
 
+
+.site-content-toolbar {
+  background: #f6f6f6 !important;
+  color: #666 !important;
+  z-index: 3;
+}
+
+
 /** Custom *****************************/
 .md-button .count {
   position: absolute;
   right: 0;
   margin-right: 10px;
+}
+md-list-item .download {
+  margin-left: 16px;
+  position: absolute;
+  right: 16px;
+  top: 20px;
 }

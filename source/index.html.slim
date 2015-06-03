@@ -3,17 +3,17 @@ layout: layout
 title: "音の園"
 ---
 
-#wrapper
 
-  .main
-    .listinfo
-      h2.listname List Name
-      p 11 曲 ・ 32分
-    table#musiclist.table.table-striped.table-hover
-      thead
-        th
-        th Title
-        th
-        th Time
-        th Tags
-      tbody.tracks
+div flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
+  md-content
+    section
+      md-subheader ng-bind="listname"
+      md-list layout-padding=""
+        md-list-item.md-3-line ng-repeat=("track in tracklist.tracks")
+          .md-list-item-text ng-click="play($index+1)"
+            h3 ng-bind="track.title"
+            h4 ng-bind="track.time"
+            p
+              span ng-repeat=("tag in track.tags") ng-bind="tag"
+            md-button.md-raised.download ダウンロード
+          md-divider ng-if="!$last"

@@ -23,7 +23,7 @@ class window.Tunes
 
   applyView: (data) ->
     listname = data.listname
-    $('.listinfo>.listname').text listname
+    $('#listname').text listname
     $('ul.sm2-playlist-bd').empty()
     $('.track').remove()
     myPromise = $.when(Tunes.appendTrackAll(data.tracks))
