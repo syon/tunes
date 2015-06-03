@@ -1,5 +1,5 @@
 doctype html
-html
+html ng-app="App"
   head
     meta charset="utf-8"
 
@@ -12,20 +12,27 @@ html
 
     == favicon_tag "favicon.ico"
 
-    == stylesheet_link_tag "bootstrap.min"
-    == stylesheet_link_tag "app"
+    / == stylesheet_link_tag "bootstrap.min"
+    / == stylesheet_link_tag "app"
+    == stylesheet_link_tag "md"
     link rel="stylesheet" href="sm2/bar-ui/css/bar-ui.css"
 
+    link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css"
+    link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic"
 
-  body class="#{page_classes}"
-    / header
-    == partial 'layouts/header'
+  body layout="column" ng-controller="AppCtrl"
 
-    / main
-    == yield
+    div flex="" layout="row"
+      md-sidenav.site-sidenav.md-sidenav-left.md-whiteframe-z2 layout="column" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')"
+        == partial 'layouts/sidenav'
 
-    / footer
-    == partial 'layouts/footer'
+      #content flex="" layout="column"
+        == partial 'layouts/toolbar'
+
+        md-content.md-padding flex="" layout="column"
+          / main
+          == yield
+
 
     / JavaScripts
     == javascript_include_tag "jquery-2.1.1.min"
@@ -34,3 +41,9 @@ html
     script src="sm2/bar-ui/script/bar-ui.js"
     == javascript_include_tag "app"
     /== google_analytics_universal_tag
+
+    / Angular Material
+    == javascript_include_tag "angular.min.js"
+    == javascript_include_tag "angular-animate.min.js"
+    == javascript_include_tag "angular-aria.min.js"
+    == javascript_include_tag "angular-material.min.js"

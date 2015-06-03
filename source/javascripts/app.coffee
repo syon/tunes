@@ -1,6 +1,21 @@
 #= require "underscore-min"
 #= require "FileSaver.min"
 #= require "tunes"
+#= require "angular.min"
+#= require "angular-animate.min"
+#= require "angular-aria.min"
+#= require "angular-material.min"
+
+
+app = angular.module('App', [ 'ngMaterial' ])
+app.controller 'AppCtrl', ['$scope', '$mdSidenav', ($scope, $mdSidenav) ->
+
+    $scope.toggleSidenav = (menuId) ->
+      $mdSidenav(menuId).toggle()
+      return
+
+    return
+]
 
 $ ->
   tunes = new Tunes
@@ -34,7 +49,7 @@ $ ->
     dataType: 'json'
     success: ((data) ->
       Object.keys(data).map((key) ->
-        p = $('[href="#'+key+'"]').parent()
+        p = $('[href="#'+key+'"]') #.parent()
         p.append('<span class="count">'+data[key].count+'</span>')
       )
       return
