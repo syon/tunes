@@ -6,24 +6,12 @@ header.nav-header
 md-content
   h2.menu-heading.md-subhead ゲームジャンル
   ul.docs-menu
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_rpg" RPG
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_srpg" シミュレーションRPG
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_novel" サウンドノベル
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_puzzle" パズル
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_shooting" シューティング
-    li.tower
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#game_action" アクション
+    li.tower ng-repeat=("musicset in gamegenrelist")
+      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
+        a.md-button.md-default-theme href="#"
+          span ng-bind="musicset.name"
+          span.count ng-bind="musicset.count"
+
   h2.menu-heading.md-subhead テイスト
   ul.docs-menu
     li.music
