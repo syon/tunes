@@ -487,10 +487,11 @@ md-toolbar.demo-toolbar .md-button {
 
 
 /** Custom *****************************/
-.md-button .count {
-  position: absolute;
-  right: 0;
-  margin-right: 10px;
+.tracklistlink a {
+  display: flex !important;
+  .name {
+    margin-right: auto;
+  }
 }
 md-list-item .download {
   margin-left: 16px;

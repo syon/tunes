@@ -3,14 +3,14 @@ header.nav-header
     img src="https://material.angularjs.org/latest/img/icons/angular-logo.svg"
     h1.docs-logotype.md-heading Andy Music
 
-md-content
+md-content.docs-menu
   h2.menu-heading.md-subhead ゲームジャンル
-  ul.docs-menu
+  ul.menu-toggle-list
     li.tower ng-repeat=("musicset in gamegenrelist")
       menu-link.tracklistlink ng-click="getTracks(musicset.id)"
-        a.md-button.md-default-theme href="#"
-          span ng-bind="musicset.name"
-          span.count ng-bind="musicset.count"
+        a.md-button href="#" flex="" layout="row"
+          .name  ng-bind="musicset.name"
+          .count ng-bind="musicset.count"
 
   h2.menu-heading.md-subhead テイスト
   ul.docs-menu
