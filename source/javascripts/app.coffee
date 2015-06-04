@@ -14,13 +14,43 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
     $mdSidenav(menuId).toggle()
     return
 
-  $scope.gamegenrelist = [
-    {id: "game_rpg", name: "RPG", count: ""}
-    {id: "game_srpg", name: "シミュレーションRPG", count: ""}
-    {id: "game_novel", name: "サウンドノベル", count: ""}
-    {id: "game_puzzle", name: "パズル", count: ""}
-    {id: "game_shooting", name: "シューティング", count: ""}
-    {id: "game_action", name: "アクション", count: ""}
+  $scope.genrelist = [
+    {id: "game_rpg", name: "RPG"}
+    {id: "game_srpg", name: "シミュレーションRPG"}
+    {id: "game_novel", name: "サウンドノベル"}
+    {id: "game_puzzle", name: "パズル"}
+    {id: "game_shooting", name: "シューティング"}
+    {id: "game_action", name: "アクション"}
+  ]
+  $scope.tastelist = [
+    {id: "taste_fantasy", name: "ファンタジー"}
+    {id: "taste_gothic", name: "ゴシック・教会"}
+    {id: "taste_japanese", name: "和風"}
+    {id: "taste_horror", name: "ホラー・サスペンス"}
+    {id: "taste_famicon", name: "ファミコン"}
+    {id: "taste_christmas", name: "クリスマス"}
+    {id: "taste_cyber", name: "サイバー・エレクトリック"}
+    {id: "taste_hardboiled", name: "ハードボイルド"}
+  ]
+  $scope.scenelist = [
+    {id: "scene_opening", name: "オープニング"}
+    {id: "scene_battle", name: "バトル"}
+    {id: "scene_cheerful", name: "明るい"}
+    {id: "scene_dark", name: "暗い"}
+    {id: "scene_sad", name: "悲しい"}
+    {id: "scene_bless", name: "祝福"}
+    {id: "scene_recollection", name: "回想"}
+    {id: "scene_honobono", name: "安らぎ・穏やか"}
+    {id: "scene_night", name: "夜"}
+    {id: "scene_grandeur", name: "壮大"}
+    {id: "scene_mysterious", name: "神秘的"}
+    {id: "scene_heavy", name: "重厚・重低音"}
+    {id: "scene_speedy", name: "疾走感"}
+    {id: "scene_comical", name: "ギャグ・コミカル"}
+    {id: "scene_stratagem", name: "陰謀・策略"}
+    {id: "scene_tense", name: "緊張感"}
+    {id: "scene_climax", name: "クライマックス"}
+    {id: "scene_ending", name: "エンディング"}
   ]
 
   $scope.summary
@@ -28,7 +58,11 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
     $http.post('tracklists/__summary.json')
       .success((data) ->
         $scope.summary = data
-        for a in $scope.gamegenrelist
+        for a in $scope.genrelist
+          a.count = getTrackCount(a.id)
+        for a in $scope.tastelist
+          a.count = getTrackCount(a.id)
+        for a in $scope.scenelist
           a.count = getTrackCount(a.id)
       )
       .error((data, status, headers, config) ->

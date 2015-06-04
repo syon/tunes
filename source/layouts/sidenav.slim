@@ -6,125 +6,27 @@ header.nav-header
 md-content.docs-menu
   h2.menu-heading.md-subhead ゲームジャンル
   ul.menu-toggle-list
-    li.tower ng-repeat=("musicset in gamegenrelist")
+    li.tower ng-repeat=("musicset in genrelist")
       menu-link.tracklistlink ng-click="getTracks(musicset.id)"
         a.md-button href="#" flex="" layout="row"
           .name  ng-bind="musicset.name"
           .count ng-bind="musicset.count"
 
   h2.menu-heading.md-subhead テイスト
-  ul.docs-menu
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_fantasy" ファンタジー
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_gothic" ゴシック・教会
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_japanese" 和風
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_horror" ホラー・サスペンス
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_famicon" ファミコン
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" クリスマス
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" アジアン
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_cyber" サイバー・エレクトリック
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#taste_hardboiled" ハードボイルド
+  ul.menu-toggle-list
+    li.music ng-repeat=("musicset in tastelist")
+      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
+        a.md-button href="#" flex="" layout="row"
+          .name  ng-bind="musicset.name"
+          .count ng-bind="musicset.count"
+
   h2.menu-heading.md-subhead シーン
-  ul.docs-menu
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" オープニング
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_battle" バトル
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_cheerful" 明るい
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_dark" 暗い
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_sad" 悲しい
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 祝福
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 回想
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_honobono" 安らぎ・穏やか
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_night" 夜
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_grandeur" 壮大
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_mysterious" 神秘的
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 重厚・重低音
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_speedy" 疾走感
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_comical" ギャグ・コミカル
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 陰謀・策略
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 緊張感
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#scene_climax" クライマックス
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" エンディング
-  h2.menu-heading.md-subhead 用途別
-  ul.docs-menu
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" プレゼンテーション
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 動画BGM
-    li.music
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" 明るい
-  h2.menu-heading.md-subhead Tags
-  ul.docs-menu
-    li.tag
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" １分以内
-    li.tag
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" オルゴール
-    li.tag
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#" ループ
-  h2.menu-heading.md-subhead You
-  ul.docs-menu
-    li
-      menu-link.tracklistlink
-        a.md-button.md-default-theme href="#"
-          span class="glyphicon glyphicon-star" aria-hidden="true"
-          | &nbsp;Favorites
+  ul.menu-toggle-list
+    li.music ng-repeat=("musicset in scenelist")
+      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
+        a.md-button href="#" flex="" layout="row"
+          .name  ng-bind="musicset.name"
+          .count ng-bind="musicset.count"
+
   h2.menu-heading.md-subhead 利用規約
   h2.menu-heading.md-subhead 作曲依頼
