@@ -72,6 +72,8 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
   getTrackCount = (listId) ->
     return $scope.summary[listId].count if $scope.summary[listId]
 
+  $scope.convertTime = (sec) ->
+    return Tunes.convertDuration(sec*1000)
 
   $scope.tracklist
   $scope.getTracks = (listId) ->
@@ -79,6 +81,8 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
       .success((data) ->
         # console.log(data);
         $scope.tracklist = data
+        $('ul.sm2-playlist-bd').empty()
+        Tunes.appendTrackAll(data.tracks)
       )
       .error((data, status, headers, config) ->
         console.error "Error! -- data:" + data + "  status:" + status
@@ -114,17 +118,6 @@ app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
 
 
 $ ->
-  tunes = new Tunes
-  tunes.getTracks 'game_novel'
-
-  # Musiclist Title Click
-  $(document).on 'click', '#musiclist td.title', ->
-    $('#musiclist tr').removeClass 'active'
-    $(@).closest('tr').addClass 'active'
-    target = '#' + $(@).closest('tr').data('track_no') + ' a'
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
-    return
-
   # Download
   $(document).on 'click', '#musiclist button.download', ->
     track_no = $(@).closest('tr').data('track_no')

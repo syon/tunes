@@ -12,7 +12,7 @@ div flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
         md-list-item.md-3-line ng-repeat=("track in tracklist.tracks")
           .md-list-item-text ng-click="play($index+1)"
             h3 ng-bind="track.title"
-            h4 ng-bind="track.time"
+            h4 ng-bind="convertTime(track.time)"
             p
               span ng-repeat=("tag in track.tags") ng-bind="tag"
             md-button.md-raised.download ダウンロード
