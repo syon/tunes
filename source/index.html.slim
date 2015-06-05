@@ -4,16 +4,18 @@ title: "音の園"
 ---
 
 
-div flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
-  md-content
+/h4 ng-bind="listname"
+#tracklistarea flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
+  md-content.md-whiteframe-z1
     section
-      md-subheader ng-bind="listname"
       md-list layout-padding=""
         md-list-item.md-3-line ng-repeat=("track in tracklist.tracks")
+          .avatar
           .md-list-item-text ng-click="play($index+1)"
-            h3 ng-bind="track.title"
-            h4 ng-bind="convertTime(track.time)"
+            h3
+              span.title ng-bind="track.title"
+              .time ng-bind="convertTime(track.time)"
             p
-              span ng-repeat=("tag in track.tags") ng-bind="tag"
+              md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
             md-button.md-raised.download ダウンロード
           md-divider ng-if="!$last"

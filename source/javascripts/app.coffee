@@ -83,6 +83,7 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
         $scope.tracklist = data
         $('ul.sm2-playlist-bd').empty()
         Tunes.appendTrackAll(data.tracks)
+        $scope.listname = data.listname
       )
       .error((data, status, headers, config) ->
         console.error "Error! -- data:" + data + "  status:" + status
@@ -112,7 +113,6 @@ app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
 
   imagePath = 'img/list/60.jpeg'
-  $scope.listname = "List Name is here"
   return
 ]
 
