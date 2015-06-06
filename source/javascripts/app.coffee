@@ -10,7 +10,7 @@
 
 
 app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
-app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
+app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope, $mdSidenav, $mdDialog, $http) ->
 
   $scope.toggleSidenav = (menuId) ->
     $mdSidenav(menuId).toggle()
@@ -90,6 +90,33 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
       .error((data, status, headers, config) ->
         console.error "Error! -- data:" + data + "  status:" + status
       )
+
+  $scope.showAdvanced = (ev) ->
+    $mdDialog.show(
+      controller: DialogController
+      templateUrl: 'download.tmpl/index.html'
+      parent: angular.element(document.body)
+      targetEvent: ev).then ((answer) ->
+      $scope.alert = 'You said the information was "' + answer + '".'
+      return
+    ), ->
+      $scope.alert = 'You cancelled the dialog.'
+      return
+    return
+
+  DialogController = ($scope, $mdDialog) ->
+
+    $scope.hide = ->
+      $mdDialog.hide()
+      return
+
+    $scope.cancel = ->
+      $mdDialog.cancel()
+      return
+
+    $scope.answer = (answer) ->
+      $mdDialog.hide answer
+      return
 
   # Initialize
   $scope.getTracks("game_novel")

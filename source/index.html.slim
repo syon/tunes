@@ -9,13 +9,14 @@ title: "音の園"
   md-content.md-whiteframe-z1
     section
       md-list
-        md-list-item.md-3-line ng-repeat=("track in tracklist.tracks")
-          .avatar
-          .md-list-item-text ng-click="play($index+1)"
-            h3
-              span.title ng-bind="track.title"
-              .time ng-bind="convertTime(track.time)"
-            p
-              md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
-            md-button.md-raised.download hide-sm="" ダウンロード
+        div ng-repeat=("track in tracklist.tracks")
+          md-list-item.md-3-line flex=""
+            .avatar
+            .md-list-item-text ng-click="play($index+1)"
+              h3
+                span.title ng-bind="track.title"
+                .time ng-bind="convertTime(track.time)"
+              p
+                md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
+            md-button.md-raised.download hide-sm="" ng-click="showAdvanced($event)" ダウンロード
           md-divider ng-if="!$last"

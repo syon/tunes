@@ -1,3 +1,58 @@
+[ng-panel] {
+  transition: 0.45s cubic-bezier(0.35, 0, 0.25, 1);
+  -webkit-transition: 0.45s cubic-bezier(0.35, 0, 0.25, 1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+[ng-panel].ng-enter {
+  transform: translate3d(0, -15%, 0);
+  opacity: 0.1;
+  z-index: 1;
+}
+[ng-panel].ng-enter.ng-enter-active,
+[ng-panel].ng-leave {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+[ng-panel].ng-leave.ng-leave-active {
+  transform: translate3d(0, 0, 0);
+  opacity: 0.5;
+}
+[ng-panel] .demo-content {
+  background: white;
+}
+@media screen and (-ms-high-contrast: active) {
+  .layout-content demo-include [layout] > div {
+    border: 1px solid #fff !important;
+  }
+}
+
+.hide { display: none !important; }
+html {
+  font-size: 62.5%;
+  line-height: 1.4;
+}
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+table {
+  margin-bottom: 8px;
+  max-width: 100%;
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
 /***************
  * TYPE DEFAULTS
  ***************/
@@ -532,9 +587,7 @@ md-list-item {
   .avatar {
     width: 40px;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom: 8px;
-    margin-right: 16px;
+    margin: 20px;
     border-radius: 50%;
     box-sizing: content-box;
     background-color: #eee;
@@ -572,17 +625,16 @@ md-list-item {
 
   .download {
     margin-left: 16px;
-    position: absolute;
     right: 16px;
-    top: 10px;
+    top: 16px;
   }
+}
+.md-icon-button .material-icons {
+  display: block;
 }
 .md-toolbar-tools {
   padding: 0;
 }
 .sm2-bar-ui .bd {
   background-color: transparent !important;
-}
-md-toolbar.md-default-theme md-icon {
-  color: #000 !important;
 }
