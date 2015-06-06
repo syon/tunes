@@ -34,18 +34,6 @@
       ]
     },
     {
-      "filepath": "/materials/Parade.mp3",
-      "title": "Parade",
-      "time": 63,
-      "tags": [
-        "RPG",
-        "SRPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
       "filepath": "/materials/TakeOff.mp3",
       "title": "TakeOff",
       "time": 38,
@@ -72,6 +60,54 @@
       "tags": [
         "壮大",
         "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Comeback.mp3",
+      "title": "Comeback",
+      "time": 66,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 171,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/BlueEarth.mp3",
+      "title": "Blue Earth",
+      "time": 119,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "穏やか"
       ]
     }
   ]
