@@ -6,10 +6,10 @@ title: "音の園"
 
 /h4 ng-bind="listname"
 #tracklistarea flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
-  md-content.md-whiteframe-z1
-    section
+  md-content.md-padding
+    section.md-whiteframe-z1
       md-list
-        div ng-repeat=("track in tracklist.tracks")
+        .track ng-repeat=("track in tracklist.tracks")
           md-list-item.md-3-line flex=""
             .avatar
             .md-list-item-text ng-click="play($index+1)"

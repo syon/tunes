@@ -574,13 +574,11 @@ md-toolbar.demo-toolbar .md-button {
 
   &>md-content {
     padding-top: 0;
+    padding-bottom: 0;
   }
 }
 md-content.md-default-theme {
   background-color: inherit;
-}
-#tracklistarea > md-content {
-  background-color: #fff;
 }
 .tracklistlink a {
   display: -webkit-flex !important;
@@ -589,6 +587,13 @@ md-content.md-default-theme {
   .name {
     margin-right: auto;
   }
+}
+.track {
+  // margin: 10px auto;
+  background-color: #fff;
+}
+#tracklistarea md-list {
+  padding: 0;
 }
 md-list-item {
   cursor: pointer;
