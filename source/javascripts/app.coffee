@@ -1,13 +1,15 @@
 #= require "underscore-min"
 #= require "FileSaver.min"
 #= require "tunes"
-#= require "angular.min"
+#= require "angular"
+#= require "angular-route.min"
+#= require "angular-cookies.min"
 #= require "angular-animate.min"
 #= require "angular-aria.min"
 #= require "angular-material.min"
 
 
-app = angular.module('App', [ 'ngMaterial' ])
+app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
 
   $scope.toggleSidenav = (menuId) ->
@@ -95,24 +97,12 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
   return
 ]
 
-
-app.config(($mdThemingProvider) ->
-  $mdThemingProvider.theme('altTheme').primaryPalette 'purple'
-  return
-)
-app.config(($mdIconProvider) ->
-  $mdIconProvider
-    .iconSet('social', 'img/icons/sets/social-icons.svg', 24)
-    .defaultIconSet('img/icons/sets/core-icons.svg', 24)
-)
-
 app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
 
   $scope.play = (trackId) ->
     target = "#" + trackId + " a"
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
 
-  imagePath = 'img/list/60.jpeg'
   return
 ]
 
