@@ -520,6 +520,12 @@ md-content.md-default-theme {
   }
 }
 md-list-item {
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(#7210C8, 0.1);
+  }
+
   .md-list-item-text {
     outline: none;
   }
