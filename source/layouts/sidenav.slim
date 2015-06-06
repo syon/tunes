@@ -9,7 +9,7 @@ md-content.docs-menu
   ul.menu-toggle-list
     li.tower ng-repeat=("musicset in genrelist")
       menu-link.tracklistlink ng-click="getTracks(musicset.id)"
-        a.md-button href="#" flex="" layout="row"
+        a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
           .count ng-bind="musicset.count"
 
