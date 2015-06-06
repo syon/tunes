@@ -6,32 +6,6 @@ class window.Tunes
   @server_webroot: 'http://oto-no-sono.com'
   musics: {}
 
-  getTracks: (tracklist_name) ->
-    $.ajax
-      url: 'tracklists/' + tracklist_name + '.json'
-      dataType: 'json'
-      success: ((data) ->
-        @musics = data
-        @applyView data
-        return
-      ).bind(this)
-      error: ((xhr, status, err) ->
-        console.error status, err.toString()
-        return
-      ).bind(this)
-    return
-
-  applyView: (data) ->
-    listname = data.listname
-    $('.listinfo>.listname').text listname
-    $('ul.sm2-playlist-bd').empty()
-    $('.track').remove()
-    myPromise = $.when(Tunes.appendTrackAll(data.tracks))
-    myPromise.done =>
-      $('.track').fadeIn()
-      return
-    return
-
   @appendTrackAll: (tracks) ->
     tracks.forEach (rec, idx) ->
       # for playlist
@@ -39,21 +13,7 @@ class window.Tunes
       if idx == 0
         $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
-      # for table
-      Tunes.appendTrack idx + 1, rec.title, rec.time, rec.tags
       return
-
-  @appendTrack: (tno, title, time, tags) ->
-    track_html = ''
-    track_html += '<tr class=\'track\' data-track_no=\'' + tno + '\'>'
-    track_html += '<td class=\'text-right\'>' + tno + '</td>'
-    track_html += '<td class=\'title\'>' + title + '</td>'
-    track_html += '<td><button class="download btn btn-default btn-xs">ダウンロード</button></td>'
-    track_html += '<td>' + @convertDuration(time * 1000) + '</td>'
-    track_html += '<td class=\'tags\'>' + @makeTagsElem(tags) + '</td>'
-    track_html += '</tr>'
-    $('#musiclist tbody').append track_html
-    return
 
   @convertDuration: (ms) ->
     h = String(Math.floor(ms / 3600000) + 100).substring(1)
@@ -61,12 +21,6 @@ class window.Tunes
     s = String(Math.round((ms - h * 3600000 - m * 60000) / 1000) + 100).substring(1)
     hm = Number(h) * 60 + Number(m)
     hm + ':' + s
-
-  @makeTagsElem: (tags) ->
-    return '' unless tags
-    tags.map((tag) ->
-      '<span class="tag">' + tag + '</span>'
-    ).join ''
 
   download: (track_no) ->
     xhr = new XMLHttpRequest

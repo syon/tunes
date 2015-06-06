@@ -1,9 +1,9 @@
 {
   "game_rpg": {
-    "count": 4
+    "count": 10
   },
   "game_srpg": {
-    "count": 3
+    "count": 7
   },
   "game_novel": {
     "count": 24
@@ -18,7 +18,7 @@
     "count": 3
   },
   "scene_cheerful": {
-    "count": 9
+    "count": 12
   },
   "scene_dark": {
     "count": 2
@@ -27,7 +27,7 @@
     "count": 3
   },
   "scene_grandeur": {
-    "count": 7
+    "count": 10
   },
   "scene_mysterious": {
     "count": 5
@@ -39,13 +39,13 @@
     "count": 3
   },
   "scene_honobono": {
-    "count": 12
+    "count": 13
   },
   "scene_night": {
     "count": 5
   },
   "taste_fantasy": {
-    "count": 7
+    "count": 10
   },
   "taste_gothic": {
     "count": 1

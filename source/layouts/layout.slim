@@ -1,5 +1,5 @@
 doctype html
-html
+html ng-app="App"
   head
     meta charset="utf-8"
 
@@ -12,20 +12,31 @@ html
 
     == favicon_tag "favicon.ico"
 
-    == stylesheet_link_tag "bootstrap.min"
-    == stylesheet_link_tag "app"
+    / == stylesheet_link_tag "bootstrap.min"
+    / == stylesheet_link_tag "app"
+    == stylesheet_link_tag "md"
     link rel="stylesheet" href="sm2/bar-ui/css/bar-ui.css"
 
+    == stylesheet_link_tag "angular-material.min"
+    link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic"
+    link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
 
-  body class="#{page_classes}"
-    / header
-    == partial 'layouts/header'
+  body layout="column" ng-controller="AppCtrl"
 
-    / main
-    == yield
+    div flex="" layout="row"
+      md-sidenav.site-sidenav.md-sidenav-left.md-whiteframe-z2 layout="column" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')"
+        == partial 'layouts/sidenav'
 
-    / footer
-    == partial 'layouts/footer'
+      #content flex="" layout="column"
+        == partial 'layouts/toolbar'
+
+        md-content flex="" layout="column"
+          / main
+          == yield
+
+    md-button.md-icon-button.md-fab.md-fab-bottom-right ng-click="toggleSidenav('left')" hide-gt-sm=""
+      md-icon ng-style="{color: font.color}" aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"
+
 
     / JavaScripts
     == javascript_include_tag "jquery-2.1.1.min"
@@ -34,3 +45,11 @@ html
     script src="sm2/bar-ui/script/bar-ui.js"
     == javascript_include_tag "app"
     /== google_analytics_universal_tag
+
+    / Angular Material
+    == javascript_include_tag "angular.js"
+    == javascript_include_tag "angular-route.min.js"
+    == javascript_include_tag "angular-cookies.min.js"
+    == javascript_include_tag "angular-animate.min.js"
+    == javascript_include_tag "angular-aria.min.js"
+    == javascript_include_tag "angular-material.min.js"
