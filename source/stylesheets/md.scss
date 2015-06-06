@@ -638,3 +638,11 @@ md-list-item {
 .sm2-bar-ui .bd {
   background-color: transparent !important;
 }
+.sm2-bar-ui {
+  .sm2-inline-element, a {
+    border: 0 !important;
+  }
+  .sm2-playlist ul li {
+    line-height: 1;
+  }
+}
