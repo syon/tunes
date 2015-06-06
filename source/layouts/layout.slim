@@ -33,6 +33,9 @@ html ng-app="App"
           / main
           == yield
 
+    md-button.md-icon-button.md-fab.md-fab-bottom-right ng-click="toggleSidenav('left')" hide-gt-sm=""
+      md-icon ng-style="{color: font.color}" aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"
+
 
     / JavaScripts
     == javascript_include_tag "jquery-2.1.1.min"
