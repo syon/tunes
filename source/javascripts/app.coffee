@@ -16,6 +16,10 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope
     $mdSidenav(menuId).toggle()
     return
 
+  $scope.logoClick = (ev) ->
+    ev.preventDefault()
+    return
+
   $scope.genrelist = [
     {id: "game_rpg", name: "RPG"}
     {id: "game_srpg", name: "シミュレーションRPG"}
@@ -78,7 +82,8 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope
     return Tunes.convertDuration(sec*1000)
 
   $scope.tracklist
-  $scope.getTracks = (listId) ->
+  $scope.getTracks = (ev, listId) ->
+    ev.preventDefault() if ev
     $http.post('tracklists/'+listId+'.json')
       .success((data) ->
         # console.log(data);
@@ -119,7 +124,7 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope
       return
 
   # Initialize
-  $scope.getTracks("game_novel")
+  $scope.getTracks(null, "game_novel")
 
   return
 ]

@@ -1,6 +1,6 @@
 md-content.docs-menu
   header.nav-header
-    a.docs-logo href="#/" ng-href="#/"
+    a.docs-logo href="#" ng-click="logoClick($event)"
       img src="logo.png"
       h1.docs-logotype.md-heading 音の園
       h3.author music by Andy
@@ -8,7 +8,7 @@ md-content.docs-menu
   h2.menu-heading.md-subhead ゲームジャンル
   ul.menu-toggle-list
     li.tower ng-repeat=("musicset in genrelist")
-      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
+      menu-link.tracklistlink ng-click="getTracks($event, musicset.id)"
         a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
           .count ng-bind="musicset.count"
@@ -16,16 +16,16 @@ md-content.docs-menu
   h2.menu-heading.md-subhead テイスト
   ul.menu-toggle-list
     li.music ng-repeat=("musicset in tastelist")
-      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
-        a.md-button href="#" flex="" layout="row"
+      menu-link.tracklistlink ng-click="getTracks($event, musicset.id)"
+        a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
           .count ng-bind="musicset.count"
 
   h2.menu-heading.md-subhead シーン
   ul.menu-toggle-list
     li.music ng-repeat=("musicset in scenelist")
-      menu-link.tracklistlink ng-click="getTracks(musicset.id)"
-        a.md-button href="#" flex="" layout="row"
+      menu-link.tracklistlink ng-click="getTracks($event, musicset.id)"
+        a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
           .count ng-bind="musicset.count"
 
