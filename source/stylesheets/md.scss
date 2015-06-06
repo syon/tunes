@@ -301,7 +301,11 @@ ul#docs-menu-Directives {
 
 .docs-logo {
   text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   align-items: center;
   padding: 0 0 16px;
@@ -311,9 +315,9 @@ ul#docs-menu-Directives {
   outline: none;
 }
 .docs-logo > img {
+  width: 135px;
   height: 135px;
-  margin: 25px;
-  width: auto;
+  margin: 25px auto;
   display: block;
   transform-origin: 50% 0;
   transform: scale(1.2);
@@ -326,6 +330,7 @@ ul#docs-menu-Directives {
   background: -moz-linear-gradient(top, #185694 0%, #106cc8 100%);
   background: linear-gradient(top, #185694 0%, #106cc8 100%);
   border-bottom: 1px solid #267ED5;
+  -webkit-flex-shrink: 0;
   flex-shrink: 0;
   z-index: 2;
 }
@@ -570,6 +575,8 @@ md-content.md-default-theme {
   background-color: #fff;
 }
 .tracklistlink a {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
   display: flex !important;
   .name {
     margin-right: auto;
