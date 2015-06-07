@@ -10,7 +10,11 @@
 
 
 app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
-app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope, $mdSidenav, $mdDialog, $http) ->
+
+# Global Variables
+app.value '_pick', {}
+
+app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http', (_pick, $scope, $mdSidenav, $mdDialog, $http) ->
 
   $scope.toggleSidenav = (menuId) ->
     $mdSidenav(menuId).toggle()
@@ -96,20 +100,27 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$mdDialog', '$http', ($scope
         console.error "Error! -- data:" + data + "  status:" + status
       )
 
-  $scope.showAdvanced = (ev) ->
-    $mdDialog.show(
-      controller: DialogController
-      templateUrl: 'download.tmpl/index.html'
-      parent: angular.element(document.body)
-      targetEvent: ev).then ((answer) ->
-      $scope.alert = 'You said the information was "' + answer + '".'
-      return
+  $scope.openDownloadDialog = (ev, track) ->
+    _pick.track = track
+    $mdDialog
+      .show(
+        controller: DialogController
+        templateUrl: 'download.tmpl/index.html'
+        parent: angular.element(document.body)
+        targetEvent: ev
+      )
+      .then ((answer) ->
+        $scope.alert = 'You said the information was "' + answer + '".'
+        console.log answer
+        return
     ), ->
       $scope.alert = 'You cancelled the dialog.'
       return
     return
 
-  DialogController = ($scope, $mdDialog) ->
+  DialogController = (_pick, $scope, $mdDialog) ->
+
+    $scope.pick = _pick.track
 
     $scope.hide = ->
       $mdDialog.hide()

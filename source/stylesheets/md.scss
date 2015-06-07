@@ -595,7 +595,7 @@ md-content.md-default-theme {
 #tracklistarea md-list {
   padding: 0;
 }
-md-list-item {
+md-list-item, .trackinfo {
   cursor: pointer;
 
   &:hover {
@@ -648,12 +648,11 @@ md-list-item {
     margin-left: 16px;
     right: 16px;
     top: 16px;
-
-    &.md-button .material-icons {
-      top: 7px;
-      position: relative;
-    }
   }
+}
+.md-button > .material-icons {
+  top: 7px;
+  position: relative;
 }
 [aria-label="download"] {
   max-width: 800px;

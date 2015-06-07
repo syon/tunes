@@ -18,7 +18,7 @@ title: "音の園"
                 .time ng-bind="convertTime(track.time)"
               p
                 md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
-            md-button.md-raised.download hide-sm="" ng-click="showAdvanced($event)"
+            md-button.md-raised.download hide-sm="" ng-click="openDownloadDialog($event, track)"
               i class="material-icons" file_download
               | ダウンロード
           md-divider ng-if="!$last"
