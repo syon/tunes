@@ -648,7 +648,18 @@ md-list-item {
     margin-left: 16px;
     right: 16px;
     top: 16px;
+
+    &.md-button .material-icons {
+      top: 7px;
+      position: relative;
+    }
   }
+}
+[aria-label="download"] {
+  max-width: 800px;
+}
+md-toolbar {
+  background-color: #7210C8;
 }
 .md-icon-button .material-icons {
   display: block;
