@@ -22,6 +22,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
 
   $scope.logoClick = (ev) ->
     ev.preventDefault()
+    $scope.transPage(null, "home")
     return
 
   $scope.genrelist = [
@@ -85,20 +86,25 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
   $scope.convertTime = (sec) ->
     return Tunes.convertDuration(sec*1000)
 
+  $scope.isTracks
   $scope.tracklist
-  $scope.getTracks = (ev, listId) ->
+  $scope.transPage = (ev, pageId) ->
     ev.preventDefault() if ev
-    $http.post('tracklists/'+listId+'.json')
-      .success((data) ->
-        # console.log(data);
-        $scope.tracklist = data
-        $('ul.sm2-playlist-bd').empty()
-        Tunes.appendTrackAll(data.tracks)
-        $scope.listname = data.listname
-      )
-      .error((data, status, headers, config) ->
-        console.error "Error! -- data:" + data + "  status:" + status
-      )
+    if pageId == 'home'
+      $scope.isTracks = false
+    else
+      $http.post('tracklists/' + pageId + '.json')
+        .success((data) ->
+          $scope.isTracks = true
+          # console.log(data);
+          $scope.tracklist = data
+          $('ul.sm2-playlist-bd').empty()
+          Tunes.appendTrackAll(data.tracks)
+          $scope.listname = data.listname
+        )
+        .error((data, status, headers, config) ->
+          console.error "Error! -- data:" + data + "  status:" + status
+        )
 
   $scope.openDownloadDialog = (ev, track) ->
     _pick.track = track
@@ -135,7 +141,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
       return
 
   # Initialize
-  $scope.getTracks(null, "game_novel")
+  $scope.transPage(null, 'home')
 
   return
 ]

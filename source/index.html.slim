@@ -8,7 +8,9 @@ title: "音の園"
 #tracklistarea flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
   md-content.md-padding
     section.md-whiteframe-z1
-      md-list
+      md-content.md-padding.sheet ng-show="!isTracks"
+        h3 home
+      md-list ng-show="isTracks"
         .track ng-repeat=("track in tracklist.tracks")
           md-list-item.md-3-line flex=""
             .avatar
