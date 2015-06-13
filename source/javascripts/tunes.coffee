@@ -26,7 +26,7 @@ class window.Tunes
     xhr = new XMLHttpRequest
     path = Tunes.server_webroot + track.filepath
     xhr.open 'GET', path, true
-    xhr.filename = track.filename
+    xhr.filename = track.filepath.match /[a-zA-Z]+.mp3/
     xhr.responseType = 'blob'
     xhr.send()
     xhr.onload = ->
