@@ -22,9 +22,8 @@ class window.Tunes
     hm = Number(h) * 60 + Number(m)
     hm + ':' + s
 
-  download: (track_no) ->
+  @download: (track) ->
     xhr = new XMLHttpRequest
-    track = @musics.tracks[track_no - 1]
     path = Tunes.server_webroot + track.filepath
     xhr.open 'GET', path, true
     xhr.filename = track.filename

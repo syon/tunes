@@ -140,6 +140,10 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
       $mdDialog.hide answer
       return
 
+    $scope.download = (pick) ->
+      Tunes.download pick
+      return
+
   # Initialize
   $scope.transPage(null, 'home')
 
@@ -154,11 +158,3 @@ app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
 
   return
 ]
-
-
-$ ->
-  # Download
-  $(document).on 'click', '#musiclist button.download', ->
-    track_no = $(@).closest('tr').data('track_no')
-    tunes.download track_no
-    return
