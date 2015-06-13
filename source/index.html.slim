@@ -3,24 +3,28 @@ layout: layout
 title: "音の園"
 ---
 
+md-content
+  section.md-whiteframe-z1 ng-show="useHeader"
+    md-content.md-padding.sheet
+      h3 フリー音楽素材 音の園
 
-/h4 ng-bind="listname"
-#tracklistarea flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
-  md-content.md-padding
-    section.md-whiteframe-z1
-      md-content.md-padding.sheet ng-show="!isTracks"
-        h3 home
-      md-list ng-show="isTracks"
-        .track ng-repeat=("track in tracklist.tracks")
-          md-list-item.md-3-line flex=""
-            .avatar
-            .md-list-item-text ng-click="play($index+1)"
-              h3
-                span.title ng-bind="track.title"
-                .time ng-bind="convertTime(track.time)"
-              p
-                md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
-            md-button.md-raised.download hide-sm="" ng-click="openDownloadDialog($event, track)"
-              i class="material-icons" file_download
-              | ダウンロード
-          md-divider ng-if="!$last"
+== partial 'layouts/toolbar'
+
+md-content flex="" layout="column"
+  #tracklistarea flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl"
+    md-content.md-padding
+      section.md-whiteframe-z1
+        md-list ng-show="tracklist"
+          .track ng-repeat=("track in tracklist.tracks")
+            md-list-item.md-3-line flex=""
+              .avatar
+              .md-list-item-text ng-click="play($index+1)"
+                h3
+                  span.title ng-bind="track.title"
+                  .time ng-bind="convertTime(track.time)"
+                p
+                  md-button.tag ng-repeat=("tag in track.tags") ng-bind="tag"
+              md-button.md-raised.download hide-sm="" ng-click="openDownloadDialog($event, track)"
+                i class="material-icons" file_download
+                | ダウンロード
+            md-divider ng-if="!$last"

@@ -571,6 +571,8 @@ md-toolbar.demo-toolbar .md-button {
 }
 #content {
   background-color: #e1e1e1;
+  background: url(/sono.png);
+  background-size: cover;
 
   &>md-content {
     padding-top: 0;
@@ -590,10 +592,13 @@ md-content.md-default-theme {
 }
 .track {
   // margin: 10px auto;
-  background-color: #fff;
+  // background-color: #fff;
 }
-#tracklistarea md-list {
-  padding: 0;
+#tracklistarea {
+  background: rgba(0,0,0,.2);
+  md-list {
+    padding: 0;
+  }
 }
 md-list-item, .trackinfo {
   cursor: pointer;
@@ -619,6 +624,7 @@ md-list-item, .trackinfo {
 
     .title {
       font-size: 18px;
+      color: #fff;
     }
   }
 
@@ -638,9 +644,10 @@ md-list-item, .trackinfo {
       padding: 2px 4px;
       line-height: 1.5;
       font-size: 85%;
+      color: #aaa;
       margin: 0 .6em 0 0;
       letter-spacing: -0.1em;
-      border: 1px solid #ddd;
+      border: 1px solid #666;
     }
   }
 
@@ -678,5 +685,11 @@ md-toolbar {
   }
 }
 md-content.md-default-theme.sheet {
-  background: #fff;
+  height: 300px;
+  background-size: cover;
+  background-position-y: -38px;
+}
+.sm2player {
+  background-color: rgba(0,0,0,.5);
+  background-image: none;
 }
