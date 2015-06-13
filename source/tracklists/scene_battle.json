@@ -35,6 +35,19 @@
         "RPG",
         "バトル"
       ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
     }
   ]
 }

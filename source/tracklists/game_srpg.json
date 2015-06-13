@@ -28,6 +28,27 @@
       ]
     },
     {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 64,
+      "tags": [
+        "SRPG",
+        "シューティング",
+        "壮大",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Sorrow.mp3",
+      "title": "Sorrow",
+      "time": 97,
+      "tags": [
+        "SRPG",
+        "壮大",
+        "緊張感"
+      ]
+    },
+    {
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
       "time": 95,
@@ -84,6 +105,19 @@
         "ファンタジー",
         "壮大",
         "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
       ]
     }
   ]

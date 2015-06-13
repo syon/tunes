@@ -14,6 +14,7 @@
       "title": "Requiem of the Darkness",
       "time": 85,
       "tags": [
+        "RPG",
         "ファンタジー"
       ]
     },
@@ -34,10 +35,11 @@
       ]
     },
     {
-      "filepath": "/materials/EndingTheme.mp3",
-      "title": "ENDING THEME",
+      "filepath": "/materials/Bless.mp3",
+      "title": "Bless",
       "time": 151,
       "tags": [
+        "RPG",
         "ゴシック",
         "ファンタジー"
       ]
@@ -99,6 +101,31 @@
         "ファンタジー",
         "壮大",
         "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/DarkCastle.mp3",
+      "title": "Dark Castle",
+      "time": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "暗い",
+        "重厚",
+        "サイバー・エレクトリック"
       ]
     }
   ]

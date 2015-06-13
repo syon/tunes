@@ -26,6 +26,7 @@
       "title": "Machine world",
       "time": 139,
       "tags": [
+        "シューティング",
         "サイバー",
         "疾走感"
       ]
@@ -46,7 +47,66 @@
       "title": "Operations",
       "time": 64,
       "tags": [
+        "SRPG",
+        "シューティング",
         "壮大",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/BluePlanet.mp3",
+      "title": "Blue Planet",
+      "time": 149,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー・エレクトリック",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Approach.mp3",
+      "title": "Approach",
+      "time": 149,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー・エレクトリック",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Chaser.mp3",
+      "title": "Chaser",
+      "time": 113,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー・エレクトリック",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/IntotheDepth.mp3",
+      "title": "Into the Depth",
+      "time": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー・エレクトリック",
         "疾走感"
       ]
     }

@@ -2,10 +2,11 @@
   "listname": "ゴシック・教会",
   "tracks": [
     {
-      "filepath": "/materials/EndingTheme.mp3",
-      "title": "ENDING THEME",
+      "filepath": "/materials/Bless.mp3",
+      "title": "Bless",
       "time": 151,
       "tags": [
+        "RPG",
         "ゴシック",
         "ファンタジー"
       ]

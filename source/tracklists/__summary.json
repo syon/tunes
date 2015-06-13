@@ -1,39 +1,39 @@
 {
   "game_rpg": {
-    "count": 10
+    "count": 14
   },
   "game_srpg": {
-    "count": 7
+    "count": 10
   },
   "game_novel": {
-    "count": 24
+    "count": 25
   },
   "game_shooting": {
-    "count": 1
+    "count": 7
   },
   "scene_climax": {
     "count": 1
   },
   "scene_battle": {
-    "count": 3
+    "count": 4
   },
   "scene_cheerful": {
     "count": 12
   },
   "scene_dark": {
-    "count": 2
+    "count": 3
   },
   "scene_sad": {
     "count": 3
   },
   "scene_grandeur": {
-    "count": 10
+    "count": 11
   },
   "scene_mysterious": {
     "count": 5
   },
   "scene_speedy": {
-    "count": 5
+    "count": 10
   },
   "scene_comical": {
     "count": 3
@@ -45,7 +45,7 @@
     "count": 5
   },
   "taste_fantasy": {
-    "count": 10
+    "count": 12
   },
   "taste_gothic": {
     "count": 1

@@ -39,6 +39,25 @@
       ]
     },
     {
+      "filepath": "/materials/RequiemOfTheDarkness.mp3",
+      "title": "Requiem of the Darkness",
+      "time": 85,
+      "tags": [
+        "RPG",
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/Bless.mp3",
+      "title": "Bless",
+      "time": 151,
+      "tags": [
+        "RPG",
+        "ゴシック",
+        "ファンタジー"
+      ]
+    },
+    {
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
       "time": 183,
@@ -113,6 +132,31 @@
         "ファンタジー",
         "壮大",
         "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/DarkCastle.mp3",
+      "title": "Dark Castle",
+      "time": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "暗い",
+        "重厚",
+        "サイバー・エレクトリック"
       ]
     }
   ]
