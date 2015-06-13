@@ -684,6 +684,9 @@ md-toolbar {
     line-height: 1;
   }
 }
+#hero {
+  overflow: hidden;
+}
 md-content.md-default-theme.sheet {
   height: 300px;
   background-size: cover;
