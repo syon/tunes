@@ -98,7 +98,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
       $scope.useTracks = true
       pr = getTrackList 'home'
     else if pageId == 'about'
-      $scope.useHeader = true
+      $scope.useHeader = false
       $scope.useAbout  = true
       $scope.useTracks = false
     else

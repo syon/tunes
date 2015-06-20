@@ -3,14 +3,11 @@ layout: layout
 title: "音の園"
 ---
 
-md-content#hero
-  section ng-show="useHeader"
-    md-content.md-padding.sheet
-      h3 style="margin: 50px 0 0 25px;"
-        img src="/otonosono.png"
+md-content#hero ng-show="useHeader"
+  h3
+    img src="/otonosono.png"
 
-  == partial 'layouts/about'
-
+== partial 'layouts/about'
 
 == partial 'layouts/player'
 

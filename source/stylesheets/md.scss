@@ -685,12 +685,15 @@ md-toolbar {
   }
 }
 #hero {
+  height: 258px;
   overflow: hidden;
-}
-md-content.md-default-theme.sheet {
-  height: 226px;
   background-size: cover;
   background-position-y: -38px;
+
+  h3 {
+    margin: 0;
+    padding: 50px 0 0 25px;
+  }
 }
 .sm2player {
   background-color: rgba(10,0,30,.7);
@@ -712,8 +715,6 @@ md-content.md-default-theme.sheet {
   .page-body {
     padding: 1em;
   }
-}
-#about {
   .intro .avatar {
     display: block;
     float: right;
