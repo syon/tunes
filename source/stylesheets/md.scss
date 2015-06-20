@@ -688,11 +688,35 @@ md-toolbar {
   overflow: hidden;
 }
 md-content.md-default-theme.sheet {
-  height: 300px;
+  height: 226px;
   background-size: cover;
   background-position-y: -38px;
 }
 .sm2player {
   background-color: rgba(0,0,0,.5);
   background-image: none;
+}
+#page {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  h2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding: .5em;
+  }
+  .page-body {
+    padding: 1em;
+  }
+}
+#about {
+  .intro .avatar {
+    display: block;
+    float: right;
+    margin: .5em 2em 1.5em 2em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: content-box;
+  }
 }

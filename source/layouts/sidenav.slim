@@ -5,6 +5,12 @@ md-content.docs-menu
       h1.docs-logotype.md-heading 音の園
       h3.author music by Andy
 
+  ul.menu-toggle-list
+    li
+      menu-link.tracklistlink ng-click="transPage($event, 'about')"
+        a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
+          .name このサイトについて・利用規約
+
   h2.menu-heading.md-subhead ゲームジャンル
   ul.menu-toggle-list
     li.tower ng-repeat=("musicset in genrelist")

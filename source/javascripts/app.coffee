@@ -87,14 +87,24 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
     return Tunes.convertDuration(sec*1000)
 
   $scope.useHeader
+  $scope.useAbout
+  $scope.useTracks
   $scope.tracklist
   $scope.transPage = (ev, pageId) ->
     ev.preventDefault() if ev
     if pageId == 'home'
       $scope.useHeader = true
+      $scope.useAbout  = false
+      $scope.useTracks = true
       pr = getTrackList 'home'
+    else if pageId == 'about'
+      $scope.useHeader = true
+      $scope.useAbout  = true
+      $scope.useTracks = false
     else
       $scope.useHeader = false
+      $scope.useAbout  = false
+      $scope.useTracks = true
       pr = getTrackList pageId
 
   getTrackList = (tracklistId) ->
