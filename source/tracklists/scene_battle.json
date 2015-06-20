@@ -5,6 +5,7 @@
       "filepath": "/materials/SenkaNoNakaDe.mp3",
       "title": "戦火の中で",
       "time": 58,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -18,6 +19,7 @@
       "filepath": "/materials/Kishu.mp3",
       "title": "奇襲",
       "time": 86,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -31,6 +33,7 @@
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
       "time": 183,
+      "desc": null,
       "tags": [
         "RPG",
         "バトル"
@@ -40,6 +43,7 @@
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemtive Attack",
       "time": 163,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",

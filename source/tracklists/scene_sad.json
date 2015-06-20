@@ -5,6 +5,7 @@
       "filepath": "/materials/amenochiame.mp3",
       "title": "雨のち雨",
       "time": 108,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい",
@@ -15,6 +16,7 @@
       "filepath": "/materials/kaisou.mp3",
       "title": "記憶のオルゴール",
       "time": 187,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい"
@@ -24,6 +26,7 @@
       "filepath": "/materials/IsekaiNoMonogatari.mp3",
       "title": "異世界の物語",
       "time": 66,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい",

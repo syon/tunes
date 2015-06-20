@@ -5,6 +5,7 @@
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
+      "desc": null,
       "tags": [
         "8bit",
         "明るい",
@@ -15,6 +16,7 @@
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
       "time": 11,
+      "desc": null,
       "tags": [
         "8bit",
         "明るい",
@@ -25,6 +27,7 @@
       "filepath": "/materials/itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 152,
+      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です(笑)",
       "tags": [
         "サウンドノベル",
         "明るい",
@@ -35,6 +38,7 @@
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -46,6 +50,7 @@
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 86,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -57,6 +62,7 @@
       "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
       "title": "月夜ヲ照ラス蛍",
       "time": 89,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -68,6 +74,7 @@
       "filepath": "/materials/ResortHotel.mp3",
       "title": "リゾートホテル",
       "time": 44,
+      "desc": null,
       "tags": [
         "明るい",
         "穏やか"
@@ -77,6 +84,7 @@
       "filepath": "/materials/TakeOff.mp3",
       "title": "TakeOff",
       "time": 38,
+      "desc": null,
       "tags": [
         "シューティング",
         "壮大",
@@ -88,6 +96,7 @@
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
       "time": 95,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -99,6 +108,7 @@
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 66,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -111,6 +121,7 @@
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -123,6 +134,7 @@
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 171,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",

@@ -5,6 +5,7 @@
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
+      "desc": null,
       "tags": [
         "8bit",
         "明るい",
@@ -15,6 +16,7 @@
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
       "time": 11,
+      "desc": null,
       "tags": [
         "8bit",
         "明るい",
@@ -25,6 +27,7 @@
       "filepath": "/materials/8bit_retrotitle.mp3",
       "title": "レトロタイトル",
       "time": 19,
+      "desc": null,
       "tags": [
         "8bit",
         "かわいい"
@@ -34,6 +37,7 @@
       "filepath": "/materials/8bit_rockman5.mp3",
       "title": "ロックマン５ ステージセレクト",
       "time": 17,
+      "desc": null,
       "tags": [
         "8bit",
         "カバー"
@@ -43,6 +47,7 @@
       "filepath": "/materials/8bit_sousakaishi.mp3",
       "title": "捜査開始",
       "time": 19,
+      "desc": null,
       "tags": [
         "8bit",
         "ハードボイルド"

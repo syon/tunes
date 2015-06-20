@@ -5,6 +5,7 @@
       "filepath": "/materials/8bit_sousakaishi.mp3",
       "title": "捜査開始",
       "time": 19,
+      "desc": null,
       "tags": [
         "8bit",
         "ハードボイルド"
@@ -14,6 +15,7 @@
       "filepath": "/materials/MainStreet.mp3",
       "title": "Main Street",
       "time": 144,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"
@@ -23,6 +25,7 @@
       "filepath": "/materials/MainStreet2015.mp3",
       "title": "Main Street 2015",
       "time": 178,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"
@@ -32,6 +35,7 @@
       "filepath": "/materials/ThemeofDetictive.mp3",
       "title": "Theme of Detictive",
       "time": 162,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"

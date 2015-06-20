@@ -5,6 +5,7 @@
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
       "time": 102,
+      "desc": null,
       "tags": [
         "RPG",
         "サウンドノベル",
@@ -16,6 +17,7 @@
       "filepath": "/materials/SenkaNoNakaDe.mp3",
       "title": "戦火の中で",
       "time": 58,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -29,6 +31,7 @@
       "filepath": "/materials/Kishu.mp3",
       "title": "奇襲",
       "time": 86,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -42,6 +45,7 @@
       "filepath": "/materials/RequiemOfTheDarkness.mp3",
       "title": "Requiem of the Darkness",
       "time": 85,
+      "desc": null,
       "tags": [
         "RPG",
         "ファンタジー"
@@ -51,6 +55,7 @@
       "filepath": "/materials/Bless.mp3",
       "title": "Bless",
       "time": 151,
+      "desc": null,
       "tags": [
         "RPG",
         "ゴシック",
@@ -61,6 +66,7 @@
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
       "time": 183,
+      "desc": null,
       "tags": [
         "RPG",
         "バトル"
@@ -70,6 +76,7 @@
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village In The Forest",
       "time": 107,
+      "desc": null,
       "tags": [
         "RPG",
         "穏やか"
@@ -79,6 +86,7 @@
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
       "time": 95,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -90,6 +98,7 @@
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 66,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -102,6 +111,7 @@
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -114,6 +124,7 @@
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 171,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -126,6 +137,7 @@
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 119,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -138,6 +150,7 @@
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemtive Attack",
       "time": 163,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -151,6 +164,7 @@
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
       "time": 94,
+      "desc": null,
       "tags": [
         "RPG",
         "ファンタジー",

@@ -5,6 +5,7 @@
       "filepath": "/materials/aiwotsutaerukotoba.mp3",
       "title": "愛を伝える言葉",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -15,6 +16,7 @@
       "filepath": "/materials/kugatsunoaozora.mp3",
       "title": "九月の蒼空",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -25,6 +27,7 @@
       "filepath": "/materials/itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 152,
+      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です(笑)",
       "tags": [
         "サウンドノベル",
         "明るい",
@@ -35,6 +38,7 @@
       "filepath": "/materials/amenochiame.mp3",
       "title": "雨のち雨",
       "time": 108,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい",
@@ -45,6 +49,7 @@
       "filepath": "/materials/tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 126,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "安らぎ",
@@ -55,6 +60,7 @@
       "filepath": "/materials/Hope.mp3",
       "title": "Hope",
       "time": 75,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "安らぎ",
@@ -65,6 +71,7 @@
       "filepath": "/materials/InTheRoom.mp3",
       "title": "室内で",
       "time": 23,
+      "desc": null,
       "tags": [
         "サウンドノベル"
       ]
@@ -73,6 +80,7 @@
       "filepath": "/materials/kaisou.mp3",
       "title": "記憶のオルゴール",
       "time": 187,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい"
@@ -82,6 +90,7 @@
       "filepath": "/materials/MainStreet.mp3",
       "title": "Main Street",
       "time": 144,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"
@@ -91,6 +100,7 @@
       "filepath": "/materials/MainStreet2015.mp3",
       "title": "Main Street 2015",
       "time": 178,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"
@@ -100,6 +110,7 @@
       "filepath": "/materials/oborozuki.mp3",
       "title": "おぼろ月",
       "time": 144,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -111,6 +122,7 @@
       "filepath": "/materials/Shiawasenokairou.mp3",
       "title": "幸せの回廊",
       "time": 81,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "穏やか",
@@ -121,6 +133,7 @@
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",
       "time": 132,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -133,6 +146,7 @@
       "filepath": "/materials/WakokuWithIntro.mp3",
       "title": "倭国（イントロ有）",
       "time": 102,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -143,6 +157,7 @@
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
       "time": 102,
+      "desc": null,
       "tags": [
         "RPG",
         "サウンドノベル",
@@ -154,6 +169,7 @@
       "filepath": "/materials/ThemeofDetictive.mp3",
       "title": "Theme of Detictive",
       "time": 162,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ハードボイルド"
@@ -163,6 +179,7 @@
       "filepath": "/materials/KiokuNoUmi.mp3",
       "title": "記憶の海",
       "time": 88,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -174,6 +191,7 @@
       "filepath": "/materials/SenkaNoNakaDe.mp3",
       "title": "戦火の中で",
       "time": 58,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -187,6 +205,7 @@
       "filepath": "/materials/IsekaiNoMonogatari.mp3",
       "title": "異世界の物語",
       "time": 66,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい",
@@ -198,6 +217,7 @@
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -209,6 +229,7 @@
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 86,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -220,6 +241,7 @@
       "filepath": "/materials/Kishu.mp3",
       "title": "奇襲",
       "time": 86,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -233,6 +255,7 @@
       "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
       "title": "月夜ヲ照ラス蛍",
       "time": 89,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -244,6 +267,7 @@
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
       "time": 91,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -254,6 +278,7 @@
       "filepath": "/materials/Giwaku.mp3",
       "title": "疑惑",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",

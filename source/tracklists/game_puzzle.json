@@ -4,7 +4,8 @@
     {
       "filepath": "/materials/BluePlanet.mp3",
       "title": "Blue Planet",
-      "time": 149,
+      "time": null,
+      "desc": null,
       "tags": [
         "パズル",
         "シューティング",
@@ -15,7 +16,8 @@
     {
       "filepath": "/materials/Approach.mp3",
       "title": "Approach",
-      "time": 149,
+      "time": null,
+      "desc": null,
       "tags": [
         "パズル",
         "シューティング",
@@ -26,7 +28,8 @@
     {
       "filepath": "/materials/Chaser.mp3",
       "title": "Chaser",
-      "time": 113,
+      "time": null,
+      "desc": null,
       "tags": [
         "パズル",
         "シューティング",
@@ -37,7 +40,8 @@
     {
       "filepath": "/materials/IntotheDepth.mp3",
       "title": "Into the Depth",
-      "time": 70,
+      "time": null,
+      "desc": null,
       "tags": [
         "パズル",
         "シューティング",

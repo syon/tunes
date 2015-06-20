@@ -5,6 +5,7 @@
       "filepath": "/materials/epic1.mp3",
       "title": "epic1",
       "time": 19,
+      "desc": null,
       "tags": [
         "壮大",
         "重厚",
@@ -16,6 +17,7 @@
       "filepath": "/materials/Giwaku.mp3",
       "title": "疑惑",
       "time": 128,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",

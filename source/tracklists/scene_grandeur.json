@@ -5,6 +5,7 @@
       "filepath": "/materials/epic1.mp3",
       "title": "epic1",
       "time": 19,
+      "desc": null,
       "tags": [
         "壮大",
         "重厚",
@@ -16,6 +17,7 @@
       "filepath": "/materials/epic2.mp3",
       "title": "epic2",
       "time": 25,
+      "desc": null,
       "tags": [
         "壮大",
         "重厚"
@@ -25,6 +27,7 @@
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",
       "time": 132,
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "和風",
@@ -37,6 +40,7 @@
       "filepath": "/materials/TakeOff.mp3",
       "title": "TakeOff",
       "time": 38,
+      "desc": null,
       "tags": [
         "シューティング",
         "壮大",
@@ -48,6 +52,7 @@
       "filepath": "/materials/Operations.mp3",
       "title": "Operations",
       "time": 64,
+      "desc": null,
       "tags": [
         "SRPG",
         "シューティング",
@@ -59,6 +64,7 @@
       "filepath": "/materials/Sorrow.mp3",
       "title": "Sorrow",
       "time": 97,
+      "desc": null,
       "tags": [
         "SRPG",
         "壮大",
@@ -69,6 +75,7 @@
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 66,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -81,6 +88,7 @@
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -93,6 +101,7 @@
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 171,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -105,6 +114,7 @@
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 119,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -117,6 +127,7 @@
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemtive Attack",
       "time": 163,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",

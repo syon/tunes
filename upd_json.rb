@@ -51,6 +51,7 @@ csv.map do |df|
   music[:artist]   = df[:artist]
   music[:album]    = df[:album]
   music[:tags]     = df[:tags].split "/" if df[:tags]
+  music[:desc]     = df[:desc]
 
   musics.push music
 end
@@ -85,6 +86,7 @@ open(json_dir + "_structure.json") do |io|
         :filepath => "/materials/#{music[:filename]}",
         :title => music[:title],
         :time => music[:time],
+        :desc => music[:desc],
         :tags => music[:tags]
       }
       category[:tracks].push(track)

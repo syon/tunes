@@ -5,6 +5,7 @@
       "filepath": "/materials/METROPOLIS.mp3",
       "title": "METROPOLIS",
       "time": 127,
+      "desc": null,
       "tags": [
         "ファンタジー"
       ]
@@ -13,6 +14,7 @@
       "filepath": "/materials/RequiemOfTheDarkness.mp3",
       "title": "Requiem of the Darkness",
       "time": 85,
+      "desc": null,
       "tags": [
         "RPG",
         "ファンタジー"
@@ -22,6 +24,7 @@
       "filepath": "/materials/Soldier.mp3",
       "title": "ソルジャーマーチ",
       "time": 112,
+      "desc": null,
       "tags": [
         "ファンタジー"
       ]
@@ -30,6 +33,7 @@
       "filepath": "/materials/TheWinner.mp3",
       "title": "The winner",
       "time": 64,
+      "desc": null,
       "tags": [
         "ファンタジー"
       ]
@@ -38,6 +42,7 @@
       "filepath": "/materials/Bless.mp3",
       "title": "Bless",
       "time": 151,
+      "desc": null,
       "tags": [
         "RPG",
         "ゴシック",
@@ -48,6 +53,7 @@
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
       "time": 95,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -59,6 +65,7 @@
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 66,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -71,6 +78,7 @@
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -83,6 +91,7 @@
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 171,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -95,6 +104,7 @@
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 119,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -107,6 +117,7 @@
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemtive Attack",
       "time": 163,
+      "desc": null,
       "tags": [
         "RPG",
         "SRPG",
@@ -120,6 +131,7 @@
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
       "time": 94,
+      "desc": null,
       "tags": [
         "RPG",
         "ファンタジー",
