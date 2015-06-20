@@ -120,6 +120,9 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
         console.error "Error! -- data:" + data + "  status:" + status
       )
 
+  transAbout = () ->
+    $scope.transPage(null, 'about')
+
   $scope.openDownloadDialog = (ev, track) ->
     _pick.track = track
     $mdDialog
@@ -152,6 +155,11 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
 
     $scope.answer = (answer) ->
       $mdDialog.hide answer
+      return
+
+    $scope.showAbout = () ->
+      $mdDialog.hide()
+      transAbout()
       return
 
     $scope.download = (pick) ->

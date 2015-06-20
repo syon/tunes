@@ -684,6 +684,15 @@ md-toolbar {
     line-height: 1;
   }
 }
+.modal {
+
+  .time {
+    display: inline;
+    color: rgba(0,0,0,0.4);
+    font-size: 80%;
+    margin-left: .6em;
+  }
+}
 #hero {
   height: 258px;
   overflow: hidden;
