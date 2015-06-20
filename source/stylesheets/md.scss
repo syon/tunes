@@ -704,7 +704,7 @@ md-toolbar {
   }
 }
 #page {
-  color: #fff;
+  color: rgba(255,255,255,.87);
   background-color: rgba(0, 0, 0, 0.4);
 
   h2 {
@@ -712,8 +712,26 @@ md-toolbar {
     margin: 0;
     padding: .5em;
   }
+  h3 {
+    margin-top: 2em;
+
+    &:first-child {
+      margin-top: 1em;
+    }
+  }
   .page-body {
     padding: 1em;
+
+    table {
+      width: auto;
+    }
+    td {
+      padding: 4px 16px;
+      background-color: inherit;
+    }
+  }
+  p {
+    margin-bottom: .8em;
   }
   .intro .avatar {
     display: block;
