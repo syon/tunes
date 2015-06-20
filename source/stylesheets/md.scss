@@ -693,8 +693,12 @@ md-content.md-default-theme.sheet {
   background-position-y: -38px;
 }
 .sm2player {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.7);
   background-image: none;
+
+  .sm2-progress .sm2-progress-track {
+    background-color: rgba(255,255,255,0.15);
+  }
 }
 #page {
   color: #fff;
