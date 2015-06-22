@@ -13,7 +13,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead ゲームジャンル
   ul.menu-toggle-list
-    li.tower ng-repeat=("musicset in genrelist")
+    li.tower ng-repeat=("musicset in listset.genrelist")
       menu-link.tracklistlink ng-click="transPage($event, musicset.id)"
         a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
@@ -21,7 +21,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead テイスト
   ul.menu-toggle-list
-    li.music ng-repeat=("musicset in tastelist")
+    li.music ng-repeat=("musicset in listset.tastelist")
       menu-link.tracklistlink ng-click="transPage($event, musicset.id)"
         a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
@@ -29,7 +29,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead シーン
   ul.menu-toggle-list
-    li.music ng-repeat=("musicset in scenelist")
+    li.music ng-repeat=("musicset in listset.scenelist")
       menu-link.tracklistlink ng-click="transPage($event, musicset.id)"
         a.md-button href="#" flex="" layout="row" ng-class="{'active' : isSelected()}"
           .name  ng-bind="musicset.name"
