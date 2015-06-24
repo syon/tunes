@@ -2,28 +2,6 @@
   "listname": "壮大",
   "tracks": [
     {
-      "filepath": "/materials/epic1.mp3",
-      "title": "epic1",
-      "time": 19,
-      "desc": null,
-      "tags": [
-        "壮大",
-        "重厚",
-        "暗い",
-        "不気味"
-      ]
-    },
-    {
-      "filepath": "/materials/epic2.mp3",
-      "title": "epic2",
-      "time": 25,
-      "desc": null,
-      "tags": [
-        "壮大",
-        "重厚"
-      ]
-    },
-    {
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",
       "time": 132,
@@ -68,7 +46,8 @@
       "tags": [
         "SRPG",
         "壮大",
-        "緊張感"
+        "緊張感",
+        "重厚"
       ]
     },
     {

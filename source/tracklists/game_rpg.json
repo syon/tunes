@@ -2,18 +2,6 @@
   "listname": "RPG",
   "tracks": [
     {
-      "filepath": "/materials/Wakoku.mp3",
-      "title": "倭国",
-      "time": 102,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "サウンドノベル",
-        "和風",
-        "穏やか"
-      ]
-    },
-    {
       "filepath": "/materials/SenkaNoNakaDe.mp3",
       "title": "戦火の中で",
       "time": 58,
@@ -28,8 +16,8 @@
       ]
     },
     {
-      "filepath": "/materials/Kishu.mp3",
-      "title": "奇襲",
+      "filepath": "/materials/Taiji.mp3",
+      "title": "対峙",
       "time": 86,
       "desc": null,
       "tags": [
@@ -37,29 +25,7 @@
         "SRPG",
         "サウンドノベル",
         "緊張感",
-        "バトル",
         "陰謀"
-      ]
-    },
-    {
-      "filepath": "/materials/RequiemOfTheDarkness.mp3",
-      "title": "Requiem of the Darkness",
-      "time": 85,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー"
-      ]
-    },
-    {
-      "filepath": "/materials/Bless.mp3",
-      "title": "Bless",
-      "time": 151,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ゴシック",
-        "ファンタジー"
       ]
     },
     {
@@ -69,7 +35,8 @@
       "desc": null,
       "tags": [
         "RPG",
-        "バトル"
+        "バトル",
+        "ファンタジー"
       ]
     },
     {
@@ -168,9 +135,46 @@
       "tags": [
         "RPG",
         "ファンタジー",
-        "暗い",
         "重厚",
-        "サイバー・エレクトリック"
+        "サイバー"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/EdgeOfTheSteel.mp3",
+      "title": "Edge of the Steel",
+      "time": 208,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "オープニング",
+        "重厚"
       ]
     }
   ]

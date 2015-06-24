@@ -4,49 +4,62 @@
     {
       "filepath": "/materials/BluePlanet.mp3",
       "title": "Blue Planet",
-      "time": null,
+      "time": 149,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
       "filepath": "/materials/Approach.mp3",
       "title": "Approach",
-      "time": null,
+      "time": 149,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
       "filepath": "/materials/Chaser.mp3",
       "title": "Chaser",
-      "time": null,
+      "time": 113,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
-      "filepath": "/materials/IntotheDepth.mp3",
+      "filepath": "/materials/IntoTheDepth.mp3",
       "title": "Into the Depth",
-      "time": null,
+      "time": 70,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Suiri.mp3",
+      "title": "推理",
+      "time": 223,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "パズル",
+        "サイバー",
+        "ハードボイルド",
+        "緊張感"
       ]
     }
   ]

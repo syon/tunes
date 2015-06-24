@@ -14,31 +14,38 @@
     {
       "filepath": "/materials/MainStreet.mp3",
       "title": "Main Street",
-      "time": 144,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ハードボイルド"
-      ]
-    },
-    {
-      "filepath": "/materials/MainStreet2015.mp3",
-      "title": "Main Street 2015",
       "time": 178,
       "desc": null,
       "tags": [
         "サウンドノベル",
-        "ハードボイルド"
+        "ハードボイルド",
+        "オープニング"
       ]
     },
     {
-      "filepath": "/materials/ThemeofDetictive.mp3",
-      "title": "Theme of Detictive",
-      "time": 162,
+      "filepath": "/materials/Suiri.mp3",
+      "title": "推理",
+      "time": 223,
       "desc": null,
       "tags": [
         "サウンドノベル",
-        "ハードボイルド"
+        "パズル",
+        "サイバー",
+        "ハードボイルド",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
       ]
     }
   ]

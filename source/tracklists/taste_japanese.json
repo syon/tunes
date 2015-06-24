@@ -2,7 +2,7 @@
   "listname": "和風",
   "tracks": [
     {
-      "filepath": "/materials/oborozuki.mp3",
+      "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 144,
       "desc": null,
@@ -10,7 +10,7 @@
         "サウンドノベル",
         "和風",
         "夜",
-        "ホラー"
+        "緊張感"
       ]
     },
     {
@@ -43,7 +43,6 @@
       "time": 102,
       "desc": null,
       "tags": [
-        "RPG",
         "サウンドノベル",
         "和風",
         "穏やか"

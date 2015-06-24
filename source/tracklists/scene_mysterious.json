@@ -15,18 +15,6 @@
       ]
     },
     {
-      "filepath": "/materials/KiokuNoUmi.mp3",
-      "title": "記憶の海",
-      "time": 88,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ピアノ",
-        "夜",
-        "神秘的"
-      ]
-    },
-    {
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
       "time": 91,
@@ -34,7 +22,8 @@
       "tags": [
         "サウンドノベル",
         "ピアノ",
-        "神秘的"
+        "神秘的",
+        "回想"
       ]
     },
     {

@@ -1,43 +1,6 @@
 {
   "listname": "暗い",
   "tracks": [
-    {
-      "filepath": "/materials/epic1.mp3",
-      "title": "epic1",
-      "time": 19,
-      "desc": null,
-      "tags": [
-        "壮大",
-        "重厚",
-        "暗い",
-        "不気味"
-      ]
-    },
-    {
-      "filepath": "/materials/Giwaku.mp3",
-      "title": "疑惑",
-      "time": 128,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ピアノ",
-        "重厚",
-        "暗い",
-        "不気味"
-      ]
-    },
-    {
-      "filepath": "/materials/DarkCastle.mp3",
-      "title": "Dark Castle",
-      "time": 94,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "暗い",
-        "重厚",
-        "サイバー・エレクトリック"
-      ]
-    }
+
   ]
 }

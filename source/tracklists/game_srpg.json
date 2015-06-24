@@ -16,8 +16,8 @@
       ]
     },
     {
-      "filepath": "/materials/Kishu.mp3",
-      "title": "奇襲",
+      "filepath": "/materials/Taiji.mp3",
+      "title": "対峙",
       "time": 86,
       "desc": null,
       "tags": [
@@ -25,7 +25,6 @@
         "SRPG",
         "サウンドノベル",
         "緊張感",
-        "バトル",
         "陰謀"
       ]
     },
@@ -49,7 +48,8 @@
       "tags": [
         "SRPG",
         "壮大",
-        "緊張感"
+        "緊張感",
+        "重厚"
       ]
     },
     {

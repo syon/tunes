@@ -2,14 +2,76 @@
   "listname": "サイバー・エレクトリック",
   "tracks": [
     {
-      "filepath": "/materials/MachineWorld.mp3",
-      "title": "Machine world",
-      "time": 139,
+      "filepath": "/materials/BluePlanet.mp3",
+      "title": "Blue Planet",
+      "time": 149,
       "desc": null,
       "tags": [
+        "パズル",
         "シューティング",
         "サイバー",
         "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Approach.mp3",
+      "title": "Approach",
+      "time": 149,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Chaser.mp3",
+      "title": "Chaser",
+      "time": 113,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/IntoTheDepth.mp3",
+      "title": "Into the Depth",
+      "time": 70,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/DarkCastle.mp3",
+      "title": "Dark Castle",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "重厚",
+        "サイバー"
+      ]
+    },
+    {
+      "filepath": "/materials/Suiri.mp3",
+      "title": "推理",
+      "time": 223,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "パズル",
+        "サイバー",
+        "ハードボイルド",
+        "緊張感"
       ]
     }
   ]

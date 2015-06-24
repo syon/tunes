@@ -2,10 +2,10 @@
   "listname": "サウンドノベル",
   "tracks": [
     {
-      "filepath": "/materials/aiwotsutaerukotoba.mp3",
+      "filepath": "/materials/Aiwotsutaerukotoba.mp3",
       "title": "愛を伝える言葉",
       "time": 128,
-      "desc": "恋愛ゲームのタイトル画面とか告白するシーンとかで流れている想定で作りました。なるべく「少ない音数」と「間」で印象的なメロディを作る意識をしたのですがピアノだけの曲なので和音とかかなり気を使いますぃた。リットして終わりですが、そのまま頭にループさせても違和感ないようにしてみましたがどうなんでしょ実際(汗) 高めのキー設定にしてあるのは感情がこみ上げる瞬間みたいなんをイメージしたからです。",
+      "desc": null,
       "tags": [
         "サウンドノベル",
         "ピアノ",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "filepath": "/materials/kugatsunoaozora.mp3",
+      "filepath": "/materials/Kugatsunoaozora.mp3",
       "title": "九月の蒼空",
       "time": 128,
       "desc": null,
@@ -24,10 +24,10 @@
       ]
     },
     {
-      "filepath": "/materials/itsumonokimi.mp3",
+      "filepath": "/materials/Itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 152,
-      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です(笑)",
+      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です（笑）",
       "tags": [
         "サウンドノベル",
         "明るい",
@@ -35,8 +35,8 @@
       ]
     },
     {
-      "filepath": "/materials/amenochiame.mp3",
-      "title": "雨のち雨",
+      "filepath": "/materials/Amenochi.mp3",
+      "title": "雨のち…",
       "time": 108,
       "desc": null,
       "tags": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "filepath": "/materials/tabinooyado.mp3",
+      "filepath": "/materials/Tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 126,
       "desc": null,
@@ -57,57 +57,18 @@
       ]
     },
     {
-      "filepath": "/materials/Hope.mp3",
-      "title": "Hope",
-      "time": 75,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "安らぎ",
-        "穏やか"
-      ]
-    },
-    {
-      "filepath": "/materials/InTheRoom.mp3",
-      "title": "室内で",
-      "time": 23,
-      "desc": null,
-      "tags": [
-        "サウンドノベル"
-      ]
-    },
-    {
-      "filepath": "/materials/kaisou.mp3",
-      "title": "記憶のオルゴール",
-      "time": 187,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "悲しい"
-      ]
-    },
-    {
       "filepath": "/materials/MainStreet.mp3",
       "title": "Main Street",
-      "time": 144,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ハードボイルド"
-      ]
-    },
-    {
-      "filepath": "/materials/MainStreet2015.mp3",
-      "title": "Main Street 2015",
       "time": 178,
       "desc": null,
       "tags": [
         "サウンドノベル",
-        "ハードボイルド"
+        "ハードボイルド",
+        "オープニング"
       ]
     },
     {
-      "filepath": "/materials/oborozuki.mp3",
+      "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 144,
       "desc": null,
@@ -115,7 +76,7 @@
         "サウンドノベル",
         "和風",
         "夜",
-        "ホラー"
+        "緊張感"
       ]
     },
     {
@@ -126,7 +87,8 @@
       "tags": [
         "サウンドノベル",
         "穏やか",
-        "回想"
+        "回想",
+        "祝福"
       ]
     },
     {
@@ -159,32 +121,9 @@
       "time": 102,
       "desc": null,
       "tags": [
-        "RPG",
         "サウンドノベル",
         "和風",
         "穏やか"
-      ]
-    },
-    {
-      "filepath": "/materials/ThemeofDetictive.mp3",
-      "title": "Theme of Detictive",
-      "time": 162,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ハードボイルド"
-      ]
-    },
-    {
-      "filepath": "/materials/KiokuNoUmi.mp3",
-      "title": "記憶の海",
-      "time": 88,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ピアノ",
-        "夜",
-        "神秘的"
       ]
     },
     {
@@ -202,15 +141,16 @@
       ]
     },
     {
-      "filepath": "/materials/IsekaiNoMonogatari.mp3",
-      "title": "異世界の物語",
+      "filepath": "/materials/Towanojyojyou.mp3",
+      "title": "永遠の叙情",
       "time": 66,
       "desc": null,
       "tags": [
         "サウンドノベル",
         "悲しい",
         "回想",
-        "オルゴール"
+        "オルゴール",
+        "ホラー"
       ]
     },
     {
@@ -238,8 +178,8 @@
       ]
     },
     {
-      "filepath": "/materials/Kishu.mp3",
-      "title": "奇襲",
+      "filepath": "/materials/Taiji.mp3",
+      "title": "対峙",
       "time": 86,
       "desc": null,
       "tags": [
@@ -247,7 +187,6 @@
         "SRPG",
         "サウンドノベル",
         "緊張感",
-        "バトル",
         "陰謀"
       ]
     },
@@ -271,7 +210,20 @@
       "tags": [
         "サウンドノベル",
         "ピアノ",
-        "神秘的"
+        "神秘的",
+        "回想"
+      ]
+    },
+    {
+      "filepath": "/materials/YomichiWoNukete.mp3",
+      "title": "夜道を抜けて",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "夜",
+        "穏やか",
+        "ピアノ"
       ]
     },
     {
@@ -283,8 +235,58 @@
         "サウンドノベル",
         "ピアノ",
         "重厚",
-        "暗い",
-        "不気味"
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/Suiri.mp3",
+      "title": "推理",
+      "time": 223,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "パズル",
+        "サイバー",
+        "ハードボイルド",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Shinoyochou.mp3",
+      "title": "死の予兆",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "重厚",
+        "緊張感",
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
       ]
     }
   ]

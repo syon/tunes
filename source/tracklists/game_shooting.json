@@ -2,17 +2,6 @@
   "listname": "シューティング",
   "tracks": [
     {
-      "filepath": "/materials/MachineWorld.mp3",
-      "title": "Machine world",
-      "time": 139,
-      "desc": null,
-      "tags": [
-        "シューティング",
-        "サイバー",
-        "疾走感"
-      ]
-    },
-    {
       "filepath": "/materials/TakeOff.mp3",
       "title": "TakeOff",
       "time": 38,
@@ -39,48 +28,48 @@
     {
       "filepath": "/materials/BluePlanet.mp3",
       "title": "Blue Planet",
-      "time": null,
+      "time": 149,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
       "filepath": "/materials/Approach.mp3",
       "title": "Approach",
-      "time": null,
+      "time": 149,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
       "filepath": "/materials/Chaser.mp3",
       "title": "Chaser",
-      "time": null,
+      "time": 113,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     },
     {
-      "filepath": "/materials/IntotheDepth.mp3",
+      "filepath": "/materials/IntoTheDepth.mp3",
       "title": "Into the Depth",
-      "time": null,
+      "time": 70,
       "desc": null,
       "tags": [
         "パズル",
         "シューティング",
-        "サイバー・エレクトリック",
+        "サイバー",
         "疾走感"
       ]
     }

@@ -2,20 +2,9 @@
   "listname": "安らぎ・穏やか",
   "tracks": [
     {
-      "filepath": "/materials/tabinooyado.mp3",
+      "filepath": "/materials/Tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 126,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "安らぎ",
-        "穏やか"
-      ]
-    },
-    {
-      "filepath": "/materials/Hope.mp3",
-      "title": "Hope",
-      "time": 75,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -31,7 +20,8 @@
       "tags": [
         "サウンドノベル",
         "穏やか",
-        "回想"
+        "回想",
+        "祝福"
       ]
     },
     {
@@ -51,7 +41,6 @@
       "time": 102,
       "desc": null,
       "tags": [
-        "RPG",
         "サウンドノベル",
         "和風",
         "穏やか"
@@ -103,21 +92,12 @@
       ]
     },
     {
-      "filepath": "/materials/ResortHotel.mp3",
-      "title": "リゾートホテル",
-      "time": 44,
-      "desc": null,
-      "tags": [
-        "明るい",
-        "穏やか"
-      ]
-    },
-    {
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
       "time": 197,
       "desc": null,
       "tags": [
+        "サウンドノベル",
         "夜",
         "穏やか",
         "ピアノ"
@@ -144,6 +124,19 @@
         "ファンタジー",
         "壮大",
         "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
       ]
     }
   ]

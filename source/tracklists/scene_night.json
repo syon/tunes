@@ -2,7 +2,7 @@
   "listname": "夜",
   "tracks": [
     {
-      "filepath": "/materials/oborozuki.mp3",
+      "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 144,
       "desc": null,
@@ -10,19 +10,7 @@
         "サウンドノベル",
         "和風",
         "夜",
-        "ホラー"
-      ]
-    },
-    {
-      "filepath": "/materials/KiokuNoUmi.mp3",
-      "title": "記憶の海",
-      "time": 88,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "ピアノ",
-        "夜",
-        "神秘的"
+        "緊張感"
       ]
     },
     {
@@ -54,6 +42,7 @@
       "time": 197,
       "desc": null,
       "tags": [
+        "サウンドノベル",
         "夜",
         "穏やか",
         "ピアノ"

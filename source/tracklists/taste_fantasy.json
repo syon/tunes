@@ -2,50 +2,13 @@
   "listname": "ファンタジー",
   "tracks": [
     {
-      "filepath": "/materials/METROPOLIS.mp3",
-      "title": "METROPOLIS",
-      "time": 127,
-      "desc": null,
-      "tags": [
-        "ファンタジー"
-      ]
-    },
-    {
-      "filepath": "/materials/RequiemOfTheDarkness.mp3",
-      "title": "Requiem of the Darkness",
-      "time": 85,
+      "filepath": "/materials/TatakaiNoMai.mp3",
+      "title": "戦いの舞い",
+      "time": 183,
       "desc": null,
       "tags": [
         "RPG",
-        "ファンタジー"
-      ]
-    },
-    {
-      "filepath": "/materials/Soldier.mp3",
-      "title": "ソルジャーマーチ",
-      "time": 112,
-      "desc": null,
-      "tags": [
-        "ファンタジー"
-      ]
-    },
-    {
-      "filepath": "/materials/TheWinner.mp3",
-      "title": "The winner",
-      "time": 64,
-      "desc": null,
-      "tags": [
-        "ファンタジー"
-      ]
-    },
-    {
-      "filepath": "/materials/Bless.mp3",
-      "title": "Bless",
-      "time": 151,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ゴシック",
+        "バトル",
         "ファンタジー"
       ]
     },
@@ -135,9 +98,20 @@
       "tags": [
         "RPG",
         "ファンタジー",
-        "暗い",
         "重厚",
-        "サイバー・エレクトリック"
+        "サイバー"
+      ]
+    },
+    {
+      "filepath": "/materials/EdgeOfTheSteel.mp3",
+      "title": "Edge of the Steel",
+      "time": 208,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "オープニング",
+        "重厚"
       ]
     }
   ]

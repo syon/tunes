@@ -2,15 +2,16 @@
   "listname": "ホラー・サスペンス",
   "tracks": [
     {
-      "filepath": "/materials/epic1.mp3",
-      "title": "epic1",
-      "time": 19,
+      "filepath": "/materials/Towanojyojyou.mp3",
+      "title": "永遠の叙情",
+      "time": 66,
       "desc": null,
       "tags": [
-        "壮大",
-        "重厚",
-        "暗い",
-        "不気味"
+        "サウンドノベル",
+        "悲しい",
+        "回想",
+        "オルゴール",
+        "ホラー"
       ]
     },
     {
@@ -22,8 +23,19 @@
         "サウンドノベル",
         "ピアノ",
         "重厚",
-        "暗い",
-        "不気味"
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/Shinoyochou.mp3",
+      "title": "死の予兆",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "重厚",
+        "緊張感",
+        "ホラー"
       ]
     }
   ]
