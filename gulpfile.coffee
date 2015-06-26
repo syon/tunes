@@ -25,7 +25,7 @@ nodemon     = require 'gulp-nodemon'
 uglify      = require 'gulp-uglify'
 
 bowerfiles  = mbfiles()
-dest_dir    = 'target/webapp/'
+dest_dir    = 'build/webapp/'
 
 gulp.task 'default', ['clean'], ->
   gulp.start 'compile:bower', 'compile:jade', 'compile:coffee', 'compile:less', 'compile:static'
@@ -73,11 +73,11 @@ gulp.task 'compile:static', ->
 gulp.task 'server', ['compile:apimock'], ->
   gulp.start 'watch', 'watch:apimock'
   nodemon
-    script: 'target/apimock.js'
-    watch: ['target/apimock.js', dest_dir]
+    script: 'build/apimock.js'
+    watch: ['build/apimock.js', dest_dir]
     env:
       port: 8888
-      webapp: "#{__dirname}/target/webapp/"
+      webapp: "#{__dirname}/build/webapp/"
 
 gulp.task 'watch:apimock', ->
   gulp.watch 'apimock.coffee', ['compile:apimock']
@@ -85,4 +85,4 @@ gulp.task 'watch:apimock', ->
 gulp.task 'compile:apimock', ->
   gulp.src 'apimock.coffee'
     .pipe coffee()
-    .pipe gulp.dest 'target/'
+    .pipe gulp.dest 'build/'
