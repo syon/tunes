@@ -1,0 +1,126 @@
+{
+  "listname": "疾走感",
+  "tracks": [
+    {
+      "filepath": "/materials/8bit_fly.mp3",
+      "title": "Fly!",
+      "time": 10,
+      "desc": null,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_stage2.mp3",
+      "title": "ステージ２",
+      "time": 11,
+      "desc": null,
+      "tags": [
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "TakeOff",
+      "time": 38,
+      "desc": null,
+      "tags": [
+        "シューティング",
+        "壮大",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 64,
+      "desc": null,
+      "tags": [
+        "SRPG",
+        "シューティング",
+        "壮大",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/BluePlanet.mp3",
+      "title": "Blue Planet",
+      "time": 149,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Approach.mp3",
+      "title": "Approach",
+      "time": 149,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Chaser.mp3",
+      "title": "Chaser",
+      "time": 113,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/IntoTheDepth.mp3",
+      "title": "Into the Depth",
+      "time": 70,
+      "desc": null,
+      "tags": [
+        "パズル",
+        "シューティング",
+        "サイバー",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
+      ]
+    }
+  ]
+}

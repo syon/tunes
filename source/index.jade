@@ -1,0 +1,47 @@
+doctype html
+html(ng-app="App")
+
+  include ./layouts/head.jade
+
+  body(layout="column" ng-controller="AppCtrl")
+
+    div(flex="" layout="row")
+      md-sidenav.site-sidenav.md-sidenav-left.md-whiteframe-z2(layout="column" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')")
+        include ./layouts/sidenav.jade
+
+      #content(flex="" layout="column")
+        md-content#hero(ng-show="useHeader")
+          h3
+            img(src="/otonosono.png")
+
+        include ./layouts/about.jade
+
+        include ./layouts/player.jade
+
+        md-content(flex="" layout="column" ng-show="useTracks")
+          #tracklistarea(flex="" layout="column" layout-fill="" ng-controller="TracklistCtrl")
+            md-content.md-padding
+              section.md-whiteframe-z1
+                md-list(ng-show="tracklist")
+                  .track(ng-repeat=("track in tracklist.tracks"))
+                    md-list-item.md-3-line(flex="")
+                      .avatar
+                      .md-list-item-text(ng-click="play($index+1)")
+                        h3
+                          span.title(ng-bind="track.title")
+                          .time(ng-bind="convertTime(track.time)")
+                        p
+                          md-button.tag(ng-repeat=("tag in track.tags") ng-bind="tag")
+                      md-button.md-raised.download(hide-sm="" ng-click="openDownloadDialog($event, track)")
+                        i(class="material-icons") file_download
+                        | ダウンロード
+                    md-divider(ng-if="!$last")
+
+
+    md-button.md-icon-button.md-fab.md-fab-bottom-right(ng-click="toggleSidenav('left')" hide-gt-sm="")
+      md-icon(ng-style="{color: font.color}" aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg")
+
+
+    script(src="/js/lib.js")
+    script(src="/js/app.js")
+    script(src="/bar-ui/script/bar-ui.js")

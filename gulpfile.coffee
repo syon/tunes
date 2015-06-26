@@ -6,6 +6,7 @@
 
 sources =
   bower:  'bower.json'
+  jade:   'source/index.jade'
   coffee: 'source/**/*.coffee'
   less:   'source/**/*.less'
   static: 'public/**/*'
@@ -26,7 +27,7 @@ libs =
   css:    [
     'angular-material/angular-material.min.css'
   ]
-  static: ['bootstrap/dist/**/*']
+  static: []
 
 
 bower       = require 'bower'
@@ -34,17 +35,19 @@ del         = require 'del'
 gulp        = require 'gulp'
 coffee      = require 'gulp-coffee'
 concat      = require 'gulp-concat'
+jade        = require 'gulp-jade'
 less        = require 'gulp-less'
 ngAnnotate  = require 'gulp-ng-annotate'
 nodemon     = require 'gulp-nodemon'
 uglify      = require 'gulp-uglify'
 
+dest_dir = 'target/webapp/'
 
 gulp.task 'default', ['clean'], ->
-  gulp.start 'compile:lib', 'compile:coffee', 'compile:less', 'compile:static'
+  gulp.start 'compile:lib', 'compile:jade', 'compile:coffee', 'compile:less', 'compile:static'
 
 gulp.task 'clean', (cb) ->
-  del 'target/webapp/', cb
+  del dest_dir, cb
 
 gulp.task 'watch', ->
   gulp.watch sources.bower,  ['compile:lib']
@@ -57,12 +60,17 @@ gulp.task 'compile:lib', ->
   bower.commands.install().on 'end', ->
     gulp.src libs.js.map (e) -> "bower_components/#{e}"
       .pipe concat 'lib.js'
-      .pipe gulp.dest 'target/webapp/'
+      .pipe gulp.dest dest_dir + 'js/'
     gulp.src libs.css.map (e) -> "bower_components/#{e}"
       .pipe concat 'lib.css'
-      .pipe gulp.dest 'target/webapp/'
+      .pipe gulp.dest dest_dir + 'css/'
     gulp.src libs.static.map (e) -> "bower_components/#{e}"
-      .pipe gulp.dest 'target/webapp/'
+      .pipe gulp.dest dest_dir
+
+gulp.task 'compile:jade', ->
+  gulp.src sources.jade
+    .pipe jade {locals: {}}
+    .pipe gulp.dest dest_dir
 
 gulp.task 'compile:coffee', ->
   gulp.src sources.coffee
@@ -70,24 +78,24 @@ gulp.task 'compile:coffee', ->
     .pipe ngAnnotate()
     .pipe uglify()
     .pipe concat 'app.js'
-    .pipe gulp.dest 'target/webapp/'
+    .pipe gulp.dest dest_dir + 'js/'
 
 gulp.task 'compile:less', ->
   gulp.src sources.less
     .pipe less()
     .pipe concat 'app.css'
-    .pipe gulp.dest 'target/webapp/'
+    .pipe gulp.dest dest_dir + 'css/'
 
 gulp.task 'compile:static', ->
   gulp.src sources.static
-    .pipe gulp.dest 'target/webapp/'
+    .pipe gulp.dest dest_dir
 
 
 gulp.task 'server', ['compile:apimock'], ->
   gulp.start 'watch', 'watch:apimock'
   nodemon
     script: 'target/apimock.js'
-    watch: ['target/apimock.js', 'target/webapp/']
+    watch: ['target/apimock.js', dest_dir]
     env:
       port: 8888
       webapp: "#{__dirname}/target/webapp/"

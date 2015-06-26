@@ -1,0 +1,143 @@
+{
+  "listname": "安らぎ・穏やか",
+  "tracks": [
+    {
+      "filepath": "/materials/Tabinooyado.mp3",
+      "title": "旅のお宿",
+      "time": 126,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "安らぎ",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Shiawasenokairou.mp3",
+      "title": "幸せの回廊",
+      "time": 81,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "穏やか",
+        "回想",
+        "祝福"
+      ]
+    },
+    {
+      "filepath": "/materials/WakokuWithIntro.mp3",
+      "title": "倭国（イントロ有）",
+      "time": 102,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Wakoku.mp3",
+      "title": "倭国",
+      "time": 102,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Natsukusa.mp3",
+      "title": "夏草",
+      "time": 86,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
+      "title": "月夜ヲ照ラス蛍",
+      "time": 89,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/AttakaShichu.mp3",
+      "title": "あったかシチュー",
+      "time": 87,
+      "desc": null,
+      "tags": [
+        "穏やか",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/MachiNoTomoshibi.mp3",
+      "title": "街の灯火",
+      "time": 42,
+      "desc": null,
+      "tags": [
+        "夜",
+        "穏やか",
+        "神秘的"
+      ]
+    },
+    {
+      "filepath": "/materials/YomichiWoNukete.mp3",
+      "title": "夜道を抜けて",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "夜",
+        "穏やか",
+        "ピアノ"
+      ]
+    },
+    {
+      "filepath": "/materials/VillageInTheForest.mp3",
+      "title": "Village In The Forest",
+      "time": 107,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/BlueEarth.mp3",
+      "title": "Blue Earth",
+      "time": 119,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
+      ]
+    }
+  ]
+}

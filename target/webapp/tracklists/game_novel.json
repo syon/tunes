@@ -1,0 +1,293 @@
+{
+  "listname": "サウンドノベル",
+  "tracks": [
+    {
+      "filepath": "/materials/Aiwotsutaerukotoba.mp3",
+      "title": "愛を伝える言葉",
+      "time": 128,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "繊細"
+      ]
+    },
+    {
+      "filepath": "/materials/Kugatsunoaozora.mp3",
+      "title": "九月の蒼空",
+      "time": 128,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "繊細"
+      ]
+    },
+    {
+      "filepath": "/materials/Itsumonokimi.mp3",
+      "title": "いつものキミ",
+      "time": 152,
+      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です（笑）",
+      "tags": [
+        "サウンドノベル",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/Amenochi.mp3",
+      "title": "雨のち…",
+      "time": 108,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "悲しい",
+        "オルゴール"
+      ]
+    },
+    {
+      "filepath": "/materials/Tabinooyado.mp3",
+      "title": "旅のお宿",
+      "time": 126,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "安らぎ",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/MainStreet.mp3",
+      "title": "Main Street",
+      "time": 178,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ハードボイルド",
+        "オープニング"
+      ]
+    },
+    {
+      "filepath": "/materials/Oborozuki.mp3",
+      "title": "おぼろ月",
+      "time": 144,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "夜",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Shiawasenokairou.mp3",
+      "title": "幸せの回廊",
+      "time": 81,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "穏やか",
+        "回想",
+        "祝福"
+      ]
+    },
+    {
+      "filepath": "/materials/RinneTensei.mp3",
+      "title": "輪廻転生",
+      "time": 132,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "壮大",
+        "神秘的",
+        "クライマックス"
+      ]
+    },
+    {
+      "filepath": "/materials/WakokuWithIntro.mp3",
+      "title": "倭国（イントロ有）",
+      "time": 102,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Wakoku.mp3",
+      "title": "倭国",
+      "time": 102,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/SenkaNoNakaDe.mp3",
+      "title": "戦火の中で",
+      "time": 58,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "サウンドノベル",
+        "緊張感",
+        "バトル",
+        "陰謀"
+      ]
+    },
+    {
+      "filepath": "/materials/Towanojyojyou.mp3",
+      "title": "永遠の叙情",
+      "time": 66,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "悲しい",
+        "回想",
+        "オルゴール",
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/NatsuMatsuri.mp3",
+      "title": "夏祭り",
+      "time": 128,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "和風",
+        "夜",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Natsukusa.mp3",
+      "title": "夏草",
+      "time": 86,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Taiji.mp3",
+      "title": "対峙",
+      "time": 86,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "サウンドノベル",
+        "緊張感",
+        "陰謀"
+      ]
+    },
+    {
+      "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
+      "title": "月夜ヲ照ラス蛍",
+      "time": 89,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/Tokiwasure.mp3",
+      "title": "時忘れ",
+      "time": 91,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "神秘的",
+        "回想"
+      ]
+    },
+    {
+      "filepath": "/materials/YomichiWoNukete.mp3",
+      "title": "夜道を抜けて",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "夜",
+        "穏やか",
+        "ピアノ"
+      ]
+    },
+    {
+      "filepath": "/materials/Giwaku.mp3",
+      "title": "疑惑",
+      "time": 128,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "ピアノ",
+        "重厚",
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/Suiri.mp3",
+      "title": "推理",
+      "time": 223,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "パズル",
+        "サイバー",
+        "ハードボイルド",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Shinoyochou.mp3",
+      "title": "死の予兆",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "サウンドノベル",
+        "重厚",
+        "緊張感",
+        "ホラー"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
+      ]
+    }
+  ]
+}

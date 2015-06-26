@@ -1,0 +1,187 @@
+[
+  {
+    "game_rpg": {
+      "listname": "RPG",
+      "tags": [
+        "RPG"
+      ]
+    }
+  },
+  {
+    "game_srpg": {
+      "listname": "シミュレーションRPG",
+      "tags": [
+        "SRPG"
+      ]
+    }
+  },
+  {
+    "game_novel": {
+      "listname": "サウンドノベル",
+      "tags": [
+        "サウンドノベル"
+      ]
+    }
+  },
+  {
+    "game_puzzle": {
+      "listname": "パズル",
+      "tags": [
+        "パズル"
+      ]
+    }
+  },
+  {
+    "game_shooting": {
+      "listname": "シューティング",
+      "tags": [
+        "シューティング"
+      ]
+    }
+  },
+  {
+    "scene_climax": {
+      "listname": "クライマックス",
+      "tags": [
+        "クライマックス"
+      ]
+    }
+  },
+  {
+    "scene_battle": {
+      "listname": "バトル",
+      "tags": [
+        "バトル"
+      ]
+    }
+  },
+  {
+    "scene_cheerful": {
+      "listname": "明るい",
+      "tags": [
+        "明るい"
+      ]
+    }
+  },
+  {
+    "scene_dark": {
+      "listname": "暗い",
+      "tags": [
+        "暗い"
+      ]
+    }
+  },
+  {
+    "scene_sad": {
+      "listname": "悲しい",
+      "tags": [
+        "悲しい"
+      ]
+    }
+  },
+  {
+    "scene_grandeur": {
+      "listname": "壮大",
+      "tags": [
+        "壮大"
+      ]
+    }
+  },
+  {
+    "scene_mysterious": {
+      "listname": "神秘的",
+      "tags": [
+        "神秘的"
+      ]
+    }
+  },
+  {
+    "scene_speedy": {
+      "listname": "疾走感",
+      "tags": [
+        "疾走感"
+      ]
+    }
+  },
+  {
+    "scene_comical": {
+      "listname": "コミカル",
+      "tags": [
+        "コミカル"
+      ]
+    }
+  },
+  {
+    "scene_honobono": {
+      "listname": "安らぎ・穏やか",
+      "tags": [
+        "安らぎ",
+        "穏やか"
+      ]
+    }
+  },
+  {
+    "scene_night": {
+      "listname": "夜",
+      "tags": [
+        "夜"
+      ]
+    }
+  },
+  {
+    "taste_fantasy": {
+      "listname": "ファンタジー",
+      "tags": [
+        "ファンタジー"
+      ]
+    }
+  },
+  {
+    "taste_gothic": {
+      "listname": "ゴシック・教会",
+      "tags": [
+        "ゴシック"
+      ]
+    }
+  },
+  {
+    "taste_cyber": {
+      "listname": "サイバー・エレクトリック",
+      "tags": [
+        "サイバー"
+      ]
+    }
+  },
+  {
+    "taste_famicon": {
+      "listname": "ファミコン",
+      "tags": [
+        "8bit"
+      ]
+    }
+  },
+  {
+    "taste_hardboiled": {
+      "listname": "ハードボイルド",
+      "tags": [
+        "ハードボイルド"
+      ]
+    }
+  },
+  {
+    "taste_japanese": {
+      "listname": "和風",
+      "tags": [
+        "和風"
+      ]
+    }
+  },
+  {
+    "taste_horror": {
+      "listname": "ホラー・サスペンス",
+      "tags": [
+        "ホラー"
+      ]
+    }
+  }
+]

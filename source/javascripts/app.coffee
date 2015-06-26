@@ -27,7 +27,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
 
   $scope.listset
   do ->
-    $http.post('tracklists/__listset.json')
+    $http.get('tracklists/__listset.json')
       .success((data) ->
         $scope.listset = data
       )
@@ -37,7 +37,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
 
   $scope.summary
   do ->
-    $http.post('tracklists/__summary.json')
+    $http.get('tracklists/__summary.json')
       .success((data) ->
         $scope.summary = data
         for a in $scope.listset.genrelist
@@ -79,7 +79,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
       pr = getTrackList pageId
 
   getTrackList = (tracklistId) ->
-    $http.post('tracklists/' + tracklistId + '.json')
+    $http.get('tracklists/' + tracklistId + '.json')
       .success((data) ->
         # console.log(data);
         $scope.tracklist = data

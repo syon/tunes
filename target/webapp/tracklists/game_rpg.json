@@ -1,0 +1,181 @@
+{
+  "listname": "RPG",
+  "tracks": [
+    {
+      "filepath": "/materials/SenkaNoNakaDe.mp3",
+      "title": "戦火の中で",
+      "time": 58,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "サウンドノベル",
+        "緊張感",
+        "バトル",
+        "陰謀"
+      ]
+    },
+    {
+      "filepath": "/materials/Taiji.mp3",
+      "title": "対峙",
+      "time": 86,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "サウンドノベル",
+        "緊張感",
+        "陰謀"
+      ]
+    },
+    {
+      "filepath": "/materials/TatakaiNoMai.mp3",
+      "title": "戦いの舞い",
+      "time": 183,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "バトル",
+        "ファンタジー"
+      ]
+    },
+    {
+      "filepath": "/materials/VillageInTheForest.mp3",
+      "title": "Village In The Forest",
+      "time": 107,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/FieldTheme.mp3",
+      "title": "Field Theme",
+      "time": 95,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Comeback.mp3",
+      "title": "Comeback",
+      "time": 66,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 171,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/BlueEarth.mp3",
+      "title": "Blue Earth",
+      "time": 119,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 163,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "SRPG",
+        "ファンタジー",
+        "壮大",
+        "バトル",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/DarkCastle.mp3",
+      "title": "Dark Castle",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "重厚",
+        "サイバー"
+      ]
+    },
+    {
+      "filepath": "/materials/Ikarinotekken.mp3",
+      "title": "怒りの鉄拳",
+      "time": 98,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "ハードボイルド",
+        "緊張感",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life.mp3",
+      "time": 134,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "サウンドノベル",
+        "穏やか",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/EdgeOfTheSteel.mp3",
+      "title": "Edge of the Steel",
+      "time": 208,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "オープニング",
+        "重厚"
+      ]
+    }
+  ]
+}
