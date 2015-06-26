@@ -11,28 +11,11 @@ sources =
   less:   'source/**/*.less'
   static: 'public/**/*'
 
-libs =
-  js: [
-    'angular/angular.min.js'
-    'angular-animate/angular-animate.min.js'
-    'angular-aria/angular-aria.min.js'
-    'angular-cookies/angular-cookies.min.js'
-    'angular-material/angular-material.min.js'
-    'angular-route/angular-route.min.js'
-    'FileSaver/FileSaver.min.js'
-    'jquery/dist/jquery.min.js'
-    'underscore/underscore-min.js'
-    'soundmanager2/script/soundmanager2-jsmin.js'
-  ]
-  css:    [
-    'angular-material/angular-material.min.css'
-  ]
-  static: []
-
-
 bower       = require 'bower'
+mbfiles     = require 'main-bower-files'
 del         = require 'del'
 gulp        = require 'gulp'
+gulpif      = require 'gulp-if'
 coffee      = require 'gulp-coffee'
 concat      = require 'gulp-concat'
 jade        = require 'gulp-jade'
@@ -41,30 +24,27 @@ ngAnnotate  = require 'gulp-ng-annotate'
 nodemon     = require 'gulp-nodemon'
 uglify      = require 'gulp-uglify'
 
-dest_dir = 'target/webapp/'
+bowerfiles  = mbfiles()
+dest_dir    = 'target/webapp/'
 
 gulp.task 'default', ['clean'], ->
-  gulp.start 'compile:lib', 'compile:jade', 'compile:coffee', 'compile:less', 'compile:static'
+  gulp.start 'compile:bower', 'compile:jade', 'compile:coffee', 'compile:less', 'compile:static'
 
 gulp.task 'clean', (cb) ->
   del dest_dir, cb
 
 gulp.task 'watch', ->
-  gulp.watch sources.bower,  ['compile:lib']
+  gulp.watch sources.bower,  ['compile:bower']
+  gulp.watch sources.jade,   ['compile:jade']
   gulp.watch sources.coffee, ['compile:coffee']
   gulp.watch sources.less,   ['compile:less']
   gulp.watch sources.static, ['compile:static']
 
-
-gulp.task 'compile:lib', ->
+gulp.task 'compile:bower', ->
   bower.commands.install().on 'end', ->
-    gulp.src libs.js.map (e) -> "bower_components/#{e}"
-      .pipe concat 'lib.js'
-      .pipe gulp.dest dest_dir + 'js/'
-    gulp.src libs.css.map (e) -> "bower_components/#{e}"
-      .pipe concat 'lib.css'
-      .pipe gulp.dest dest_dir + 'css/'
-    gulp.src libs.static.map (e) -> "bower_components/#{e}"
+    isCss = (file) -> return file.path.substr(-4) == '.css'
+    gulp.src bowerfiles
+      .pipe gulpif(isCss, concat('components.css'), concat('components.js'))
       .pipe gulp.dest dest_dir
 
 gulp.task 'compile:jade', ->
@@ -78,18 +58,17 @@ gulp.task 'compile:coffee', ->
     .pipe ngAnnotate()
     .pipe uglify()
     .pipe concat 'app.js'
-    .pipe gulp.dest dest_dir + 'js/'
+    .pipe gulp.dest dest_dir
 
 gulp.task 'compile:less', ->
   gulp.src sources.less
     .pipe less()
     .pipe concat 'app.css'
-    .pipe gulp.dest dest_dir + 'css/'
+    .pipe gulp.dest dest_dir
 
 gulp.task 'compile:static', ->
   gulp.src sources.static
     .pipe gulp.dest dest_dir
-
 
 gulp.task 'server', ['compile:apimock'], ->
   gulp.start 'watch', 'watch:apimock'
