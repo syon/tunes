@@ -1,9 +1,20 @@
 Tunes
 =====
 
+### Install
+
+```sh
+$ npm install
+```
+
+### Build
+
+```sh
+$ gulp
+```
+
 ### Play
 
-```
-$ bundle exec middleman build
-$ foreman start
+```sh
+$ gulp server
 ```
