@@ -28,7 +28,13 @@ bowerfiles  = mbfiles()
 dest_dir    = 'build/webapp/'
 
 gulp.task 'default', ['clean'], ->
-  gulp.start 'compile:bower', 'compile:jade', 'compile:coffee', 'compile:less', 'compile:static'
+  gulp.start(
+    'compile:bower'
+    'compile:jade'
+    'compile:coffee'
+    'compile:less'
+    'compile:static'
+  )
 
 gulp.task 'clean', (cb) ->
   del dest_dir, cb
@@ -56,7 +62,7 @@ gulp.task 'compile:coffee', ->
   gulp.src sources.coffee
     .pipe coffee()
     .pipe ngAnnotate()
-    #.pipe uglify()
+    .pipe uglify()
     .pipe concat 'app.js'
     .pipe gulp.dest dest_dir
 
