@@ -1,0 +1,29 @@
+md-dialog(class="modal" aria-label="download")
+  form
+  md-toolbar
+    div(class="md-toolbar-tools")
+      h2 ダウンロード
+      span(flex)
+      md-button(class="md-icon-button" ng-click="answer('not applicable')")
+        md-icon
+          i(class="material-icons md-24") close
+
+  md-dialog-content
+    div
+      h2
+        i(class="material-icons") audiotrack
+        span(class="title") {{pick.title}}
+        div(class="time") {{pick.time}}
+
+      p {{pick.desc}}
+      section(layout="row" layout-align="center center")
+        md-button(class="md-raised md-accent" ng-click="download(pick)")
+          i(class="material-icons") file_download
+          | ダウンロード
+
+  div(class="md-actions" layout="row")
+    a(href="http://creativecommons.org/licenses/by/4.0/" rel="license" style="width:88px;height:31px;" target="_blank")
+      img(alt="クリエイティブ・コモンズ・ライセンス" src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0")
+    md-button(ng-click="showAbout()") 利用規約
+    span(flex)
+    md-button(ng-click="hide()" class="download md-primary") 閉じる

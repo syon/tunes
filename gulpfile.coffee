@@ -6,7 +6,7 @@
 
 sources =
   bower:  'bower.json'
-  jade:   'source/index.jade'
+  jade:   'source/**/*.jade'
   coffee: 'source/**/*.coffee'
   less:   'source/**/*.less'
   static: 'public/**/*'
@@ -56,7 +56,7 @@ gulp.task 'compile:coffee', ->
   gulp.src sources.coffee
     .pipe coffee()
     .pipe ngAnnotate()
-    .pipe uglify()
+    #.pipe uglify()
     .pipe concat 'app.js'
     .pipe gulp.dest dest_dir
 

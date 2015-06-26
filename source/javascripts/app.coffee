@@ -99,7 +99,7 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
     $mdDialog
       .show(
         controller: DialogController
-        templateUrl: 'download.tmpl/index.html'
+        templateUrl: 'download.tmpl.html'
         parent: angular.element(document.body)
         targetEvent: ev
       )
