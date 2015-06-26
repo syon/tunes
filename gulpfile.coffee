@@ -6,9 +6,9 @@
 
 sources =
   bower:  'bower.json'
-  jade:   'source/**/*.jade'
-  coffee: 'source/**/*.coffee'
-  less:   'source/**/*.less'
+  jade:   'app/*.jade'
+  coffee: 'app/**/*.coffee'
+  less:   'app/**/*.less'
   static: 'public/**/*'
 
 bower       = require 'bower'
