@@ -5,7 +5,7 @@ require 'json'
 require 'ap'
 
 base_dir = "/Users/syon/Dropbox/sion_andy/音の園/materials（リリース版）/"
-json_dir = "source/tracklists/"
+json_dir = "public/tracklists/"
 
 def find_tagmatch_music_list(musics, tag)
   list = []
