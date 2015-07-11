@@ -62,7 +62,7 @@ gulp.task 'compile:coffee', ->
   gulp.src sources.coffee
     .pipe coffee()
     .pipe ngAnnotate()
-    .pipe uglify()
+    # .pipe uglify()
     .pipe concat 'app.js'
     .pipe gulp.dest dest_dir
 

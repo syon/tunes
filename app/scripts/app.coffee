@@ -14,7 +14,7 @@ app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 # Global Variables
 app.value '_pick', {}
 
-app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http', (_pick, $scope, $mdSidenav, $mdDialog, $http) ->
+app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
 
   $scope.toggleSidenav = (menuId) ->
     $mdSidenav(menuId).toggle()
@@ -94,7 +94,19 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
   transAbout = () ->
     $scope.transPage(null, 'about')
 
-  $scope.openDownloadDialog = (ev, track) ->
+  # Initialize
+  $scope.transPage(null, 'home')
+
+  return
+]
+
+app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdDialog) ->
+
+  @play = (trackId) ->
+    target = "#" + trackId + " a"
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+
+  @openDownloadDialog = (ev, track) ->
     _pick.track = track
     $mdDialog
       .show(
@@ -104,11 +116,11 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
         targetEvent: ev
       )
       .then ((answer) ->
-        $scope.alert = 'You said the information was "' + answer + '".'
-        console.log answer
+        # @alert = 'You said the information was "' + answer + '".'
+        # console.log answer
         return
     ), ->
-      $scope.alert = 'You cancelled the dialog.'
+      # @alert = 'You cancelled the dialog.'
       return
     return
 
@@ -136,18 +148,6 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
     $scope.download = (pick) ->
       Tunes.download pick
       return
-
-  # Initialize
-  $scope.transPage(null, 'home')
-
-  return
-]
-
-app.controller 'TuneCtrl', ['$http', ($http) ->
-
-  @play = (trackId) ->
-    target = "#" + trackId + " a"
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
 
   return
 ]
