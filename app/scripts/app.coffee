@@ -31,8 +31,8 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
         $scope.summary = data
         for a in $scope.listset.genrelist
           a.count = getTrackCount(a.id)
-        for a in $scope.listset.tastelist
-          a.count = getTrackCount(a.id)
+        # for a in $scope.listset.tastelist
+        #   a.count = getTrackCount(a.id)
         for a in $scope.listset.scenelist
           a.count = getTrackCount(a.id)
       )

@@ -19,8 +19,8 @@ md-content.docs-menu
           .name(ng-bind="musicset.name")
           .count(ng-bind="musicset.count")
 
-  h2.menu-heading.md-subhead テイスト
-  ul.menu-toggle-list
+  //- h2.menu-heading.md-subhead テイスト
+  //- ul.menu-toggle-list
     li.music(ng-repeat=("musicset in listset.tastelist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{'active' : isSelected()}")

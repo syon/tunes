@@ -9,15 +9,6 @@
     {"id": "game_flight", "name": "フライト"},
     {"id": "game_other", "name": "その他"}
   ],
-  "tastelist": [
-    {"id": "taste_fantasy", "name": "ファンタジー"},
-    {"id": "taste_gothic", "name": "ゴシック・教会"},
-    {"id": "taste_japanese", "name": "和風"},
-    {"id": "taste_horror", "name": "ホラー・サスペンス"},
-    {"id": "taste_famicon", "name": "ファミコン"},
-    {"id": "taste_cyber", "name": "サイバー・エレクトリック"},
-    {"id": "taste_hardboiled", "name": "ハードボイルド"}
-  ],
   "scenelist": [
     {"id": "scene_opening", "name": "オープニング"},
     {"id": "scene_battle", "name": "バトル"},
