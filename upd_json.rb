@@ -43,6 +43,7 @@ csv.map do |df|
     tag.title  = df[:title]
     tag.artist = df[:artist]
     tag.album  = df[:album]
+    tag.genre  = df[:genre]
     file.save
   end
 
