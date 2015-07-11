@@ -143,9 +143,9 @@ app.controller 'AppCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http'
   return
 ]
 
-app.controller 'TracklistCtrl', ['$scope', '$http', ($scope, $http) ->
+app.controller 'TuneCtrl', ['$http', ($http) ->
 
-  $scope.play = (trackId) ->
+  @play = (trackId) ->
     target = "#" + trackId + " a"
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
 

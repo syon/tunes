@@ -19,14 +19,14 @@ html(ng-app="App")
         include ./_layouts/player.jade
 
         md-content(flex layout="column" ng-show="useTracks")
-          #tracklistarea(flex layout="column" layout-fill ng-controller="TracklistCtrl")
+          #tracklistarea(flex layout="column" layout-fill ng-controller="TuneCtrl as tune")
             md-content.md-padding
               section.md-whiteframe-z1
                 md-list(ng-show="tracklist")
                   .track(ng-repeat=("track in tracklist.tracks"))
                     md-list-item.md-3-line(flex)
                       .avatar
-                      .md-list-item-text(ng-click="play($index+1)")
+                      .md-list-item-text(ng-click="tune.play($index+1)")
                         h3
                           span.title(ng-bind="track.title")
                           .time(ng-bind="convertTime(track.time)")
