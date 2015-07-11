@@ -2,6 +2,29 @@
   "listname": "明るい",
   "tracks": [
     {
+      "filepath": "/materials/FieldTheme.mp3",
+      "title": "Field Theme",
+      "time": 120,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "ファンタジー",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life",
+      "time": 180,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "穏やか",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
@@ -26,26 +49,51 @@
       ]
     },
     {
-      "filepath": "/materials/Itsumonokimi.mp3",
-      "title": "いつものキミ",
-      "time": 185,
-      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です（笑）",
+      "filepath": "/materials/Comeback.mp3",
+      "title": "Comeback",
+      "time": 105,
+      "desc": null,
       "tags": [
-        "夏恋",
-        "明るい",
-        "かわいい"
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
       ]
     },
     {
-      "filepath": "/materials/NatsuMatsuri.mp3",
-      "title": "夏祭り",
-      "time": 153,
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
       "desc": null,
       "tags": [
-        "和風短編曲集",
-        "和風",
-        "夜",
+        "バロック",
+        "ファンタジー",
+        "壮大",
         "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 213,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "Take Off",
+      "time": 58,
+      "desc": null,
+      "tags": [
+        "フライト",
+        "壮大",
+        "明るい",
+        "疾走感"
       ]
     },
     {
@@ -73,74 +121,26 @@
       ]
     },
     {
-      "filepath": "/materials/TakeOff.mp3",
-      "title": "Take Off",
-      "time": 58,
+      "filepath": "/materials/Itsumonokimi.mp3",
+      "title": "いつものキミ",
+      "time": 185,
       "desc": null,
       "tags": [
-        "フライト",
-        "壮大",
-        "明るい",
-        "疾走感"
-      ]
-    },
-    {
-      "filepath": "/materials/FieldTheme.mp3",
-      "title": "Field Theme",
-      "time": 120,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Comeback.mp3",
-      "title": "Comeback",
-      "time": 105,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Fanfare.mp3",
-      "title": "ファンファーレ",
-      "time": 20,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/AudienceWithTheKing.mp3",
-      "title": "Audience with the King",
-      "time": 213,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/PastoralLife.mp3",
-      "title": "Pastoral Life",
-      "time": 180,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "穏やか",
+        "夏恋",
         "明るい",
         "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/NatsuMatsuri.mp3",
+      "title": "夏祭り",
+      "time": 153,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "夜",
+        "明るい"
       ]
     }
   ]

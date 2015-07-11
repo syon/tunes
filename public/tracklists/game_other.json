@@ -2,6 +2,46 @@
   "listname": "その他",
   "tracks": [
     {
+      "filepath": "/materials/Hadakanoousama.mp3",
+      "title": "裸の王様",
+      "time": 80,
+      "desc": null,
+      "tags": [
+        "その他"
+      ]
+    },
+    {
+      "filepath": "/materials/NightWalking.mp3",
+      "title": "Night Walking",
+      "time": 87,
+      "desc": null,
+      "tags": [
+        "その他"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_rockman5.mp3",
+      "title": "ロックマン５ ステージセレクト",
+      "time": 17,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "カバー"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_retrotitle.mp3",
+      "title": "レトロタイトル",
+      "time": 19,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "かわいい"
+      ]
+    },
+    {
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
@@ -26,43 +66,14 @@
       ]
     },
     {
-      "filepath": "/materials/8bit_retrotitle.mp3",
-      "title": "レトロタイトル",
-      "time": 19,
-      "desc": null,
-      "tags": [
-        "その他",
-        "8bit",
-        "かわいい"
-      ]
-    },
-    {
-      "filepath": "/materials/8bit_rockman5.mp3",
-      "title": "ロックマン５ ステージセレクト",
-      "time": 17,
-      "desc": null,
-      "tags": [
-        "その他",
-        "8bit",
-        "カバー"
-      ]
-    },
-    {
-      "filepath": "/materials/NightWalking.mp3",
-      "title": "Night Walking",
+      "filepath": "/materials/AttakaShichu.mp3",
+      "title": "あったかシチュー",
       "time": 87,
       "desc": null,
       "tags": [
-        "その他"
-      ]
-    },
-    {
-      "filepath": "/materials/Hadakanoousama.mp3",
-      "title": "裸の王様",
-      "time": 80,
-      "desc": null,
-      "tags": [
-        "その他"
+        "その他",
+        "穏やか",
+        "かわいい"
       ]
     },
     {
@@ -74,17 +85,6 @@
         "その他",
         "神秘的",
         "回想"
-      ]
-    },
-    {
-      "filepath": "/materials/AttakaShichu.mp3",
-      "title": "あったかシチュー",
-      "time": 87,
-      "desc": null,
-      "tags": [
-        "その他",
-        "穏やか",
-        "かわいい"
       ]
     },
     {

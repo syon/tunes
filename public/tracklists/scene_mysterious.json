@@ -2,19 +2,6 @@
   "listname": "神秘的",
   "tracks": [
     {
-      "filepath": "/materials/RinneTensei.mp3",
-      "title": "輪廻転生",
-      "time": 195,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "壮大",
-        "神秘的",
-        "クライマックス"
-      ]
-    },
-    {
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
       "time": 93,
@@ -47,6 +34,19 @@
         "夜",
         "穏やか",
         "神秘的"
+      ]
+    },
+    {
+      "filepath": "/materials/RinneTensei.mp3",
+      "title": "輪廻転生",
+      "time": 195,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "壮大",
+        "神秘的",
+        "クライマックス"
       ]
     }
   ]

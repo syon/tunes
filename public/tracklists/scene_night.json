@@ -2,30 +2,6 @@
   "listname": "夜",
   "tracks": [
     {
-      "filepath": "/materials/Oborozuki.mp3",
-      "title": "おぼろ月",
-      "time": 232,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "夜",
-        "緊張感"
-      ]
-    },
-    {
-      "filepath": "/materials/NatsuMatsuri.mp3",
-      "title": "夏祭り",
-      "time": 153,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "夜",
-        "明るい"
-      ]
-    },
-    {
       "filepath": "/materials/MachiNoTomoshibi.mp3",
       "title": "街の灯火",
       "time": 42,
@@ -47,6 +23,30 @@
         "夜",
         "穏やか",
         "ピアノ"
+      ]
+    },
+    {
+      "filepath": "/materials/Oborozuki.mp3",
+      "title": "おぼろ月",
+      "time": 232,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "夜",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/NatsuMatsuri.mp3",
+      "title": "夏祭り",
+      "time": 153,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "夜",
+        "明るい"
       ]
     }
   ]

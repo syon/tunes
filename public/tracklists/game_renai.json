@@ -24,28 +24,6 @@
       ]
     },
     {
-      "filepath": "/materials/Itsumonokimi.mp3",
-      "title": "いつものキミ",
-      "time": 185,
-      "desc": "このサイトを立ち上げようと決めた時に一番最初に作った曲なのです。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでどうなることやらヒヤヒヤしてました(汗) 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。この曲で一番こだわった部分は・・・・実は「曲名」です（笑）",
-      "tags": [
-        "夏恋",
-        "明るい",
-        "かわいい"
-      ]
-    },
-    {
-      "filepath": "/materials/Amenochi.mp3",
-      "title": "雨のち…",
-      "time": 107,
-      "desc": null,
-      "tags": [
-        "夏恋",
-        "悲しい",
-        "オルゴール"
-      ]
-    },
-    {
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 120,
@@ -70,6 +48,39 @@
       ]
     },
     {
+      "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
+      "title": "飛火入夏虫",
+      "time": 131,
+      "desc": null,
+      "tags": [
+        "夏恋",
+        "緊張感",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Amenochi.mp3",
+      "title": "雨のち…",
+      "time": 107,
+      "desc": null,
+      "tags": [
+        "夏恋",
+        "悲しい",
+        "オルゴール"
+      ]
+    },
+    {
+      "filepath": "/materials/Itsumonokimi.mp3",
+      "title": "いつものキミ",
+      "time": 185,
+      "desc": null,
+      "tags": [
+        "夏恋",
+        "明るい",
+        "かわいい"
+      ]
+    },
+    {
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
       "time": 269,
@@ -79,17 +90,6 @@
         "夜",
         "穏やか",
         "ピアノ"
-      ]
-    },
-    {
-      "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
-      "title": "飛火入夏虫",
-      "time": 131,
-      "desc": null,
-      "tags": [
-        "夏恋",
-        "緊張感",
-        "疾走感"
       ]
     }
   ]

@@ -2,26 +2,27 @@
   "listname": "バロックの城",
   "tracks": [
     {
-      "filepath": "/materials/Operations.mp3",
-      "title": "Operations",
-      "time": 92,
+      "filepath": "/materials/EdgeOfTheSteel.mp3",
+      "title": "Edge of the Steel",
+      "time": 283,
       "desc": null,
       "tags": [
         "バロック",
-        "壮大",
-        "疾走感"
+        "ファンタジー",
+        "オープニング",
+        "重厚"
       ]
     },
     {
-      "filepath": "/materials/Sorrow.mp3",
-      "title": "Sorrow",
-      "time": 97,
+      "filepath": "/materials/DarkCastle.mp3",
+      "title": "Dark Castle",
+      "time": 143,
       "desc": null,
       "tags": [
         "バロック",
-        "壮大",
-        "緊張感",
-        "重厚"
+        "ファンタジー",
+        "重厚",
+        "サイバー"
       ]
     },
     {
@@ -38,15 +39,62 @@
       ]
     },
     {
-      "filepath": "/materials/EdgeOfTheSteel.mp3",
-      "title": "Edge of the Steel",
-      "time": 283,
+      "filepath": "/materials/Comeback.mp3",
+      "title": "Comeback",
+      "time": 105,
       "desc": null,
       "tags": [
         "バロック",
         "ファンタジー",
-        "オープニング",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 213,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Sorrow.mp3",
+      "title": "Sorrow",
+      "time": 97,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "壮大",
+        "緊張感",
         "重厚"
+      ]
+    },
+    {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 92,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "壮大",
+        "疾走感"
       ]
     }
   ]

@@ -13,39 +13,15 @@
       ]
     },
     {
-      "filepath": "/materials/Oborozuki.mp3",
-      "title": "おぼろ月",
-      "time": 232,
+      "filepath": "/materials/Kuroikaze.mp3",
+      "title": "黒い風",
+      "time": 163,
       "desc": null,
       "tags": [
         "和風短編曲集",
-        "和風",
-        "夜",
-        "緊張感"
-      ]
-    },
-    {
-      "filepath": "/materials/RinneTensei.mp3",
-      "title": "輪廻転生",
-      "time": 195,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "壮大",
-        "神秘的",
-        "クライマックス"
-      ]
-    },
-    {
-      "filepath": "/materials/Wakoku.mp3",
-      "title": "倭国",
-      "time": 185,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "穏やか"
+        "重厚",
+        "緊張感",
+        "ホラー"
       ]
     },
     {
@@ -62,6 +38,42 @@
       ]
     },
     {
+      "filepath": "/materials/Wakoku.mp3",
+      "title": "倭国",
+      "time": 185,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "穏やか"
+      ]
+    },
+    {
+      "filepath": "/materials/RinneTensei.mp3",
+      "title": "輪廻転生",
+      "time": 195,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "壮大",
+        "神秘的",
+        "クライマックス"
+      ]
+    },
+    {
+      "filepath": "/materials/Oborozuki.mp3",
+      "title": "おぼろ月",
+      "time": 232,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "夜",
+        "緊張感"
+      ]
+    },
+    {
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 153,
@@ -71,18 +83,6 @@
         "和風",
         "夜",
         "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Kuroikaze.mp3",
-      "title": "黒い風",
-      "time": 163,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "重厚",
-        "緊張感",
-        "ホラー"
       ]
     }
   ]

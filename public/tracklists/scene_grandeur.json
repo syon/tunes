@@ -2,90 +2,6 @@
   "listname": "壮大",
   "tracks": [
     {
-      "filepath": "/materials/RinneTensei.mp3",
-      "title": "輪廻転生",
-      "time": 195,
-      "desc": null,
-      "tags": [
-        "和風短編曲集",
-        "和風",
-        "壮大",
-        "神秘的",
-        "クライマックス"
-      ]
-    },
-    {
-      "filepath": "/materials/TakeOff.mp3",
-      "title": "Take Off",
-      "time": 58,
-      "desc": null,
-      "tags": [
-        "フライト",
-        "壮大",
-        "明るい",
-        "疾走感"
-      ]
-    },
-    {
-      "filepath": "/materials/Operations.mp3",
-      "title": "Operations",
-      "time": 92,
-      "desc": null,
-      "tags": [
-        "バロック",
-        "壮大",
-        "疾走感"
-      ]
-    },
-    {
-      "filepath": "/materials/Sorrow.mp3",
-      "title": "Sorrow",
-      "time": 97,
-      "desc": null,
-      "tags": [
-        "バロック",
-        "壮大",
-        "緊張感",
-        "重厚"
-      ]
-    },
-    {
-      "filepath": "/materials/Comeback.mp3",
-      "title": "Comeback",
-      "time": 105,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/Fanfare.mp3",
-      "title": "ファンファーレ",
-      "time": 20,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "filepath": "/materials/AudienceWithTheKing.mp3",
-      "title": "Audience with the King",
-      "time": 213,
-      "desc": null,
-      "tags": [
-        "RPG",
-        "ファンタジー",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 158,
@@ -108,6 +24,90 @@
         "壮大",
         "バトル",
         "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/Comeback.mp3",
+      "title": "Comeback",
+      "time": 105,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 213,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "ファンタジー",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "filepath": "/materials/Sorrow.mp3",
+      "title": "Sorrow",
+      "time": 97,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "壮大",
+        "緊張感",
+        "重厚"
+      ]
+    },
+    {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 92,
+      "desc": null,
+      "tags": [
+        "バロック",
+        "壮大",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "Take Off",
+      "time": 58,
+      "desc": null,
+      "tags": [
+        "フライト",
+        "壮大",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/RinneTensei.mp3",
+      "title": "輪廻転生",
+      "time": 195,
+      "desc": null,
+      "tags": [
+        "和風短編曲集",
+        "和風",
+        "壮大",
+        "神秘的",
+        "クライマックス"
       ]
     }
   ]

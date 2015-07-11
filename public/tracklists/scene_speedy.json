@@ -26,14 +26,15 @@
       ]
     },
     {
-      "filepath": "/materials/TakeOff.mp3",
-      "title": "Take Off",
-      "time": 58,
+      "filepath": "/materials/PreemptiveAttack.mp3",
+      "title": "Preemtive Attack",
+      "time": 219,
       "desc": null,
       "tags": [
-        "フライト",
+        "バロック",
+        "ファンタジー",
         "壮大",
-        "明るい",
+        "バトル",
         "疾走感"
       ]
     },
@@ -49,15 +50,14 @@
       ]
     },
     {
-      "filepath": "/materials/PreemptiveAttack.mp3",
-      "title": "Preemtive Attack",
-      "time": 219,
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "Take Off",
+      "time": 58,
       "desc": null,
       "tags": [
-        "バロック",
-        "ファンタジー",
+        "フライト",
         "壮大",
-        "バトル",
+        "明るい",
         "疾走感"
       ]
     },
