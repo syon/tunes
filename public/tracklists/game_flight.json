@@ -1,0 +1,17 @@
+{
+  "listname": "フライト",
+  "tracks": [
+    {
+      "filepath": "/materials/TakeOff.mp3",
+      "title": "Take Off",
+      "time": 58,
+      "desc": null,
+      "tags": [
+        "フライト",
+        "壮大",
+        "明るい",
+        "疾走感"
+      ]
+    }
+  ]
+}

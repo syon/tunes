@@ -1,15 +1,30 @@
 {
   "game_rpg": {
-    "count": 16
+    "count": 13
   },
-  "game_novel": {
-    "count": 23
+  "game_baroque": {
+    "count": 4
   },
-  "game_puzzle": {
-    "count": 5
+  "game_renai": {
+    "count": 8
   },
-  "game_shooting": {
-    "count": 6
+  "game_wafu": {
+    "count": 7
+  },
+  "game_detective": {
+    "count": 4
+  },
+  "game_horror": {
+    "count": 0
+  },
+  "game_planet": {
+    "count": 4
+  },
+  "game_flight": {
+    "count": 1
+  },
+  "game_other": {
+    "count": 9
   },
   "scene_climax": {
     "count": 1
@@ -36,33 +51,12 @@
     "count": 10
   },
   "scene_comical": {
-    "count": 2
+    "count": 0
   },
   "scene_honobono": {
     "count": 11
   },
   "scene_night": {
     "count": 4
-  },
-  "taste_fantasy": {
-    "count": 9
-  },
-  "taste_gothic": {
-    "count": 0
-  },
-  "taste_cyber": {
-    "count": 6
-  },
-  "taste_famicon": {
-    "count": 5
-  },
-  "taste_hardboiled": {
-    "count": 4
-  },
-  "taste_japanese": {
-    "count": 4
-  },
-  "taste_horror": {
-    "count": 3
   }
 }

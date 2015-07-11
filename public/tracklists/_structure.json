@@ -8,26 +8,66 @@
     }
   },
   {
-    "game_novel": {
-      "listname": "サウンドノベル",
+    "game_baroque": {
+      "listname": "バロックの城",
       "tags": [
-        "サウンドノベル"
+        "バロック"
       ]
     }
   },
   {
-    "game_puzzle": {
-      "listname": "パズル",
+    "game_renai": {
+      "listname": "夏の恋、いつものキミ",
       "tags": [
-        "パズル"
+        "夏恋"
       ]
     }
   },
   {
-    "game_shooting": {
-      "listname": "シューティング",
+    "game_wafu": {
+      "listname": "和風短編曲集",
       "tags": [
-        "シューティング"
+        "和風短編曲集"
+      ]
+    }
+  },
+  {
+    "game_detective": {
+      "listname": "探偵 中園エイジ",
+      "tags": [
+        "探偵"
+      ]
+    }
+  },
+  {
+    "game_horror": {
+      "listname": "時の館",
+      "tags": [
+        "時の館"
+      ]
+    }
+  },
+  {
+    "game_planet": {
+      "listname": "ブループラネット",
+      "tags": [
+        "ブループラネット"
+      ]
+    }
+  },
+  {
+    "game_flight": {
+      "listname": "フライト",
+      "tags": [
+        "フライト"
+      ]
+    }
+  },
+  {
+    "game_other": {
+      "listname": "その他",
+      "tags": [
+        "その他"
       ]
     }
   },
@@ -117,62 +157,6 @@
       "listname": "夜",
       "tags": [
         "夜"
-      ]
-    }
-  },
-  {
-    "taste_fantasy": {
-      "listname": "ファンタジー",
-      "tags": [
-        "ファンタジー"
-      ]
-    }
-  },
-  {
-    "taste_gothic": {
-      "listname": "ゴシック・教会",
-      "tags": [
-        "ゴシック"
-      ]
-    }
-  },
-  {
-    "taste_cyber": {
-      "listname": "サイバー・エレクトリック",
-      "tags": [
-        "サイバー"
-      ]
-    }
-  },
-  {
-    "taste_famicon": {
-      "listname": "ファミコン",
-      "tags": [
-        "8bit"
-      ]
-    }
-  },
-  {
-    "taste_hardboiled": {
-      "listname": "ハードボイルド",
-      "tags": [
-        "ハードボイルド"
-      ]
-    }
-  },
-  {
-    "taste_japanese": {
-      "listname": "和風",
-      "tags": [
-        "和風"
-      ]
-    }
-  },
-  {
-    "taste_horror": {
-      "listname": "ホラー・サスペンス",
-      "tags": [
-        "ホラー"
       ]
     }
   }

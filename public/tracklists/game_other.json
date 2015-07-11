@@ -1,0 +1,103 @@
+{
+  "listname": "その他",
+  "tracks": [
+    {
+      "filepath": "/materials/8bit_fly.mp3",
+      "title": "Fly!",
+      "time": 10,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_stage2.mp3",
+      "title": "ステージ２",
+      "time": 11,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_retrotitle.mp3",
+      "title": "レトロタイトル",
+      "time": 19,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/8bit_rockman5.mp3",
+      "title": "ロックマン５ ステージセレクト",
+      "time": 17,
+      "desc": null,
+      "tags": [
+        "その他",
+        "8bit",
+        "カバー"
+      ]
+    },
+    {
+      "filepath": "/materials/NightWalking.mp3",
+      "title": "Night Walking",
+      "time": 87,
+      "desc": null,
+      "tags": [
+        "その他"
+      ]
+    },
+    {
+      "filepath": "/materials/Hadakanoousama.mp3",
+      "title": "裸の王様",
+      "time": 80,
+      "desc": null,
+      "tags": [
+        "その他"
+      ]
+    },
+    {
+      "filepath": "/materials/HealingVoyager.mp3",
+      "title": "Healing voyager",
+      "time": 170,
+      "desc": null,
+      "tags": [
+        "その他",
+        "神秘的",
+        "回想"
+      ]
+    },
+    {
+      "filepath": "/materials/AttakaShichu.mp3",
+      "title": "あったかシチュー",
+      "time": 87,
+      "desc": null,
+      "tags": [
+        "その他",
+        "穏やか",
+        "かわいい"
+      ]
+    },
+    {
+      "filepath": "/materials/MachiNoTomoshibi.mp3",
+      "title": "街の灯火",
+      "time": 42,
+      "desc": null,
+      "tags": [
+        "その他",
+        "夜",
+        "穏やか",
+        "神秘的"
+      ]
+    }
+  ]
+}

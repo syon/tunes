@@ -1,23 +1,6 @@
 {
   "listname": "コミカル",
   "tracks": [
-    {
-      "filepath": "/materials/NightWalking.mp3",
-      "title": "Night Walking",
-      "time": 87,
-      "desc": null,
-      "tags": [
-        "コミカル"
-      ]
-    },
-    {
-      "filepath": "/materials/Hadakanoousama.mp3",
-      "title": "裸の王様",
-      "time": 80,
-      "desc": null,
-      "tags": [
-        "コミカル"
-      ]
-    }
+
   ]
 }

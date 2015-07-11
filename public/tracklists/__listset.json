@@ -1,10 +1,13 @@
 {
   "genrelist": [
     {"id": "game_rpg", "name": "RPG"},
-    {"id": "game_novel", "name": "サウンドノベル"},
-    {"id": "game_puzzle", "name": "パズル"},
-    {"id": "game_shooting", "name": "シューティング"},
-    {"id": "game_action", "name": "アクション"}
+    {"id": "game_baroque", "name": "バロックの城"},
+    {"id": "game_renai", "name": "夏の恋、いつものキミ"},
+    {"id": "game_wafu", "name": "和風短編曲集"},
+    {"id": "game_detective", "name": "探偵 中園エイジ"},
+    {"id": "game_planet", "name": "ブループラネット"},
+    {"id": "game_flight", "name": "フライト"},
+    {"id": "game_other", "name": "その他"}
   ],
   "tastelist": [
     {"id": "taste_fantasy", "name": "ファンタジー"},
@@ -12,7 +15,6 @@
     {"id": "taste_japanese", "name": "和風"},
     {"id": "taste_horror", "name": "ホラー・サスペンス"},
     {"id": "taste_famicon", "name": "ファミコン"},
-    {"id": "taste_christmas", "name": "クリスマス"},
     {"id": "taste_cyber", "name": "サイバー・エレクトリック"},
     {"id": "taste_hardboiled", "name": "ハードボイルド"}
   ],

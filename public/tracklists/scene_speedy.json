@@ -7,6 +7,7 @@
       "time": 10,
       "desc": null,
       "tags": [
+        "その他",
         "8bit",
         "明るい",
         "疾走感"
@@ -18,6 +19,7 @@
       "time": 11,
       "desc": null,
       "tags": [
+        "その他",
         "8bit",
         "明るい",
         "疾走感"
@@ -25,11 +27,11 @@
     },
     {
       "filepath": "/materials/TakeOff.mp3",
-      "title": "TakeOff",
+      "title": "Take Off",
       "time": 58,
       "desc": null,
       "tags": [
-        "シューティング",
+        "フライト",
         "壮大",
         "明るい",
         "疾走感"
@@ -41,8 +43,7 @@
       "time": 92,
       "desc": null,
       "tags": [
-        "RPG",
-        "シューティング",
+        "バロック",
         "壮大",
         "疾走感"
       ]
@@ -53,7 +54,7 @@
       "time": 219,
       "desc": null,
       "tags": [
-        "RPG",
+        "バロック",
         "ファンタジー",
         "壮大",
         "バトル",
@@ -66,8 +67,7 @@
       "time": 227,
       "desc": null,
       "tags": [
-        "パズル",
-        "シューティング",
+        "ブループラネット",
         "サイバー",
         "疾走感"
       ]
@@ -78,8 +78,7 @@
       "time": 224,
       "desc": null,
       "tags": [
-        "パズル",
-        "シューティング",
+        "ブループラネット",
         "サイバー",
         "疾走感"
       ]
@@ -90,8 +89,7 @@
       "time": 160,
       "desc": null,
       "tags": [
-        "パズル",
-        "シューティング",
+        "ブループラネット",
         "サイバー",
         "疾走感"
       ]
@@ -102,21 +100,18 @@
       "time": 99,
       "desc": null,
       "tags": [
-        "パズル",
-        "シューティング",
+        "ブループラネット",
         "サイバー",
         "疾走感"
       ]
     },
     {
-      "filepath": "/materials/Ikarinotekken.mp3",
-      "title": "怒りの鉄拳",
+      "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
+      "title": "飛火入夏虫",
       "time": 131,
       "desc": null,
       "tags": [
-        "RPG",
-        "サウンドノベル",
-        "ハードボイルド",
+        "夏恋",
         "緊張感",
         "疾走感"
       ]
