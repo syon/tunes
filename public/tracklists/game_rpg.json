@@ -2,9 +2,9 @@
   "listname": "RPG",
   "tracks": [
     {
-      "filepath": "/materials/SenkaNoNakaDe.mp3",
-      "title": "戦火の中で",
-      "time": 58,
+      "filepath": "/materials/Senka.mp3",
+      "title": "戦火",
+      "time": 107,
       "desc": null,
       "tags": [
         "RPG",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "filepath": "/materials/Taiji.mp3",
-      "title": "対峙",
-      "time": 86,
+      "filepath": "/materials/Kishu.mp3",
+      "title": "奇襲",
+      "time": 109,
       "desc": null,
       "tags": [
         "RPG",
@@ -31,7 +31,7 @@
     {
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
-      "time": 183,
+      "time": 218,
       "desc": null,
       "tags": [
         "RPG",
@@ -42,7 +42,7 @@
     {
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village In The Forest",
-      "time": 107,
+      "time": 148,
       "desc": null,
       "tags": [
         "RPG",
@@ -52,7 +52,7 @@
     {
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
-      "time": 95,
+      "time": 120,
       "desc": null,
       "tags": [
         "RPG",
@@ -64,7 +64,7 @@
     {
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
-      "time": 66,
+      "time": 105,
       "desc": null,
       "tags": [
         "RPG",
@@ -90,7 +90,7 @@
     {
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
-      "time": 171,
+      "time": 213,
       "desc": null,
       "tags": [
         "RPG",
@@ -103,7 +103,7 @@
     {
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
-      "time": 119,
+      "time": 158,
       "desc": null,
       "tags": [
         "RPG",
@@ -116,7 +116,7 @@
     {
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemtive Attack",
-      "time": 163,
+      "time": 219,
       "desc": null,
       "tags": [
         "RPG",
@@ -130,7 +130,7 @@
     {
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
-      "time": 94,
+      "time": 143,
       "desc": null,
       "tags": [
         "RPG",
@@ -142,7 +142,7 @@
     {
       "filepath": "/materials/Ikarinotekken.mp3",
       "title": "怒りの鉄拳",
-      "time": 98,
+      "time": 131,
       "desc": null,
       "tags": [
         "RPG",
@@ -155,7 +155,7 @@
     {
       "filepath": "/materials/PastoralLife.mp3",
       "title": "Pastoral Life.mp3",
-      "time": 134,
+      "time": 180,
       "desc": null,
       "tags": [
         "RPG",
@@ -168,7 +168,7 @@
     {
       "filepath": "/materials/EdgeOfTheSteel.mp3",
       "title": "Edge of the Steel",
-      "time": 208,
+      "time": 283,
       "desc": null,
       "tags": [
         "RPG",

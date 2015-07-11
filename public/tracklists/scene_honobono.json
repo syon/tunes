@@ -4,7 +4,7 @@
     {
       "filepath": "/materials/Tabinooyado.mp3",
       "title": "旅のお宿",
-      "time": 126,
+      "time": 169,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -15,7 +15,7 @@
     {
       "filepath": "/materials/Shiawasenokairou.mp3",
       "title": "幸せの回廊",
-      "time": 81,
+      "time": 88,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -25,20 +25,9 @@
       ]
     },
     {
-      "filepath": "/materials/WakokuWithIntro.mp3",
-      "title": "倭国（イントロ有）",
-      "time": 102,
-      "desc": null,
-      "tags": [
-        "サウンドノベル",
-        "和風",
-        "穏やか"
-      ]
-    },
-    {
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
-      "time": 102,
+      "time": 185,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -49,7 +38,7 @@
     {
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
-      "time": 86,
+      "time": 120,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -61,7 +50,7 @@
     {
       "filepath": "/materials/TsukiyoWoTerasuHotaru.mp3",
       "title": "月夜ヲ照ラス蛍",
-      "time": 89,
+      "time": 122,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -94,7 +83,7 @@
     {
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
-      "time": 197,
+      "time": 269,
       "desc": null,
       "tags": [
         "サウンドノベル",
@@ -106,7 +95,7 @@
     {
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village In The Forest",
-      "time": 107,
+      "time": 148,
       "desc": null,
       "tags": [
         "RPG",
@@ -116,7 +105,7 @@
     {
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
-      "time": 119,
+      "time": 158,
       "desc": null,
       "tags": [
         "RPG",
@@ -129,7 +118,7 @@
     {
       "filepath": "/materials/PastoralLife.mp3",
       "title": "Pastoral Life.mp3",
-      "time": 134,
+      "time": 180,
       "desc": null,
       "tags": [
         "RPG",
