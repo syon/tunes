@@ -1,7 +1,6 @@
 {
   "genrelist": [
     {"id": "game_rpg", "name": "RPG"},
-    {"id": "game_srpg", "name": "シミュレーションRPG"},
     {"id": "game_novel", "name": "サウンドノベル"},
     {"id": "game_puzzle", "name": "パズル"},
     {"id": "game_shooting", "name": "シューティング"},

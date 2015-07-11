@@ -8,14 +8,6 @@
     }
   },
   {
-    "game_srpg": {
-      "listname": "シミュレーションRPG",
-      "tags": [
-        "SRPG"
-      ]
-    }
-  },
-  {
     "game_novel": {
       "listname": "サウンドノベル",
       "tags": [

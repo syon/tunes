@@ -8,7 +8,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "サウンドノベル",
         "緊張感",
         "バトル",
@@ -22,7 +21,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "サウンドノベル",
         "緊張感",
         "陰謀"
@@ -40,6 +38,18 @@
       ]
     },
     {
+      "filepath": "/materials/Operations.mp3",
+      "title": "Operations",
+      "time": 92,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "シューティング",
+        "壮大",
+        "疾走感"
+      ]
+    },
+    {
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village In The Forest",
       "time": 148,
@@ -50,13 +60,24 @@
       ]
     },
     {
+      "filepath": "/materials/Sorrow.mp3",
+      "title": "Sorrow",
+      "time": 97,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "壮大",
+        "緊張感",
+        "重厚"
+      ]
+    },
+    {
       "filepath": "/materials/FieldTheme.mp3",
       "title": "Field Theme",
       "time": 120,
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "明るい"
       ]
@@ -68,7 +89,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"
@@ -81,7 +101,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"
@@ -94,7 +113,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "壮大",
         "明るい"
@@ -107,7 +125,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "壮大",
         "穏やか"
@@ -120,7 +137,6 @@
       "desc": null,
       "tags": [
         "RPG",
-        "SRPG",
         "ファンタジー",
         "壮大",
         "バトル",
