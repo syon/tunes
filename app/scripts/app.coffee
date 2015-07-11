@@ -1,14 +1,3 @@
-#= require "underscore-min"
-#= require "FileSaver.min"
-#= require "tunes"
-#= require "angular"
-#= require "angular-route.min"
-#= require "angular-cookies.min"
-#= require "angular-animate.min"
-#= require "angular-aria.min"
-#= require "angular-material.min"
-
-
 app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 
 # Global Variables
