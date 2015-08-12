@@ -129,6 +129,9 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdD
       $mdDialog.hide answer
       return
 
+    $scope.getTime = (sec) ->
+      return Tunes.convertDuration(sec*1000)
+
     $scope.showAbout = () ->
       $mdDialog.hide()
       transAbout()
