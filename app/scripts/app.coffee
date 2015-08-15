@@ -14,6 +14,8 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
     $scope.transPage(null, "home")
     return
 
+  $scope.current = null
+
   $scope.listset
   do ->
     $http.get('tracklists/__listset.json')
@@ -50,6 +52,7 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
   $scope.useTracks
   $scope.tracklist
   $scope.transPage = (ev, pageId) ->
+    $scope.current = pageId
     ev.preventDefault() if ev
     if pageId == 'home'
       $scope.useAbout  = false
