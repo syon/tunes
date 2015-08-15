@@ -17,7 +17,7 @@ html(ng-app="App")
 
         md-content(flex layout="column" ng-show="useTracks")
           #tracklistarea(flex layout="column" layout-fill ng-controller="TuneCtrl as tune")
-            md-content.md-padding
+            md-content
               section.md-whiteframe-z1
                 md-list(ng-show="tracklist")
                   .track(ng-repeat=("track in tracklist.tracks"))
