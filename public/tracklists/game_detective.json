@@ -3,7 +3,7 @@
   "tracks": [
     {
       "filepath": "/materials/8bit_sousakaishi.mp3",
-      "title": "捜査開始",
+      "title": "捜査開始 (8bit)",
       "time": 19,
       "desc": null,
       "tags": [
@@ -12,9 +12,9 @@
       ]
     },
     {
-      "filepath": "/materials/MainStreet.mp3",
-      "title": "Main Street",
-      "time": 178,
+      "filepath": "/materials/MainStreetSousakaishi.mp3",
+      "title": "Main Street ~捜査開始~",
+      "time": 213,
       "desc": null,
       "tags": [
         "探偵",
@@ -41,6 +41,27 @@
       "tags": [
         "探偵",
         "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/Profiling.mp3",
+      "title": "プロファイリング",
+      "time": 180,
+      "desc": null,
+      "tags": [
+        "探偵",
+        "ピアノ",
+        "緊張感"
+      ]
+    },
+    {
+      "filepath": "/materials/SeeYouAgain.mp3",
+      "title": "See you again…",
+      "time": 142,
+      "desc": null,
+      "tags": [
+        "探偵",
+        "エンディング"
       ]
     }
   ]
