@@ -22,8 +22,9 @@ html(ng-app="App")
                 md-list(ng-show="tracklist")
                   .track(ng-repeat=("track in tracklist.tracks"))
                     md-list-item.md-3-line(flex)
-                      .avatar
-                      .md-list-item-text(ng-click="tune.play($index+1)")
+                      md-button(class="btn-play md-fab md-mini" aria-label="play" ng-click="tune.play($index+1)")
+                        i(class="material-icons") play_arrow
+                      .md-list-item-text
                         h3
                           span.title(ng-bind="track.title")
                           .time(ng-bind="convertTime(track.time)")
