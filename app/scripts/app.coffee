@@ -108,6 +108,7 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdD
       $scope.playing = track.title
       Tunes.play(trackNo)
     else
+      $scope.playing = null
       Tunes.stop()
 
   @isPlaying = (track) ->
