@@ -15,6 +15,13 @@ class window.Tunes
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
       return
 
+  @play: (trackNo) ->
+    target = "#" + trackNo + " a"
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+
+  @stop: () ->
+    soundManager.stopAll()
+
   @convertDuration: (ms) ->
     h = String(Math.floor(ms / 3600000) + 100).substring(1)
     m = String(Math.floor((ms - h * 3600000) / 60000) + 100).substring(1)

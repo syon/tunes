@@ -103,11 +103,12 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdD
 
   $scope.playing = null
 
-  @play = (idx, track) ->
-    console.log track
-    $scope.playing = track.title
-    target = "#" + idx + " a"
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+  @play = (trackNo, track) ->
+    unless @isPlaying(track)
+      $scope.playing = track.title
+      Tunes.play(trackNo)
+    else
+      Tunes.stop()
 
   @isPlaying = (track) ->
     return $scope.playing == track.title
