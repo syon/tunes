@@ -6,7 +6,7 @@
 
 sources =
   bower:  'bower.json'
-  jade:   'app/*.jade'
+  jade:   'app/**/*.jade'
   coffee: 'app/**/*.coffee'
   less:   'app/**/*.less'
   static: 'public/**/*'
