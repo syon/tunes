@@ -101,9 +101,16 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
 
 app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdDialog) ->
 
-  @play = (trackId) ->
-    target = "#" + trackId + " a"
+  $scope.playing = null
+
+  @play = (idx, track) ->
+    console.log track
+    $scope.playing = track.title
+    target = "#" + idx + " a"
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+
+  @isPlaying = (track) ->
+    return $scope.playing == track.title
 
   @openDownloadDialog = (ev, track) ->
     _pick.track = track
