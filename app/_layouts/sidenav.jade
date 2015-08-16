@@ -15,7 +15,7 @@ md-content.docs-menu
     .title アルバム
     .count
   ul.menu-toggle-list
-    li.tower(ng-repeat=("musicset in listset.genrelist"))
+    li.tower(ng-repeat=("musicset in listset.albumlist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{active : current == musicset.id}")
           .name(ng-bind="musicset.name")

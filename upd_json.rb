@@ -60,48 +60,43 @@ end
 #
 # Update tracklist json
 #
+block_summary = {}
 summary = {}
 open(json_dir + "_structure.json") do |io|
-  categories = JSON.load(io)
-  categories.each do |cate|
-    cate_name = cate.keys.first
-    category = {listname: cate[cate_name].listname, tracks: []}
-    # cate[cate_name].tracks.each do |filename|
-    #   music = musics[filename]
-    #   next unless music
-    #   track = {
-    #     :filepath => "/materials/#{filename}",
-    #     :title => music[:title],
-    #     :time => music[:time],
-    #     :tags => music[:tags]
-    #   }
-    #   category[:tracks].push(track)
-    # end
+  structure = JSON.load(io)
+  structure.each do |block|
+    blockname = block[0]
+    albums = block[1]
+    albums.each do |album|
+      album_name = album.keys.first
+      musicset = {listname: album[album_name].listname, tracks: []}
 
-    match_list = []
-    cate[cate_name].tags.each do |tag|
-      match_list = find_tagmatch_music_list musics, tag
-    end
-    match_list.each do |music|
-      track = {
-        :filepath => "/materials/#{music[:filename]}",
-        :title => music[:title],
-        :time => music[:time],
-        :desc => music[:desc],
-        :tags => music[:tags]
-      }
-      category[:tracks].push(track)
-    end
+      match_list = []
+      album[album_name].tags.each do |tag|
+        match_list = find_tagmatch_music_list musics, tag
+      end
+      match_list.each do |music|
+        track = {
+          :filepath => "/materials/#{music[:filename]}",
+          :title => music[:title],
+          :time => music[:time],
+          :desc => music[:desc],
+          :tags => music[:tags]
+        }
+        musicset[:tracks].push(track)
+      end
 
-    jpath = json_dir + "#{cate_name}.json"
-    json_data = JSON.pretty_generate(category)
-    open(jpath, 'w') do |io|
-      io.write json_data
-    end
+      jpath = json_dir + "#{album_name}.json"
+      json_data = JSON.pretty_generate(musicset)
+      open(jpath, 'w') do |io|
+        io.write json_data
+      end
 
-    obj = {}
-    obj[:count] = category[:tracks].length
-    summary[cate_name] = obj
+      obj = {}
+      obj[:count] = musicset[:tracks].length
+      block_summary[album_name] = obj
+    end
+    summary[blockname] = block_summary
   end
 end
 
