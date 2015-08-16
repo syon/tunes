@@ -20,7 +20,7 @@ app.controller 'RightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', ($scope
         $log.debug("close RIGHT is done")
 ]
 
-app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
+app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http', (_pick, $scope, $mdSidenav, $mdDialog, $http) ->
 
   $scope.updateState = ->
     # dummy process for @isPlaying
@@ -109,10 +109,6 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
   # Initialize
   $scope.transPage(null, 'home')
 
-  return
-]
-
-app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdDialog) ->
 
   @play = (trackNo, track) ->
     unless @isPlaying(track)

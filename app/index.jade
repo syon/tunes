@@ -3,7 +3,7 @@ html(ng-app="App")
 
   include ./_layouts/head.jade
 
-  body(layout="column" ng-controller="AppCtrl")
+  body(layout="column" ng-controller="TuneCtrl as tune")
 
     div(flex layout="row")
       md-sidenav.site-sidenav.md-sidenav-left.md-whiteframe-z2(layout="column" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')")
@@ -16,7 +16,7 @@ html(ng-app="App")
         include ./_layouts/player.jade
 
         md-content(flex layout="column" ng-show="useTracks")
-          #tracklistarea(flex layout="column" layout-fill ng-controller="TuneCtrl as tune")
+          #tracklistarea(flex layout="column" layout-fill)
             md-button.interval-btn(ng-click="updateState()" style="display:none;" aria-label="interval")
             md-content
               section.md-whiteframe-z1
