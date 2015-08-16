@@ -22,7 +22,7 @@ html(ng-app="App")
                 md-list(ng-show="tracklist")
                   .track(ng-repeat=("track in tracklist.tracks"))
                     md-list-item.md-3-line(flex)
-                      md-button(class="btn-play md-fab md-mini" aria-label="play" ng-click="tune.play($index+1)")
+                      md-button.btn-play.md-icon-button.md-fab.md-mini(aria-label="play" ng-click="tune.play($index+1)")
                         i(class="material-icons") play_arrow
                       .md-list-item-text
                         h3
@@ -42,7 +42,7 @@ html(ng-app="App")
           h3 Sidenav Right
 
     md-button.md-icon-button.md-fab.md-fab-bottom-right(ng-click="toggleSidenav('left')" hide-gt-sm)
-      md-icon(ng-style="{color: font.color}" aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg")
+      i(class="material-icons") menu
 
 
     script(src="/components.js")
