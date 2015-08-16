@@ -16,7 +16,7 @@
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
       "time": 107,
-      "desc": null,
+      "desc": "まさに「THE•てんやわんや」な曲。「今、戦ってます」「今、逃げてます」「今、奇襲されてます」っていう「瞬間音楽」です。",
       "tags": [
         "RPG",
         "緊張感",
@@ -26,9 +26,9 @@
     },
     {
       "filepath": "/materials/PreemptiveAttack.mp3",
-      "title": "Preemtive Attack",
+      "title": "Preemptive Attack",
       "time": 219,
-      "desc": null,
+      "desc": "意識せず曲を作るとどうしても歌もののように段々盛り上がるように構成しがちなのですが、「曲の頭から常に一定の高揚感をキープする」ことを意識しました。シミュレーションRPGのような戦略的なバトルのイメージで作曲しましたのでそういった場面の雰囲気で使えるかも?!",
       "tags": [
         "バロック",
         "ファンタジー",
