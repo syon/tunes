@@ -133,6 +133,7 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdD
         templateUrl: 'download.tmpl.html'
         parent: angular.element(document.body)
         targetEvent: ev
+        clickOutsideToClose: true
       )
       .then ((answer) ->
         # @alert = 'You said the information was "' + answer + '".'
