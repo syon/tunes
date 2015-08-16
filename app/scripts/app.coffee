@@ -3,7 +3,18 @@ app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 # Global Variables
 app.value '_pick', {}
 
+app.controller 'RightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', ($scope, $timeout, $mdSidenav, $log) ->
+  $scope.close = ->
+    $mdSidenav('right').close()
+      .then ->
+        $log.debug("close RIGHT is done")
+]
+
 app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
+
+  $scope.toggleRight = ->
+    $mdSidenav('right').open()
+    return
 
   $scope.toggleSidenav = (menuId) ->
     $mdSidenav(menuId).toggle()

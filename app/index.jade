@@ -33,8 +33,13 @@ html(ng-app="App")
                       md-button.md-raised.download(hide-sm ng-click="tune.openDownloadDialog($event, track)")
                         i(class="material-icons") file_download
                         | ダウンロード
+                      //- md-button(ng-click="toggleRight()" class="md-primary")
+                      //-   span RIGHT
                     md-divider(ng-if="!$last")
 
+      md-sidenav(class="md-sidenav-right md-whiteframe-z2" md-component-id="right")
+        md-content(ng-controller="RightCtrl" layout-padding)
+          h3 Sidenav Right
 
     md-button.md-icon-button.md-fab.md-fab-bottom-right(ng-click="toggleSidenav('left')" hide-gt-sm)
       md-icon(ng-style="{color: font.color}" aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg")
