@@ -26,7 +26,7 @@ html(ng-app="App")
                       md-button.btn-play.md-icon-button.md-fab.md-mini(aria-label="play" ng-click="tune.play($index+1, track)" ng-class="{active : tune.isPlaying(track)}")
                         i.material-icons(ng-if="tune.isPlaying(track)") pause
                         i.material-icons(ng-if="!tune.isPlaying(track)") play_arrow
-                      .md-list-item-text
+                      .md-list-item-text(ng-click="tune.play($index+1, track)")
                         h3
                           span.title(ng-bind="track.title")
                           .time(ng-bind="convertTime(track.time)")
