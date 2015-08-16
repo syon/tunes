@@ -7,11 +7,16 @@ class window.Tunes
   musics: {}
 
   @appendTrackAll: (tracks) ->
+    playingTitle = $('.sm2-playlist-bd li')[0].textContent
+    $('ul.sm2-playlist-bd').empty()
     tracks.forEach (rec, idx) ->
       # for playlist
       mp3_url = Tunes.server_webroot + rec.filepath
       if idx == 0
-        $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
+        if $('.sm2-bar-ui').hasClass('playing')
+          $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + playingTitle + '</li>'
+        else
+          $('.sm2-playlist-target ul.sm2-playlist-bd').append '<li>' + rec.title + '</li>'
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
       return
 

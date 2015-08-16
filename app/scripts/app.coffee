@@ -96,7 +96,6 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
       .success((data) ->
         # console.log(data);
         $scope.tracklist = data
-        $('ul.sm2-playlist-bd').empty()
         Tunes.appendTrackAll(data.tracks)
         $scope.listname = data.listname
       )
