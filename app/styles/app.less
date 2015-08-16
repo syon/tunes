@@ -244,13 +244,17 @@ ul li:first-child {
   background: #267ED5;
 }
 .menu-heading {
-  display: block;
+  display: flex;
   line-height: 32px;
   margin: 0;
   padding: 8px 16px 0;
   text-align: left;
   width: 100%;
-  color: rgba(255, 255, 255, 0.54)
+  color: rgba(255, 255, 255, 0.54);
+
+  .title {
+    margin-right: auto;
+  }
 }
 .docs-menu li.parentActive,
 .docs-menu li.parentActive .menu-toggle-list {

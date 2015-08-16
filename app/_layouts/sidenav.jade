@@ -11,7 +11,9 @@ md-content.docs-menu
         a.md-button(href="#" flex layout="row" ng-class="{active : current == 'about'}")
           .name このサイトについて・利用規約
 
-  h2.menu-heading.md-subhead アルバム
+  h2.menu-heading.md-subhead(flex layout="row")
+    .title アルバム
+    .count
   ul.menu-toggle-list
     li.tower(ng-repeat=("musicset in listset.genrelist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
@@ -19,7 +21,9 @@ md-content.docs-menu
           .name(ng-bind="musicset.name")
           .count(ng-bind="musicset.count")
 
-  h2.menu-heading.md-subhead シーン
+  h2.menu-heading.md-subhead(flex layout="row")
+    .title シーン
+    .count
   ul.menu-toggle-list
     li.music(ng-repeat=("musicset in listset.scenelist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
