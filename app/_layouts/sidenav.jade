@@ -13,7 +13,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead(flex layout="row")
     .title アルバム
-    .count
+    .count {{summary.albums.count}}
   ul.menu-toggle-list
     li.tower(ng-repeat=("musicset in listset.albumlist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
@@ -23,7 +23,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead(flex layout="row")
     .title シーン
-    .count
+    .count {{summary.scenes.count}}
   ul.menu-toggle-list
     li.music(ng-repeat=("musicset in listset.scenelist"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")

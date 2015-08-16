@@ -1,5 +1,6 @@
 {
   "albums": {
+    "count": 52,
     "game_rpg": {
       "count": 9
     },
@@ -26,69 +27,10 @@
     },
     "game_other": {
       "count": 9
-    },
-    "scene_climax": {
-      "count": 1
-    },
-    "scene_battle": {
-      "count": 3
-    },
-    "scene_cheerful": {
-      "count": 12
-    },
-    "scene_dark": {
-      "count": 0
-    },
-    "scene_sad": {
-      "count": 2
-    },
-    "scene_grandeur": {
-      "count": 9
-    },
-    "scene_mysterious": {
-      "count": 4
-    },
-    "scene_speedy": {
-      "count": 10
-    },
-    "scene_comical": {
-      "count": 0
-    },
-    "scene_honobono": {
-      "count": 11
-    },
-    "scene_night": {
-      "count": 4
     }
   },
   "scenes": {
-    "game_rpg": {
-      "count": 9
-    },
-    "game_baroque": {
-      "count": 8
-    },
-    "game_renai": {
-      "count": 8
-    },
-    "game_wafu": {
-      "count": 7
-    },
-    "game_detective": {
-      "count": 6
-    },
-    "game_horror": {
-      "count": 0
-    },
-    "game_planet": {
-      "count": 4
-    },
-    "game_flight": {
-      "count": 1
-    },
-    "game_other": {
-      "count": 9
-    },
+    "count": 56,
     "scene_climax": {
       "count": 1
     },

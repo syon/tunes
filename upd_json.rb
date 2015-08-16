@@ -67,6 +67,7 @@ open(json_dir + "_structure.json") do |io|
   structure.each do |block|
     blockname = block[0]
     albums = block[1]
+    block_summary = {count: 0}
     albums.each do |album|
       album_name = album.keys.first
       musicset = {listname: album[album_name].listname, tracks: []}
@@ -94,6 +95,7 @@ open(json_dir + "_structure.json") do |io|
 
       obj = {}
       obj[:count] = musicset[:tracks].length
+      block_summary[:count] += obj[:count]
       block_summary[album_name] = obj
     end
     summary[blockname] = block_summary
