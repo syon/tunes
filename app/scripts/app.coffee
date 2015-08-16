@@ -2,6 +2,16 @@ app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 
 # Global Variables
 app.value '_pick', {}
+app.value '_playing', null
+
+setInterval ->
+  if $('.sm2-bar-ui').hasClass('playing')
+    playingTitle = $('.sm2-playlist-bd li')[0].textContent
+    app.value['_playing'] = playingTitle
+  else
+    app.value['_playing'] = null
+  $('.interval-btn')[0].click()
+, 1000
 
 app.controller 'RightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', ($scope, $timeout, $mdSidenav, $log) ->
   $scope.close = ->
@@ -11,6 +21,10 @@ app.controller 'RightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', ($scope
 ]
 
 app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav, $http) ->
+
+  $scope.updateState = ->
+    # dummy process for @isPlaying
+    return
 
   $scope.toggleRight = ->
     $mdSidenav('right').open()
@@ -101,18 +115,16 @@ app.controller 'AppCtrl', ['$scope', '$mdSidenav', '$http', ($scope, $mdSidenav,
 
 app.controller 'TuneCtrl', ['_pick', '$scope', '$mdDialog', (_pick, $scope, $mdDialog) ->
 
-  $scope.playing = null
-
   @play = (trackNo, track) ->
     unless @isPlaying(track)
-      $scope.playing = track.title
+      app.value['_playing'] = track.title
       Tunes.play(trackNo)
     else
-      $scope.playing = null
+      app.value['_playing'] = null
       Tunes.stop()
 
   @isPlaying = (track) ->
-    return $scope.playing == track.title
+    return app.value['_playing'] == track.title
 
   @openDownloadDialog = (ev, track) ->
     _pick.track = track
