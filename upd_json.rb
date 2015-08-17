@@ -58,18 +58,17 @@ csv.map do |df|
 end
 
 #
-# Update tracklist json
+# Update structure json
 #
-block_summary = {}
-summary = {}
+summary = []
 open(json_dir + "_structure.json") do |io|
   structure = JSON.load(io)
-  structure.each do |block|
-    blockname = block[0]
-    albums = block[1]
-    block_summary = {count: 0}
+  structure.each do |group|
+    listset = []
+    albums = group['listset']
+    group_count = 0
+
     albums.each do |album|
-      album_id = album.id
       musicset = {listname: album.listname, tracks: []}
 
       match_list = []
@@ -87,22 +86,23 @@ open(json_dir + "_structure.json") do |io|
         musicset[:tracks].push(track)
       end
 
-      jpath = json_dir + "#{album_id}.json"
+      jpath = json_dir + "#{album.id}.json"
       json_data = JSON.pretty_generate(musicset)
       open(jpath, 'w') do |io|
         io.write json_data
       end
 
-      obj = {}
-      obj[:count] = musicset[:tracks].length
-      block_summary[:count] += obj[:count]
-      block_summary[album_id] = obj
+      album[:count] = musicset[:tracks].length
+      group_count += album[:count]
+      listset << album
     end
-    summary[blockname] = block_summary
+    group['group_count'] = group_count
+    group['listset'] = listset
+    summary << group
   end
 end
 
 summary_data = JSON.pretty_generate(summary)
-open(json_dir + "__summary.json", 'w') do |io|
+open(json_dir + "_structure.json", 'w') do |io|
   io.write summary_data
 end

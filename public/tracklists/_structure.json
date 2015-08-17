@@ -1,106 +1,195 @@
-{
-  "albums": [
-    {
-      "id": "game_rpg",
-      "listname": "RPG",
-      "tags": ["RPG"]
-    },
-    {
-      "id": "game_baroque",
-      "listname": "バロックの城",
-      "tags": ["バロック"]
-    },
-    {
-      "id": "game_renai",
-      "listname": "夏の恋、いつものキミ",
-      "tags": ["夏恋"]
-    },
-    {
-      "id": "game_wafu",
-      "listname": "和風短編曲集",
-      "tags": ["和風短編曲集"]
-    },
-    {
-      "id": "game_detective",
-      "listname": "探偵 中園エイジ",
-      "tags": ["探偵"]
-    },
-    {
-      "id": "game_horror",
-      "listname": "時の館",
-      "tags": ["時の館"]
-    },
-    {
-      "id": "game_planet",
-      "listname": "ブループラネット",
-      "tags": ["ブループラネット"]
-    },
-    {
-      "id": "game_flight",
-      "listname": "フライト",
-      "tags": ["フライト"]
-    },
-    {
-      "id": "game_other",
-      "listname": "その他",
-      "tags": ["その他"]
-    }
-  ],
-  "scenes": [
-    {
-      "id": "scene_climax",
-      "listname": "クライマックス",
-      "tags": ["クライマックス"]
-    },
-    {
-      "id": "scene_battle",
-      "listname": "バトル",
-      "tags": ["バトル"]
-    },
-    {
-      "id": "scene_cheerful",
-      "listname": "明るい",
-      "tags": ["明るい"]
-    },
-    {
-      "id": "scene_dark",
-      "listname": "暗い",
-      "tags": ["暗い"]
-    },
-    {
-      "id": "scene_sad",
-      "listname": "悲しい",
-      "tags": ["悲しい"]
-    },
-    {
-      "id": "scene_grandeur",
-      "listname": "壮大",
-      "tags": ["壮大"]
-    },
-    {
-      "id": "scene_mysterious",
-      "listname": "神秘的",
-      "tags": ["神秘的"]
-    },
-    {
-      "id": "scene_speedy",
-      "listname": "疾走感",
-      "tags": ["疾走感"]
-    },
-    {
-      "id": "scene_comical",
-      "listname": "コミカル",
-      "tags": ["コミカル"]
-    },
-    {
-      "id": "scene_honobono",
-      "listname": "安らぎ・穏やか",
-      "tags": ["安らぎ", "穏やか"]
-    },
-    {
-      "id": "scene_night",
-      "listname": "夜",
-      "tags": ["夜"]
-    }
-  ]
-}
+[
+  {
+    "group_id": "albums",
+    "group_count": 52,
+    "listset": [
+      {
+        "id": "game_rpg",
+        "listname": "RPG",
+        "tags": [
+          "RPG"
+        ],
+        "count": 9,
+        "count": 9
+      },
+      {
+        "id": "game_baroque",
+        "listname": "バロックの城",
+        "tags": [
+          "バロック"
+        ],
+        "count": 8,
+        "count": 8
+      },
+      {
+        "id": "game_renai",
+        "listname": "夏の恋、いつものキミ",
+        "tags": [
+          "夏恋"
+        ],
+        "count": 8,
+        "count": 8
+      },
+      {
+        "id": "game_wafu",
+        "listname": "和風短編曲集",
+        "tags": [
+          "和風短編曲集"
+        ],
+        "count": 7,
+        "count": 7
+      },
+      {
+        "id": "game_detective",
+        "listname": "探偵 中園エイジ",
+        "tags": [
+          "探偵"
+        ],
+        "count": 6,
+        "count": 6
+      },
+      {
+        "id": "game_horror",
+        "listname": "時の館",
+        "tags": [
+          "時の館"
+        ],
+        "count": 0,
+        "count": 0
+      },
+      {
+        "id": "game_planet",
+        "listname": "ブループラネット",
+        "tags": [
+          "ブループラネット"
+        ],
+        "count": 4,
+        "count": 4
+      },
+      {
+        "id": "game_flight",
+        "listname": "フライト",
+        "tags": [
+          "フライト"
+        ],
+        "count": 1,
+        "count": 1
+      },
+      {
+        "id": "game_other",
+        "listname": "その他",
+        "tags": [
+          "その他"
+        ],
+        "count": 9,
+        "count": 9
+      }
+    ]
+  },
+  {
+    "group_id": "scenes",
+    "group_count": 56,
+    "listset": [
+      {
+        "id": "scene_climax",
+        "listname": "クライマックス",
+        "tags": [
+          "クライマックス"
+        ],
+        "count": 1,
+        "count": 1
+      },
+      {
+        "id": "scene_battle",
+        "listname": "バトル",
+        "tags": [
+          "バトル"
+        ],
+        "count": 3,
+        "count": 3
+      },
+      {
+        "id": "scene_cheerful",
+        "listname": "明るい",
+        "tags": [
+          "明るい"
+        ],
+        "count": 12,
+        "count": 12
+      },
+      {
+        "id": "scene_dark",
+        "listname": "暗い",
+        "tags": [
+          "暗い"
+        ],
+        "count": 0,
+        "count": 0
+      },
+      {
+        "id": "scene_sad",
+        "listname": "悲しい",
+        "tags": [
+          "悲しい"
+        ],
+        "count": 2,
+        "count": 2
+      },
+      {
+        "id": "scene_grandeur",
+        "listname": "壮大",
+        "tags": [
+          "壮大"
+        ],
+        "count": 9,
+        "count": 9
+      },
+      {
+        "id": "scene_mysterious",
+        "listname": "神秘的",
+        "tags": [
+          "神秘的"
+        ],
+        "count": 4,
+        "count": 4
+      },
+      {
+        "id": "scene_speedy",
+        "listname": "疾走感",
+        "tags": [
+          "疾走感"
+        ],
+        "count": 10,
+        "count": 10
+      },
+      {
+        "id": "scene_comical",
+        "listname": "コミカル",
+        "tags": [
+          "コミカル"
+        ],
+        "count": 0,
+        "count": 0
+      },
+      {
+        "id": "scene_honobono",
+        "listname": "安らぎ・穏やか",
+        "tags": [
+          "安らぎ",
+          "穏やか"
+        ],
+        "count": 11,
+        "count": 11
+      },
+      {
+        "id": "scene_night",
+        "listname": "夜",
+        "tags": [
+          "夜"
+        ],
+        "count": 4,
+        "count": 4
+      }
+    ]
+  }
+]

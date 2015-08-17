@@ -13,20 +13,20 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead(flex layout="row")
     .title アルバム
-    .count {{summary.albums.count}}
+    .count {{listset.albums.group_count}}
   ul.menu-toggle-list
-    li.tower(ng-repeat=("musicset in listset.albums"))
+    li.tower(ng-repeat=("musicset in listset.albums.listset"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{active : current == musicset.id}")
-          .name(ng-bind="musicset.name")
+          .name(ng-bind="musicset.listname")
           .count(ng-bind="musicset.count")
 
   h2.menu-heading.md-subhead(flex layout="row")
     .title シーン
-    .count {{summary.scenes.count}}
+    .count {{listset.scenes.group_count}}
   ul.menu-toggle-list
-    li.music(ng-repeat=("musicset in listset.scenes"))
+    li.music(ng-repeat=("musicset in listset.scenes.listset"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{active : current == musicset.id}")
-          .name(ng-bind="musicset.name")
+          .name(ng-bind="musicset.listname")
           .count(ng-bind="musicset.count")

@@ -41,32 +41,16 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http
 
   $scope.current = null
 
-  $scope.listset
+  $scope.listset = {}
   do ->
     $http.get('tracklists/_structure.json')
       .success((data) ->
-        $scope.listset = data
+        $scope.listset.albums = data[0]
+        $scope.listset.scenes = data[1]
       )
       .error((data, status, headers, config) ->
         console.error "Error! -- data:" + data + "  status:" + status
       )
-
-  $scope.summary
-  do ->
-    $http.get('tracklists/__summary.json')
-      .success((data) ->
-        $scope.summary = data
-        for a in $scope.listset.albums
-          a.count = getTrackCount('albums', a.id)
-        for a in $scope.listset.scenes
-          a.count = getTrackCount('scenes', a.id)
-      )
-      .error((data, status, headers, config) ->
-        console.error "Error! -- data:" + data + "  status:" + status
-      )
-
-  getTrackCount = (block, listId) ->
-    return $scope.summary[block][listId].count if $scope.summary[block][listId]
 
   $scope.convertTime = (sec) ->
     return Tunes.convertDuration(sec*1000)
