@@ -92,8 +92,8 @@ open(json_dir + "_structure.json") do |io|
         io.write json_data
       end
 
-      album[:count] = musicset[:tracks].length
-      group_count += album[:count]
+      album['count'] = musicset[:tracks].length
+      group_count += album['count']
       listset << album
     end
     group['group_count'] = group_count
