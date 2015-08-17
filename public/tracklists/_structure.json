@@ -1,167 +1,106 @@
 {
   "albums": [
     {
-      "game_rpg": {
-        "listname": "RPG",
-        "tags": [
-          "RPG"
-        ]
-      }
+      "id": "game_rpg",
+      "listname": "RPG",
+      "tags": ["RPG"]
     },
     {
-      "game_baroque": {
-        "listname": "バロックの城",
-        "tags": [
-          "バロック"
-        ]
-      }
+      "id": "game_baroque",
+      "listname": "バロックの城",
+      "tags": ["バロック"]
     },
     {
-      "game_renai": {
-        "listname": "夏の恋、いつものキミ",
-        "tags": [
-          "夏恋"
-        ]
-      }
+      "id": "game_renai",
+      "listname": "夏の恋、いつものキミ",
+      "tags": ["夏恋"]
     },
     {
-      "game_wafu": {
-        "listname": "和風短編曲集",
-        "tags": [
-          "和風短編曲集"
-        ]
-      }
+      "id": "game_wafu",
+      "listname": "和風短編曲集",
+      "tags": ["和風短編曲集"]
     },
     {
-      "game_detective": {
-        "listname": "探偵 中園エイジ",
-        "tags": [
-          "探偵"
-        ]
-      }
+      "id": "game_detective",
+      "listname": "探偵 中園エイジ",
+      "tags": ["探偵"]
     },
     {
-      "game_horror": {
-        "listname": "時の館",
-        "tags": [
-          "時の館"
-        ]
-      }
+      "id": "game_horror",
+      "listname": "時の館",
+      "tags": ["時の館"]
     },
     {
-      "game_planet": {
-        "listname": "ブループラネット",
-        "tags": [
-          "ブループラネット"
-        ]
-      }
+      "id": "game_planet",
+      "listname": "ブループラネット",
+      "tags": ["ブループラネット"]
     },
     {
-      "game_flight": {
-        "listname": "フライト",
-        "tags": [
-          "フライト"
-        ]
-      }
+      "id": "game_flight",
+      "listname": "フライト",
+      "tags": ["フライト"]
     },
     {
-      "game_other": {
-        "listname": "その他",
-        "tags": [
-          "その他"
-        ]
-      }
+      "id": "game_other",
+      "listname": "その他",
+      "tags": ["その他"]
     }
   ],
   "scenes": [
     {
-      "scene_climax": {
-        "listname": "クライマックス",
-        "tags": [
-          "クライマックス"
-        ]
-      }
+      "id": "scene_climax",
+      "listname": "クライマックス",
+      "tags": ["クライマックス"]
     },
     {
-      "scene_battle": {
-        "listname": "バトル",
-        "tags": [
-          "バトル"
-        ]
-      }
+      "id": "scene_battle",
+      "listname": "バトル",
+      "tags": ["バトル"]
     },
     {
-      "scene_cheerful": {
-        "listname": "明るい",
-        "tags": [
-          "明るい"
-        ]
-      }
+      "id": "scene_cheerful",
+      "listname": "明るい",
+      "tags": ["明るい"]
     },
     {
-      "scene_dark": {
-        "listname": "暗い",
-        "tags": [
-          "暗い"
-        ]
-      }
+      "id": "scene_dark",
+      "listname": "暗い",
+      "tags": ["暗い"]
     },
     {
-      "scene_sad": {
-        "listname": "悲しい",
-        "tags": [
-          "悲しい"
-        ]
-      }
+      "id": "scene_sad",
+      "listname": "悲しい",
+      "tags": ["悲しい"]
     },
     {
-      "scene_grandeur": {
-        "listname": "壮大",
-        "tags": [
-          "壮大"
-        ]
-      }
+      "id": "scene_grandeur",
+      "listname": "壮大",
+      "tags": ["壮大"]
     },
     {
-      "scene_mysterious": {
-        "listname": "神秘的",
-        "tags": [
-          "神秘的"
-        ]
-      }
+      "id": "scene_mysterious",
+      "listname": "神秘的",
+      "tags": ["神秘的"]
     },
     {
-      "scene_speedy": {
-        "listname": "疾走感",
-        "tags": [
-          "疾走感"
-        ]
-      }
+      "id": "scene_speedy",
+      "listname": "疾走感",
+      "tags": ["疾走感"]
     },
     {
-      "scene_comical": {
-        "listname": "コミカル",
-        "tags": [
-          "コミカル"
-        ]
-      }
+      "id": "scene_comical",
+      "listname": "コミカル",
+      "tags": ["コミカル"]
     },
     {
-      "scene_honobono": {
-        "listname": "安らぎ・穏やか",
-        "tags": [
-          "安らぎ",
-          "穏やか"
-        ]
-      }
+      "id": "scene_honobono",
+      "listname": "安らぎ・穏やか",
+      "tags": ["安らぎ", "穏やか"]
     },
     {
-      "scene_night": {
-        "listname": "夜",
-        "tags": [
-          "夜"
-        ]
-      }
+      "id": "scene_night",
+      "listname": "夜",
+      "tags": ["夜"]
     }
   ]
 }

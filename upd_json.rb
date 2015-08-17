@@ -69,11 +69,11 @@ open(json_dir + "_structure.json") do |io|
     albums = block[1]
     block_summary = {count: 0}
     albums.each do |album|
-      album_name = album.keys.first
-      musicset = {listname: album[album_name].listname, tracks: []}
+      album_id = album.id
+      musicset = {listname: album.listname, tracks: []}
 
       match_list = []
-      album[album_name].tags.each do |tag|
+      album.tags.each do |tag|
         match_list = find_tagmatch_music_list musics, tag
       end
       match_list.each do |music|
@@ -87,7 +87,7 @@ open(json_dir + "_structure.json") do |io|
         musicset[:tracks].push(track)
       end
 
-      jpath = json_dir + "#{album_name}.json"
+      jpath = json_dir + "#{album_id}.json"
       json_data = JSON.pretty_generate(musicset)
       open(jpath, 'w') do |io|
         io.write json_data
@@ -96,7 +96,7 @@ open(json_dir + "_structure.json") do |io|
       obj = {}
       obj[:count] = musicset[:tracks].length
       block_summary[:count] += obj[:count]
-      block_summary[album_name] = obj
+      block_summary[album_id] = obj
     end
     summary[blockname] = block_summary
   end
