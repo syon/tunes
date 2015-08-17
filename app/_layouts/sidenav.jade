@@ -23,7 +23,7 @@ md-content.docs-menu
 
   h2.menu-heading.md-subhead(flex layout="row")
     .title シーン
-    .count {{listset.scenes.group_count}}
+    .count
   ul.menu-toggle-list
     li.music(ng-repeat=("musicset in listset.scenes.listset"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
