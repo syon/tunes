@@ -43,7 +43,7 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http
 
   $scope.listset
   do ->
-    $http.get('tracklists/__listset.json')
+    $http.get('tracklists/_structure.json')
       .success((data) ->
         $scope.listset = data
       )
@@ -56,9 +56,9 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http
     $http.get('tracklists/__summary.json')
       .success((data) ->
         $scope.summary = data
-        for a in $scope.listset.albumlist
+        for a in $scope.listset.albums
           a.count = getTrackCount('albums', a.id)
-        for a in $scope.listset.scenelist
+        for a in $scope.listset.scenes
           a.count = getTrackCount('scenes', a.id)
       )
       .error((data, status, headers, config) ->

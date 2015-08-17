@@ -15,7 +15,7 @@ md-content.docs-menu
     .title アルバム
     .count {{summary.albums.count}}
   ul.menu-toggle-list
-    li.tower(ng-repeat=("musicset in listset.albumlist"))
+    li.tower(ng-repeat=("musicset in listset.albums"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{active : current == musicset.id}")
           .name(ng-bind="musicset.name")
@@ -25,7 +25,7 @@ md-content.docs-menu
     .title シーン
     .count {{summary.scenes.count}}
   ul.menu-toggle-list
-    li.music(ng-repeat=("musicset in listset.scenelist"))
+    li.music(ng-repeat=("musicset in listset.scenes"))
       menu-link.tracklistlink(ng-click="transPage($event, musicset.id)")
         a.md-button(href="#" flex layout="row" ng-class="{active : current == musicset.id}")
           .name(ng-bind="musicset.name")
