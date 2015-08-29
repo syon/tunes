@@ -79,24 +79,8 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 88,
+    "group_count": 85,
     "listset": [
-      {
-        "id": "scene_cute",
-        "listname": "かわいい",
-        "tags": [
-          "かわいい"
-        ],
-        "count": 3
-      },
-      {
-        "id": "scene_battle",
-        "listname": "バトル",
-        "tags": [
-          "バトル"
-        ],
-        "count": 3
-      },
       {
         "id": "scene_cheerful",
         "listname": "明るい",
@@ -151,7 +135,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 8
+        "count": 9
       },
       {
         "id": "scene_night",
@@ -178,12 +162,12 @@
         "count": 8
       },
       {
-        "id": "scene_heavy",
-        "listname": "重厚",
+        "id": "scene_battle",
+        "listname": "バトル",
         "tags": [
-          "重厚"
+          "バトル"
         ],
-        "count": 1
+        "count": 3
       },
       {
         "id": "scene_opening",
