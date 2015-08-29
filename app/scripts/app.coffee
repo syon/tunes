@@ -10,7 +10,7 @@ setInterval ->
     app.value['_playing'] = playingTitle
   else
     app.value['_playing'] = null
-  $('.interval-btn')[0].click()
+  $('.interval-btn')[0].click() if $('.interval-btn').size > 0
 , 1000
 
 app.controller 'RightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', ($scope, $timeout, $mdSidenav, $log) ->
@@ -43,7 +43,7 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http
 
   $scope.listset = {}
   do ->
-    $http.get('tracklists/_structure.json')
+    $http.get('/tracklists/_structure.json')
       .success((data) ->
         $scope.listset.albums = data[0]
         $scope.listset.scenes = data[1]
@@ -74,7 +74,7 @@ app.controller 'TuneCtrl', ['_pick', '$scope', '$mdSidenav', '$mdDialog', '$http
       pr = getTrackList pageId
 
   getTrackList = (tracklistId) ->
-    $http.get('tracklists/' + tracklistId + '.json')
+    $http.get('/tracklists/' + tracklistId + '.json')
       .success((data) ->
         # console.log(data);
         $scope.tracklist = data
