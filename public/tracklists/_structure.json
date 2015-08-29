@@ -79,15 +79,15 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 56,
+    "group_count": 91,
     "listset": [
       {
-        "id": "scene_climax",
-        "listname": "クライマックス",
+        "id": "scene_cute",
+        "listname": "かわいい",
         "tags": [
-          "クライマックス"
+          "かわいい"
         ],
-        "count": 1
+        "count": 4
       },
       {
         "id": "scene_battle",
@@ -107,19 +107,19 @@
       },
       {
         "id": "scene_dark",
-        "listname": "暗い",
+        "listname": "暗い・悲しい",
         "tags": [
           "暗い"
         ],
         "count": 0
       },
       {
-        "id": "scene_sad",
-        "listname": "悲しい",
+        "id": "scene_honobono",
+        "listname": "穏やか・安らぎ",
         "tags": [
-          "悲しい"
+          "穏やか"
         ],
-        "count": 2
+        "count": 11
       },
       {
         "id": "scene_grandeur",
@@ -146,21 +146,12 @@
         "count": 10
       },
       {
-        "id": "scene_comical",
-        "listname": "コミカル",
+        "id": "scene_tense",
+        "listname": "緊張感",
         "tags": [
-          "コミカル"
+          "緊張感"
         ],
-        "count": 0
-      },
-      {
-        "id": "scene_honobono",
-        "listname": "安らぎ・穏やか",
-        "tags": [
-          "安らぎ",
-          "穏やか"
-        ],
-        "count": 11
+        "count": 8
       },
       {
         "id": "scene_night",
@@ -169,6 +160,54 @@
           "夜"
         ],
         "count": 4
+      },
+      {
+        "id": "scene_cyber",
+        "listname": "サイバー",
+        "tags": [
+          "サイバー"
+        ],
+        "count": 5
+      },
+      {
+        "id": "scene_piano",
+        "listname": "ピアノ",
+        "tags": [
+          "ピアノ"
+        ],
+        "count": 8
+      },
+      {
+        "id": "scene_heavy",
+        "listname": "重厚",
+        "tags": [
+          "重厚"
+        ],
+        "count": 5
+      },
+      {
+        "id": "scene_opening",
+        "listname": "オープニング",
+        "tags": [
+          "オープニング"
+        ],
+        "count": 2
+      },
+      {
+        "id": "scene_ending",
+        "listname": "エンディング",
+        "tags": [
+          "エンディング"
+        ],
+        "count": 1
+      },
+      {
+        "id": "scene_8bit",
+        "listname": "8bit",
+        "tags": [
+          "8bit"
+        ],
+        "count": 5
       }
     ]
   }
