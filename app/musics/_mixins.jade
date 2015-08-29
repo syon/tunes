@@ -1,0 +1,10 @@
+mixin tracktitle(name, time)
+  h2
+    i.material-icons audiotrack
+    span.title= name
+    span.time= time
+
+mixin taglist(...tags)
+  each tag in tags
+    button.tag.md-button.md-default-theme(aria-label=tag)
+      span= tag

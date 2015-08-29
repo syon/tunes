@@ -4,6 +4,7 @@ class window.Tunes
     # console.log @
 
   @server_webroot: 'http://oto-no-sono.com'
+  @mp3_directory: '/materials/'
   musics: {}
 
   @appendTrackAll: (tracks) ->
@@ -34,11 +35,12 @@ class window.Tunes
     hm = Number(h) * 60 + Number(m)
     hm + ':' + s
 
-  @download: (track) ->
+  @download: (track_id) ->
     xhr = new XMLHttpRequest
-    path = Tunes.server_webroot + track.filepath
+    filename = track_id + '.mp3'
+    path = Tunes.server_webroot + @mp3_directory + filename
     xhr.open 'GET', path, true
-    xhr.filename = track.filepath.match /[a-zA-Z]+.mp3/
+    xhr.filename = filename
     xhr.responseType = 'blob'
     xhr.send()
     xhr.onload = ->
