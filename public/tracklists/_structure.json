@@ -79,7 +79,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 91,
+    "group_count": 88,
     "listset": [
       {
         "id": "scene_cute",
@@ -87,7 +87,7 @@
         "tags": [
           "かわいい"
         ],
-        "count": 4
+        "count": 3
       },
       {
         "id": "scene_battle",
@@ -111,7 +111,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 0
+        "count": 2
       },
       {
         "id": "scene_honobono",
@@ -183,7 +183,7 @@
         "tags": [
           "重厚"
         ],
-        "count": 5
+        "count": 1
       },
       {
         "id": "scene_opening",
