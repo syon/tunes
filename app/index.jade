@@ -34,16 +34,16 @@ html(ng-app="App")
                           .time(ng-bind="convertTime(track.time)")
                         p
                           md-button.tag(ng-repeat=("tag in track.tags") aria-label="{{tag}}") {{tag}}
-                      md-button.md-raised.download(hide-sm ng-click="tune.openDownloadDialog($event, track)")
+                      md-button.md-raised.download(ng-href="/download/{{track.id}}.html" target="_blank" hide-sm)
                         i(class="material-icons") file_download
                         | ダウンロード
                       //- md-button(ng-click="toggleRight()" class="md-primary")
                       //-   span RIGHT
                     md-divider(ng-if="!$last")
-
-      md-sidenav(class="md-sidenav-right md-whiteframe-z2" md-component-id="right")
-        md-content(ng-controller="RightCtrl" layout-padding)
-          h3 Sidenav Right
+      //- 
+      //- md-sidenav(class="md-sidenav-right md-whiteframe-z2" md-component-id="right")
+      //-   md-content(ng-controller="RightCtrl" layout-padding)
+      //-     h3 Sidenav Right
 
     md-button.md-icon-button.md-fab.md-fab-bottom-right(ng-click="toggleSidenav('left')" hide-gt-sm)
       i(class="material-icons") menu
