@@ -5,6 +5,9 @@ include /generate/download/_mixins.jade
 block title
   title 時忘れ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
 
+block meta
+  +meta('いわゆる「回想シーン」で使うことを想定したのですが、「回想その1」とかっていう曲名を付けるのがイヤでイヤで...多分曲名をあれこれ何回も変えてた時間の方が明らかに長いです。この曲名も若干微妙なのですが...。', ["RPG", "ピアノ", "神秘的"])
+
 block track
   .trackdetail#track_id(data-track="Tokiwasure")
     +tracktitle("時忘れ", "1:33")

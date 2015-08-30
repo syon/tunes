@@ -1,3 +1,7 @@
+mixin meta(desc, keywords)
+  meta(name="description" content=desc)
+  meta(name="keywords" content=keywords.join(','))
+
 mixin tracktitle(name, time)
   h2
     i.material-icons audiotrack

@@ -5,6 +5,9 @@ include /generate/download/_mixins.jade
 block title
   title 雨のち… - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
 
+block meta
+  +meta('最初はちょっと悲しい曲に聴こえますが、だんだんと前向きなメロディになっていきます。その頃にはこの雨も止んでるのかな？', ["夏恋", "暗い"])
+
 block track
   .trackdetail#track_id(data-track="Amenochi")
     +tracktitle("雨のち…", "1:47")
