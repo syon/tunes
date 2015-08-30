@@ -1,0 +1,16 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Blue Planet - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block track
+  .trackdetail#track_id(data-track="BluePlanet")
+    +tracktitle("Blue Planet", "3:47")
+
+    p.taglist
+      +taglist(["エレクトロン", "サイバー", "疾走感"])
+
+    p
+      | 「空」というよりは「宇宙」を舞台にしたイメージで作曲しました。その為、空間の広さを演出するにはどうしたら良いか試行錯誤しました。結果こんな感じなんですが、なかなか「宇宙感」が出たかも。前向きでポップな感じなので、ゲームだけでなく動画などにもおすすめです。

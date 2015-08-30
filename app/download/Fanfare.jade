@@ -1,0 +1,16 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title ファンファーレ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block track
+  .trackdetail#track_id(data-track="Fanfare")
+    +tracktitle("ファンファーレ", "0:20")
+
+    p.taglist
+      +taglist(["バロック", "壮大", "明るい"])
+
+    p
+      | こちらは「ファンファーレのみ」となります。 ご了承くださいませ。

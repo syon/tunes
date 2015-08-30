@@ -1,0 +1,16 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Chaser - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block track
+  .trackdetail#track_id(data-track="Chaser")
+    +tracktitle("Chaser", "2:40")
+
+    p.taglist
+      +taglist(["エレクトロン", "サイバー", "疾走感"])
+
+    p
+      | 「追うもの、追われるもの」がテーマの曲です。生身というよりは「乗り物に乗っていること」が前提の雰囲気かと思います。是非バイクや飛行機、ヘリコプター、パトカーなどで追ってください、逃げ回ってください。パズルゲームとかサウンドノベルでも使えるかも？

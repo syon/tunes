@@ -1,0 +1,16 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 幸せの回廊 - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block track
+  .trackdetail#track_id(data-track="Shiawasenokairou")
+    +tracktitle("幸せの回廊", "1:28")
+
+    p.taglist
+      +taglist(["RPG", "穏やか"])
+
+    p
+      | 私は「幸せはずっと続くものでは無い」と思っております。人生や身体の体調と同じで幸せにもバイオリズムがあり、幸せの「大きさ」や「カタチ」も年齢とともに変化します。この曲はずっと明るい感じでいくかと思いきや、途中で少し暗く、寂しい、ノスタルジックなメロディになります。それでも最後は前向きなメロディで完結するのですが、そんな不安定な幸せの回廊をぐるぐる歩くのが人生だと思います。
