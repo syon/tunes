@@ -2,6 +2,7 @@
   "listname": "和風短編曲集",
   "tracks": [
     {
+      "id": "Tabinooyado",
       "filepath": "/materials/Tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 169,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "Kuroikaze",
       "filepath": "/materials/Kuroikaze.mp3",
       "title": "黒い風",
       "time": 163,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "Towanojojou",
       "filepath": "/materials/Towanojojou.mp3",
       "title": "永遠の叙情",
       "time": 65,
@@ -33,6 +36,7 @@
       ]
     },
     {
+      "id": "Wakoku",
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
       "time": 185,
@@ -43,6 +47,7 @@
       ]
     },
     {
+      "id": "RinneTensei",
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",
       "time": 195,
@@ -54,6 +59,7 @@
       ]
     },
     {
+      "id": "Oborozuki",
       "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 232,
@@ -65,6 +71,7 @@
       ]
     },
     {
+      "id": "NatsuMatsuri",
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 153,

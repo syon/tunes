@@ -2,6 +2,7 @@
   "listname": "暗い・悲しい",
   "tracks": [
     {
+      "id": "Amenochi",
       "filepath": "/materials/Amenochi.mp3",
       "title": "雨のち…",
       "time": 107,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "Towanojojou",
       "filepath": "/materials/Towanojojou.mp3",
       "title": "永遠の叙情",
       "time": 65,

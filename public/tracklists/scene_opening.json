@@ -2,6 +2,7 @@
   "listname": "オープニング",
   "tracks": [
     {
+      "id": "MainStreetSousakaishi",
       "filepath": "/materials/MainStreetSousakaishi.mp3",
       "title": "Main Street ~捜査開始~",
       "time": 213,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "EdgeOfTheSteel",
       "filepath": "/materials/EdgeOfTheSteel.mp3",
       "title": "Edge of the Steel",
       "time": 283,

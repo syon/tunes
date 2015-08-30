@@ -2,6 +2,7 @@
   "listname": "明るい",
   "tracks": [
     {
+      "id": "IhounoChizu",
       "filepath": "/materials/IhounoChizu.mp3",
       "title": "異邦の地図",
       "time": 120,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "PastoralLife",
       "filepath": "/materials/PastoralLife.mp3",
       "title": "Pastoral Life",
       "time": 180,
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "id": "8bit_fly",
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
@@ -36,6 +39,7 @@
       ]
     },
     {
+      "id": "8bit_stage2",
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
       "time": 11,
@@ -48,6 +52,7 @@
       ]
     },
     {
+      "id": "Comeback",
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 105,
@@ -59,6 +64,7 @@
       ]
     },
     {
+      "id": "Fanfare",
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
@@ -70,6 +76,7 @@
       ]
     },
     {
+      "id": "AudienceWithTheKing",
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 213,
@@ -81,6 +88,7 @@
       ]
     },
     {
+      "id": "TakeOff",
       "filepath": "/materials/TakeOff.mp3",
       "title": "Take Off",
       "time": 58,
@@ -93,6 +101,7 @@
       ]
     },
     {
+      "id": "Natsukusa",
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 120,
@@ -105,6 +114,7 @@
       ]
     },
     {
+      "id": "Shittori",
       "filepath": "/materials/Shittori.mp3",
       "title": "しっとりモーニン",
       "time": 122,
@@ -117,6 +127,7 @@
       ]
     },
     {
+      "id": "Itsumonokimi",
       "filepath": "/materials/Itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 185,
@@ -127,6 +138,7 @@
       ]
     },
     {
+      "id": "NatsuMatsuri",
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 153,

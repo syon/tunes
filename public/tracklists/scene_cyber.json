@@ -2,6 +2,7 @@
   "listname": "サイバー",
   "tracks": [
     {
+      "id": "DarkCastle",
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
       "time": 143,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "BluePlanet",
       "filepath": "/materials/BluePlanet.mp3",
       "title": "Blue Planet",
       "time": 227,
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "id": "Approach",
       "filepath": "/materials/Approach.mp3",
       "title": "Approach",
       "time": 224,
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "Chaser",
       "filepath": "/materials/Chaser.mp3",
       "title": "Chaser",
       "time": 160,
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "id": "IntoTheDepth",
       "filepath": "/materials/IntoTheDepth.mp3",
       "title": "Into the Depth",
       "time": 99,

@@ -2,6 +2,7 @@
   "listname": "穏やか・安らぎ",
   "tracks": [
     {
+      "id": "BlueEarth",
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 158,
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id": "VillageInTheForest",
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village in the Forest",
       "time": 148,
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "id": "Shiawasenokairou",
       "filepath": "/materials/Shiawasenokairou.mp3",
       "title": "幸せの回廊",
       "time": 88,
@@ -34,6 +37,7 @@
       ]
     },
     {
+      "id": "PastoralLife",
       "filepath": "/materials/PastoralLife.mp3",
       "title": "Pastoral Life",
       "time": 180,
@@ -45,6 +49,7 @@
       ]
     },
     {
+      "id": "AttakaShichu",
       "filepath": "/materials/AttakaShichu.mp3",
       "title": "あったかシチュー",
       "time": 87,
@@ -55,6 +60,7 @@
       ]
     },
     {
+      "id": "MachiNoTomoshibi",
       "filepath": "/materials/MachiNoTomoshibi.mp3",
       "title": "街の灯火",
       "time": 42,
@@ -67,6 +73,7 @@
       ]
     },
     {
+      "id": "Natsukusa",
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 120,
@@ -79,6 +86,7 @@
       ]
     },
     {
+      "id": "Shittori",
       "filepath": "/materials/Shittori.mp3",
       "title": "しっとりモーニン",
       "time": 122,
@@ -91,6 +99,7 @@
       ]
     },
     {
+      "id": "YomichiWoNukete",
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
       "time": 269,
@@ -103,6 +112,7 @@
       ]
     },
     {
+      "id": "Tabinooyado",
       "filepath": "/materials/Tabinooyado.mp3",
       "title": "旅のお宿",
       "time": 169,
@@ -114,6 +124,7 @@
       ]
     },
     {
+      "id": "Wakoku",
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
       "time": 185,

@@ -2,6 +2,7 @@
   "listname": "バトル",
   "tracks": [
     {
+      "id": "TatakaiNoMai",
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
       "time": 218,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "Senka",
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
       "time": 107,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "PreemptiveAttack",
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemptive Attack",
       "time": 219,

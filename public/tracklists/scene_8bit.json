@@ -2,6 +2,7 @@
   "listname": "8bit",
   "tracks": [
     {
+      "id": "8bit_rockman5",
       "filepath": "/materials/8bit_rockman5.mp3",
       "title": "ロックマン５ ステージセレクト",
       "time": 17,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "8bit_retrotitle",
       "filepath": "/materials/8bit_retrotitle.mp3",
       "title": "レトロタイトル",
       "time": 19,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "8bit_fly",
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "8bit_stage2",
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
       "time": 11,
@@ -47,6 +51,7 @@
       ]
     },
     {
+      "id": "8bit_sousakaishi",
       "filepath": "/materials/8bit_sousakaishi.mp3",
       "title": "捜査開始 (8bit)",
       "time": 19,

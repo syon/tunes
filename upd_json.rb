@@ -55,6 +55,8 @@ csv.map do |df|
     file.save
   end
 
+  music[:id] = df[:filename].clone
+  music[:id].slice!('.mp3')
   music[:filename] = df[:filename]
   music[:title]    = df[:title]
   music[:artist]   = df[:artist]
@@ -66,7 +68,7 @@ csv.map do |df|
 end
 
 musics.each do |m|
-  m_id = m[:filename].clone; m_id.slice! '.mp3'
+  m_id = m[:id]
   buf = File.open("generate/download/_template.jade.tmpl")
   txt = buf.read
   buf.close
@@ -99,6 +101,7 @@ open(json_dir + "_structure.json") do |io|
       end
       match_list.each do |music|
         track = {
+          :id => music[:id],
           :filepath => "/materials/#{music[:filename]}",
           :title => music[:title],
           :time => music[:time],

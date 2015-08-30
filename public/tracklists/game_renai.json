@@ -2,6 +2,7 @@
   "listname": "夏の恋、いつものキミ",
   "tracks": [
     {
+      "id": "Aiwotsutaerukotoba",
       "filepath": "/materials/Aiwotsutaerukotoba.mp3",
       "title": "愛を伝える言葉",
       "time": 128,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "Kugatsunoaozora",
       "filepath": "/materials/Kugatsunoaozora.mp3",
       "title": "九月の蒼空",
       "time": 128,
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "id": "Natsukusa",
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
       "time": 120,
@@ -34,6 +37,7 @@
       ]
     },
     {
+      "id": "Shittori",
       "filepath": "/materials/Shittori.mp3",
       "title": "しっとりモーニン",
       "time": 122,
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "id": "TondeHiniiruNatsunoMushi",
       "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
       "title": "飛火入夏虫",
       "time": 131,
@@ -57,6 +62,7 @@
       ]
     },
     {
+      "id": "Amenochi",
       "filepath": "/materials/Amenochi.mp3",
       "title": "雨のち…",
       "time": 107,
@@ -67,6 +73,7 @@
       ]
     },
     {
+      "id": "Itsumonokimi",
       "filepath": "/materials/Itsumonokimi.mp3",
       "title": "いつものキミ",
       "time": 185,
@@ -77,6 +84,7 @@
       ]
     },
     {
+      "id": "YomichiWoNukete",
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
       "time": 269,

@@ -2,6 +2,7 @@
   "listname": "夜",
   "tracks": [
     {
+      "id": "MachiNoTomoshibi",
       "filepath": "/materials/MachiNoTomoshibi.mp3",
       "title": "街の灯火",
       "time": 42,
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id": "YomichiWoNukete",
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
       "time": 269,
@@ -26,6 +28,7 @@
       ]
     },
     {
+      "id": "Oborozuki",
       "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 232,
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "id": "NatsuMatsuri",
       "filepath": "/materials/NatsuMatsuri.mp3",
       "title": "夏祭り",
       "time": 153,

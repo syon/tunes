@@ -2,6 +2,7 @@
   "listname": "神秘的",
   "tracks": [
     {
+      "id": "Tokiwasure",
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
       "time": 93,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "HealingVoyager",
       "filepath": "/materials/HealingVoyager.mp3",
       "title": "Healing Voyager",
       "time": 170,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "MachiNoTomoshibi",
       "filepath": "/materials/MachiNoTomoshibi.mp3",
       "title": "街の灯火",
       "time": 42,
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "RinneTensei",
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",
       "time": 195,

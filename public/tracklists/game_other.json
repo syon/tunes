@@ -2,6 +2,7 @@
   "listname": "その他",
   "tracks": [
     {
+      "id": "Hadakanoousama",
       "filepath": "/materials/Hadakanoousama.mp3",
       "title": "裸の王様",
       "time": 80,
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": "NightWalking",
       "filepath": "/materials/NightWalking.mp3",
       "title": "Night Walking",
       "time": 87,
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "id": "8bit_rockman5",
       "filepath": "/materials/8bit_rockman5.mp3",
       "title": "ロックマン５ ステージセレクト",
       "time": 17,
@@ -31,6 +34,7 @@
       ]
     },
     {
+      "id": "8bit_retrotitle",
       "filepath": "/materials/8bit_retrotitle.mp3",
       "title": "レトロタイトル",
       "time": 19,
@@ -41,6 +45,7 @@
       ]
     },
     {
+      "id": "8bit_fly",
       "filepath": "/materials/8bit_fly.mp3",
       "title": "Fly!",
       "time": 10,
@@ -53,6 +58,7 @@
       ]
     },
     {
+      "id": "8bit_stage2",
       "filepath": "/materials/8bit_stage2.mp3",
       "title": "ステージ２",
       "time": 11,
@@ -65,6 +71,7 @@
       ]
     },
     {
+      "id": "AttakaShichu",
       "filepath": "/materials/AttakaShichu.mp3",
       "title": "あったかシチュー",
       "time": 87,
@@ -75,6 +82,7 @@
       ]
     },
     {
+      "id": "HealingVoyager",
       "filepath": "/materials/HealingVoyager.mp3",
       "title": "Healing Voyager",
       "time": 170,
@@ -85,6 +93,7 @@
       ]
     },
     {
+      "id": "MachiNoTomoshibi",
       "filepath": "/materials/MachiNoTomoshibi.mp3",
       "title": "街の灯火",
       "time": 42,

@@ -2,6 +2,7 @@
   "listname": "緊張感",
   "tracks": [
     {
+      "id": "Senka",
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
       "time": 107,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "Kishu",
       "filepath": "/materials/Kishu.mp3",
       "title": "奇襲",
       "time": 109,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "Suiri",
       "filepath": "/materials/Suiri.mp3",
       "title": "推理",
       "time": 299,
@@ -33,6 +36,7 @@
       ]
     },
     {
+      "id": "Profiling",
       "filepath": "/materials/Profiling.mp3",
       "title": "プロファイリング",
       "time": 180,
@@ -44,6 +48,7 @@
       ]
     },
     {
+      "id": "DarkCastle",
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
       "time": 143,
@@ -55,6 +60,7 @@
       ]
     },
     {
+      "id": "Sorrow",
       "filepath": "/materials/Sorrow.mp3",
       "title": "Sorrow",
       "time": 97,
@@ -66,6 +72,7 @@
       ]
     },
     {
+      "id": "TondeHiniiruNatsunoMushi",
       "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
       "title": "飛火入夏虫",
       "time": 131,
@@ -77,6 +84,7 @@
       ]
     },
     {
+      "id": "Kuroikaze",
       "filepath": "/materials/Kuroikaze.mp3",
       "title": "黒い風",
       "time": 163,
@@ -87,6 +95,7 @@
       ]
     },
     {
+      "id": "Oborozuki",
       "filepath": "/materials/Oborozuki.mp3",
       "title": "おぼろ月",
       "time": 232,

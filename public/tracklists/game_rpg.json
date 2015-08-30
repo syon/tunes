@@ -2,6 +2,7 @@
   "listname": "RPG",
   "tracks": [
     {
+      "id": "TatakaiNoMai",
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
       "time": 218,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "Tokiwasure",
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
       "time": 93,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "BlueEarth",
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
       "time": 158,
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "IhounoChizu",
       "filepath": "/materials/IhounoChizu.mp3",
       "title": "異邦の地図",
       "time": 120,
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "id": "VillageInTheForest",
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village in the Forest",
       "time": 148,
@@ -56,6 +61,7 @@
       ]
     },
     {
+      "id": "Shiawasenokairou",
       "filepath": "/materials/Shiawasenokairou.mp3",
       "title": "幸せの回廊",
       "time": 88,
@@ -66,6 +72,7 @@
       ]
     },
     {
+      "id": "PastoralLife",
       "filepath": "/materials/PastoralLife.mp3",
       "title": "Pastoral Life",
       "time": 180,
@@ -77,6 +84,7 @@
       ]
     },
     {
+      "id": "Senka",
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
       "time": 107,
@@ -88,6 +96,7 @@
       ]
     },
     {
+      "id": "Kishu",
       "filepath": "/materials/Kishu.mp3",
       "title": "奇襲",
       "time": 109,

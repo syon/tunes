@@ -2,6 +2,7 @@
   "listname": "バロックの城",
   "tracks": [
     {
+      "id": "EdgeOfTheSteel",
       "filepath": "/materials/EdgeOfTheSteel.mp3",
       "title": "Edge of the Steel",
       "time": 283,
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "id": "DarkCastle",
       "filepath": "/materials/DarkCastle.mp3",
       "title": "Dark Castle",
       "time": 143,
@@ -23,6 +25,7 @@
       ]
     },
     {
+      "id": "PreemptiveAttack",
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemptive Attack",
       "time": 219,
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "Comeback",
       "filepath": "/materials/Comeback.mp3",
       "title": "Comeback",
       "time": 105,
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "id": "Fanfare",
       "filepath": "/materials/Fanfare.mp3",
       "title": "ファンファーレ",
       "time": 20,
@@ -57,6 +62,7 @@
       ]
     },
     {
+      "id": "AudienceWithTheKing",
       "filepath": "/materials/AudienceWithTheKing.mp3",
       "title": "Audience with the King",
       "time": 213,
@@ -68,6 +74,7 @@
       ]
     },
     {
+      "id": "Sorrow",
       "filepath": "/materials/Sorrow.mp3",
       "title": "Sorrow",
       "time": 97,
@@ -79,6 +86,7 @@
       ]
     },
     {
+      "id": "Operations",
       "filepath": "/materials/Operations.mp3",
       "title": "Operations",
       "time": 92,
