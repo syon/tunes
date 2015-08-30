@@ -15,6 +15,14 @@ def find_tagmatch_music_list(musics, tag)
   list
 end
 
+def duration(sec)
+  h = (sec / 3600).floor.to_s[0]
+  m = ((sec - (h.to_i * 3600)) / 60).floor.to_s[0]
+  s = (sec - (h.to_i * 3600) - (m.to_i * 60))
+  hm = h.to_i * 60 + m.to_i
+  "#{hm}:" + "00#{s}"[-2,2]
+end
+
 #
 # Write info on mp3 file with CSV
 #
@@ -65,7 +73,7 @@ musics.each do |m|
 
   txt.gsub!('@id@', m_id)
   txt.gsub!('@title@', m[:title])
-  txt.gsub!('@time@', m[:time].to_s)
+  txt.gsub!('@time@', duration(m[:time]))
   txt.gsub!('@tags@', m[:tags].to_s)
   txt.gsub!('@desc@', m[:desc])
   File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
