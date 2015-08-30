@@ -1,0 +1,16 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title @title@ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block track
+  .trackdetail#track_id(data-track="@id@")
+    +tracktitle("@title@", "@time@")
+
+    p.taglist
+      +taglist(@tags@)
+
+    p
+      | @desc@

@@ -57,6 +57,20 @@ csv.map do |df|
   musics.push music
 end
 
+musics.each do |m|
+  m_id = m[:filename].clone; m_id.slice! '.mp3'
+  buf = File.open("generate/download/_template.jade.tmpl")
+  txt = buf.read
+  buf.close
+
+  txt.gsub!('@id@', m_id)
+  txt.gsub!('@title@', m[:title])
+  txt.gsub!('@time@', m[:time].to_s)
+  txt.gsub!('@tags@', m[:tags].to_s)
+  txt.gsub!('@desc@', m[:desc])
+  File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
+end
+
 #
 # Update structure json
 #

@@ -55,7 +55,7 @@ gulp.task 'compile:bower', ->
 
 gulp.task 'compile:jade', ->
   gulp.src sources.jade
-    .pipe jade {locals: {}}
+    .pipe jade {locals: {}, basedir: __dirname}
     .pipe gulp.dest dest_dir
 
 gulp.task 'compile:coffee', ->
