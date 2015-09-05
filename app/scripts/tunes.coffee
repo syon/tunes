@@ -30,11 +30,26 @@ class window.Tunes
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').append "<li id='1'><a href='#{mp3_url}'>#{track_title}</a></li>"
 
   @play: (trackNo) ->
+    ua = navigator.userAgent
     target = "#" + trackNo + " a"
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+    target_elem = $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0]
+    if ua.match(/iPhone/i) || ua.match(/iPad/i)
+      # Not working...
+      @trigger target_elem, 'touchstart'
+    else
+      @trigger target_elem, 'click'
 
   @stop: () ->
     soundManager.stopAll()
+
+  @trigger: (element, event) ->
+    if (document.createEvent)
+      evt = document.createEvent("HTMLEvents")
+      evt.initEvent(event, true, true )
+      return element.dispatchEvent(evt)
+    else
+      evt = document.createEventObject()
+      return element.fireEvent("on"+event, evt)
 
   @convertDuration: (ms) ->
     h = String(Math.floor(ms / 3600000) + 100).substring(1)
