@@ -28,9 +28,11 @@ html(ng-app="App")
                 md-list(ng-show="tracklist")
                   .track(ng-repeat=("track in tracklist.tracks"))
                     md-list-item.md-3-line(flex)
-                      md-button.btn-play.md-icon-button.md-fab.md-mini(aria-label="play" ng-click="tune.play($index+1, track)" ng-class="{active : tune.isPlaying(track)}")
+                      md-button.btn-play.md-icon-button.md-fab.md-mini(aria-label="play" ng-click="tune.play($index+1, track)" ng-class="{active : tune.isPlaying(track)}" hide-sm)
                         i.material-icons(ng-if="tune.isPlaying(track)") pause
                         i.material-icons(ng-if="!tune.isPlaying(track)") play_arrow
+                      md-button.btn-play.md-icon-button.md-fab.md-mini(ng-href="/download/{{track.id}}.html" target="_blank" aria-label="play" hide-gt-sm)
+                        i.material-icons play_arrow
                       .md-list-item-text(ng-click="tune.play($index+1, track)")
                         h3
                           span.title(ng-bind="track.title")
