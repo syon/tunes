@@ -4,6 +4,9 @@ app = angular.module('App', [ 'ngMaterial', 'ngRoute' ])
 app.value '_pick', {}
 app.value '_playing', null
 
+if (screen.width <= 320)
+  $('body').addClass('smartphone')
+
 setInterval ->
   if $('.sm2-bar-ui').hasClass('playing')
     playingTitle = $('.sm2-playlist-bd li')[0].textContent
