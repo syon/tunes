@@ -4,6 +4,7 @@ require 'csv'
 require 'json'
 require 'ap'
 
+site_url = "http://oto-no-sono.com"
 base_dir = "/Users/syon/Dropbox/sion_andy/音の園/materials（リリース版）/"
 json_dir = "public/tracklists/"
 
@@ -79,6 +80,20 @@ musics.each do |m|
   txt.gsub!('@tags@', m[:tags].to_s)
   txt.gsub!('@desc@', m[:desc])
   File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
+end
+
+#
+# Update Sitemap
+#
+url_list = []
+url_list << site_url
+musics.each do |m|
+  download_url = "#{site_url}/download/#{m[:id]}.html"
+  url_list << download_url
+end
+
+open("public/sitemap.txt", 'w') do |io|
+  io.write url_list.join "\n"
 end
 
 #
