@@ -23,7 +23,6 @@ class window.Tunes
       return
 
   @appendSingleTrack: (track_id, track_title) ->
-    console.log track_id, track_title
     $('ul.sm2-playlist-bd').empty()
     filename = track_id + '.mp3'
     mp3_url = Tunes.server_webroot + @mp3_directory + filename
@@ -31,11 +30,8 @@ class window.Tunes
     $('.sm2-playlist-drawer ul.sm2-playlist-bd').append "<li id='1'><a href='#{mp3_url}'>#{track_title}</a></li>"
 
   @play: (trackNo) ->
-    unless is_playing
-      target = "#" + trackNo + " a"
-      $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
-    else
-      @stop()
+    target = "#" + trackNo + " a"
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
 
   @stop: () ->
     soundManager.stopAll()
