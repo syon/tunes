@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["その他", "夜", "穏やか", "神秘的"])
 
+    include /app/_layouts/player.jade
+
     p
       | デイリーミュージック、2日目にして最後の曲。曲名通り儚くこのプロジェクトは終わりを告げます。毎日出来る事と言えば「息を吸う」「飯を食う」「寝る」「住む」...あと何かありますか？？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("MachiNoTomoshibi", "街の灯火")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

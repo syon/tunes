@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["エレクトロン", "サイバー", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | 「Chaser」よりもテンポが速く、危機感が迫っている印象です。とりあえずまだまだゆっくり出来そうにありません。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("IntoTheDepth", "Into the Depth")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

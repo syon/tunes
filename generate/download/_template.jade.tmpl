@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(@tags@)
 
+    include /app/_layouts/player.jade
+
     p
       | @desc@
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("@id@", "@title@")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

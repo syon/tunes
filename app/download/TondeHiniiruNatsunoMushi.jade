@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["夏恋", "緊張感", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | こういうテイストの曲ってちょっと難しいんですが、タイトルだけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("TondeHiniiruNatsunoMushi", "飛火入夏虫")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

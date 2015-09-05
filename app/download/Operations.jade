@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["バロック", "壮大", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！ 急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？ 軍艦巻きとか？？？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Operations", "Operations")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

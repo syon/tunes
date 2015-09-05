@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["夏恋", "ピアノ", "明るい", "穏やか"])
 
+    include /app/_layouts/player.jade
+
     p
       | 当サイトの曲「夏草」をアレンジして「朝っぽい」雰囲気を出してみました。清々しいと言うよりは「しっとりしなやかな朝」をイメージしました。「朝シャンプー」とか「リンスインシャンプー」「シャボン玉」とか散々迷いましたが...。この曲を「早朝から活動する主人公へのエール」と代えさせて頂きます。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Shittori", "しっとりモーニン")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

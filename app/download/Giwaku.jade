@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["探偵", "ピアノ"])
 
+    include /app/_layouts/player.jade
+
     p
       | あんまり音楽用語とか興味ないかもですが「ホールトーン」っていう「不思議な音階」を使ったメロディの曲です。ちょっと怪しい空気や、不思議な雰囲気を出した時に便利なのです。ポールモールじゃないですよ。あれはタバコです。ちなみに私はタバコは一度も吸った事が無いし吸いません。ちなみにお酒も飲めません。(聞いてない)
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Giwaku", "疑惑")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

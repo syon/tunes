@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["エレクトロン", "サイバー", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | 「追うもの、追われるもの」がテーマの曲です。生身というよりは「乗り物に乗っていること」が前提の雰囲気かと思います。是非バイクや飛行機、ヘリコプター、パトカーなどで追ってください、逃げ回ってください。パズルゲームとかサウンドノベルでも使えるかも？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Chaser", "Chaser")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

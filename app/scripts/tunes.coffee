@@ -6,6 +6,7 @@ class window.Tunes
   @server_webroot: 'http://oto-no-sono.com'
   @mp3_directory: '/materials/'
   musics: {}
+  is_playing: false
 
   @appendTrackAll: (tracks) ->
     playingTitle = $('.sm2-playlist-bd li')[0].textContent
@@ -21,9 +22,20 @@ class window.Tunes
       $('.sm2-playlist-drawer ul.sm2-playlist-bd').append '<li id="' + (idx + 1) + '"><a href="' + mp3_url + '">' + rec.title + '</a></li>'
       return
 
+  @appendSingleTrack: (track_id, track_title) ->
+    console.log track_id, track_title
+    $('ul.sm2-playlist-bd').empty()
+    filename = track_id + '.mp3'
+    mp3_url = Tunes.server_webroot + @mp3_directory + filename
+    $('.sm2-playlist-target ul.sm2-playlist-bd').append "<li>#{track_title}</li>"
+    $('.sm2-playlist-drawer ul.sm2-playlist-bd').append "<li id='1'><a href='#{mp3_url}'>#{track_title}</a></li>"
+
   @play: (trackNo) ->
-    target = "#" + trackNo + " a"
-    $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+    unless is_playing
+      target = "#" + trackNo + " a"
+      $('.sm2-playlist-drawer ul.sm2-playlist-bd').find(target)[0].click()
+    else
+      @stop()
 
   @stop: () ->
     soundManager.stopAll()

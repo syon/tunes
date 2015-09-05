@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["RPG", "ピアノ", "神秘的"])
 
+    include /app/_layouts/player.jade
+
     p
       | いわゆる「回想シーン」で使うことを想定したのですが、「回想その1」とかっていう曲名を付けるのがイヤでイヤで...多分曲名をあれこれ何回も変えてた時間の方が明らかに長いです。この曲名も若干微妙なのですが...。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Tokiwasure", "時忘れ")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

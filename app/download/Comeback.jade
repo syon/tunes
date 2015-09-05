@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["バロック", "壮大", "明るい"])
 
+    include /app/_layouts/player.jade
+
     p
       | 当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑） ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Comeback", "Comeback")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

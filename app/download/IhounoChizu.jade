@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["RPG", "ファンタジー", "明るい"])
 
+    include /app/_layouts/player.jade
+
     p
       | 私はSoundcloudにもファンタジー楽曲をアップしているのですが、それを聴いたプエルトリコのユーザーが自分の作っているRPGに曲を作って欲しいと連絡してきたのがこの曲を作るキッカケになりました。デモを聴かせて相手は喜んでいたのですが、結局その方は途中でゲーム制作を投げ出したので音信不通になりました（笑）よくある話です。さて、楽器のチョイスは、12弦ギターや木管系、パーカスなどを用いて民族的な、草原、探索、ジャングルのようなイメージを想像しました。広大なフィールドというよりは、少し狭いフォーカスを意識した曲です。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("IhounoChizu", "異邦の地図")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

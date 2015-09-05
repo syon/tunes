@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["エレクトロン", "サイバー", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | シューティングカテゴリ行きでしたが、正直パズルゲームでも良いかと思ってます。ぶっちゃけテトリスの動画見ながら作ってましたので。ステージ10を越えてきたあたりでしょうか...。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Approach", "Approach")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

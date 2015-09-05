@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["その他", "8bit", "カバー"])
 
+    include /app/_layouts/player.jade
+
     p
       | 「30分で何かコピーして」という当サイト(音の園)を作ってくれてる友人の何気ない一言により、生み出されたナンバー。慣れないファミコンサウンドの音色作りに意外と手こずり、結局1時間くらいやってました。なぜこの曲を選択したのかは、私にも一切身に覚えがありません。まぁロックマンは大好きなのですが（笑）
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("8bit_rockman5", "ロックマン５ ステージセレクト")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

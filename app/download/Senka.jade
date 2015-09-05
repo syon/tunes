@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["RPG", "緊張感", "バトル"])
 
+    include /app/_layouts/player.jade
+
     p
       | 久々にイメージ通りの曲が出来ました。ボスバトル直前の会話、もしくは対峙的な感じでもいけますし、奇襲され、壊滅寸前の炎が荒れ狂う街や城などの場面でも威力を発揮するかと思います。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Senka", "戦火")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

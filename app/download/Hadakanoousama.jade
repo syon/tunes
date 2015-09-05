@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["その他"])
 
+    include /app/_layouts/player.jade
+
     p
       | この曲を一言で表すなら「ガキ大将現る！」です。なのに一体なんでこの曲名になったのでしょうか...汗。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Hadakanoousama", "裸の王様")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

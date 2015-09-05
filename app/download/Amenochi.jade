@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["夏恋", "暗い"])
 
+    include /app/_layouts/player.jade
+
     p
       | 最初はちょっと悲しい曲に聴こえますが、だんだんと前向きなメロディになっていきます。その頃にはこの雨も止んでるのかな？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Amenochi", "雨のち…")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

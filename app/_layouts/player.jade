@@ -16,6 +16,7 @@ md-toolbar.md-whiteframe-glow-z1.site-content-toolbar.sm2player(ng-show="useTrac
                 //- if you want default / non-JS content, you can put that here.
                 noscript
                   p JavaScript is required.
+                ul.sm2-playlist-bd
             .sm2-progress
               .sm2-row
                 .sm2-inline-time 0:00
@@ -29,15 +30,6 @@ md-toolbar.md-whiteframe-glow-z1.site-content-toolbar.sm2player(ng-show="useTrac
             .sm2-button-bd
               span.sm2-inline-button.sm2-volume-control.volume-shade
               a.sm2-inline-button.sm2-volume-control(href="#volume") volume
-          .sm2-inline-element.sm2-button-element(hide-sm)
-            .sm2-button-bd
-              a.sm2-inline-button.previous(href="#prev" title="Previous") &lt; previous
-          .sm2-inline-element.sm2-button-element(hide-sm)
-            .sm2-button-bd
-              a.sm2-inline-button.next(href="#next" title="Next") &gt; next
-          //- .sm2-inline-element.sm2-button-element.sm2-menu
-          //-   .sm2-button-bd
-          //-     a.sm2-inline-button.menu href="#menu"  menu
         .bd.sm2-playlist-drawer.sm2-element
           .sm2-inline-texture
             .sm2-box-shadow
@@ -46,9 +38,3 @@ md-toolbar.md-whiteframe-glow-z1.site-content-toolbar.sm2player(ng-show="useTrac
             ul.sm2-playlist-bd
               li
                 a(href="path/to/file.mp3") Title
-          .sm2-extra-controls
-            .bd
-              .sm2-inline-element.sm2-button-element
-                a.sm2-inline-button.previous(href="#prev" title="Previous") &lt; previous
-              .sm2-inline-element.sm2-button-element
-                a.sm2-inline-button.next(href="#next" title="Next") &gt; next

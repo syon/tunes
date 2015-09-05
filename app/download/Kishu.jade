@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["RPG", "緊張感"])
 
+    include /app/_layouts/player.jade
+
     p
       | 「戦火」のアレンジの元となった曲。「てんやわんや一歩手前」の曲ですが、曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。その為、随時曲名がコロコロ変わります。うーん、迷う。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Kishu", "奇襲")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

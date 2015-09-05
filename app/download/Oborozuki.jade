@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["和風短編曲集", "夜", "緊張感"])
 
+    include /app/_layouts/player.jade
+
     p
       | 色々な場面に使えそうなんですが、とりわけ私の中でのキーワードは「宵闇」「息を潜める」です。緊張感のある場面において力を発揮するかもしれません。そーいば最近おぼろ月見てないなぁ。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Oborozuki", "おぼろ月")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

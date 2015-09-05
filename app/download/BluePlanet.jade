@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["エレクトロン", "サイバー", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | 「空」というよりは「宇宙」を舞台にしたイメージで作曲しました。その為、空間の広さを演出するにはどうしたら良いか試行錯誤しました。結果こんな感じなんですが、なかなか「宇宙感」が出たかも。前向きでポップな感じなので、ゲームだけでなく動画などにもおすすめです。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("BluePlanet", "Blue Planet")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

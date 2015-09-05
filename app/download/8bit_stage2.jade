@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["その他", "8bit", "明るい", "疾走感"])
 
+    include /app/_layouts/player.jade
+
     p
       | その名も「ステージ2」 15分くらいで作ったループサウンドです。一応上げときます。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("8bit_stage2", "ステージ２")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'

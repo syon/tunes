@@ -15,5 +15,14 @@ block track
     p.taglist
       +taglist(["その他"])
 
+    include /app/_layouts/player.jade
+
     p
       | ある日TVで「インドの特集」みたいな番組を見ておりました。そこで流れていたベースラインを聴いて「これだ！」と勢いで作った覚えがあります。...で、一番気になる「そのベースラインをそのままパクったのか？」っていう質問ですが、正直全く覚えてないですね、まぁいつでもこの曲を「消す準備」は出来ておりますが。。。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("NightWalking", "Night Walking")
+      $(document).on "click", ".play-pause" , ->
+        Tunes.play '1'
