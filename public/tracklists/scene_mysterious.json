@@ -38,6 +38,18 @@
       ]
     },
     {
+      "id": "Vacant",
+      "filepath": "/materials/Vacant.mp3",
+      "title": "Vacant",
+      "time": 199,
+      "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？ いや、まぁ私に聞かれても困るんですが...(聞いていない)",
+      "tags": [
+        "バロック",
+        "緊張感",
+        "神秘的"
+      ]
+    },
+    {
       "id": "RinneTensei",
       "filepath": "/materials/RinneTensei.mp3",
       "title": "輪廻転生",

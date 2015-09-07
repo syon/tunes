@@ -1,7 +1,7 @@
 [
   {
     "group_id": "albums",
-    "group_count": 52,
+    "group_count": 55,
     "listset": [
       {
         "id": "game_rpg",
@@ -17,7 +17,7 @@
         "tags": [
           "バロック"
         ],
-        "count": 8
+        "count": 11
       },
       {
         "id": "game_renai",
@@ -79,7 +79,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 85,
+    "group_count": 91,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -111,7 +111,7 @@
         "tags": [
           "壮大"
         ],
-        "count": 9
+        "count": 11
       },
       {
         "id": "scene_mysterious",
@@ -119,7 +119,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 4
+        "count": 5
       },
       {
         "id": "scene_speedy",
@@ -135,7 +135,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 9
+        "count": 12
       },
       {
         "id": "scene_night",

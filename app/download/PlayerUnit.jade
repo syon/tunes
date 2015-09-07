@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Player Unit - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('キャラクターメイキング時や、出撃ユニットの選択画面、編成画面などをイメージしました。因みに私はキャラメイキングやコンフィグ設定なから抜け出せなくなる事が良くあります。フォントやメニュー画面のカラーを3時間くらいかけて決めて、散々こだわった挙げ句「次の日からはもうプレイしていない」ことが良くあります。特に「FF７」で良くあったなこの現象...(笑)', ["バロック", "緊張感", "壮大"])
+
+block track
+  .trackdetail#track_id(data-track="PlayerUnit")
+    +tracktitle("Player Unit", "4:35")
+
+    p.taglist
+      +taglist(["バロック", "緊張感", "壮大"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | キャラクターメイキング時や、出撃ユニットの選択画面、編成画面などをイメージしました。因みに私はキャラメイキングやコンフィグ設定なから抜け出せなくなる事が良くあります。フォントやメニュー画面のカラーを3時間くらいかけて決めて、散々こだわった挙げ句「次の日からはもうプレイしていない」ことが良くあります。特に「FF７」で良くあったなこの現象...(笑)
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("PlayerUnit", "Player Unit")
