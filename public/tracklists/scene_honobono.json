@@ -2,6 +2,17 @@
   "listname": "穏やか・安らぎ",
   "tracks": [
     {
+      "id": "VillageInTheForest",
+      "filepath": "/materials/VillageInTheForest.mp3",
+      "title": "Village in the Forest",
+      "time": 148,
+      "desc": "森の奥深くに住む人々、あるいは動物たち。木漏れ日が差し込む中、ゆっくりと時間が過ぎていく生活。そんな人生も良いと思いませんか？ 情報化社会において、日々多忙に生活する私たちとは、全く違うこんな暮らしを、私は少しうらやましくも思います。せめて想像だけでもさせてください…。",
+      "tags": [
+        "RPG",
+        "穏やか"
+      ]
+    },
+    {
       "id": "BlueEarth",
       "filepath": "/materials/BlueEarth.mp3",
       "title": "Blue Earth",
@@ -15,14 +26,15 @@
       ]
     },
     {
-      "id": "VillageInTheForest",
-      "filepath": "/materials/VillageInTheForest.mp3",
-      "title": "Village in the Forest",
-      "time": 148,
-      "desc": "森の奥深くに住む人々、あるいは動物たち。木漏れ日が差し込む中、ゆっくりと時間が過ぎていく生活。そんな人生も良いと思いませんか？ 情報化社会において、日々多忙に生活する私たちとは、全く違うこんな暮らしを、私は少しうらやましくも思います。せめて想像だけでもさせてください…。",
+      "id": "PastoralLife",
+      "filepath": "/materials/PastoralLife.mp3",
+      "title": "Pastoral Life",
+      "time": 180,
+      "desc": "ほのぼの系で遊牧的で、牛とかニワトリとかと一緒に生活を共にする遊牧民の里をイメージしました。後半が展開するのでやはりRPGの村などに使用されるのがオススメです。(全くそんなイメージで作曲しましたので)",
       "tags": [
         "RPG",
-        "穏やか"
+        "穏やか",
+        "明るい"
       ]
     },
     {
@@ -34,18 +46,6 @@
       "tags": [
         "RPG",
         "穏やか"
-      ]
-    },
-    {
-      "id": "PastoralLife",
-      "filepath": "/materials/PastoralLife.mp3",
-      "title": "Pastoral Life",
-      "time": 180,
-      "desc": "ほのぼの系で遊牧的で、牛とかニワトリとかと一緒に生活を共にする遊牧民の里をイメージしました。後半が展開するのでやはりRPGの村などに使用されるのがオススメです。(全くそんなイメージで作曲しましたので)",
-      "tags": [
-        "RPG",
-        "穏やか",
-        "明るい"
       ]
     },
     {

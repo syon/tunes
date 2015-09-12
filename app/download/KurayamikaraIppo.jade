@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 暗闇から、一歩 - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('「怖さ」とは何か？ 「音」「絵」「演出」色々考えてみたのですが、怖さの一つに私は「ダイナミクス」があるのを感じました。音で言うなら「いきなり大きい音を鳴らす」これは身構えてなければ当然ビビります。音一つにしてもジワジワ来る怖さ、イキナリ来る怖さ、色々ありますね。ダイナミクス、ようは「差」が大きければ驚きがあります。結局は「演出」次第なのだと思います。というわけで、もっと怖さを研究してみます（怖い〜）', ["時の館", "緊張感", "暗い"])
+
+block track
+  .trackdetail#track_id(data-track="KurayamikaraIppo")
+    +tracktitle("暗闇から、一歩", "4:07")
+
+    p.taglist
+      +taglist(["時の館", "緊張感", "暗い"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 「怖さ」とは何か？ 「音」「絵」「演出」色々考えてみたのですが、怖さの一つに私は「ダイナミクス」があるのを感じました。音で言うなら「いきなり大きい音を鳴らす」これは身構えてなければ当然ビビります。音一つにしてもジワジワ来る怖さ、イキナリ来る怖さ、色々ありますね。ダイナミクス、ようは「差」が大きければ驚きがあります。結局は「演出」次第なのだと思います。というわけで、もっと怖さを研究してみます（怖い〜）
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("KurayamikaraIppo", "暗闇から、一歩")

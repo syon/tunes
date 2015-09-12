@@ -3,14 +3,14 @@ extends /generate/download/_layout.jade
 include /generate/download/_mixins.jade
 
 block title
-  title Player Unit (rhythm less) - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+  title Player Unit (snare less) - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
 
 block meta
-  +meta('この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。好みかもしれまんせんが、あまりガシャガシャした感じが苦手の方いかがですか？ むしろ本来こちらの方が編成画面っぽい気がします。スネアが加わると、時間の流れが感じられるので、会話中や序盤のSRPGの戦闘などでもいけそうな感じもします。まぁここで可能性をとやかく言ってても仕方ないのですが...。', ["バロック", "緊張感", "壮大"])
+  +meta('この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。お好みでどうぞ！！', ["バロック", "緊張感", "壮大"])
 
 block track
   .trackdetail#track_id(data-track="PlayerUnitLess")
-    +tracktitle("Player Unit (rhythm less)", "4:35")
+    +tracktitle("Player Unit (snare less)", "4:35")
 
     p.taglist
       +taglist(["バロック", "緊張感", "壮大"])
@@ -18,9 +18,9 @@ block track
     include /app/_layouts/player.jade
 
     p
-      | この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。好みかもしれまんせんが、あまりガシャガシャした感じが苦手の方いかがですか？ むしろ本来こちらの方が編成画面っぽい気がします。スネアが加わると、時間の流れが感じられるので、会話中や序盤のSRPGの戦闘などでもいけそうな感じもします。まぁここで可能性をとやかく言ってても仕方ないのですが...。
+      | この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。お好みでどうぞ！！
 
 block tunescript
   script
     :coffee
-      Tunes.appendSingleTrack("PlayerUnitLess", "Player Unit (rhythm less)")
+      Tunes.appendSingleTrack("PlayerUnitLess", "Player Unit (snare less)")

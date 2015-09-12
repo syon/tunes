@@ -1,7 +1,7 @@
 [
   {
     "group_id": "albums",
-    "group_count": 55,
+    "group_count": 59,
     "listset": [
       {
         "id": "game_rpg",
@@ -9,7 +9,7 @@
         "tags": [
           "RPG"
         ],
-        "count": 9
+        "count": 10
       },
       {
         "id": "game_baroque",
@@ -17,7 +17,7 @@
         "tags": [
           "バロック"
         ],
-        "count": 11
+        "count": 12
       },
       {
         "id": "game_renai",
@@ -41,7 +41,7 @@
         "tags": [
           "探偵"
         ],
-        "count": 6
+        "count": 7
       },
       {
         "id": "game_horror",
@@ -49,7 +49,7 @@
         "tags": [
           "時の館"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "game_planet",
@@ -79,7 +79,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 91,
+    "group_count": 101,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -87,7 +87,7 @@
         "tags": [
           "明るい"
         ],
-        "count": 12
+        "count": 13
       },
       {
         "id": "scene_dark",
@@ -95,7 +95,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 2
+        "count": 4
       },
       {
         "id": "scene_honobono",
@@ -111,7 +111,7 @@
         "tags": [
           "壮大"
         ],
-        "count": 11
+        "count": 13
       },
       {
         "id": "scene_mysterious",
@@ -119,7 +119,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 5
+        "count": 6
       },
       {
         "id": "scene_speedy",
@@ -135,7 +135,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 12
+        "count": 14
       },
       {
         "id": "scene_night",
@@ -159,7 +159,7 @@
         "tags": [
           "ピアノ"
         ],
-        "count": 8
+        "count": 9
       },
       {
         "id": "scene_battle",
@@ -175,7 +175,7 @@
         "tags": [
           "オープニング"
         ],
-        "count": 2
+        "count": 3
       },
       {
         "id": "scene_ending",
