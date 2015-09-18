@@ -4,6 +4,8 @@ Tunes
 ### Install
 
 ```sh
+$ npm install -g gulp
+
 $ npm install
 ```
 
