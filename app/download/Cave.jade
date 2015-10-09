@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Cave - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('広い空洞に出た。館の地下にこんな空洞があるなんて...。まだまだ奥へ進めそうだ。風が吹いているからきっと抜け道はあるだろう。', ["時の館", "緊張感", "暗い"])
+
+block track
+  .trackdetail#track_id(data-track="Cave")
+    +tracktitle("Cave", "1:55")
+
+    p.taglist
+      +taglist(["時の館", "緊張感", "暗い"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 広い空洞に出た。館の地下にこんな空洞があるなんて...。まだまだ奥へ進めそうだ。風が吹いているからきっと抜け道はあるだろう。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Cave", "Cave")
