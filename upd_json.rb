@@ -5,7 +5,7 @@ require 'json'
 require 'ap'
 
 site_url = "http://oto-no-sono.com"
-base_dir = "/Users/syon/Dropbox/sion_andy/音の園/materials（リリース版）/"
+base_dir = "/Users/andyhiroyuki/Dropbox/sion_andy/音の園/materials（リリース版）/"
 json_dir = "public/tracklists/"
 
 def find_tagmatch_music_list(musics, tag)
