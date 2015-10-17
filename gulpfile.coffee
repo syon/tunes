@@ -11,6 +11,7 @@ sources =
   less:   'app/**/*.less'
   static: 'public/**/*'
 
+runSequence = require 'run-sequence'
 bower       = require 'bower'
 mbfiles     = require 'main-bower-files'
 del         = require 'del'
@@ -28,14 +29,19 @@ bowerfiles  = mbfiles()
 dest_dir    = 'build/webapp/'
 dest_assets_dir = dest_dir + 'assets'
 
-gulp.task 'default', ['clean'], ->
-  gulp.start(
+
+gulp.task 'default', (callback) -> runSequence(
+  'clean',
+  [
     'compile:bower'
     'compile:jade'
     'compile:coffee'
     'compile:less'
     'compile:static'
-  )
+  ],
+  'afterprocess',
+  callback
+)
 
 gulp.task 'clean', (cb) ->
   del dest_dir, cb
@@ -76,6 +82,9 @@ gulp.task 'compile:less', ->
 gulp.task 'compile:static', ->
   gulp.src sources.static
     .pipe gulp.dest dest_dir
+
+gulp.task 'afterprocess', (cb) ->
+  del dest_dir + '_layouts/', cb
 
 gulp.task 'server', ['compile:apimock'], ->
   gulp.start 'watch', 'watch:apimock'
