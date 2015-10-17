@@ -1,3 +1,6 @@
+@main_color: #1812A8;
+@main_color_dark: #01014B;
+
 [ng-panel] {
   transition: 0.45s cubic-bezier(0.35, 0, 0.25, 1);
   -webkit-transition: 0.45s cubic-bezier(0.35, 0, 0.25, 1);
@@ -57,7 +60,7 @@ table {
  * TYPE DEFAULTS
  ***************/
 a {
-  color: #7210C8;
+  color: @main_color;
   text-decoration: none;
   font-weight: 400;
   border-bottom: 1px solid rgba(64, 84, 178, 0.25);
@@ -562,16 +565,16 @@ md-toolbar.demo-toolbar .md-button {
 
 /** Custom *****************************/
 .site-sidenav {
-  background: #7210C8;
+  background: @main_color;
 }
 .nav-header {
-  background-color: #7210C8;
-  background: linear-gradient(#5A1894, #7210C8);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5A1894), color-stop(1, #7210C8));
-  background: -webkit-linear-gradient(top, #5A1894 0%, #7210C8 100%);
-  background: -moz-linear-gradient(top, #5A1894 0%, #7210C8 100%);
-  background: linear-gradient(top, #5A1894 0%, #7210C8 100%);
-  border-bottom: 1px solid #8326D5;
+  background-color: @main_color;
+  background: linear-gradient(@main_color_dark, @main_color);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, @main_color_dark), color-stop(1, @main_color));
+  background: -webkit-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  background: -moz-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  background: linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  border-bottom: 1px solid #1B15C6;
 }
 #content {
   background-color: #e1e1e1;
@@ -609,7 +612,7 @@ md-list-item, .trackinfo {
   cursor: pointer;
 
   &:hover {
-    background-color: fade(#7210C8, 20%);
+    background-color: fade(@main_color, 20%);
   }
 
   .md-list-item-text {
@@ -617,14 +620,14 @@ md-list-item, .trackinfo {
   }
   .md-button.md-fab.btn-play {
     top: 20px;
-    background-color: rgb(114, 16, 200);
+    background-color: #259AD4;
     margin: 0 12px 0 6px;
 
     &.md-focused {
       background-color: #56C3E7;
     }
     &:hover {
-      background-color: #9834EF;
+      background-color: #267ED5;
     }
     &.active {
       background-color: #56C3E7;
@@ -680,7 +683,7 @@ md-list-item, .trackinfo {
   max-width: 800px;
 }
 md-toolbar {
-  background-color: #7210C8;
+  background-color: @main_color;
 }
 .md-icon-button .material-icons {
   display: block;
