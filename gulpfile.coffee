@@ -26,6 +26,7 @@ uglify      = require 'gulp-uglify'
 
 bowerfiles  = mbfiles()
 dest_dir    = 'build/webapp/'
+dest_assets_dir = dest_dir + 'assets'
 
 gulp.task 'default', ['clean'], ->
   gulp.start(
@@ -51,7 +52,7 @@ gulp.task 'compile:bower', ->
     isCss = (file) -> return file.path.substr(-4) == '.css'
     gulp.src bowerfiles
       .pipe gulpif(isCss, concat('components.css'), concat('components.js'))
-      .pipe gulp.dest dest_dir
+      .pipe gulp.dest dest_assets_dir
 
 gulp.task 'compile:jade', ->
   gulp.src sources.jade
@@ -64,13 +65,13 @@ gulp.task 'compile:coffee', ->
     .pipe ngAnnotate()
     # .pipe uglify()
     .pipe concat 'app.js'
-    .pipe gulp.dest dest_dir
+    .pipe gulp.dest dest_assets_dir
 
 gulp.task 'compile:less', ->
   gulp.src sources.less
     .pipe less()
     .pipe concat 'app.css'
-    .pipe gulp.dest dest_dir
+    .pipe gulp.dest dest_assets_dir
 
 gulp.task 'compile:static', ->
   gulp.src sources.static
