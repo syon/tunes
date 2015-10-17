@@ -3,14 +3,14 @@ extends /generate/download/_layout.jade
 include /generate/download/_mixins.jade
 
 block title
-  title Player Unit (snare less) - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+  title Player Unit (Snare less) - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
 
 block meta
   +meta('この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。お好みでどうぞ！！', ["バロック", "緊張感", "壮大"])
 
 block track
   .trackdetail#track_id(data-track="PlayerUnitLess")
-    +tracktitle("Player Unit (snare less)", "4:35")
+    +tracktitle("Player Unit (Snare less)", "4:35")
 
     p.taglist
       +taglist(["バロック", "緊張感", "壮大"])
@@ -23,4 +23,4 @@ block track
 block tunescript
   script
     :coffee
-      Tunes.appendSingleTrack("PlayerUnitLess", "Player Unit (snare less)")
+      Tunes.appendSingleTrack("PlayerUnitLess", "Player Unit (Snare less)")

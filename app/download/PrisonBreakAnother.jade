@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Prison Break (another ver) - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体の原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開を考慮し、静と動を演出する時なんかにオススメです。', ["時の館", "", "緊張感", "神秘的"])
+
+block track
+  .trackdetail#track_id(data-track="PrisonBreakAnother")
+    +tracktitle("Prison Break (another ver)", "4:16")
+
+    p.taglist
+      +taglist(["時の館", "", "緊張感", "神秘的"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体の原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開を考慮し、静と動を演出する時なんかにオススメです。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("PrisonBreakAnother", "Prison Break (another ver)")

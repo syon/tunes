@@ -1,7 +1,7 @@
 [
   {
     "group_id": "albums",
-    "group_count": 66,
+    "group_count": 70,
     "listset": [
       {
         "id": "game_rpg",
@@ -49,7 +49,7 @@
         "tags": [
           "時の館"
         ],
-        "count": 8
+        "count": 12
       },
       {
         "id": "game_planet",
@@ -79,7 +79,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 115,
+    "group_count": 124,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -95,7 +95,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 9
+        "count": 11
       },
       {
         "id": "scene_honobono",
@@ -111,7 +111,7 @@
         "tags": [
           "壮大"
         ],
-        "count": 14
+        "count": 15
       },
       {
         "id": "scene_mysterious",
@@ -119,7 +119,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 6
+        "count": 7
       },
       {
         "id": "scene_speedy",
@@ -135,7 +135,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 19
+        "count": 23
       },
       {
         "id": "scene_night",
@@ -159,7 +159,7 @@
         "tags": [
           "ピアノ"
         ],
-        "count": 9
+        "count": 10
       },
       {
         "id": "scene_battle",
