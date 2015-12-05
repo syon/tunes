@@ -2,6 +2,18 @@
   "listname": "バトル",
   "tracks": [
     {
+      "id": "BattleField",
+      "filepath": "/materials/BattleField.mp3",
+      "title": "バトルフィールド",
+      "time": 169,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "バトル",
+        "明るい"
+      ]
+    },
+    {
       "id": "TatakaiNoMai",
       "filepath": "/materials/TatakaiNoMai.mp3",
       "title": "戦いの舞い",
@@ -25,6 +37,18 @@
       ]
     },
     {
+      "id": "EnemyRaid",
+      "filepath": "/materials/EnemyRaid.mp3",
+      "title": "Enemy Raid",
+      "time": 110,
+      "desc": "ピンチな場面って感じですね。この曲のままでそのままバトルに突入するシーンもありかも。ってことで主人公たちの状況がヤバい場面で使っていただければ光栄です。",
+      "tags": [
+        "バロック",
+        "緊張感",
+        "バトル"
+      ]
+    },
+    {
       "id": "PreemptiveAttack",
       "filepath": "/materials/PreemptiveAttack.mp3",
       "title": "Preemptive Attack",
@@ -35,6 +59,31 @@
         "壮大",
         "バトル",
         "疾走感"
+      ]
+    },
+    {
+      "id": "decision-sworddancer",
+      "filepath": "/materials/decision-sworddancer.mp3",
+      "title": "ソードダンサー",
+      "time": 199,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "バトル",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-seichounokane",
+      "filepath": "/materials/decision-seichounokane.mp3",
+      "title": "成長の鐘",
+      "time": 70,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "バトル",
+        "壮大",
+        "明るい"
       ]
     }
   ]

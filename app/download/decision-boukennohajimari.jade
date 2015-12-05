@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 冒険の始まり - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["DECISION", "オープニング", "神秘的", "ピアノ"])
+
+block track
+  .trackdetail#track_id(data-track="decision-boukennohajimari")
+    +tracktitle("冒険の始まり", "0:48")
+
+    p.taglist
+      +taglist(["DECISION", "オープニング", "神秘的", "ピアノ"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("decision-boukennohajimari", "冒険の始まり")

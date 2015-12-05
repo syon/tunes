@@ -2,6 +2,17 @@
   "listname": "緊張感",
   "tracks": [
     {
+      "id": "Dungeon1",
+      "filepath": "/materials/Dungeon1.mp3",
+      "title": "ダンジョン♯1",
+      "time": 109,
+      "desc": "「戦火」のアレンジの元となった曲。曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。洞窟系よりも、もう少し人工的な施設の奥深くへ侵入するイメージといいますか。良い場面があったら教えてください(笑)",
+      "tags": [
+        "RPG",
+        "緊張感"
+      ]
+    },
+    {
       "id": "Senka",
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
@@ -11,17 +22,6 @@
         "RPG",
         "緊張感",
         "バトル"
-      ]
-    },
-    {
-      "id": "Kishu",
-      "filepath": "/materials/Kishu.mp3",
-      "title": "奇襲",
-      "time": 109,
-      "desc": "「戦火」のアレンジの元となった曲。「てんやわんや一歩手前」の曲ですが、曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。その為、随時曲名がコロコロ変わります。うーん、迷う。",
-      "tags": [
-        "RPG",
-        "緊張感"
       ]
     },
     {
@@ -84,6 +84,18 @@
       ]
     },
     {
+      "id": "EnemyRaid",
+      "filepath": "/materials/EnemyRaid.mp3",
+      "title": "Enemy Raid",
+      "time": 110,
+      "desc": "ピンチな場面って感じですね。この曲のままでそのままバトルに突入するシーンもありかも。ってことで主人公たちの状況がヤバい場面で使っていただければ光栄です。",
+      "tags": [
+        "バロック",
+        "緊張感",
+        "バトル"
+      ]
+    },
+    {
       "id": "Vacant",
       "filepath": "/materials/Vacant.mp3",
       "title": "Vacant",
@@ -104,7 +116,8 @@
       "tags": [
         "バロック",
         "壮大",
-        "緊張感"
+        "緊張感",
+        "エンディング"
       ]
     },
     {
@@ -167,9 +180,9 @@
       ]
     },
     {
-      "id": "Underground",
-      "filepath": "/materials/Underground.mp3",
-      "title": "Underground",
+      "id": "Underground1",
+      "filepath": "/materials/Underground1.mp3",
+      "title": "Underground♯1",
       "time": 115,
       "desc": "地下へ続く通路を見つけた。奥からすごい轟音が響く。一体この先に何があるのだろう...。確かめなければ...。",
       "tags": [
@@ -179,9 +192,9 @@
       ]
     },
     {
-      "id": "Cave",
-      "filepath": "/materials/Cave.mp3",
-      "title": "Cave",
+      "id": "Underground2",
+      "filepath": "/materials/Underground2.mp3",
+      "title": "Underground♯2",
       "time": 115,
       "desc": "広い空洞に出た。館の地下にこんな空洞があるなんて...。まだまだ奥へ進めそうだ。風が吹いているからきっと抜け道はあるだろう。",
       "tags": [
@@ -229,19 +242,6 @@
       ]
     },
     {
-      "id": "PrisonBreakAnother",
-      "filepath": "/materials/PrisonBreakAnother.mp3",
-      "title": "Prison Break (another ver)",
-      "time": 256,
-      "desc": "当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体の原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開を考慮し、静と動を演出する時なんかにオススメです。",
-      "tags": [
-        "時の館",
-        "",
-        "緊張感",
-        "神秘的"
-      ]
-    },
-    {
       "id": "PrisonBreak",
       "filepath": "/materials/PrisonBreak.mp3",
       "title": "Prison Break",
@@ -252,6 +252,19 @@
         "",
         "緊張感",
         "壮大"
+      ]
+    },
+    {
+      "id": "SoulRelease",
+      "filepath": "/materials/SoulRelease.mp3",
+      "title": "Soul Release",
+      "time": 141,
+      "desc": "どこからか、またあの声が聞こえる。あの旋律とともに。そうか、なぜあの旋律が心地よかったのか、今ようやく分かった気がする。ようやく乗り越えた悲しみの先に、更なる受け入れれない事実がある。全てを解放し、生か死か、私には選ぶ権利がある。そして、物語は終焉を迎える。",
+      "tags": [
+        "時の館",
+        "暗い",
+        "緊張感",
+        "エンディング"
       ]
     },
     {
@@ -268,16 +281,43 @@
       ]
     },
     {
-      "id": "SoulRelease",
-      "filepath": "/materials/SoulRelease.mp3",
-      "title": "Soul Release",
-      "time": 141,
-      "desc": "どこからか、またあの声が聞こえる。あの旋律とともに。そうか、なぜあの旋律が心地よかったのか、今ようやく分かった気がする。ようやく乗り越えた悲しみの先に、更なる受け入れれない事実がある。全てを解放し、生か死か、私には選ぶ権利がある。そして、物語は終焉を迎える。鎮魂歌っぽい感じもするので、クライマックス、死を感じさせる場面で使えるかもしれません。",
+      "id": "Fate",
+      "filepath": "/materials/Fate.mp3",
+      "title": "Fate",
+      "time": 182,
+      "desc": "当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体のプログレッシヴロックな原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開に応じて、静と動を演出する時なんかにオススメです。個人的に、人知を越えた絶句してしまうような神秘的、あるいは惨状的な場面などにオススメです。",
       "tags": [
         "時の館",
+        "",
+        "緊張感",
+        "神秘的",
+        "エンディング"
+      ]
+    },
+    {
+      "id": "decision-kunossosu",
+      "filepath": "/materials/decision-kunossosu.mp3",
+      "title": "クノッソス迷宮",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "decision-souennorekuiemu",
+      "filepath": "/materials/decision-souennorekuiemu.mp3",
+      "title": "蒼炎のレクイエム",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "DECISION",
         "暗い",
         "緊張感",
-        "エンディング"
+        "壮大"
       ]
     }
   ]

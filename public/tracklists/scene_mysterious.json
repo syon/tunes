@@ -15,6 +15,28 @@
       ]
     },
     {
+      "id": "Inishienoiseki",
+      "filepath": "/materials/Inishienoiseki.mp3",
+      "title": "古の遺跡",
+      "time": 269,
+      "desc": "冒険者たちの遺跡好きには本当に頭が下がります。みなさん遺跡探索本当に好きですよね。じゃあこの曲で決まりですよ。どこまで最低限の音で遺跡を表現できるか追求してみました。",
+      "tags": [
+        "RPG",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "Kaiteishinden",
+      "filepath": "/materials/Kaiteishinden.mp3",
+      "title": "海底神殿",
+      "time": 221,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "神秘的"
+      ]
+    },
+    {
       "id": "Tokiwasure",
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
@@ -75,15 +97,131 @@
       ]
     },
     {
-      "id": "PrisonBreakAnother",
-      "filepath": "/materials/PrisonBreakAnother.mp3",
-      "title": "Prison Break (another ver)",
-      "time": 256,
-      "desc": "当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体の原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開を考慮し、静と動を演出する時なんかにオススメです。",
+      "id": "Fate",
+      "filepath": "/materials/Fate.mp3",
+      "title": "Fate",
+      "time": 182,
+      "desc": "当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体のプログレッシヴロックな原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開に応じて、静と動を演出する時なんかにオススメです。個人的に、人知を越えた絶句してしまうような神秘的、あるいは惨状的な場面などにオススメです。",
       "tags": [
         "時の館",
         "",
         "緊張感",
+        "神秘的",
+        "エンディング"
+      ]
+    },
+    {
+      "id": "decision-boukennohajimari",
+      "filepath": "/materials/decision-boukennohajimari.mp3",
+      "title": "冒険の始まり",
+      "time": 48,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-mikainochihe",
+      "filepath": "/materials/decision-mikainochihe.mp3",
+      "title": "未開の地へ",
+      "time": 171,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "神秘的",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-neige",
+      "filepath": "/materials/decision-neige.mp3",
+      "title": "雪の国ネージュ",
+      "time": 146,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "神秘的",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-mizunodoukutsu",
+      "filepath": "/materials/decision-mizunodoukutsu.mp3",
+      "title": "水の洞窟",
+      "time": 175,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "decision-kunossosu",
+      "filepath": "/materials/decision-kunossosu.mp3",
+      "title": "クノッソス迷宮",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "decision-mizunosono",
+      "filepath": "/materials/decision-mizunosono.mp3",
+      "title": "水の園",
+      "time": 221,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "神秘的",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-mizunomiko",
+      "filepath": "/materials/decision-mizunomiko.mp3",
+      "title": "水の巫女",
+      "time": 106,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-shironosekai",
+      "filepath": "/materials/decision-shironosekai.mp3",
+      "title": "白の世界",
+      "time": 90,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-kiminohitomitokyoukainohana",
+      "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
+      "title": "君の瞳と教会の花",
+      "time": 136,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
         "神秘的"
       ]
     }

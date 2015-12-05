@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 追憶 - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["DECISION", "暗い"])
+
+block track
+  .trackdetail#track_id(data-track="decision-tsuioku")
+    +tracktitle("追憶", "0:39")
+
+    p.taglist
+      +taglist(["DECISION", "暗い"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("decision-tsuioku", "追憶")

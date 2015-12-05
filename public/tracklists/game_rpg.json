@@ -15,6 +15,18 @@
       ]
     },
     {
+      "id": "BattleField",
+      "filepath": "/materials/BattleField.mp3",
+      "title": "バトルフィールド",
+      "time": 169,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "バトル",
+        "明るい"
+      ]
+    },
+    {
       "id": "VillageInTheForest",
       "filepath": "/materials/VillageInTheForest.mp3",
       "title": "Village in the Forest",
@@ -74,6 +86,75 @@
       ]
     },
     {
+      "id": "Inishienoiseki",
+      "filepath": "/materials/Inishienoiseki.mp3",
+      "title": "古の遺跡",
+      "time": 269,
+      "desc": "冒険者たちの遺跡好きには本当に頭が下がります。みなさん遺跡探索本当に好きですよね。じゃあこの曲で決まりですよ。どこまで最低限の音で遺跡を表現できるか追求してみました。",
+      "tags": [
+        "RPG",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "Fanfare",
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "desc": "こちらは「ファンファーレのみ」となります。 ご了承くださいませ。",
+      "tags": [
+        "RPG",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "AudienceWithTheKing",
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 213,
+      "desc": "イントロのトランペットのファンファーレが印象的な曲です。「王様」「王国」「お城」「兵士」こんなキーワードをイメージしました。王国はもちろん、城の中や、王様との謁見中などにも使用できるかと思います。平和な王国ではなく、戦乱の中において緊張感のある戦況、状態の王国がイメージできます。",
+      "tags": [
+        "RPG",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "TsukiyonoHourousha",
+      "filepath": "/materials/TsukiyonoHourousha.mp3",
+      "title": "月夜の放浪者",
+      "time": 116,
+      "desc": "当サイト音の園の「異邦の地図」という曲のアレンジバージョンです。その名の通り、夜の行動時に流れていそうなイメージ。夜っぽい曲は好きなので個人的にお気に入りの一曲です。",
+      "tags": [
+        "RPG",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
+      "id": "Dungeon1",
+      "filepath": "/materials/Dungeon1.mp3",
+      "title": "ダンジョン♯1",
+      "time": 109,
+      "desc": "「戦火」のアレンジの元となった曲。曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。洞窟系よりも、もう少し人工的な施設の奥深くへ侵入するイメージといいますか。良い場面があったら教えてください(笑)",
+      "tags": [
+        "RPG",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "Kaiteishinden",
+      "filepath": "/materials/Kaiteishinden.mp3",
+      "title": "海底神殿",
+      "time": 221,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "神秘的"
+      ]
+    },
+    {
       "id": "Tokiwasure",
       "filepath": "/materials/Tokiwasure.mp3",
       "title": "時忘れ",
@@ -86,17 +167,6 @@
       ]
     },
     {
-      "id": "Shiawasenokairou",
-      "filepath": "/materials/Shiawasenokairou.mp3",
-      "title": "幸せの回廊",
-      "time": 88,
-      "desc": "私は「幸せはずっと続くものでは無い」と思っております。人生や身体の体調と同じで幸せにもバイオリズムがあり、幸せの「大きさ」や「カタチ」も年齢とともに変化します。この曲はずっと明るい感じでいくかと思いきや、途中で少し暗く、寂しい、ノスタルジックなメロディになります。それでも最後は前向きなメロディで完結するのですが、そんな不安定な幸せの回廊をぐるぐる歩くのが人生だと思います。",
-      "tags": [
-        "RPG",
-        "穏やか"
-      ]
-    },
-    {
       "id": "Senka",
       "filepath": "/materials/Senka.mp3",
       "title": "戦火",
@@ -106,17 +176,6 @@
         "RPG",
         "緊張感",
         "バトル"
-      ]
-    },
-    {
-      "id": "Kishu",
-      "filepath": "/materials/Kishu.mp3",
-      "title": "奇襲",
-      "time": 109,
-      "desc": "「戦火」のアレンジの元となった曲。「てんやわんや一歩手前」の曲ですが、曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。その為、随時曲名がコロコロ変わります。うーん、迷う。",
-      "tags": [
-        "RPG",
-        "緊張感"
       ]
     }
   ]

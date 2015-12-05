@@ -2,6 +2,18 @@
   "listname": "明るい",
   "tracks": [
     {
+      "id": "BattleField",
+      "filepath": "/materials/BattleField.mp3",
+      "title": "バトルフィールド",
+      "time": 169,
+      "desc": null,
+      "tags": [
+        "RPG",
+        "バトル",
+        "明るい"
+      ]
+    },
+    {
       "id": "IhounoChizu",
       "filepath": "/materials/IhounoChizu.mp3",
       "title": "異邦の地図",
@@ -19,6 +31,42 @@
       "title": "Pastoral Life",
       "time": 180,
       "desc": "ほのぼの系で遊牧的で、牛とかニワトリとかと一緒に生活を共にする遊牧民の里をイメージしました。後半が展開するのでやはりRPGの村などに使用されるのがオススメです。(全くそんなイメージで作曲しましたので)",
+      "tags": [
+        "RPG",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
+      "id": "Fanfare",
+      "filepath": "/materials/Fanfare.mp3",
+      "title": "ファンファーレ",
+      "time": 20,
+      "desc": "こちらは「ファンファーレのみ」となります。 ご了承くださいませ。",
+      "tags": [
+        "RPG",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "AudienceWithTheKing",
+      "filepath": "/materials/AudienceWithTheKing.mp3",
+      "title": "Audience with the King",
+      "time": 213,
+      "desc": "イントロのトランペットのファンファーレが印象的な曲です。「王様」「王国」「お城」「兵士」こんなキーワードをイメージしました。王国はもちろん、城の中や、王様との謁見中などにも使用できるかと思います。平和な王国ではなく、戦乱の中において緊張感のある戦況、状態の王国がイメージできます。",
+      "tags": [
+        "RPG",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "TsukiyonoHourousha",
+      "filepath": "/materials/TsukiyonoHourousha.mp3",
+      "title": "月夜の放浪者",
+      "time": 116,
+      "desc": "当サイト音の園の「異邦の地図」という曲のアレンジバージョンです。その名の通り、夜の行動時に流れていそうなイメージ。夜っぽい曲は好きなので個人的にお気に入りの一曲です。",
       "tags": [
         "RPG",
         "穏やか",
@@ -76,30 +124,6 @@
       ]
     },
     {
-      "id": "Fanfare",
-      "filepath": "/materials/Fanfare.mp3",
-      "title": "ファンファーレ",
-      "time": 20,
-      "desc": "こちらは「ファンファーレのみ」となります。 ご了承くださいませ。",
-      "tags": [
-        "バロック",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
-      "id": "AudienceWithTheKing",
-      "filepath": "/materials/AudienceWithTheKing.mp3",
-      "title": "Audience with the King",
-      "time": 213,
-      "desc": "イントロのトランペットのファンファーレが印象的な曲です。「王様」「王国」「お城」「兵士」こんなキーワードをイメージしました。王国はもちろん、城の中や、王様との謁見中などにも使用できるかと思います。平和な王国ではなく、戦乱の中において緊張感のある戦況、状態の王国がイメージできます。",
-      "tags": [
-        "バロック",
-        "壮大",
-        "明るい"
-      ]
-    },
-    {
       "id": "TakeOff",
       "filepath": "/materials/TakeOff.mp3",
       "title": "Take Off",
@@ -110,6 +134,30 @@
         "壮大",
         "明るい",
         "疾走感"
+      ]
+    },
+    {
+      "id": "Itsumonokimi",
+      "filepath": "/materials/Itsumonokimi.mp3",
+      "title": "いつものキミ",
+      "time": 185,
+      "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
+      "tags": [
+        "夏恋",
+        "明るい"
+      ]
+    },
+    {
+      "id": "Komorebiyori",
+      "filepath": "/materials/Komorebiyori.mp3",
+      "title": "木漏れ日和",
+      "time": 167,
+      "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑) ちょっとした日常の場面で流れていそうな感じですね。",
+      "tags": [
+        "夏恋",
+        "",
+        "明るい",
+        "穏やか"
       ]
     },
     {
@@ -126,26 +174,28 @@
       ]
     },
     {
-      "id": "Shittori",
-      "filepath": "/materials/Shittori.mp3",
-      "title": "しっとりモーニン",
+      "id": "RelaxTime",
+      "filepath": "/materials/RelaxTime.mp3",
+      "title": "リラックスタイム",
       "time": 122,
-      "desc": "当サイトの曲「夏草」をアレンジして「朝っぽい」雰囲気を出してみました。清々しいと言うよりは「しっとりしなやかな朝」をイメージしました。「朝シャンプー」とか「リンスインシャンプー」「シャボン玉」とか散々迷いましたが...。この曲を「早朝から活動する主人公へのエール」と代えさせて頂きます。",
+      "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
       "tags": [
         "夏恋",
-        "ピアノ",
+        "",
         "明るい",
         "穏やか"
       ]
     },
     {
-      "id": "Itsumonokimi",
-      "filepath": "/materials/Itsumonokimi.mp3",
-      "title": "いつものキミ",
-      "time": 185,
-      "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
+      "id": "HaruiroKomachi",
+      "filepath": "/materials/HaruiroKomachi.mp3",
+      "title": "春色小町",
+      "time": 115,
+      "desc": "春がすぐそこまで来ているような「フワフワ」な雰囲気の曲です。テンポも遅めなのでゆったりとした時間を演出したい時にいかがでしょうか？？",
       "tags": [
-        "夏恋",
+        "和風短編曲集",
+        "安らぎ",
+        "穏やか",
         "明るい"
       ]
     },
@@ -159,6 +209,108 @@
         "和風短編曲集",
         "夜",
         "明るい"
+      ]
+    },
+    {
+      "id": "decision-seichounokane",
+      "filepath": "/materials/decision-seichounokane.mp3",
+      "title": "成長の鐘",
+      "time": 70,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "バトル",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "decision-saikai",
+      "filepath": "/materials/decision-saikai.mp3",
+      "title": "再会",
+      "time": 28,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-torus",
+      "filepath": "/materials/decision-torus.mp3",
+      "title": "貿易都市トーラス",
+      "time": 177,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-hitobantomatteikukai",
+      "filepath": "/materials/decision-hitobantomatteikukai.mp3",
+      "title": "一晩泊まっていくかい？",
+      "time": 17,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
+      "id": "decision-river",
+      "filepath": "/materials/decision-river.mp3",
+      "title": "水都リーベル",
+      "time": 220,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "decision-kazenodaichi",
+      "filepath": "/materials/decision-kazenodaichi.mp3",
+      "title": "風の大地",
+      "time": 190,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-shironosekai",
+      "filepath": "/materials/decision-shironosekai.mp3",
+      "title": "白の世界",
+      "time": 90,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-kiminohitomitokyoukainohana",
+      "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
+      "title": "君の瞳と教会の花",
+      "time": 136,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的"
       ]
     }
   ]

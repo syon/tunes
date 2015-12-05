@@ -72,19 +72,6 @@
       ]
     },
     {
-      "id": "Shittori",
-      "filepath": "/materials/Shittori.mp3",
-      "title": "しっとりモーニン",
-      "time": 122,
-      "desc": "当サイトの曲「夏草」をアレンジして「朝っぽい」雰囲気を出してみました。清々しいと言うよりは「しっとりしなやかな朝」をイメージしました。「朝シャンプー」とか「リンスインシャンプー」「シャボン玉」とか散々迷いましたが...。この曲を「早朝から活動する主人公へのエール」と代えさせて頂きます。",
-      "tags": [
-        "夏恋",
-        "ピアノ",
-        "明るい",
-        "穏やか"
-      ]
-    },
-    {
       "id": "YomichiWoNukete",
       "filepath": "/materials/YomichiWoNukete.mp3",
       "title": "夜道を抜けて",
@@ -121,6 +108,46 @@
         "ピアノ",
         "緊張感",
         "エンディング"
+      ]
+    },
+    {
+      "id": "decision-boukennohajimari",
+      "filepath": "/materials/decision-boukennohajimari.mp3",
+      "title": "冒険の始まり",
+      "time": 48,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-mizunomiko",
+      "filepath": "/materials/decision-mizunomiko.mp3",
+      "title": "水の巫女",
+      "time": 106,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-shironosekai",
+      "filepath": "/materials/decision-shironosekai.mp3",
+      "title": "白の世界",
+      "time": 90,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的",
+        "ピアノ"
       ]
     }
   ]

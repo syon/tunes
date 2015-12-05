@@ -14,6 +14,19 @@
       ]
     },
     {
+      "id": "HaruiroKomachi",
+      "filepath": "/materials/HaruiroKomachi.mp3",
+      "title": "春色小町",
+      "time": 115,
+      "desc": "春がすぐそこまで来ているような「フワフワ」な雰囲気の曲です。テンポも遅めなのでゆったりとした時間を演出したい時にいかがでしょうか？？",
+      "tags": [
+        "和風短編曲集",
+        "安らぎ",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
       "id": "Kuroikaze",
       "filepath": "/materials/Kuroikaze.mp3",
       "title": "黒い風",

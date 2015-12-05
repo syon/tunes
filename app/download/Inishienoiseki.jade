@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 古の遺跡 - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('冒険者たちの遺跡好きには本当に頭が下がります。みなさん遺跡探索本当に好きですよね。じゃあこの曲で決まりですよ。どこまで最低限の音で遺跡を表現できるか追求してみました。', ["RPG", "神秘的"])
+
+block track
+  .trackdetail#track_id(data-track="Inishienoiseki")
+    +tracktitle("古の遺跡", "4:29")
+
+    p.taglist
+      +taglist(["RPG", "神秘的"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 冒険者たちの遺跡好きには本当に頭が下がります。みなさん遺跡探索本当に好きですよね。じゃあこの曲で決まりですよ。どこまで最低限の音で遺跡を表現できるか追求してみました。
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Inishienoiseki", "古の遺跡")

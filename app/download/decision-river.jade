@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 水都リーベル - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["DECISION", "明るい", "穏やか"])
+
+block track
+  .trackdetail#track_id(data-track="decision-river")
+    +tracktitle("水都リーベル", "3:40")
+
+    p.taglist
+      +taglist(["DECISION", "明るい", "穏やか"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("decision-river", "水都リーベル")

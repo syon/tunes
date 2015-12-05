@@ -72,6 +72,7 @@ end
 
 musics.each do |m|
   m_id = m[:id]
+  puts m_id
   buf = File.open("generate/download/_template.jade.tmpl")
   txt = buf.read
   buf.close
@@ -80,7 +81,7 @@ musics.each do |m|
   txt.gsub!('@title@', m[:title])
   txt.gsub!('@time@', duration(m[:time]))
   txt.gsub!('@tags@', m[:tags].to_s)
-  txt.gsub!('@desc@', m[:desc])
+  txt.gsub!('@desc@', (m[:desc] || ''))
   File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
 end
 

@@ -35,6 +35,81 @@
         "バロック",
         "オープニング"
       ]
+    },
+    {
+      "id": "decision-overture",
+      "filepath": "/materials/decision-overture.mp3",
+      "title": "OVERTURE~序曲~",
+      "time": 180,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-boukennohajimari",
+      "filepath": "/materials/decision-boukennohajimari.mp3",
+      "title": "冒険の始まり",
+      "time": 48,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-chiheisennokanatahe",
+      "filepath": "/materials/decision-chiheisennokanatahe.mp3",
+      "title": "地平線の彼方へ",
+      "time": 154,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-oukokukishidan",
+      "filepath": "/materials/decision-oukokukishidan.mp3",
+      "title": "王国騎士団",
+      "time": 167,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-kazenodaichi",
+      "filepath": "/materials/decision-kazenodaichi.mp3",
+      "title": "風の大地",
+      "time": 190,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-hikaritoyaminohazamahe",
+      "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
+      "title": "光と闇の狭間へ",
+      "time": 116,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "疾走感",
+        "壮大"
+      ]
     }
   ]
 }

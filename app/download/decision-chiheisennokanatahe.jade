@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 地平線の彼方へ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["DECISION", "オープニング", "壮大"])
+
+block track
+  .trackdetail#track_id(data-track="decision-chiheisennokanatahe")
+    +tracktitle("地平線の彼方へ", "2:34")
+
+    p.taglist
+      +taglist(["DECISION", "オープニング", "壮大"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("decision-chiheisennokanatahe", "地平線の彼方へ")

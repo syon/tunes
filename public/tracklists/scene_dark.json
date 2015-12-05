@@ -54,16 +54,16 @@
       "filepath": "/materials/IntheRoom.mp3",
       "title": "In the Room",
       "time": 134,
-      "desc": "ゆったりと時間が流れているのは分かる、だけどここが不気味な場所であることは間違いない。でも、どこかこの旋律が落ち着くのはなぜ。私がこの空間に慣れてしまったからだろうか。あぁ、不気味だけどなぜか心地良い...。",
+      "desc": "ゆったりと時間が流れているのは分かる、だけどここが不気味な場所であることは間違いない。でも、どこかこの旋律が落ち着くのはなぜ...。俺がこの空間に慣れてしまったからだろうか。あぁ、不気味だけどなぜか心地良い...。",
       "tags": [
         "時の館",
         "暗い"
       ]
     },
     {
-      "id": "Underground",
-      "filepath": "/materials/Underground.mp3",
-      "title": "Underground",
+      "id": "Underground1",
+      "filepath": "/materials/Underground1.mp3",
+      "title": "Underground♯1",
       "time": 115,
       "desc": "地下へ続く通路を見つけた。奥からすごい轟音が響く。一体この先に何があるのだろう...。確かめなければ...。",
       "tags": [
@@ -73,9 +73,9 @@
       ]
     },
     {
-      "id": "Cave",
-      "filepath": "/materials/Cave.mp3",
-      "title": "Cave",
+      "id": "Underground2",
+      "filepath": "/materials/Underground2.mp3",
+      "title": "Underground♯2",
       "time": 115,
       "desc": "広い空洞に出た。館の地下にこんな空洞があるなんて...。まだまだ奥へ進めそうだ。風が吹いているからきっと抜け道はあるだろう。",
       "tags": [
@@ -127,12 +127,74 @@
       "filepath": "/materials/SoulRelease.mp3",
       "title": "Soul Release",
       "time": 141,
-      "desc": "どこからか、またあの声が聞こえる。あの旋律とともに。そうか、なぜあの旋律が心地よかったのか、今ようやく分かった気がする。ようやく乗り越えた悲しみの先に、更なる受け入れれない事実がある。全てを解放し、生か死か、私には選ぶ権利がある。そして、物語は終焉を迎える。鎮魂歌っぽい感じもするので、クライマックス、死を感じさせる場面で使えるかもしれません。",
+      "desc": "どこからか、またあの声が聞こえる。あの旋律とともに。そうか、なぜあの旋律が心地よかったのか、今ようやく分かった気がする。ようやく乗り越えた悲しみの先に、更なる受け入れれない事実がある。全てを解放し、生か死か、私には選ぶ権利がある。そして、物語は終焉を迎える。",
       "tags": [
         "時の館",
         "暗い",
         "緊張感",
         "エンディング"
+      ]
+    },
+    {
+      "id": "decision-tsuioku",
+      "filepath": "/materials/decision-tsuioku.mp3",
+      "title": "追憶",
+      "time": 39,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い"
+      ]
+    },
+    {
+      "id": "decision-mizunodoukutsu",
+      "filepath": "/materials/decision-mizunodoukutsu.mp3",
+      "title": "水の洞窟",
+      "time": 175,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "decision-kunossosu",
+      "filepath": "/materials/decision-kunossosu.mp3",
+      "title": "クノッソス迷宮",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "decision-mizunomiko",
+      "filepath": "/materials/decision-mizunomiko.mp3",
+      "title": "水の巫女",
+      "time": 106,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-souennorekuiemu",
+      "filepath": "/materials/decision-souennorekuiemu.mp3",
+      "title": "蒼炎のレクイエム",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "緊張感",
+        "壮大"
       ]
     }
   ]

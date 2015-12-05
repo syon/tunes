@@ -1,0 +1,292 @@
+{
+  "listname": "DECISION",
+  "tracks": [
+    {
+      "id": "decision-overture",
+      "filepath": "/materials/decision-overture.mp3",
+      "title": "OVERTURE~序曲~",
+      "time": 180,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-boukennohajimari",
+      "filepath": "/materials/decision-boukennohajimari.mp3",
+      "title": "冒険の始まり",
+      "time": 48,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-chiheisennokanatahe",
+      "filepath": "/materials/decision-chiheisennokanatahe.mp3",
+      "title": "地平線の彼方へ",
+      "time": 154,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-mikainochihe",
+      "filepath": "/materials/decision-mikainochihe.mp3",
+      "title": "未開の地へ",
+      "time": 171,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "神秘的",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-sworddancer",
+      "filepath": "/materials/decision-sworddancer.mp3",
+      "title": "ソードダンサー",
+      "time": 199,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "バトル",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-seichounokane",
+      "filepath": "/materials/decision-seichounokane.mp3",
+      "title": "成長の鐘",
+      "time": 70,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "バトル",
+        "壮大",
+        "明るい"
+      ]
+    },
+    {
+      "id": "decision-oukokukishidan",
+      "filepath": "/materials/decision-oukokukishidan.mp3",
+      "title": "王国騎士団",
+      "time": 167,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-saikai",
+      "filepath": "/materials/decision-saikai.mp3",
+      "title": "再会",
+      "time": 28,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-torus",
+      "filepath": "/materials/decision-torus.mp3",
+      "title": "貿易都市トーラス",
+      "time": 177,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-hitobantomatteikukai",
+      "filepath": "/materials/decision-hitobantomatteikukai.mp3",
+      "title": "一晩泊まっていくかい？",
+      "time": 17,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
+      "id": "decision-neige",
+      "filepath": "/materials/decision-neige.mp3",
+      "title": "雪の国ネージュ",
+      "time": 146,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "神秘的",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-tsuioku",
+      "filepath": "/materials/decision-tsuioku.mp3",
+      "title": "追憶",
+      "time": 39,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い"
+      ]
+    },
+    {
+      "id": "decision-river",
+      "filepath": "/materials/decision-river.mp3",
+      "title": "水都リーベル",
+      "time": 220,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "decision-mizunodoukutsu",
+      "filepath": "/materials/decision-mizunodoukutsu.mp3",
+      "title": "水の洞窟",
+      "time": 175,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "decision-kunossosu",
+      "filepath": "/materials/decision-kunossosu.mp3",
+      "title": "クノッソス迷宮",
+      "time": 197,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "decision-kazenodaichi",
+      "filepath": "/materials/decision-kazenodaichi.mp3",
+      "title": "風の大地",
+      "time": 190,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-mizunosono",
+      "filepath": "/materials/decision-mizunosono.mp3",
+      "title": "水の園",
+      "time": 221,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "神秘的",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-mizunomiko",
+      "filepath": "/materials/decision-mizunomiko.mp3",
+      "title": "水の巫女",
+      "time": 106,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-hikaritoyaminohazamahe",
+      "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
+      "title": "光と闇の狭間へ",
+      "time": 116,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "疾走感",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-souennorekuiemu",
+      "filepath": "/materials/decision-souennorekuiemu.mp3",
+      "title": "蒼炎のレクイエム",
+      "time": 94,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "暗い",
+        "緊張感",
+        "壮大"
+      ]
+    },
+    {
+      "id": "decision-shironosekai",
+      "filepath": "/materials/decision-shironosekai.mp3",
+      "title": "白の世界",
+      "time": 90,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-kiminohitomitokyoukainohana",
+      "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
+      "title": "君の瞳と教会の花",
+      "time": 136,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的"
+      ]
+    },
+    {
+      "id": "decision-boukennokirokuwokokohe",
+      "filepath": "/materials/decision-boukennokirokuwokokohe.mp3",
+      "title": "冒険の記録をここに…",
+      "time": 162,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "エンディング",
+        "壮大"
+      ]
+    }
+  ]
+}

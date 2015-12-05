@@ -38,14 +38,15 @@
       ]
     },
     {
-      "id": "Shiawasenokairou",
-      "filepath": "/materials/Shiawasenokairou.mp3",
-      "title": "幸せの回廊",
-      "time": 88,
-      "desc": "私は「幸せはずっと続くものでは無い」と思っております。人生や身体の体調と同じで幸せにもバイオリズムがあり、幸せの「大きさ」や「カタチ」も年齢とともに変化します。この曲はずっと明るい感じでいくかと思いきや、途中で少し暗く、寂しい、ノスタルジックなメロディになります。それでも最後は前向きなメロディで完結するのですが、そんな不安定な幸せの回廊をぐるぐる歩くのが人生だと思います。",
+      "id": "TsukiyonoHourousha",
+      "filepath": "/materials/TsukiyonoHourousha.mp3",
+      "title": "月夜の放浪者",
+      "time": 116,
+      "desc": "当サイト音の園の「異邦の地図」という曲のアレンジバージョンです。その名の通り、夜の行動時に流れていそうなイメージ。夜っぽい曲は好きなので個人的にお気に入りの一曲です。",
       "tags": [
         "RPG",
-        "穏やか"
+        "穏やか",
+        "明るい"
       ]
     },
     {
@@ -73,6 +74,19 @@
       ]
     },
     {
+      "id": "Komorebiyori",
+      "filepath": "/materials/Komorebiyori.mp3",
+      "title": "木漏れ日和",
+      "time": 167,
+      "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑) ちょっとした日常の場面で流れていそうな感じですね。",
+      "tags": [
+        "夏恋",
+        "",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
       "id": "Natsukusa",
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
@@ -86,14 +100,36 @@
       ]
     },
     {
-      "id": "Shittori",
-      "filepath": "/materials/Shittori.mp3",
-      "title": "しっとりモーニン",
+      "id": "After5",
+      "filepath": "/materials/After5.mp3",
+      "title": "アフター５",
       "time": 122,
-      "desc": "当サイトの曲「夏草」をアレンジして「朝っぽい」雰囲気を出してみました。清々しいと言うよりは「しっとりしなやかな朝」をイメージしました。「朝シャンプー」とか「リンスインシャンプー」「シャボン玉」とか散々迷いましたが...。この曲を「早朝から活動する主人公へのエール」と代えさせて頂きます。",
+      "desc": "当サイト「夏草」のアレンジです。 夏草とはまた違った夕暮れ時を表現してみました。どちらかというと、少し清々しい雰囲気で、一日の何かひと仕事終えた後ようなイメージです。",
       "tags": [
         "夏恋",
-        "ピアノ",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "Shiawasenokairou",
+      "filepath": "/materials/Shiawasenokairou.mp3",
+      "title": "幸せの回廊",
+      "time": 88,
+      "desc": "私は「幸せはずっと続くものでは無い」と思っております。人生や身体の体調と同じで幸せにもバイオリズムがあり、幸せの「大きさ」や「カタチ」も年齢とともに変化します。この曲はずっと明るい感じでいくかと思いきや、途中で少し暗く、寂しい、ノスタルジックなメロディになります。それでも最後は前向きなメロディで完結するのですが、そんな不安定な幸せの回廊をぐるぐる歩くのが人生だと思います。",
+      "tags": [
+        "夏恋",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "RelaxTime",
+      "filepath": "/materials/RelaxTime.mp3",
+      "title": "リラックスタイム",
+      "time": 122,
+      "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
+      "tags": [
+        "夏恋",
+        "",
         "明るい",
         "穏やか"
       ]
@@ -124,6 +160,19 @@
       ]
     },
     {
+      "id": "HaruiroKomachi",
+      "filepath": "/materials/HaruiroKomachi.mp3",
+      "title": "春色小町",
+      "time": 115,
+      "desc": "春がすぐそこまで来ているような「フワフワ」な雰囲気の曲です。テンポも遅めなのでゆったりとした時間を演出したい時にいかがでしょうか？？",
+      "tags": [
+        "和風短編曲集",
+        "安らぎ",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
       "id": "Wakoku",
       "filepath": "/materials/Wakoku.mp3",
       "title": "倭国",
@@ -132,6 +181,83 @@
       "tags": [
         "和風短編曲集",
         "穏やか"
+      ]
+    },
+    {
+      "id": "decision-mikainochihe",
+      "filepath": "/materials/decision-mikainochihe.mp3",
+      "title": "未開の地へ",
+      "time": 171,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "神秘的",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-saikai",
+      "filepath": "/materials/decision-saikai.mp3",
+      "title": "再会",
+      "time": 28,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい",
+        "安らぎ"
+      ]
+    },
+    {
+      "id": "decision-hitobantomatteikukai",
+      "filepath": "/materials/decision-hitobantomatteikukai.mp3",
+      "title": "一晩泊まっていくかい？",
+      "time": 17,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "穏やか",
+        "明るい"
+      ]
+    },
+    {
+      "id": "decision-river",
+      "filepath": "/materials/decision-river.mp3",
+      "title": "水都リーベル",
+      "time": 220,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "decision-shironosekai",
+      "filepath": "/materials/decision-shironosekai.mp3",
+      "title": "白の世界",
+      "time": 90,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的",
+        "ピアノ"
+      ]
+    },
+    {
+      "id": "decision-kiminohitomitokyoukainohana",
+      "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
+      "title": "君の瞳と教会の花",
+      "time": 136,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "穏やか",
+        "神秘的"
       ]
     }
   ]

@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 蒼炎のレクイエム - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["DECISION", "暗い", "緊張感", "壮大"])
+
+block track
+  .trackdetail#track_id(data-track="decision-souennorekuiemu")
+    +tracktitle("蒼炎のレクイエム", "1:34")
+
+    p.taglist
+      +taglist(["DECISION", "暗い", "緊張感", "壮大"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("decision-souennorekuiemu", "蒼炎のレクイエム")

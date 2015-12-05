@@ -136,6 +136,44 @@
         "緊張感",
         "疾走感"
       ]
+    },
+    {
+      "id": "decision-torus",
+      "filepath": "/materials/decision-torus.mp3",
+      "title": "貿易都市トーラス",
+      "time": 177,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-kazenodaichi",
+      "filepath": "/materials/decision-kazenodaichi.mp3",
+      "title": "風の大地",
+      "time": 190,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "明るい",
+        "疾走感"
+      ]
+    },
+    {
+      "id": "decision-hikaritoyaminohazamahe",
+      "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
+      "title": "光と闇の狭間へ",
+      "time": 116,
+      "desc": null,
+      "tags": [
+        "DECISION",
+        "オープニング",
+        "疾走感",
+        "壮大"
+      ]
     }
   ]
 }

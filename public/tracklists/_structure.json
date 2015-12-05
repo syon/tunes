@@ -1,15 +1,23 @@
 [
   {
     "group_id": "albums",
-    "group_count": 70,
+    "group_count": 101,
     "listset": [
+      {
+        "id": "game_decision",
+        "listname": "DECISION",
+        "tags": [
+          "DECISION"
+        ],
+        "count": 23
+      },
       {
         "id": "game_rpg",
         "listname": "RPG",
         "tags": [
           "RPG"
         ],
-        "count": 10
+        "count": 15
       },
       {
         "id": "game_baroque",
@@ -17,7 +25,7 @@
         "tags": [
           "バロック"
         ],
-        "count": 13
+        "count": 12
       },
       {
         "id": "game_renai",
@@ -25,7 +33,7 @@
         "tags": [
           "夏恋"
         ],
-        "count": 8
+        "count": 11
       },
       {
         "id": "game_wafu",
@@ -33,7 +41,7 @@
         "tags": [
           "和風短編曲集"
         ],
-        "count": 7
+        "count": 8
       },
       {
         "id": "game_detective",
@@ -79,7 +87,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 124,
+    "group_count": 193,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -87,7 +95,7 @@
         "tags": [
           "明るい"
         ],
-        "count": 13
+        "count": 25
       },
       {
         "id": "scene_dark",
@@ -95,7 +103,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 11
+        "count": 16
       },
       {
         "id": "scene_honobono",
@@ -103,7 +111,7 @@
         "tags": [
           "穏やか"
         ],
-        "count": 11
+        "count": 21
       },
       {
         "id": "scene_grandeur",
@@ -111,7 +119,7 @@
         "tags": [
           "壮大"
         ],
-        "count": 15
+        "count": 25
       },
       {
         "id": "scene_mysterious",
@@ -119,7 +127,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 7
+        "count": 18
       },
       {
         "id": "scene_speedy",
@@ -127,7 +135,7 @@
         "tags": [
           "疾走感"
         ],
-        "count": 11
+        "count": 14
       },
       {
         "id": "scene_tense",
@@ -135,7 +143,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 23
+        "count": 26
       },
       {
         "id": "scene_night",
@@ -159,7 +167,7 @@
         "tags": [
           "ピアノ"
         ],
-        "count": 10
+        "count": 12
       },
       {
         "id": "scene_battle",
@@ -167,7 +175,7 @@
         "tags": [
           "バトル"
         ],
-        "count": 3
+        "count": 7
       },
       {
         "id": "scene_opening",
@@ -175,7 +183,7 @@
         "tags": [
           "オープニング"
         ],
-        "count": 3
+        "count": 9
       },
       {
         "id": "scene_ending",
@@ -183,7 +191,7 @@
         "tags": [
           "エンディング"
         ],
-        "count": 3
+        "count": 6
       },
       {
         "id": "scene_8bit",
