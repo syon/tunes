@@ -1,7 +1,7 @@
 [
   {
     "group_id": "albums",
-    "group_count": 101,
+    "group_count": 119,
     "listset": [
       {
         "id": "game_decision",
@@ -17,7 +17,7 @@
         "tags": [
           "RPG"
         ],
-        "count": 15
+        "count": 16
       },
       {
         "id": "game_baroque",
@@ -33,7 +33,7 @@
         "tags": [
           "夏恋"
         ],
-        "count": 11
+        "count": 12
       },
       {
         "id": "game_wafu",
@@ -57,7 +57,7 @@
         "tags": [
           "時の館"
         ],
-        "count": 12
+        "count": 14
       },
       {
         "id": "game_planet",
@@ -68,12 +68,28 @@
         "count": 4
       },
       {
-        "id": "game_flight",
-        "listname": "フライト",
+        "id": "game_lastmonth",
+        "listname": "Last Month",
         "tags": [
-          "フライト"
+          "Last Month"
         ],
-        "count": 1
+        "count": 9
+      },
+      {
+        "id": "game_cling",
+        "listname": "Cling to Life",
+        "tags": [
+          "Cling to Life"
+        ],
+        "count": 2
+      },
+      {
+        "id": "game_cover",
+        "listname": "ゲーム音楽カバー",
+        "tags": [
+          "ゲーム音楽カバー"
+        ],
+        "count": 4
       },
       {
         "id": "game_other",
@@ -87,7 +103,7 @@
   },
   {
     "group_id": "scenes",
-    "group_count": 193,
+    "group_count": 212,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -95,7 +111,7 @@
         "tags": [
           "明るい"
         ],
-        "count": 25
+        "count": 26
       },
       {
         "id": "scene_dark",
@@ -103,7 +119,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 16
+        "count": 20
       },
       {
         "id": "scene_honobono",
@@ -111,7 +127,7 @@
         "tags": [
           "穏やか"
         ],
-        "count": 21
+        "count": 22
       },
       {
         "id": "scene_grandeur",
@@ -127,7 +143,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 18
+        "count": 25
       },
       {
         "id": "scene_speedy",
@@ -143,7 +159,7 @@
         "tags": [
           "緊張感"
         ],
-        "count": 26
+        "count": 30
       },
       {
         "id": "scene_night",
@@ -167,7 +183,7 @@
         "tags": [
           "ピアノ"
         ],
-        "count": 12
+        "count": 14
       },
       {
         "id": "scene_battle",

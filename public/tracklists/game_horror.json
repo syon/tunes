@@ -37,6 +37,18 @@
       ]
     },
     {
+      "id": "Search",
+      "filepath": "/materials/Search.mp3",
+      "title": "Search",
+      "time": 121,
+      "desc": null,
+      "tags": [
+        "時の館",
+        "ピアノ",
+        "緊張感"
+      ]
+    },
+    {
       "id": "Underground1",
       "filepath": "/materials/Underground1.mp3",
       "title": "Underground♯1",
@@ -83,6 +95,18 @@
         "ピアノ",
         "緊張感",
         "暗い"
+      ]
+    },
+    {
+      "id": "Search2",
+      "filepath": "/materials/Search2.mp3",
+      "title": "Search#2",
+      "time": 121,
+      "desc": null,
+      "tags": [
+        "時の館",
+        "ピアノ",
+        "緊張感"
       ]
     },
     {

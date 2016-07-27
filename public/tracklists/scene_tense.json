@@ -180,6 +180,18 @@
       ]
     },
     {
+      "id": "Search",
+      "filepath": "/materials/Search.mp3",
+      "title": "Search",
+      "time": 121,
+      "desc": null,
+      "tags": [
+        "時の館",
+        "ピアノ",
+        "緊張感"
+      ]
+    },
+    {
       "id": "Underground1",
       "filepath": "/materials/Underground1.mp3",
       "title": "Underground♯1",
@@ -226,6 +238,18 @@
         "ピアノ",
         "緊張感",
         "暗い"
+      ]
+    },
+    {
+      "id": "Search2",
+      "filepath": "/materials/Search2.mp3",
+      "title": "Search#2",
+      "time": 121,
+      "desc": null,
+      "tags": [
+        "時の館",
+        "ピアノ",
+        "緊張感"
       ]
     },
     {
@@ -318,6 +342,30 @@
         "暗い",
         "緊張感",
         "壮大"
+      ]
+    },
+    {
+      "id": "Shihenokodou",
+      "filepath": "/materials/Shihenokodou.mp3",
+      "title": "死への鼓動",
+      "time": 188,
+      "desc": null,
+      "tags": [
+        "Cling to Life",
+        "暗い",
+        "緊張感"
+      ]
+    },
+    {
+      "id": "ClingtoLife",
+      "filepath": "/materials/ClingtoLife.mp3",
+      "title": "Cling to Life",
+      "time": 198,
+      "desc": null,
+      "tags": [
+        "Cling to Life",
+        "暗い",
+        "緊張感"
       ]
     }
   ]

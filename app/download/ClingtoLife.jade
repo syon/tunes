@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Cling to Life - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["Cling to Life", "暗い", "緊張感"])
+
+block track
+  .trackdetail#track_id(data-track="ClingtoLife")
+    +tracktitle("Cling to Life", "3:18")
+
+    p.taglist
+      +taglist(["Cling to Life", "暗い", "緊張感"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("ClingtoLife", "Cling to Life")

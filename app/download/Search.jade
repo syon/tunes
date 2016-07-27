@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Search - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["時の館", "ピアノ", "緊張感"])
+
+block track
+  .trackdetail#track_id(data-track="Search")
+    +tracktitle("Search", "2:01")
+
+    p.taglist
+      +taglist(["時の館", "ピアノ", "緊張感"])
+
+    include /app/_layouts/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Search", "Search")

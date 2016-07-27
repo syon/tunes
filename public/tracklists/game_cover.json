@@ -1,0 +1,49 @@
+{
+  "listname": "ゲーム音楽カバー",
+  "tracks": [
+    {
+      "id": "RomancingsagaOpeningBV",
+      "filepath": "/materials/RomancingsagaOpeningBV.mp3",
+      "title": "オープニングタイトル",
+      "time": 211,
+      "desc": null,
+      "tags": [
+        "ゲーム音楽カバー",
+        "Romancing SaGa"
+      ]
+    },
+    {
+      "id": "Romancingsaga2Dungeon1BV",
+      "filepath": "/materials/Romancingsaga2Dungeon1BV.mp3",
+      "title": "ダンジョン#1",
+      "time": 223,
+      "desc": null,
+      "tags": [
+        "ゲーム音楽カバー",
+        "Romancing SaGa"
+      ]
+    },
+    {
+      "id": "StarOcean2StabBV",
+      "filepath": "/materials/StarOcean2StabBV.mp3",
+      "title": "Stab the sword of justice",
+      "time": 164,
+      "desc": null,
+      "tags": [
+        "ゲーム音楽カバー",
+        "Star Ocean2"
+      ]
+    },
+    {
+      "id": "ChronoTriggerBattle1BV",
+      "filepath": "/materials/ChronoTriggerBattle1BV.mp3",
+      "title": "戦い",
+      "time": 239,
+      "desc": null,
+      "tags": [
+        "ゲーム音楽カバー",
+        "Chrono Trigger"
+      ]
+    }
+  ]
+}

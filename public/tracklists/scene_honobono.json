@@ -87,6 +87,19 @@
       ]
     },
     {
+      "id": "Eternity",
+      "filepath": "/materials/Eternity.mp3",
+      "title": "Eternity",
+      "time": 234,
+      "desc": null,
+      "tags": [
+        "夏恋",
+        "",
+        "明るい",
+        "穏やか"
+      ]
+    },
+    {
       "id": "Natsukusa",
       "filepath": "/materials/Natsukusa.mp3",
       "title": "夏草",
