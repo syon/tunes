@@ -34,7 +34,7 @@ musics = []
 csv.map do |df|
   music = {}
   cate_id = df[:filename]
-  path = base_dir + cate_id
+  path = "#{base_dir}#{cate_id}"
   begin
     AudioInfo.open(path) do |info|
       music[:time] = info.length
