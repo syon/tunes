@@ -28,8 +28,9 @@ class ItemBox extends React.Component {
   render() {
     const styles = {
       itemBox: {
-        maxWidth: 800,
-        margin: '15px auto',
+        paddingTop: 64,
+        minHeight: 400,
+        paddingLeft: 256,
       },
     };
     return (
