@@ -3,13 +3,13 @@ GEM
   specs:
     apetag (1.1.5)
       cicphash (>= 1.0.0)
-    awesome_print (1.6.1)
+    awesome_print (1.7.0)
     cicphash (1.1.0)
-    dotenv (2.0.2)
+    dotenv (2.1.1)
     flacinfo-rb (1.0)
     moumar-wmainfo-rb (0.8)
     mp4info (1.7.3)
-    ruby-audioinfo (0.5.1)
+    ruby-audioinfo (0.5.2)
       apetag (>= 1.1.4)
       flacinfo-rb (>= 0.4)
       moumar-wmainfo-rb (>= 0.7)
@@ -17,10 +17,10 @@ GEM
       ruby-mp3info (>= 0.8)
       ruby-ogginfo (>= 0.7)
       wavefile (>= 0.6.0)
-    ruby-mp3info (0.8.6)
+    ruby-mp3info (0.8.9)
     ruby-ogginfo (0.7.2)
-    taglib-ruby (0.7.0)
-    wavefile (0.6.0)
+    taglib-ruby (0.7.1)
+    wavefile (0.7.0)
 
 PLATFORMS
   ruby
@@ -31,5 +31,8 @@ DEPENDENCIES
   ruby-audioinfo
   taglib-ruby
 
+RUBY VERSION
+   ruby 2.0.0p647
+
 BUNDLED WITH
-   1.10.6
+   1.12.5
