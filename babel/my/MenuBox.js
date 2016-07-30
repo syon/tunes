@@ -21,10 +21,14 @@ class MenuBox extends React.Component {
 
   render() {
     const nodes = [];
-    _.each(this.props.structure, (m) => {
-      _.each(m.listset, (t) => {
+    _.each(this.props.structure, (grp) => {
+      _.each(grp.listset, (album) => {
         nodes.push(
-          <AlbumItem id={t.id} track={t} toAaaa={this.handleClick} />
+          <AlbumItem
+            key={`${grp.group_id}${album.id}`}
+            album={album}
+            toAaaa={this.handleClick}
+          />
         );
       });
     });

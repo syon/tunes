@@ -36,23 +36,27 @@ class ItemBox extends React.Component {
   render() {
     const tracks = this.props.album.tracks;
     let nodes = [];
-    _.each(tracks, (t) => {
-      nodes.push(
-        <div>
-          <FloatingActionButton mini>
-            <PlayArrow />
-          </FloatingActionButton>
-          <h4 key={t.id}>{t.title}aaa</h4>
-        </div>
-      );
-    });
     const styles = {
       itemBox: {
         paddingTop: 64,
         minHeight: 400,
         paddingLeft: 256,
       },
+      wrap: {
+        display: 'flex',
+        alignItems: 'center',
+      },
     };
+    _.each(tracks, (t) => {
+      nodes.push(
+        <div key={t.id} style={styles.wrap}>
+          <FloatingActionButton mini>
+            <PlayArrow />
+          </FloatingActionButton>
+          <h4>{t.title}</h4>
+        </div>
+      );
+    });
     return (
       <div className="itemBox" style={styles.itemBox}>
         {nodes}

@@ -2,7 +2,7 @@ import React from 'react';
 import MenuItem from 'material-ui/MenuItem';
 
 const propTypes = {
-  track: React.PropTypes.object,
+  album: React.PropTypes.object,
   toAaaa: React.PropTypes.func,
 };
 
@@ -14,14 +14,14 @@ class AlbumItem extends React.Component {
   }
 
   handleClick() {
-    this.props.toAaaa(this.props.track.id);
+    this.props.toAaaa(this.props.album.id);
   }
 
   render() {
-    const t = this.props.track;
+    const a = this.props.album;
     return (
-      <MenuItem onTouchTap={this.handleClick}>
-        {t.listname}
+      <MenuItem key={a.id} onTouchTap={this.handleClick}>
+        {a.listname}
       </MenuItem>
     );
   }
