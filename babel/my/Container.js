@@ -1,6 +1,6 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import ItemBox from './ItemBox';
+import TrackBox from './TrackBox';
 
 const propTypes = {
   setId: React.PropTypes.string,
@@ -29,7 +29,7 @@ class Container extends React.Component {
     return (
       <div style={style}>
         <AppBar title={this.state.select.title} />
-        <ItemBox
+        <TrackBox
           setId={this.props.setId}
           album={this.props.album}
           select={this.handleSelect}
