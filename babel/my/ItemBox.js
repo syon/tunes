@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
@@ -7,11 +6,14 @@ import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
 const propTypes = {
   setId: React.PropTypes.string,
   album: React.PropTypes.object,
+  select: React.PropTypes.object,
 };
 
 class ItemBox extends React.Component {
   constructor(props, context) {
     super(props, context);
+
+    this.handleClick = this.handleClick.bind(this);
 
     this.state = {
       thumbed: false,
@@ -19,18 +21,8 @@ class ItemBox extends React.Component {
     };
   }
 
-  componentDidMount() {
-    // this.loadFromServer();
-  }
-
-  loadFromServer() {
-    axios.get(`/tracklists/${this.props.setId}.json`)
-      .then((response) => {
-        this.setState({ data: response.data });
-      })
-      .catch((response) => {
-        console.error('/retrieve', response);
-      });
+  handleClick() {
+    this.props.select(this.props.album.tracks[0]);
   }
 
   render() {
@@ -45,7 +37,7 @@ class ItemBox extends React.Component {
     _.each(tracks, (t) => {
       nodes.push(
         <div key={t.id} style={styles.wrap}>
-          <FloatingActionButton mini>
+          <FloatingActionButton mini onClick={this.handleClick}>
             <PlayArrow />
           </FloatingActionButton>
           <h4>{t.title}</h4>

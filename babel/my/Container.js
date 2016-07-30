@@ -7,16 +7,36 @@ const propTypes = {
   album: React.PropTypes.object,
 };
 
-function Container({ setId, album }) {
-  const style = {
-    paddingLeft: 256,
-  };
-  return (
-    <div style={style}>
-      <AppBar title="Title" />
-      <ItemBox setId={setId} album={album} />
-    </div>
-  );
+class Container extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleSelect = this.handleSelect.bind(this);
+
+    this.state = {
+      select: {},
+    };
+  }
+
+  handleSelect(track) {
+    this.setState({ select: track });
+  }
+
+  render() {
+    const style = {
+      paddingLeft: 256,
+    };
+    return (
+      <div style={style}>
+        <AppBar title={this.state.select.title} />
+        <ItemBox
+          setId={this.props.setId}
+          album={this.props.album}
+          select={this.handleSelect}
+        />
+      </div>
+    );
+  }
 }
 
 Container.propTypes = propTypes;
