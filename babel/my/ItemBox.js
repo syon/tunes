@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import _ from 'lodash';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
+import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
 
 const propTypes = {
   setId: React.PropTypes.string,
@@ -35,7 +37,14 @@ class ItemBox extends React.Component {
     const tracks = this.props.album.tracks;
     let nodes = [];
     _.each(tracks, (t) => {
-      nodes.push(<h4 key={t.id}>{t.title}</h4>);
+      nodes.push(
+        <div>
+          <FloatingActionButton mini>
+            <PlayArrow />
+          </FloatingActionButton>
+          <h4 key={t.id}>{t.title}aaa</h4>
+        </div>
+      );
     });
     const styles = {
       itemBox: {
