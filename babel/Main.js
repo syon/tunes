@@ -21,18 +21,31 @@ class Main extends React.Component {
     this.handleClickMenu = this.handleClickMenu.bind(this);
 
     this.state = {
+      structure: [],
       setId: 'game_wafu',
       album: {},
     };
   }
 
+  componentDidMount() {
+    this.loadFromServer(this.state.setId);
+  }
+
   loadFromServer(setId) {
+    axios.get('/tracklists/_structure.json')
+      .then((response) => {
+        this.setState({ structure: response.data });
+      })
+      .catch((response) => {
+        console.error(response);
+      });
+
     axios.get(`/tracklists/${setId}.json`)
       .then((response) => {
         this.setState({ album: response.data });
       })
       .catch((response) => {
-        console.error('/retrieve', response);
+        console.error(response);
       });
   }
 
@@ -49,7 +62,7 @@ class Main extends React.Component {
             title="Title"
             iconClassNameRight="muidocs-icon-navigation-expand-more"
           />
-          <MenuBox toOya={this.handleClickMenu} />
+          <MenuBox structure={this.state.structure} toOya={this.handleClickMenu} />
           <ItemBox setId={this.state.setId} album={this.state.album} />
           <RaisedButton
             label="Toggle Drawer"
