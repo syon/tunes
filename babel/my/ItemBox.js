@@ -37,11 +37,6 @@ class ItemBox extends React.Component {
     const tracks = this.props.album.tracks;
     let nodes = [];
     const styles = {
-      itemBox: {
-        paddingTop: 64,
-        minHeight: 400,
-        paddingLeft: 256,
-      },
       wrap: {
         display: 'flex',
         alignItems: 'center',
@@ -58,7 +53,7 @@ class ItemBox extends React.Component {
       );
     });
     return (
-      <div className="itemBox" style={styles.itemBox}>
+      <div className="itemBox">
         {nodes}
       </div>
     );

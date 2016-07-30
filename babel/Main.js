@@ -3,10 +3,8 @@ import axios from 'axios';
 import { pink300 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
-import RaisedButton from 'material-ui/RaisedButton';
-import ItemBox from './my/ItemBox';
 import MenuBox from './my/MenuBox';
+import Container from './my/Container';
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -58,15 +56,8 @@ class Main extends React.Component {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
         <div>
-          <AppBar
-            title="Title"
-            iconClassNameRight="muidocs-icon-navigation-expand-more"
-          />
           <MenuBox structure={this.state.structure} toOya={this.handleClickMenu} />
-          <ItemBox setId={this.state.setId} album={this.state.album} />
-          <RaisedButton
-            label="Toggle Drawer"
-          />
+          <Container setId={this.state.setId} album={this.state.album} />
         </div>
       </MuiThemeProvider>
     );
