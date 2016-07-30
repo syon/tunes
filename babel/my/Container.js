@@ -1,4 +1,5 @@
 import React from 'react';
+import Sound from 'react-sound';
 import AppBar from 'material-ui/AppBar';
 import TrackBox from './TrackBox';
 
@@ -12,14 +13,34 @@ class Container extends React.Component {
     super(props, context);
 
     this.handleSelect = this.handleSelect.bind(this);
+    this.handleSongPlaying = this.handleSongPlaying.bind(this);
+    this.handlePlay = this.handlePlay.bind(this);
+    this.handleStop = this.handleStop.bind(this);
 
     this.state = {
       select: {},
+      status: Sound.status.STOPPED,
     };
   }
 
   handleSelect(track) {
-    this.setState({ select: track });
+    this.setState({
+      select: track,
+      url: `http://oto-no-sono.com${track.filepath}`,
+      status: Sound.status.PLAYING,
+    });
+  }
+
+  handleSongPlaying(a) {
+    console.log(Math.round(a.position/1000), a.duration);
+  }
+
+  handlePlay() {
+    this.setState({ status: Sound.status.PLAYING });
+  }
+
+  handleStop() {
+    this.setState({ status: Sound.status.STOPPED });
   }
 
   render() {
@@ -29,6 +50,16 @@ class Container extends React.Component {
     return (
       <div style={style}>
         <AppBar title={this.state.select.title} />
+        <Sound
+          url={this.state.url}
+          playStatus={this.state.status}
+          playFromPosition={300}
+          onLoading={this.handleSongLoading}
+          onPlaying={this.handleSongPlaying}
+          onFinishedPlaying={this.handleSongFinishedPlaying}
+        />
+        <button onClick={this.handlePlay}>PLAY</button>
+        <button onClick={this.handleStop}>STOP</button>
         <TrackBox
           setId={this.props.setId}
           album={this.props.album}
