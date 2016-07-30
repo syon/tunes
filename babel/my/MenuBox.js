@@ -1,12 +1,18 @@
 import React from 'react';
-import axios from 'axios';
 import _ from 'lodash';
+import axios from 'axios';
 import Drawer from 'material-ui/Drawer';
-import MenuItem from 'material-ui/MenuItem';
+import AlbumItem from './AlbumItem';
 
-class ItemBox extends React.Component {
+const propTypes = {
+  toOya: React.PropTypes.func,
+};
+
+class MenuBox extends React.Component {
   constructor(props, context) {
     super(props, context);
+
+    this.handleClick = this.handleClick.bind(this);
 
     this.state = {
       thumbed: false,
@@ -28,15 +34,19 @@ class ItemBox extends React.Component {
       });
   }
 
+  handleClick(a) {
+    this.props.toOya(a);
+  }
+
   render() {
-    const menus = this.state.structure;
-    let nodes = [];
-    _.each(menus, (m) => {
-      _.each(m.listset, (l) => {
-        nodes.push(<MenuItem>{l.listname}</MenuItem>);
+    const nodes = [];
+    _.each(this.state.structure, (m) => {
+      _.each(m.listset, (t) => {
+        nodes.push(
+          <AlbumItem track={t} toAaaa={this.handleClick} />
+        );
       });
     });
-
     return (
       <Drawer>
         {nodes}
@@ -45,4 +55,6 @@ class ItemBox extends React.Component {
   }
 }
 
-export default ItemBox;
+MenuBox.propTypes = propTypes;
+
+export default MenuBox;

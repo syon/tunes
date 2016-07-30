@@ -1,5 +1,11 @@
 import React from 'react';
 import axios from 'axios';
+import _ from 'lodash';
+
+const propTypes = {
+  setId: React.PropTypes.string,
+  album: React.PropTypes.object,
+};
 
 class ItemBox extends React.Component {
   constructor(props, context) {
@@ -7,18 +13,18 @@ class ItemBox extends React.Component {
 
     this.state = {
       thumbed: false,
-      list: [],
+      data: [],
     };
   }
 
   componentDidMount() {
-    this.loadFromServer();
+    // this.loadFromServer();
   }
 
   loadFromServer() {
-    axios.get('/retrieve')
+    axios.get(`/tracklists/${this.props.setId}.json`)
       .then((response) => {
-        this.setState({ list: response.data });
+        this.setState({ data: response.data });
       })
       .catch((response) => {
         console.error('/retrieve', response);
@@ -26,6 +32,11 @@ class ItemBox extends React.Component {
   }
 
   render() {
+    const tracks = this.props.album.tracks;
+    let nodes = [];
+    _.each(tracks, (t) => {
+      nodes.push(<h4 key={t.id}>{t.title}</h4>);
+    });
     const styles = {
       itemBox: {
         paddingTop: 64,
@@ -35,10 +46,12 @@ class ItemBox extends React.Component {
     };
     return (
       <div className="itemBox" style={styles.itemBox}>
-        <h1>ItemBox</h1>
+        {nodes}
       </div>
     );
   }
 }
+
+ItemBox.propTypes = propTypes;
 
 export default ItemBox;
