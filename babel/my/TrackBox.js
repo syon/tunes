@@ -1,7 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import FloatingActionButton from 'material-ui/FloatingActionButton';
-import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
+import TrackItem from './TrackItem';
 
 const propTypes = {
   setId: React.PropTypes.string,
@@ -9,7 +8,7 @@ const propTypes = {
   select: React.PropTypes.object,
 };
 
-class ItemBox extends React.Component {
+class TrackBox extends React.Component {
   constructor(props, context) {
     super(props, context);
 
@@ -21,37 +20,26 @@ class ItemBox extends React.Component {
     };
   }
 
-  handleClick() {
-    this.props.select(this.props.album.tracks[0]);
+  handleClick(track) {
+    this.props.select(track);
   }
 
   render() {
     const tracks = this.props.album.tracks;
     let nodes = [];
-    const styles = {
-      wrap: {
-        display: 'flex',
-        alignItems: 'center',
-      },
-    };
     _.each(tracks, (t) => {
       nodes.push(
-        <div key={t.id} style={styles.wrap}>
-          <FloatingActionButton mini onClick={this.handleClick}>
-            <PlayArrow />
-          </FloatingActionButton>
-          <h4>{t.title}</h4>
-        </div>
+        <TrackItem track={t} select={this.handleClick} />
       );
     });
     return (
-      <div className="itemBox">
+      <div>
         {nodes}
       </div>
     );
   }
 }
 
-ItemBox.propTypes = propTypes;
+TrackBox.propTypes = propTypes;
 
-export default ItemBox;
+export default TrackBox;
