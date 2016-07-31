@@ -5,6 +5,7 @@ import Slider from 'material-ui/Slider';
 const propTypes = {
   track: React.PropTypes.object,
   status: React.PropTypes.string,
+  controlPlayStatus: React.PropTypes.func,
 };
 
 class SoundPlayer extends React.Component {
@@ -13,6 +14,7 @@ class SoundPlayer extends React.Component {
 
     this.handleSongPlaying = this.handleSongPlaying.bind(this);
     this.handlePlay = this.handlePlay.bind(this);
+    this.handlePause = this.handlePause.bind(this);
     this.handleStop = this.handleStop.bind(this);
     this.handleSliderChange = this.handleSliderChange.bind(this);
 
@@ -25,7 +27,7 @@ class SoundPlayer extends React.Component {
   }
 
   handleSongPlaying(a) {
-    console.log(`★ ${a.position} / ${a.duration}`);
+    // console.log(`★ ${a.position} / ${a.duration}`);
     this.setState({
       duration: a.duration,
       progress: a.position / a.duration,
@@ -33,11 +35,16 @@ class SoundPlayer extends React.Component {
   }
 
   handlePlay() {
-    this.setState({ status: Sound.status.PLAYING });
+    this.props.controlPlayStatus(Sound.status.PLAYING);
+  }
+
+  handlePause() {
+    this.props.controlPlayStatus(Sound.status.PAUSED);
   }
 
   handleStop() {
-    this.setState({ status: Sound.status.STOPPED });
+    this.props.controlPlayStatus(Sound.status.STOPPED);
+    this.setState({ progress: 0 });
   }
 
   handleSliderChange(event, rate) {
@@ -57,6 +64,7 @@ class SoundPlayer extends React.Component {
         />
         <Slider value={this.state.progress} onChange={this.handleSliderChange} />
         <button onClick={this.handlePlay}>PLAY</button>
+        <button onClick={this.handlePause}>PAUSE</button>
         <button onClick={this.handleStop}>STOP</button>
       </div>
     );

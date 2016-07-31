@@ -1,6 +1,5 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import Slider from 'material-ui/Slider';
 import Sound from 'react-sound';
 import SoundPlayer from './SoundPlayer';
 import TrackBox from './TrackBox';
@@ -15,6 +14,8 @@ class Container extends React.Component {
     super(props, context);
 
     this.handleSelect = this.handleSelect.bind(this);
+    this.controlSoundPlayer = this.controlSoundPlayer.bind(this);
+    this.controlPlayStatus = this.controlPlayStatus.bind(this);
 
     this.state = {
       track: {},
@@ -28,18 +29,20 @@ class Container extends React.Component {
 
   controlSoundPlayer(oldTrack, newTrack) {
     if (oldTrack.id !== newTrack.id) {
-      this.setState({
-        track: newTrack,
-        status: Sound.status.PLAYING,
-      });
+      this.setState({ track: newTrack });
+      this.controlPlayStatus(Sound.status.PLAYING);
     } else {
       if (this.state.status === Sound.status.STOPPED
        || this.state.status === Sound.status.PAUSED) {
-        this.setState({ status: Sound.status.PLAYING });
+        this.controlPlayStatus(Sound.status.PLAYING);
       } else {
-        this.setState({ status: Sound.status.PAUSED });
+        this.controlPlayStatus(Sound.status.PAUSED);
       }
     }
+  }
+
+  controlPlayStatus(arg) {
+    this.setState({ status: arg });
   }
 
   render() {
@@ -65,6 +68,7 @@ class Container extends React.Component {
           <SoundPlayer
             track={this.state.track}
             status={this.state.status}
+            controlPlayStatus={this.controlPlayStatus}
           />
         </div>
         <div style={styles.trackbox}>
