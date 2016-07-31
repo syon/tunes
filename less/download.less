@@ -1,0 +1,166 @@
+.docs-logo {
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px;
+  margin: 0 auto;
+
+  & > img {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto 10px;
+    display: block;
+    // transform-origin: 50% 0;
+    // transform: scale(1.2);
+  }
+  &:focus {
+    outline: none;
+  }
+  .docs-logotype {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+  }
+  .author {
+    color: #aaa;
+    margin: 0;
+    line-height: 1;
+    font-size: .8em;
+  }
+}
+
+@main_color: #1812A8;
+@main_color_dark: #01014B;
+.nav-header {
+  background-color: @main_color;
+  background: linear-gradient(@main_color_dark, @main_color);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, @main_color_dark), color-stop(1, @main_color));
+  background: -webkit-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  background: -moz-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  background: linear-gradient(top, @main_color_dark 0%, @main_color 100%);
+  border-bottom: 1px solid #1B15C6;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+#download {
+  height: auto;
+  background: url(/assets/sono_dark.png) center center / cover no-repeat fixed;
+  padding-bottom: 40px;
+
+  .container {
+    max-width: 600px;
+    margin: 1.5em auto;
+    background-color: #fff;
+    border-radius: 4px;
+
+    .inner {
+      padding: 2em 2em 1em;
+
+      h2 {
+        text-align: center;
+
+        .time {
+          font-size: smaller;
+          color: gray;
+          margin-left: 1em;
+        }
+      }
+    }
+    .md-button:hover, .md-button:focus {
+      background-color: rgba(158,158,158,0.2);
+      border-radius: 3px;
+    }
+    #download_btn {
+      color: rgb(255,255,255);
+      background-color: rgb(255,64,129);
+      border-radius: 3px;
+      margin-bottom: 2em;
+    }
+    .rule {
+      margin: 0 .5em;
+      min-height: 32px;
+      line-height: 32px;
+    }
+  }
+  .taglist {
+    text-align: center;
+
+    .tag {
+      min-width: inherit;
+      min-height: inherit;
+      padding: 2px 4px;
+      line-height: 1.5;
+      font-size: 85%;
+      color: #777;
+      margin: 0 .6em 0 0;
+      letter-spacing: -0.1em;
+      border: 1px solid #bbb;
+      border-radius: 3px;
+    }
+  }
+  .adsense {
+    margin: 1em;
+    padding: 1em;
+
+    .adsbygoogle {
+      display: block !important;
+      margin: auto;
+      background-color: #eee;
+    }
+  }
+}
+
+#download.smartphone {
+  .container {
+    margin: 15px 10px;
+
+    .inner {
+      padding: 10px;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .sm2-bar-ui {
+    min-width: inherit;
+  }
+  .adsense {
+    margin: 1em auto;
+    padding: 1em 0;
+  }
+}
+
+md-toolbar .sm2player-toolbar {
+  background-color: @main_color;
+}
+.sm2-bar-ui .bd {
+  background-color: transparent !important;
+}
+.sm2-bar-ui {
+  .sm2-inline-element, a {
+    border: 0 !important;
+  }
+  .sm2-playlist ul li {
+    line-height: 1;
+  }
+}
+.sm2player {
+  background-color: rgba(10,0,30,.7);
+  background-image: none;
+
+  .play-pause {
+    cursor: pointer;
+  }
+  .sm2-progress .sm2-progress-track {
+    background-color: rgba(255,255,255,0.15);
+  }
+}

@@ -7,6 +7,8 @@ var gulp = require('gulp'),
     minifyify = require('minifyify'),
     watchify = require('watchify'),
     less = require('gulp-less'),
+    jade = require('gulp-jade'),
+    coffee = require('gulp-coffee'),
     path = require('path');
 
 var bundler = browserify({
@@ -44,5 +46,21 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('default', ['watch', 'less']);
-gulp.task('bundle', ['browserify', 'less']);
+gulp.task('jade', function () {
+  console.log(__dirname);
+  return gulp.src('./app/download/*.jade')
+    .pipe(jade({
+      basedir: __dirname,
+      locals: {}
+    }))
+    .pipe(gulp.dest('./public/download'));
+});
+
+gulp.task('coffee', function() {
+  gulp.src('./app/scripts/*.coffee')
+    .pipe(coffee({bare: true}))
+    .pipe(gulp.dest('./public/assets/js/'));
+});
+
+gulp.task('default', ['watch', 'less', 'jade', 'coffee']);
+gulp.task('bundle', ['browserify', 'less', 'jade', 'coffee']);
