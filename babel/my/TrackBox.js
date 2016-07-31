@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { List, ListItem } from 'material-ui/List';
 import TrackItem from './TrackItem';
 
 const propTypes = {
@@ -29,13 +30,15 @@ class TrackBox extends React.Component {
     let nodes = [];
     _.each(tracks, (t) => {
       nodes.push(
-        <TrackItem key={t.id} track={t} select={this.handleClick} />
+        <ListItem>
+          <TrackItem key={t.id} track={t} select={this.handleClick} />
+        </ListItem>
       );
     });
     return (
-      <div>
+      <List>
         {nodes}
-      </div>
+      </List>
     );
   }
 }
