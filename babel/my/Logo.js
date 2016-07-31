@@ -9,7 +9,6 @@ function Logo() {
       paddingBottom: 20,
       backgroundColor: '#1812A8',
       background: 'linear-gradient(#01014B, #1812A8)',
-      borderBottom: '1px solid #1B15C6',
     },
     anchor: {
       textDecoration: 'none',

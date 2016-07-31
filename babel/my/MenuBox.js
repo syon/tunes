@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import Drawer from 'material-ui/Drawer';
 import Logo from './Logo';
+import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Divider from 'material-ui/Divider';
 import AlbumItem from './AlbumItem';
@@ -34,21 +35,23 @@ class MenuBox extends React.Component {
       nodes.push(<Subheader>{grp.group_id}</Subheader>);
       _.each(grp.listset, (album) => {
         nodes.push(
-          <AlbumItem
-            key={`${grp.group_id}${album.id}`}
-            album={album}
-            toAaaa={this.handleClick}
-            style={styles.menuitem}
-          />
+          <ListItem>
+            <AlbumItem
+              key={`${grp.group_id}${album.id}`}
+              album={album}
+              toAaaa={this.handleClick}
+              style={styles.menuitem}
+            />
+          </ListItem>
         );
       });
     });
     return (
       <Drawer>
         <Logo />
-        <div style={styles.sidemenu}>
+        <List style={styles.sidemenu}>
           {nodes}
-        </div>
+        </List>
       </Drawer>
     );
   }
