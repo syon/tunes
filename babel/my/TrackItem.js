@@ -1,6 +1,9 @@
 import React from 'react';
+import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
+import FileDownload from 'material-ui/svg-icons/file/file-download';
+import RaisedButton from 'material-ui/RaisedButton';
 
 const propTypes = {
   track: React.PropTypes.object,
@@ -30,13 +33,35 @@ class TrackItem extends React.Component {
         display: 'flex',
         alignItems: 'center',
       },
+      title: {
+        flexGrow: '1',
+      },
     };
+    let tags = [];
+    _.each(t.tags, (tag) => {
+      tags.push(
+        <span>{tag}</span>
+      );
+    });
     return (
       <div key={t.id} style={styles.wrap}>
         <FloatingActionButton mini onClick={this.handleClick}>
           <PlayArrow />
         </FloatingActionButton>
-        <h4>{t.title}</h4>
+        <div onClick={this.handleClick} style={styles.title}>
+          <h3>{t.title}</h3>
+          <p>
+            {tags}
+          </p>
+        </div>
+        <RaisedButton
+          label="ダウンロード"
+          href={`/download/${t.id}.html`}
+          secondary
+          style={styles.button}
+          icon={<FileDownload />}
+          target="_blank"
+        />
       </div>
     );
   }
