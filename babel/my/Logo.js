@@ -6,6 +6,10 @@ function Logo() {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
+      paddingBottom: 20,
+      backgroundColor: '#1812A8',
+      background: 'linear-gradient(#01014B, #1812A8)',
+      borderBottom: '1px solid #1B15C6',
     },
     anchor: {
       textDecoration: 'none',
@@ -16,7 +20,7 @@ function Logo() {
       margin: '25px auto 10px',
     },
     title: {
-      margin: 0,
+      margin: '0 0 8px',
       color: 'white',
       textAlign: 'center',
       fontWeight: 400,

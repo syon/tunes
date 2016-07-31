@@ -23,15 +23,8 @@ class MenuBox extends React.Component {
   render() {
     const nodes = [];
     const styles = {
-      header: {
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      },
-      logo: {
-        width: 150,
-        height: 150,
-        margin: '25px auto 10px',
+      sidemenu: {
+        backgroundColor: '#1812A8',
       },
     };
     _.each(this.props.structure, (grp) => {
@@ -41,6 +34,7 @@ class MenuBox extends React.Component {
             key={`${grp.group_id}${album.id}`}
             album={album}
             toAaaa={this.handleClick}
+            style={styles.menuitem}
           />
         );
       });
@@ -48,7 +42,7 @@ class MenuBox extends React.Component {
     return (
       <Drawer>
         <Logo />
-        <div>
+        <div style={styles.sidemenu}>
           {nodes}
         </div>
       </Drawer>

@@ -19,8 +19,13 @@ class AlbumItem extends React.Component {
 
   render() {
     const a = this.props.album;
+    const styles = {
+      menuitem: {
+        fontWeight: 'bold',
+      },
+    };
     return (
-      <MenuItem key={a.id} onTouchTap={this.handleClick}>
+      <MenuItem key={a.id} onTouchTap={this.handleClick} style={styles.menuitem}>
         {a.listname}
       </MenuItem>
     );
