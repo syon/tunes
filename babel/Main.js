@@ -1,16 +1,12 @@
 import React from 'react';
 import axios from 'axios';
-import { pink300 } from 'material-ui/styles/colors';
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MenuBox from './my/MenuBox';
 import Container from './my/Container';
 
-const muiTheme = getMuiTheme({
-  palette: {
-    accent1Color: pink300,
-  },
-});
+const muiTheme = getMuiTheme(darkBaseTheme);
 
 class Main extends React.Component {
   constructor(props, context) {
