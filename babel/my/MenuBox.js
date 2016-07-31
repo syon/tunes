@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import Drawer from 'material-ui/Drawer';
+import Logo from './Logo';
 import AlbumItem from './AlbumItem';
 
 const propTypes = {
@@ -21,6 +22,18 @@ class MenuBox extends React.Component {
 
   render() {
     const nodes = [];
+    const styles = {
+      header: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      },
+      logo: {
+        width: 150,
+        height: 150,
+        margin: '25px auto 10px',
+      },
+    };
     _.each(this.props.structure, (grp) => {
       _.each(grp.listset, (album) => {
         nodes.push(
@@ -34,7 +47,10 @@ class MenuBox extends React.Component {
     });
     return (
       <Drawer>
-        {nodes}
+        <Logo />
+        <div>
+          {nodes}
+        </div>
       </Drawer>
     );
   }
