@@ -18,17 +18,23 @@ class Container extends React.Component {
     this.handleStop = this.handleStop.bind(this);
 
     this.state = {
-      select: {},
+      track: {},
+      url: '',
       status: Sound.status.STOPPED,
     };
   }
 
   handleSelect(track) {
     this.setState({
-      select: track,
+      track,
       url: `http://oto-no-sono.com${track.filepath}`,
-      status: Sound.status.PLAYING,
     });
+    if (this.state.status === Sound.status.PLAYING) {
+      this.setState({ status: Sound.status.PAUSED });
+    } else {
+      this.setState({ status: Sound.status.PLAYING });
+    }
+    console.log(this.state.status);
   }
 
   handleSongPlaying(a) {
@@ -49,7 +55,7 @@ class Container extends React.Component {
     };
     return (
       <div style={style}>
-        <AppBar title={this.state.select.title} />
+        <AppBar title={this.state.track.title} />
         <Sound
           url={this.state.url}
           playStatus={this.state.status}

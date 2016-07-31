@@ -5,7 +5,7 @@ import TrackItem from './TrackItem';
 const propTypes = {
   setId: React.PropTypes.string,
   album: React.PropTypes.object,
-  select: React.PropTypes.object,
+  select: React.PropTypes.func,
 };
 
 class TrackBox extends React.Component {
@@ -29,7 +29,7 @@ class TrackBox extends React.Component {
     let nodes = [];
     _.each(tracks, (t) => {
       nodes.push(
-        <TrackItem track={t} select={this.handleClick} />
+        <TrackItem key={t.id} track={t} select={this.handleClick} />
       );
     });
     return (
