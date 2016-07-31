@@ -1,6 +1,7 @@
 import React from 'react';
-import Sound from 'react-sound';
 import AppBar from 'material-ui/AppBar';
+import Sound from 'react-sound';
+import SoundPlayer from './SoundPlayer';
 import TrackBox from './TrackBox';
 
 const propTypes = {
@@ -13,40 +14,31 @@ class Container extends React.Component {
     super(props, context);
 
     this.handleSelect = this.handleSelect.bind(this);
-    this.handleSongPlaying = this.handleSongPlaying.bind(this);
-    this.handlePlay = this.handlePlay.bind(this);
-    this.handleStop = this.handleStop.bind(this);
 
     this.state = {
       track: {},
-      url: '',
       status: Sound.status.STOPPED,
     };
   }
 
   handleSelect(track) {
-    this.setState({
-      track,
-      url: `http://oto-no-sono.com${track.filepath}`,
-    });
-    if (this.state.status === Sound.status.PLAYING) {
-      this.setState({ status: Sound.status.PAUSED });
+    this.controlSoundPlayer(this.state.track, track);
+  }
+
+  controlSoundPlayer(oldTrack, newTrack) {
+    if (oldTrack.id !== newTrack.id) {
+      this.setState({
+        track: newTrack,
+        status: Sound.status.PLAYING,
+      });
     } else {
-      this.setState({ status: Sound.status.PLAYING });
+      if (this.state.status === Sound.status.STOPPED
+       || this.state.status === Sound.status.PAUSED) {
+        this.setState({ status: Sound.status.PLAYING });
+      } else {
+        this.setState({ status: Sound.status.PAUSED });
+      }
     }
-    console.log(this.state.status);
-  }
-
-  handleSongPlaying(a) {
-    console.log(Math.round(a.position/1000), a.duration);
-  }
-
-  handlePlay() {
-    this.setState({ status: Sound.status.PLAYING });
-  }
-
-  handleStop() {
-    this.setState({ status: Sound.status.STOPPED });
   }
 
   render() {
@@ -56,16 +48,10 @@ class Container extends React.Component {
     return (
       <div style={style}>
         <AppBar title={this.state.track.title} />
-        <Sound
-          url={this.state.url}
-          playStatus={this.state.status}
-          playFromPosition={300}
-          onLoading={this.handleSongLoading}
-          onPlaying={this.handleSongPlaying}
-          onFinishedPlaying={this.handleSongFinishedPlaying}
+        <SoundPlayer
+          track={this.state.track}
+          status={this.state.status}
         />
-        <button onClick={this.handlePlay}>PLAY</button>
-        <button onClick={this.handleStop}>STOP</button>
         <TrackBox
           setId={this.props.setId}
           album={this.props.album}
