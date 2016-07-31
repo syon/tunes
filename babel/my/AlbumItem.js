@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuItem from 'material-ui/MenuItem';
 
 const propTypes = {
   album: React.PropTypes.object,
@@ -21,13 +20,20 @@ class AlbumItem extends React.Component {
     const a = this.props.album;
     const styles = {
       menuitem: {
+        display: 'flex',
+        justifyContent: 'space-between',
         fontWeight: 'bold',
+        padding: '0px 16px',
+        lineHeight: '48px',
+        transition: 'all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms',
+        whiteSpace: 'nowrap',
       },
     };
     return (
-      <MenuItem key={a.id} onTouchTap={this.handleClick} style={styles.menuitem}>
-        {a.listname}
-      </MenuItem>
+      <div onClick={this.handleClick} style={styles.menuitem}>
+        <div>{a.listname}</div>
+        <div>{a.count}</div>
+      </div>
     );
   }
 }

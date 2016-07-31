@@ -2,6 +2,8 @@ import React from 'react';
 import _ from 'lodash';
 import Drawer from 'material-ui/Drawer';
 import Logo from './Logo';
+import Subheader from 'material-ui/Subheader';
+import Divider from 'material-ui/Divider';
 import AlbumItem from './AlbumItem';
 
 const propTypes = {
@@ -28,6 +30,8 @@ class MenuBox extends React.Component {
       },
     };
     _.each(this.props.structure, (grp) => {
+      nodes.push(<Divider />);
+      nodes.push(<Subheader>{grp.group_id}</Subheader>);
       _.each(grp.listset, (album) => {
         nodes.push(
           <AlbumItem
