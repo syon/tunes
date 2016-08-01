@@ -5,6 +5,7 @@ import Sound from 'react-sound';
 import SoundPlayer from './SoundPlayer';
 import TrackBox from './TrackBox';
 import RaisedButton from 'material-ui/RaisedButton';
+import FileDownload from 'material-ui/svg-icons/file/file-download';
 
 const propTypes = {
   setId: React.PropTypes.string,
@@ -74,7 +75,7 @@ class Container extends React.Component {
         backgroundSize: 'cover',
       },
       drawer: {
-        background: 'linear-gradient(rgba(1, 1, 75, .4), rgba(24, 18, 168, .4))',
+        backgroundColor: 'rgba(20, 20, 56, 0.5)',
       },
     };
     return (
@@ -98,7 +99,7 @@ class Container extends React.Component {
           onTouchTap={this.handleRightToggle}
         />
         <Drawer
-          width={512}
+          width={384}
           openSecondary
           open={this.state.rightOpen}
           containerStyle={styles.drawer}
@@ -113,6 +114,14 @@ class Container extends React.Component {
             track={this.state.track}
             status={this.state.status}
             controlPlayStatus={this.controlPlayStatus}
+          />
+          <RaisedButton
+            label="ダウンロード"
+            href={`/download/${this.state.track.id}.html`}
+            secondary
+            style={styles.button}
+            icon={<FileDownload />}
+            target="_blank"
           />
         </Drawer>
       </div>

@@ -2,8 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
-import FileDownload from 'material-ui/svg-icons/file/file-download';
-import RaisedButton from 'material-ui/RaisedButton';
 
 const propTypes = {
   track: React.PropTypes.object,
@@ -54,14 +52,6 @@ class TrackItem extends React.Component {
             {tags}
           </p>
         </div>
-        <RaisedButton
-          label="ダウンロード"
-          href={`/download/${t.id}.html`}
-          secondary
-          style={styles.button}
-          icon={<FileDownload />}
-          target="_blank"
-        />
       </div>
     );
   }
