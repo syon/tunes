@@ -1,6 +1,9 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
+import { List, ListItem } from 'material-ui/List';
+import Subheader from 'material-ui/Subheader';
+import Avatar from 'material-ui/Avatar';
 import RaisedButton from 'material-ui/RaisedButton';
 import SoundPlayer from './SoundPlayer';
 import FileDownload from 'material-ui/svg-icons/file/file-download';
@@ -46,6 +49,13 @@ class RightDrawer extends React.Component {
           status={this.props.status}
           controlPlayStatus={this.controlPlayStatus}
         />
+        <List>
+          <Subheader>ANDY's comment:</Subheader>
+          <ListItem
+            leftAvatar={<Avatar src="/assets/logo.png" />}
+            primaryText={this.props.track.desc}
+          />
+        </List>
         <RaisedButton
           label="ダウンロード"
           href={`/download/${this.props.track.id}.html`}
