@@ -1,11 +1,8 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import Drawer from 'material-ui/Drawer';
 import Sound from 'react-sound';
-import SoundPlayer from './SoundPlayer';
 import TrackBox from './TrackBox';
-import RaisedButton from 'material-ui/RaisedButton';
-import FileDownload from 'material-ui/svg-icons/file/file-download';
+import RightDrawer from './RightDrawer';
 
 const propTypes = {
   setId: React.PropTypes.string,
@@ -19,12 +16,10 @@ class Container extends React.Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.controlSoundPlayer = this.controlSoundPlayer.bind(this);
     this.controlPlayStatus = this.controlPlayStatus.bind(this);
-    this.handleRightToggle = this.handleRightToggle.bind(this);
 
     this.state = {
       track: {},
       status: Sound.status.STOPPED,
-      rightOpen: true,
     };
   }
 
@@ -50,10 +45,6 @@ class Container extends React.Component {
     this.setState({ status: arg });
   }
 
-  handleRightToggle() {
-    this.setState({ rightOpen: !this.state.rightOpen });
-  }
-
   render() {
     const styles = {
       wrap: {
@@ -74,9 +65,6 @@ class Container extends React.Component {
         backgroundImage: 'url(/assets/sono.png)',
         backgroundSize: 'cover',
       },
-      drawer: {
-        backgroundColor: 'rgba(20, 20, 56, 0.5)',
-      },
     };
     return (
       <div style={styles.wrap}>
@@ -94,36 +82,7 @@ class Container extends React.Component {
             select={this.handleSelect}
           />
         </div>
-        <RaisedButton
-          label="Toggle Drawer"
-          onTouchTap={this.handleRightToggle}
-        />
-        <Drawer
-          width={384}
-          openSecondary
-          open={this.state.rightOpen}
-          containerStyle={styles.drawer}
-        >
-          <AppBar
-            title={this.state.track.title}
-            showMenuIconButton={false}
-            style={styles.appbar}
-            titleStyle={{ color: '#fff' }}
-          />
-          <SoundPlayer
-            track={this.state.track}
-            status={this.state.status}
-            controlPlayStatus={this.controlPlayStatus}
-          />
-          <RaisedButton
-            label="ダウンロード"
-            href={`/download/${this.state.track.id}.html`}
-            secondary
-            style={styles.button}
-            icon={<FileDownload />}
-            target="_blank"
-          />
-        </Drawer>
+        <RightDrawer track={this.state.track} status={this.state.status} />
       </div>
     );
   }
