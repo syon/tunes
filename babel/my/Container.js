@@ -23,7 +23,7 @@ class Container extends React.Component {
     this.state = {
       track: {},
       status: Sound.status.STOPPED,
-      rightOpen: false,
+      rightOpen: true,
     };
   }
 
@@ -65,19 +65,26 @@ class Container extends React.Component {
         width: '100%',
         backgroundColor: 'rgb(72, 72, 72)',
       },
+      appbar: {
+        backgroundColor: 'rgb(7, 5, 98)',
+      },
       trackbox: {
         marginTop: 64 - 8,
         backgroundImage: 'url(/assets/sono.png)',
         backgroundSize: 'cover',
       },
       drawer: {
-        background: 'linear-gradient(rgb(1, 1, 75), rgb(24, 18, 168))',
+        background: 'linear-gradient(rgba(1, 1, 75, .4), rgba(24, 18, 168, .4))',
       },
     };
     return (
       <div style={styles.wrap}>
         <div style={styles.fixed}>
-          <AppBar title={this.props.album.listname} />
+          <AppBar
+            title={this.props.album.listname}
+            style={styles.appbar}
+            titleStyle={{ color: '#fff' }}
+          />
         </div>
         <div style={styles.trackbox}>
           <TrackBox
@@ -94,9 +101,14 @@ class Container extends React.Component {
           width={512}
           openSecondary
           open={this.state.rightOpen}
-          style={styles.drawer}
+          containerStyle={styles.drawer}
         >
-          <AppBar title={this.state.track.title} showMenuIconButton={false} />
+          <AppBar
+            title={this.state.track.title}
+            showMenuIconButton={false}
+            style={styles.appbar}
+            titleStyle={{ color: '#fff' }}
+          />
           <SoundPlayer
             track={this.state.track}
             status={this.state.status}
