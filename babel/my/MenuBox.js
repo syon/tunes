@@ -29,10 +29,24 @@ class MenuBox extends React.Component {
       sidemenu: {
         backgroundColor: '#1812A8',
       },
+      subheader: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        paddingRight: 16,
+      },
     };
     _.each(this.props.structure, (grp) => {
+      let grpCnt = '';
+      if (grp.group_id === 'albums') {
+        grpCnt = grp.group_count;
+      }
       nodes.push(<Divider />);
-      nodes.push(<Subheader>{grp.group_id}</Subheader>);
+      nodes.push(
+        <Subheader style={styles.subheader}>
+          <span>{grp.group_id}</span>
+          <span>{grpCnt}</span>
+        </Subheader>
+      );
       _.each(grp.listset, (album) => {
         nodes.push(
           <ListItem>
