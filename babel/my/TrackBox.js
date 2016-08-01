@@ -14,11 +14,6 @@ class TrackBox extends React.Component {
     super(props, context);
 
     this.handleClick = this.handleClick.bind(this);
-
-    this.state = {
-      thumbed: false,
-      data: [],
-    };
   }
 
   handleClick(track) {
@@ -35,8 +30,13 @@ class TrackBox extends React.Component {
         </ListItem>
       );
     });
+    const styles = {
+      list: {
+        backgroundColor: 'rgba(0,0,0,.4)',
+      },
+    };
     return (
-      <List>
+      <List style={styles.list}>
         {nodes}
       </List>
     );
