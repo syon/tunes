@@ -82,7 +82,11 @@ class Container extends React.Component {
             select={this.handleSelect}
           />
         </div>
-        <RightDrawer track={this.state.track} status={this.state.status} />
+        <RightDrawer
+          track={this.state.track}
+          status={this.state.status}
+          controlPlayStatus={this.controlPlayStatus}
+        />
       </div>
     );
   }

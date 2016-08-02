@@ -11,6 +11,7 @@ import FileDownload from 'material-ui/svg-icons/file/file-download';
 const propTypes = {
   track: React.PropTypes.object,
   status: React.PropTypes.string,
+  controlPlayStatus: React.PropTypes.func,
 };
 
 class RightDrawer extends React.Component {
@@ -47,7 +48,7 @@ class RightDrawer extends React.Component {
         <SoundPlayer
           track={this.props.track}
           status={this.props.status}
-          controlPlayStatus={this.controlPlayStatus}
+          controlPlayStatus={this.props.controlPlayStatus}
         />
         <List>
           <Subheader>ANDY's comment:</Subheader>
