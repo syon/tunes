@@ -17,20 +17,24 @@ class SoundPlayer extends React.Component {
     this.handlePause = this.handlePause.bind(this);
     this.handleStop = this.handleStop.bind(this);
     this.handleSliderChange = this.handleSliderChange.bind(this);
+    this.calcElapse = this.calcElapse.bind(this);
+    this.calcRemain = this.calcRemain.bind(this);
 
     this.state = {
       status: Sound.status.STOPPED,
-      position: 0,
+      ing: {},
+      fromPosition: 0,
       duration: 0,
       progress: 0,
     };
   }
 
-  handleSongPlaying(a) {
+  handleSongPlaying(ing) {
     // console.log(`★ ${a.position} / ${a.duration}`);
     this.setState({
-      duration: a.duration,
-      progress: a.position / a.duration,
+      ing,
+      duration: ing.duration,
+      progress: ing.position / ing.duration,
     });
   }
 
@@ -48,21 +52,55 @@ class SoundPlayer extends React.Component {
   }
 
   handleSliderChange(event, rate) {
-    this.setState({ position: rate * this.state.duration });
+    this.setState({ fromPosition: rate * this.state.duration });
+  }
+
+  formatTime(millisec) {
+    const all = Math.floor(millisec / 1000);
+    const sec = all % 60;
+    const min = (all - sec) / 60;
+    const sec00 = `00${sec}`.slice(-2);
+    return `${min}:${sec00}`;
+  }
+
+  calcElapse() {
+    return this.formatTime(this.state.ing.position);
+  }
+
+  calcRemain() {
+    const rem = this.state.duration - this.state.ing.position;
+    return `-${this.formatTime(rem)}`;
   }
 
   render() {
+    const elapse = this.calcElapse();
+    const remain = this.calcRemain();
+    const styles = {
+      current: {
+        padding: '16px',
+      },
+      elarem: {
+        display: 'flex',
+        justifyContent: 'space-between',
+      },
+    };
     return (
       <div>
         <Sound
           url={`http://oto-no-sono.com${this.props.track.filepath}`}
           playStatus={this.props.status}
-          playFromPosition={this.state.position}
+          playFromPosition={this.state.fromPosition}
           onLoading={this.handleSongLoading}
           onPlaying={this.handleSongPlaying}
           onFinishedPlaying={this.handleSongFinishedPlaying}
         />
-        <Slider value={this.state.progress} onChange={this.handleSliderChange} />
+        <div style={styles.current}>
+          <div style={styles.elarem}>
+            <span>{elapse}</span>
+            <span>{remain}</span>
+          </div>
+          <Slider value={this.state.progress} onChange={this.handleSliderChange} />
+        </div>
         <button onClick={this.handlePlay}>PLAY</button>
         <button onClick={this.handlePause}>PAUSE</button>
         <button onClick={this.handleStop}>STOP</button>
