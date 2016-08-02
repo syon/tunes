@@ -83,6 +83,9 @@ class SoundPlayer extends React.Component {
         display: 'flex',
         justifyContent: 'space-between',
       },
+      slider: {
+        margin: '6px 0',
+      },
     };
     return (
       <div>
@@ -99,7 +102,11 @@ class SoundPlayer extends React.Component {
             <span>{elapse}</span>
             <span>{remain}</span>
           </div>
-          <Slider value={this.state.progress} onChange={this.handleSliderChange} />
+          <Slider
+            value={this.state.progress}
+            onChange={this.handleSliderChange}
+            sliderStyle={styles.slider}
+          />
         </div>
         <button onClick={this.handlePlay}>PLAY</button>
         <button onClick={this.handlePause}>PAUSE</button>
