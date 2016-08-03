@@ -31,4 +31,9 @@ export default {
   floatingActionButton: {
     color: '#69c3ef',
   },
+  slider: {
+    trackColorSelected: grey600,
+    selectionColor: '#69c3ef',
+    rippleColor: '#69c3ef',
+  },
 };
