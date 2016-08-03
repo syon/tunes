@@ -22,19 +22,23 @@ class TrackBox extends React.Component {
 
   render() {
     const tracks = this.props.album.tracks;
-    let nodes = [];
-    _.each(tracks, (t) => {
-      nodes.push(
-        <ListItem>
-          <TrackItem key={t.id} track={t} select={this.handleClick} />
-        </ListItem>
-      );
-    });
     const styles = {
       list: {
         backgroundColor: 'rgba(0,0,0,.4)',
       },
+      listitem: {
+        // click on padding area will be missed.
+        padding: '0',
+      },
     };
+    let nodes = [];
+    _.each(tracks, (t) => {
+      nodes.push(
+        <ListItem innerDivStyle={styles.listitem}>
+          <TrackItem key={t.id} track={t} select={this.handleClick} />
+        </ListItem>
+      );
+    });
     return (
       <List style={styles.list}>
         {nodes}

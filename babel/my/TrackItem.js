@@ -30,6 +30,7 @@ class TrackItem extends React.Component {
       wrap: {
         display: 'flex',
         alignItems: 'center',
+        padding: '8px 16px',
       },
       trackinfo: {
         flexGrow: '1',
