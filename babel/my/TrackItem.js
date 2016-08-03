@@ -31,8 +31,9 @@ class TrackItem extends React.Component {
         display: 'flex',
         alignItems: 'center',
       },
-      title: {
+      trackinfo: {
         flexGrow: '1',
+        paddingLeft: '1em',
       },
     };
     let tags = [];
@@ -42,11 +43,11 @@ class TrackItem extends React.Component {
       );
     });
     return (
-      <div key={t.id} style={styles.wrap}>
+      <div onClick={this.handleClick} style={styles.wrap}>
         <FloatingActionButton mini onClick={this.handleClick}>
           <PlayArrow />
         </FloatingActionButton>
-        <div onClick={this.handleClick} style={styles.title}>
+        <div style={styles.trackinfo}>
           <h3>{t.title}</h3>
           <p>
             {tags}
