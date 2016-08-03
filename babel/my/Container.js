@@ -57,9 +57,6 @@ class Container extends React.Component {
         width: '100%',
         backgroundColor: 'rgb(72, 72, 72)',
       },
-      appbar: {
-        backgroundColor: 'rgb(7, 5, 98)',
-      },
       trackbox: {
         marginTop: 64 - 8,
         backgroundImage: 'url(/assets/sono.png)',
@@ -69,11 +66,7 @@ class Container extends React.Component {
     return (
       <div style={styles.wrap}>
         <div style={styles.fixed}>
-          <AppBar
-            title={this.props.album.listname}
-            style={styles.appbar}
-            titleStyle={{ color: '#fff' }}
-          />
+          <AppBar title={this.props.album.listname} />
         </div>
         <div style={styles.trackbox}>
           <TrackBox

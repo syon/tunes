@@ -1,12 +1,12 @@
 import React from 'react';
 import axios from 'axios';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import darkBlueTheme from './my/darkBlueTheme';
 import MenuBox from './my/MenuBox';
 import Container from './my/Container';
 
-const muiTheme = getMuiTheme(darkBaseTheme);
+const muiTheme = getMuiTheme(darkBlueTheme);
 
 class Main extends React.Component {
   constructor(props, context) {
