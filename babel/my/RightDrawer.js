@@ -47,6 +47,10 @@ class RightDrawer extends React.Component {
       drawer: {
         backgroundColor: 'rgba(20, 20, 56, 0.5)',
       },
+      listitemInner: {
+        lineHeight: '1.4',
+        fontSize: '14px',
+      },
     };
     let iel = (
       <IconButton onClick={this.handlePlay}><PlayArrow /></IconButton>
@@ -80,6 +84,7 @@ class RightDrawer extends React.Component {
           <ListItem
             leftAvatar={<Avatar src="/assets/logo.png" />}
             primaryText={this.props.track.desc}
+            innerDivStyle={styles.listitemInner}
           />
         </List>
         <RaisedButton
