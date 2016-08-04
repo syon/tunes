@@ -34,6 +34,10 @@ class MenuBox extends React.Component {
         justifyContent: 'space-between',
         paddingRight: 16,
       },
+      listitem: {
+        // click on padding area will be missed.
+        padding: '0',
+      },
     };
     _.each(this.props.structure, (grp) => {
       let grpCnt = '';
@@ -49,12 +53,11 @@ class MenuBox extends React.Component {
       );
       _.each(grp.listset, (album) => {
         nodes.push(
-          <ListItem>
+          <ListItem innerDivStyle={styles.listitem}>
             <AlbumItem
               key={`${grp.group_id}${album.id}`}
               album={album}
-              toAaaa={this.handleClick}
-              style={styles.menuitem}
+              select={this.handleClick}
             />
           </ListItem>
         );

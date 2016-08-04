@@ -2,7 +2,7 @@ import React from 'react';
 
 const propTypes = {
   album: React.PropTypes.object,
-  toAaaa: React.PropTypes.func,
+  select: React.PropTypes.func,
 };
 
 class AlbumItem extends React.Component {
@@ -13,7 +13,7 @@ class AlbumItem extends React.Component {
   }
 
   handleClick() {
-    this.props.toAaaa(this.props.album.id);
+    this.props.select(this.props.album.id);
   }
 
   render() {
@@ -22,6 +22,7 @@ class AlbumItem extends React.Component {
       menuitem: {
         display: 'flex',
         justifyContent: 'space-between',
+        padding: '16px',
       },
     };
     return (
