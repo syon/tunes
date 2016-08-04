@@ -14,20 +14,24 @@ class Container extends React.Component {
     super(props, context);
 
     this.handleSelect = this.handleSelect.bind(this);
-    this.controlSoundPlayer = this.controlSoundPlayer.bind(this);
+    this.controlSoundStatus = this.controlSoundStatus.bind(this);
     this.controlPlayStatus = this.controlPlayStatus.bind(this);
 
     this.state = {
       track: {},
       status: Sound.status.STOPPED,
+      playingId: '',
     };
   }
 
   handleSelect(track) {
-    this.controlSoundPlayer(this.state.track, track);
+    this.controlSoundStatus(this.state.track, track);
+    this.setState({
+      playingId: track.id,
+    });
   }
 
-  controlSoundPlayer(oldTrack, newTrack) {
+  controlSoundStatus(oldTrack, newTrack) {
     if (oldTrack.id !== newTrack.id) {
       this.setState({ track: newTrack });
       this.controlPlayStatus(Sound.status.PLAYING);
@@ -73,6 +77,7 @@ class Container extends React.Component {
             setId={this.props.setId}
             album={this.props.album}
             select={this.handleSelect}
+            playingId={this.state.playingId}
           />
         </div>
         <RightDrawer

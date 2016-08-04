@@ -7,6 +7,7 @@ const propTypes = {
   setId: React.PropTypes.string,
   album: React.PropTypes.object,
   select: React.PropTypes.func,
+  playingId: React.PropTypes.string,
 };
 
 class TrackBox extends React.Component {
@@ -33,9 +34,14 @@ class TrackBox extends React.Component {
     };
     let nodes = [];
     _.each(tracks, (t) => {
+      const isPlaying = (t.id === this.props.playingId);
       nodes.push(
         <ListItem key={t.id} innerDivStyle={styles.listitem}>
-          <TrackItem track={t} select={this.handleClick} />
+          <TrackItem
+            track={t}
+            select={this.handleClick}
+            isPlaying={isPlaying}
+          />
         </ListItem>
       );
     });

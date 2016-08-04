@@ -2,11 +2,13 @@ import React from 'react';
 import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
+import Pause from 'material-ui/svg-icons/av/pause';
 import Chip from 'material-ui/Chip';
 
 const propTypes = {
   track: React.PropTypes.object,
   select: React.PropTypes.func,
+  isPlaying: React.PropTypes.bool,
 };
 
 class TrackItem extends React.Component {
@@ -16,8 +18,6 @@ class TrackItem extends React.Component {
     this.handleClick = this.handleClick.bind(this);
 
     this.state = {
-      thumbed: false,
-      data: [],
     };
   }
 
@@ -56,10 +56,16 @@ class TrackItem extends React.Component {
         </Chip>
       );
     });
+    let fabIcon = this.props.isPlaying ? <Pause /> : <PlayArrow />;
+    let fabClass = this.props.isPlaying ? 'playing' : '';
     return (
       <div onClick={this.handleClick} style={styles.wrap}>
-        <FloatingActionButton mini onClick={this.handleClick}>
-          <PlayArrow />
+        <FloatingActionButton
+          mini
+          className={fabClass}
+          onClick={this.handleClick}
+        >
+          {fabIcon}
         </FloatingActionButton>
         <div style={styles.trackinfo}>
           <h3>{t.title}</h3>
