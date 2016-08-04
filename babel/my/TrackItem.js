@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import PlayArrow from 'material-ui/svg-icons/av/play-arrow';
+import Chip from 'material-ui/Chip';
 
 const propTypes = {
   track: React.PropTypes.object,
@@ -36,11 +37,23 @@ class TrackItem extends React.Component {
         flexGrow: '1',
         paddingLeft: '1em',
       },
+      tags: {
+        display: 'flex',
+      },
+      chip: {
+        marginRight: '6px',
+      },
+      chipInner: {
+        fontSize: '12px',
+        lineHeight: '24px',
+      },
     };
     let tags = [];
     _.each(t.tags, (tag) => {
       tags.push(
-        <span>{tag}</span>
+        <Chip style={styles.chip} labelStyle={styles.chipInner}>
+          {tag}
+        </Chip>
       );
     });
     return (
@@ -50,9 +63,9 @@ class TrackItem extends React.Component {
         </FloatingActionButton>
         <div style={styles.trackinfo}>
           <h3>{t.title}</h3>
-          <p>
+          <div style={styles.tags}>
             {tags}
-          </p>
+          </div>
         </div>
       </div>
     );
