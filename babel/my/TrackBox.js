@@ -34,8 +34,8 @@ class TrackBox extends React.Component {
     let nodes = [];
     _.each(tracks, (t) => {
       nodes.push(
-        <ListItem innerDivStyle={styles.listitem}>
-          <TrackItem key={t.id} track={t} select={this.handleClick} />
+        <ListItem key={t.id} innerDivStyle={styles.listitem}>
+          <TrackItem track={t} select={this.handleClick} />
         </ListItem>
       );
     });
