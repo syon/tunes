@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import Sound from 'react-sound';
 import { List, ListItem } from 'material-ui/List';
 import TrackItem from './TrackItem';
 
@@ -8,6 +9,7 @@ const propTypes = {
   album: React.PropTypes.object,
   select: React.PropTypes.func,
   playingId: React.PropTypes.string,
+  status: React.PropTypes.string,
 };
 
 class TrackBox extends React.Component {
@@ -34,7 +36,8 @@ class TrackBox extends React.Component {
     };
     let nodes = [];
     _.each(tracks, (t) => {
-      const isPlaying = (t.id === this.props.playingId);
+      const isSelected = (t.id === this.props.playingId);
+      const isPlaying = isSelected && (this.props.status === Sound.status.PLAYING);
       nodes.push(
         <ListItem key={t.id} innerDivStyle={styles.listitem}>
           <TrackItem

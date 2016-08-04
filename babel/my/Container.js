@@ -78,12 +78,14 @@ class Container extends React.Component {
             album={this.props.album}
             select={this.handleSelect}
             playingId={this.state.playingId}
+            status={this.state.status}
           />
         </div>
         <RightDrawer
           track={this.state.track}
           status={this.state.status}
           controlPlayStatus={this.controlPlayStatus}
+          playingId={this.state.playingId}
         />
       </div>
     );

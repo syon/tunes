@@ -13,9 +13,6 @@ class SoundPlayer extends React.Component {
     super(props, context);
 
     this.handleSongPlaying = this.handleSongPlaying.bind(this);
-    this.handlePlay = this.handlePlay.bind(this);
-    this.handlePause = this.handlePause.bind(this);
-    this.handleStop = this.handleStop.bind(this);
     this.handleSliderChange = this.handleSliderChange.bind(this);
     this.calcElapse = this.calcElapse.bind(this);
     this.calcRemain = this.calcRemain.bind(this);
@@ -36,19 +33,6 @@ class SoundPlayer extends React.Component {
       duration: ing.duration,
       progress: ing.position / ing.duration,
     });
-  }
-
-  handlePlay() {
-    this.props.controlPlayStatus(Sound.status.PLAYING);
-  }
-
-  handlePause() {
-    this.props.controlPlayStatus(Sound.status.PAUSED);
-  }
-
-  handleStop() {
-    this.props.controlPlayStatus(Sound.status.STOPPED);
-    this.setState({ progress: 0 });
   }
 
   handleSliderChange(event, rate) {
@@ -108,9 +92,6 @@ class SoundPlayer extends React.Component {
             sliderStyle={styles.slider}
           />
         </div>
-        <button onClick={this.handlePlay}>PLAY</button>
-        <button onClick={this.handlePause}>PAUSE</button>
-        <button onClick={this.handleStop}>STOP</button>
       </div>
     );
   }
