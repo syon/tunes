@@ -51,6 +51,10 @@ class RightDrawer extends React.Component {
         lineHeight: '1.4',
         fontSize: '14px',
       },
+      download: {
+        display: 'flex',
+        justifyContent: 'center',
+      },
     };
     let iel = (
       <IconButton onClick={this.handlePlay}><PlayArrow /></IconButton>
@@ -87,14 +91,16 @@ class RightDrawer extends React.Component {
             innerDivStyle={styles.listitemInner}
           />
         </List>
-        <RaisedButton
-          label="ダウンロード"
-          href={`/download/${this.props.track.id}.html`}
-          secondary
-          style={styles.button}
-          icon={<FileDownload />}
-          target="_blank"
-        />
+        <div style={styles.download}>
+          <RaisedButton
+            label="ダウンロード"
+            href={`/download/${this.props.track.id}.html`}
+            secondary
+            style={styles.button}
+            icon={<FileDownload />}
+            target="_blank"
+          />
+        </div>
       </Drawer>
     );
   }
