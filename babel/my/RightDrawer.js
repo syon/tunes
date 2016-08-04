@@ -86,7 +86,7 @@ class RightDrawer extends React.Component {
         <List>
           <Subheader>ANDY's comment:</Subheader>
           <ListItem
-            leftAvatar={<Avatar src="/assets/logo.png" />}
+            leftAvatar={<Avatar src="/assets/mojiro.jpg" />}
             primaryText={this.props.track.desc}
             innerDivStyle={styles.listitemInner}
           />
