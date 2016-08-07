@@ -10,7 +10,9 @@ import AlbumItem from './AlbumItem';
 const propTypes = {
   structure: React.PropTypes.array,
   clickMenu: React.PropTypes.func,
-  open: React.PropTypes.bool,
+  isDocked: React.PropTypes.bool,
+  isOpened: React.PropTypes.bool,
+  controlMenuOpen: React.PropTypes.func,
 };
 
 class MenuBox extends React.Component {
@@ -18,10 +20,15 @@ class MenuBox extends React.Component {
     super(props, context);
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleReqChg = this.handleReqChg.bind(this);
   }
 
   handleClick(a) {
     this.props.clickMenu(a);
+  }
+
+  handleReqChg(open) {
+    this.props.controlMenuOpen(open);
   }
 
   render() {
@@ -65,7 +72,11 @@ class MenuBox extends React.Component {
       });
     });
     return (
-      <Drawer open={this.props.open}>
+      <Drawer
+        open={this.props.isOpened}
+        docked={this.props.isDocked}
+        onRequestChange={this.handleReqChg}
+      >
         <Logo />
         <List style={styles.sidemenu}>
           {nodes}

@@ -21,12 +21,15 @@ class Container extends React.Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.controlSoundStatus = this.controlSoundStatus.bind(this);
     this.controlPlayStatus = this.controlPlayStatus.bind(this);
+    this.controlMenuOpen = this.controlMenuOpen.bind(this);
     this.controlDrawerOpen = this.controlDrawerOpen.bind(this);
+    this.handleAppbarBtn = this.handleAppbarBtn.bind(this);
 
     this.state = {
       track: {},
       status: Sound.status.STOPPED,
       playingId: '',
+      isMenuOpened: false,
       isRightDrawerOpened: false,
     };
   }
@@ -62,8 +65,16 @@ class Container extends React.Component {
     this.controlDrawerOpen(isOpened);
   }
 
+  controlMenuOpen(isOpened) {
+    this.setState({ isMenuOpened: isOpened });
+  }
+
   controlDrawerOpen(isOpened) {
     this.setState({ isRightDrawerOpened: isOpened });
+  }
+
+  handleAppbarBtn() {
+    this.setState({ isMenuOpened: !this.state.isMenuOpened });
   }
 
   render() {
@@ -90,10 +101,15 @@ class Container extends React.Component {
         <MenuBox
           structure={this.props.structure}
           clickMenu={this.props.clickMenu}
-          open={isWide}
+          isDocked={isWide}
+          isOpened={isWide ? true : this.state.isMenuOpened}
+          controlMenuOpen={this.controlMenuOpen}
         />
         <div style={styles.fixed}>
-          <AppBar title={this.props.album.listname} />
+          <AppBar
+            title={this.props.album.listname}
+            onLeftIconButtonTouchTap={this.handleAppbarBtn}
+          />
         </div>
         <div style={styles.trackbox}>
           <TrackBox
