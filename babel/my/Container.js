@@ -112,6 +112,7 @@ class Container extends React.Component {
           <AppBar
             title={this.props.album.listname}
             onLeftIconButtonTouchTap={this.handleAppbarBtn}
+            showMenuIconButton={!isWide}
           />
         </div>
         <div style={styles.trackbox}>
@@ -129,7 +130,7 @@ class Container extends React.Component {
           controlPlayStatus={this.controlPlayStatus}
           playingId={this.state.playingId}
           isDocked={isWide}
-          isOpened={this.state.isRightDrawerOpened}
+          isOpened={isWide ? true : this.state.isRightDrawerOpened}
           controlDrawerOpen={this.controlDrawerOpen}
         />
       </div>
