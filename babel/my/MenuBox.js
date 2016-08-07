@@ -25,6 +25,7 @@ class MenuBox extends React.Component {
 
   handleClick(a) {
     this.props.clickMenu(a);
+    this.props.controlMenuOpen(false);
   }
 
   handleReqChg(open) {
