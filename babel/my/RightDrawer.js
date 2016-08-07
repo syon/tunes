@@ -90,7 +90,7 @@ class RightDrawer extends React.Component {
           controlPlayStatus={this.props.controlPlayStatus}
         />
         <List>
-          <Subheader>ANDY's comment:</Subheader>
+          <Subheader>{'ANDY\'s comment:'}</Subheader>
           <ListItem
             leftAvatar={<Avatar src="/assets/mojiro.jpg" />}
             primaryText={this.props.track.desc}
