@@ -35,34 +35,37 @@ class Container extends React.Component {
   }
 
   handleSelect(track) {
-    this.controlSoundStatus(this.state.track, track);
+    const status = this.controlSoundStatus(this.state.track, track);
     this.setState({
       playingId: track.id,
     });
+    const isWide = this.props.width > SMALL;
+    let isOpened = isWide;
+    if (!isWide) {
+      isOpened = status === Sound.status.PLAYING;
+    }
+    this.controlDrawerOpen(isOpened);
   }
 
   controlSoundStatus(oldTrack, newTrack) {
+    let result;
     if (oldTrack.id !== newTrack.id) {
       this.setState({ track: newTrack });
-      this.controlPlayStatus(Sound.status.PLAYING);
+      result = this.controlPlayStatus(Sound.status.PLAYING);
     } else {
       if (this.state.status === Sound.status.STOPPED
        || this.state.status === Sound.status.PAUSED) {
-        this.controlPlayStatus(Sound.status.PLAYING);
+        result = this.controlPlayStatus(Sound.status.PLAYING);
       } else {
-        this.controlPlayStatus(Sound.status.PAUSED);
+        result = this.controlPlayStatus(Sound.status.PAUSED);
       }
     }
+    return result;
   }
 
   controlPlayStatus(arg) {
     this.setState({ status: arg });
-    const isWide = this.props.width > SMALL;
-    let isOpened = isWide;
-    if (!isWide) {
-      isOpened = arg === Sound.status.PLAYING;
-    }
-    this.controlDrawerOpen(isOpened);
+    return arg;
   }
 
   controlMenuOpen(isOpened) {
