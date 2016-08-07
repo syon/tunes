@@ -3,7 +3,6 @@ import axios from 'axios';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import darkBlueTheme from './my/darkBlueTheme';
-import MenuBox from './my/MenuBox';
 import Container from './my/Container';
 
 const muiTheme = getMuiTheme(darkBlueTheme);
@@ -22,10 +21,6 @@ class Main extends React.Component {
   }
 
   componentDidMount() {
-    this.loadFromServer(this.state.setId);
-  }
-
-  loadFromServer(setId) {
     axios.get('/tracklists/_structure.json')
       .then((response) => {
         this.setState({ structure: response.data });
@@ -34,6 +29,10 @@ class Main extends React.Component {
         console.error(response);
       });
 
+    this.loadTracklistFromServer(this.state.setId);
+  }
+
+  loadTracklistFromServer(setId) {
     axios.get(`/tracklists/${setId}.json`)
       .then((response) => {
         this.setState({ album: response.data });
@@ -45,16 +44,18 @@ class Main extends React.Component {
 
   handleClickMenu(arg) {
     this.setState({ setId: arg });
-    this.loadFromServer(arg);
+    this.loadTracklistFromServer(arg);
   }
 
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-        <div>
-          <MenuBox structure={this.state.structure} toOya={this.handleClickMenu} />
-          <Container setId={this.state.setId} album={this.state.album} />
-        </div>
+        <Container
+          structure={this.state.structure}
+          setId={this.state.setId}
+          album={this.state.album}
+          clickMenu={this.handleClickMenu}
+        />
       </MuiThemeProvider>
     );
   }

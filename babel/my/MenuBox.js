@@ -9,7 +9,8 @@ import AlbumItem from './AlbumItem';
 
 const propTypes = {
   structure: React.PropTypes.array,
-  toOya: React.PropTypes.func,
+  clickMenu: React.PropTypes.func,
+  open: React.PropTypes.bool,
 };
 
 class MenuBox extends React.Component {
@@ -20,7 +21,7 @@ class MenuBox extends React.Component {
   }
 
   handleClick(a) {
-    this.props.toOya(a);
+    this.props.clickMenu(a);
   }
 
   render() {
@@ -64,7 +65,7 @@ class MenuBox extends React.Component {
       });
     });
     return (
-      <Drawer>
+      <Drawer open={this.props.open}>
         <Logo />
         <List style={styles.sidemenu}>
           {nodes}

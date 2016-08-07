@@ -3,10 +3,15 @@ import AppBar from 'material-ui/AppBar';
 import Sound from 'react-sound';
 import TrackBox from './TrackBox';
 import RightDrawer from './RightDrawer';
+import withWidth, { SMALL } from 'material-ui/utils/withWidth';
+import MenuBox from './MenuBox';
 
 const propTypes = {
+  structure: React.PropTypes.array,
   setId: React.PropTypes.string,
   album: React.PropTypes.object,
+  clickMenu: React.PropTypes.func,
+  width: React.PropTypes.number,
 };
 
 class Container extends React.Component {
@@ -69,6 +74,11 @@ class Container extends React.Component {
     };
     return (
       <div style={styles.wrap}>
+        <MenuBox
+          structure={this.props.structure}
+          clickMenu={this.props.clickMenu}
+          open={this.props.width > SMALL}
+        />
         <div style={styles.fixed}>
           <AppBar title={this.props.album.listname} />
         </div>
@@ -94,4 +104,4 @@ class Container extends React.Component {
 
 Container.propTypes = propTypes;
 
-export default Container;
+export default withWidth()(Container);
