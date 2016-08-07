@@ -21,11 +21,13 @@ class Container extends React.Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.controlSoundStatus = this.controlSoundStatus.bind(this);
     this.controlPlayStatus = this.controlPlayStatus.bind(this);
+    this.controlDrawerOpen = this.controlDrawerOpen.bind(this);
 
     this.state = {
       track: {},
       status: Sound.status.STOPPED,
       playingId: '',
+      isRightDrawerOpened: false,
     };
   }
 
@@ -52,12 +54,23 @@ class Container extends React.Component {
 
   controlPlayStatus(arg) {
     this.setState({ status: arg });
+    const isWide = this.props.width > SMALL;
+    let isOpened = isWide;
+    if (!isWide) {
+      isOpened = arg === Sound.status.PLAYING;
+    }
+    this.controlDrawerOpen(isOpened);
+  }
+
+  controlDrawerOpen(isOpened) {
+    this.setState({ isRightDrawerOpened: isOpened });
   }
 
   render() {
+    let isWide = this.props.width > SMALL;
     const styles = {
       wrap: {
-        paddingLeft: 256,
+        paddingLeft: isWide ? 256 : 0,
       },
       fixed: {
         position: 'fixed',
@@ -77,7 +90,7 @@ class Container extends React.Component {
         <MenuBox
           structure={this.props.structure}
           clickMenu={this.props.clickMenu}
-          open={this.props.width > SMALL}
+          open={isWide}
         />
         <div style={styles.fixed}>
           <AppBar title={this.props.album.listname} />
@@ -96,6 +109,9 @@ class Container extends React.Component {
           status={this.state.status}
           controlPlayStatus={this.controlPlayStatus}
           playingId={this.state.playingId}
+          isDocked={isWide}
+          isOpened={this.state.isRightDrawerOpened}
+          controlDrawerOpen={this.controlDrawerOpen}
         />
       </div>
     );

@@ -17,6 +17,9 @@ const propTypes = {
   status: React.PropTypes.string,
   controlPlayStatus: React.PropTypes.func,
   playingId: React.PropTypes.string,
+  isDocked: React.PropTypes.bool,
+  isOpened: React.PropTypes.bool,
+  controlDrawerOpen: React.PropTypes.func,
 };
 
 class RightDrawer extends React.Component {
@@ -25,10 +28,7 @@ class RightDrawer extends React.Component {
 
     this.handlePlay = this.handlePlay.bind(this);
     this.handlePause = this.handlePause.bind(this);
-
-    this.state = {
-      rightOpen: true,
-    };
+    this.handleReqChg = this.handleReqChg.bind(this);
   }
 
   handlePlay() {
@@ -37,6 +37,10 @@ class RightDrawer extends React.Component {
 
   handlePause() {
     this.props.controlPlayStatus(Sound.status.PAUSED);
+  }
+
+  handleReqChg(open) {
+    this.props.controlDrawerOpen(open);
   }
 
   render() {
@@ -69,8 +73,10 @@ class RightDrawer extends React.Component {
       <Drawer
         width={384}
         openSecondary
-        open={this.state.rightOpen}
+        open={this.props.isOpened}
         containerStyle={styles.drawer}
+        docked={this.props.isDocked}
+        onRequestChange={this.handleReqChg}
       >
         <AppBar
           title={this.props.track.title}
