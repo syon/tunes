@@ -71,7 +71,7 @@ class RightDrawer extends React.Component {
     }
     return (
       <Drawer
-        width={384}
+        width={300}
         openSecondary
         open={this.props.isOpened}
         containerStyle={styles.drawer}
