@@ -51,7 +51,17 @@ class RightDrawer extends React.Component {
       drawer: {
         backgroundColor: 'rgba(20, 20, 56, 0.5)',
       },
-      listitemInner: {
+      commentHead: {
+        display: 'flex',
+        alignItems: 'center',
+        padding: '0 16px',
+      },
+      commentAvatar: {
+        marginRight: '16px',
+      },
+      commentText: {
+        marginTop: '0',
+        padding: '16px',
         lineHeight: '1.4',
         fontSize: '14px',
       },
@@ -89,14 +99,13 @@ class RightDrawer extends React.Component {
           status={this.props.status}
           controlPlayStatus={this.props.controlPlayStatus}
         />
-        <List>
-          <Subheader>{'ANDY\'s comment:'}</Subheader>
-          <ListItem
-            leftAvatar={<Avatar src="/assets/mojiro.jpg" />}
-            primaryText={this.props.track.desc}
-            innerDivStyle={styles.listitemInner}
-          />
-        </List>
+        <div>
+          <div style={styles.commentHead}>
+            <Avatar src="/assets/mojiro.jpg" style={styles.commentAvatar} />
+            <span>{'ANDY\'s comment:'}</span>
+          </div>
+          <p style={styles.commentText}>{this.props.track.desc}</p>
+        </div>
         <div style={styles.download}>
           <RaisedButton
             label="ダウンロード"
