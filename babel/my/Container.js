@@ -8,7 +8,7 @@ import MenuBox from './MenuBox';
 
 const propTypes = {
   structure: React.PropTypes.array,
-  setId: React.PropTypes.string,
+  activeAlbumId: React.PropTypes.string,
   album: React.PropTypes.object,
   clickMenu: React.PropTypes.func,
   width: React.PropTypes.number,
@@ -103,6 +103,7 @@ class Container extends React.Component {
       <div style={styles.wrap}>
         <MenuBox
           structure={this.props.structure}
+          activeAlbumId={this.props.activeAlbumId}
           clickMenu={this.props.clickMenu}
           isDocked={isWide}
           isOpened={isWide ? true : this.state.isMenuOpened}
@@ -117,7 +118,7 @@ class Container extends React.Component {
         </div>
         <div style={styles.trackbox}>
           <TrackBox
-            setId={this.props.setId}
+            activeAlbumId={this.props.activeAlbumId}
             album={this.props.album}
             select={this.handleSelect}
             playingId={this.state.playingId}

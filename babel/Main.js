@@ -15,7 +15,7 @@ class Main extends React.Component {
 
     this.state = {
       structure: [],
-      setId: 'game_wafu',
+      activeAlbumId: 'game_wafu',
       album: {},
     };
   }
@@ -29,11 +29,11 @@ class Main extends React.Component {
         console.error(response);
       });
 
-    this.loadTracklistFromServer(this.state.setId);
+    this.loadTracklistFromServer(this.state.activeAlbumId);
   }
 
-  loadTracklistFromServer(setId) {
-    axios.get(`/tracklists/${setId}.json`)
+  loadTracklistFromServer(activeAlbumId) {
+    axios.get(`/tracklists/${activeAlbumId}.json`)
       .then((response) => {
         this.setState({ album: response.data });
       })
@@ -43,7 +43,7 @@ class Main extends React.Component {
   }
 
   handleClickMenu(arg) {
-    this.setState({ setId: arg });
+    this.setState({ activeAlbumId: arg });
     this.loadTracklistFromServer(arg);
   }
 
@@ -52,7 +52,7 @@ class Main extends React.Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <Container
           structure={this.state.structure}
-          setId={this.state.setId}
+          activeAlbumId={this.state.activeAlbumId}
           album={this.state.album}
           clickMenu={this.handleClickMenu}
         />

@@ -9,6 +9,7 @@ import AlbumItem from './AlbumItem';
 
 const propTypes = {
   structure: React.PropTypes.array,
+  activeAlbumId: React.PropTypes.string,
   clickMenu: React.PropTypes.func,
   isDocked: React.PropTypes.bool,
   isOpened: React.PropTypes.bool,
@@ -23,8 +24,8 @@ class MenuBox extends React.Component {
     this.handleReqChg = this.handleReqChg.bind(this);
   }
 
-  handleClick(a) {
-    this.props.clickMenu(a);
+  handleClick(albumId) {
+    this.props.clickMenu(albumId);
     this.props.controlMenuOpen(false);
   }
 
@@ -61,8 +62,13 @@ class MenuBox extends React.Component {
         </Subheader>
       );
       _.each(grp.listset, (album) => {
+        const isActive = album.id === this.props.activeAlbumId;
+        let activeStyle = {};
+        if (isActive) {
+          activeStyle = { backgroundColor: '#3a34ea' };
+        }
         nodes.push(
-          <ListItem innerDivStyle={styles.listitem}>
+          <ListItem style={activeStyle} innerDivStyle={styles.listitem}>
             <AlbumItem
               key={`${grp.group_id}${album.id}`}
               album={album}
