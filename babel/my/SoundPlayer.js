@@ -40,6 +40,9 @@ class SoundPlayer extends React.Component {
   }
 
   formatTime(millisec) {
+    if (isNaN(millisec) || millisec < 0) {
+      return '--:--';
+    }
     const all = Math.floor(millisec / 1000);
     const sec = all % 60;
     const min = (all - sec) / 60;
