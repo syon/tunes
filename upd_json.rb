@@ -70,6 +70,12 @@ csv.map do |df|
   musics.push music
 end
 
+# Clean last generated download page jade files.
+Dir.glob("app/download/*.jade").each do |f|
+  File.unlink f
+end
+
+# Generate jade files for download page
 musics.each do |m|
   m_id = m[:id]
   puts m_id
