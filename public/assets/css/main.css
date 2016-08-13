@@ -103,6 +103,7 @@ a[href="/about.html"]:hover {
   height: auto;
   background: url(/assets/img/sono_dark.png) center center / cover no-repeat fixed;
   padding-bottom: 40px;
+  color: #fff;
 }
 #download .container,
 #about .container {
