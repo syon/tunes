@@ -27,6 +27,7 @@ class RightDrawer extends React.Component {
     this.handlePlay = this.handlePlay.bind(this);
     this.handlePause = this.handlePause.bind(this);
     this.handleReqChg = this.handleReqChg.bind(this);
+    this.handleDownload = this.handleDownload.bind(this);
   }
 
   handlePlay() {
@@ -39,6 +40,10 @@ class RightDrawer extends React.Component {
 
   handleReqChg(open) {
     this.props.controlDrawerOpen(open);
+  }
+
+  handleDownload() {
+    this.props.controlPlayStatus(Sound.status.PAUSED);
   }
 
   render() {
@@ -113,6 +118,7 @@ class RightDrawer extends React.Component {
             icon={<FileDownload />}
             target="_blank"
             disabled={!this.props.track.id}
+            onTouchTap={this.handleDownload}
           />
         </div>
       </Drawer>
