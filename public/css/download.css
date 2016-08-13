@@ -34,9 +34,9 @@
 #download .container .btn-about {
   display: flex;
   align-items: center;
+  padding: 0 16px;
   font-size: 14px;
-  color: #ffffff;
-  background-color: #ff4081;
+  color: #1812A8;
 }
 #download .container .rule {
   margin: 0 .5em;

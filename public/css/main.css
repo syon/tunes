@@ -32,6 +32,7 @@ body {
   align-items: center;
   padding: 0 0 20px;
   margin: 0 auto;
+  text-decoration: none;
 }
 .docs-logo > img {
   width: 150px;
@@ -56,6 +57,7 @@ body {
   font-size: .8em;
 }
 .nav-header {
+  border-radius: 3px 3px 0 0;
   background-color: #1812A8;
   background: linear-gradient(#01014B, #1812A8);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #01014B), color-stop(1, #1812A8));
