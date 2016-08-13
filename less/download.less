@@ -1,67 +1,8 @@
-.docs-logo {
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 20px;
-  margin: 0 auto;
-
-  & > img {
-    width: 150px;
-    height: 150px;
-    margin: 25px auto 10px;
-    display: block;
-    // transform-origin: 50% 0;
-    // transform: scale(1.2);
-  }
-  &:focus {
-    outline: none;
-  }
-  .docs-logotype {
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    font-size: 26px;
-    margin: 0;
-  }
-  .author {
-    color: #aaa;
-    margin: 0;
-    line-height: 1;
-    font-size: .8em;
-  }
-}
-
 @main_color: #1812A8;
 @main_color_dark: #01014B;
-.nav-header {
-  background-color: @main_color;
-  background: linear-gradient(@main_color_dark, @main_color);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, @main_color_dark), color-stop(1, @main_color));
-  background: -webkit-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
-  background: -moz-linear-gradient(top, @main_color_dark 0%, @main_color 100%);
-  background: linear-gradient(top, @main_color_dark 0%, @main_color 100%);
-  border-bottom: 1px solid #1B15C6;
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-  z-index: 2;
-}
 
 #download {
-  height: auto;
-  background: url(/assets/sono_dark.png) center center / cover no-repeat fixed;
-  padding-bottom: 40px;
-
   .container {
-    max-width: 600px;
-    margin: 1.5em auto;
-    background-color: #fff;
-    border-radius: 4px;
-
     .inner {
       padding: 2em 2em 1em;
 
@@ -96,6 +37,13 @@
       &:hover {
         background-color: rgba(255,64,129,.8);
       }
+    }
+    .btn-about {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: rgb(255,255,255);
+      background-color: rgb(255,64,129);
     }
     .rule {
       margin: 0 .5em;
