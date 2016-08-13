@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 交渉はお任せください!! - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["探偵", "明るい"])
+
+block track
+  .trackdetail#track_id(data-track="Koushouhaomakasekudasai")
+    +tracktitle("交渉はお任せください!!", "4:17")
+
+    p.taglist
+      +taglist(["探偵", "明るい"])
+
+    include /generate/download/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Koushouhaomakasekudasai", "交渉はお任せください!!")

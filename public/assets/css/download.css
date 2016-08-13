@@ -1,0 +1,109 @@
+#download .container .inner {
+  padding: 2em 2em 1em;
+}
+#download .container .inner h2 {
+  text-align: center;
+}
+#download .container .inner h2 .time {
+  font-size: smaller;
+  color: gray;
+  margin-left: 1em;
+}
+#download .container section {
+  display: flex;
+  justify-content: center;
+}
+#download .container #download_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff4081;
+  margin-bottom: 2em;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 2px;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+#download .container #download_btn:hover {
+  background-color: rgba(255, 64, 129, 0.8);
+}
+#download .container .btn-about {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #1812A8;
+}
+#download .container .rule {
+  margin: 0 .5em;
+  min-height: 32px;
+  line-height: 32px;
+}
+#download .taglist {
+  text-align: center;
+}
+#download .taglist .tag {
+  min-width: inherit;
+  min-height: inherit;
+  padding: 2px 4px;
+  line-height: 1.5;
+  font-size: 85%;
+  color: #ccc;
+  margin: 0 .6em 0 0;
+  letter-spacing: -0.1em;
+  border: 0;
+  border-radius: 3px;
+  background-color: #484848;
+}
+#download .adsense {
+  margin: 1em;
+  padding: 1em;
+}
+#download .adsense .adsbygoogle {
+  display: block !important;
+  margin: auto;
+  background-color: #eee;
+}
+#download.smartphone .container {
+  margin: 15px 10px;
+}
+#download.smartphone .container .inner {
+  padding: 10px;
+}
+#download.smartphone p {
+  font-size: 1.4rem;
+}
+#download.smartphone .sm2-bar-ui {
+  min-width: inherit;
+}
+#download.smartphone .adsense {
+  margin: 1em auto;
+  padding: 1em 0;
+}
+md-toolbar .sm2player-toolbar {
+  background-color: #1812A8;
+}
+.sm2-bar-ui .bd {
+  background-color: transparent !important;
+}
+.sm2-bar-ui .sm2-inline-element,
+.sm2-bar-ui a {
+  border: 0 !important;
+}
+.sm2-bar-ui .sm2-playlist ul li {
+  line-height: 1;
+}
+.sm2player {
+  background-color: rgba(10, 0, 30, 0.7);
+  background-image: none;
+}
+.sm2player .play-pause {
+  cursor: pointer;
+}
+.sm2player .sm2-progress .sm2-progress-track {
+  background-color: rgba(255, 255, 255, 0.15);
+}

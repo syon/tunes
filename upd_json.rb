@@ -70,19 +70,30 @@ csv.map do |df|
   musics.push music
 end
 
-musics.each do |m|
-  m_id = m[:id]
-  puts m_id
-  buf = File.open("generate/download/_template.jade.tmpl")
-  txt = buf.read
-  buf.close
+# Clean last generated download page jade files.
+Dir.glob("app/download/*.jade").each do |f|
+  File.unlink f
+end
 
-  txt.gsub!('@id@', m_id)
-  txt.gsub!('@title@', m[:title])
-  txt.gsub!('@time@', duration(m[:time]))
-  txt.gsub!('@tags@', m[:tags].to_s)
-  txt.gsub!('@desc@', (m[:desc] || ''))
-  File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
+# Generate jade files for download page
+musics.each do |m|
+  begin
+    m_id = m[:id]
+    puts m_id
+    buf = File.open("generate/download/_template.jade.tmpl")
+    txt = buf.read
+    buf.close
+
+    txt.gsub!('@id@', m_id)
+    txt.gsub!('@title@', m[:title])
+    txt.gsub!('@time@', duration(m[:time]))
+    txt.gsub!('@tags@', m[:tags].to_s)
+    txt.gsub!('@desc@', (m[:desc] || ''))
+    File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
+  rescue => e
+    puts "Error!! Perhaps #{m[:id]} is not exist."
+    raise
+  end
 end
 
 #
@@ -103,6 +114,7 @@ end
 # Update structure json
 #
 summary = []
+all_albums = {}
 open(json_dir + "_structure.json") do |io|
   structure = JSON.load(io)
   structure.each do |group|
@@ -129,20 +141,21 @@ open(json_dir + "_structure.json") do |io|
         musicset[:tracks].push(track)
       end
 
-      jpath = json_dir + "#{album.id}.json"
-      json_data = JSON.pretty_generate(musicset)
-      open(jpath, 'w') do |io|
-        io.write json_data
-      end
-
       album['count'] = musicset[:tracks].length
       group_count += album['count']
       listset << album
+      all_albums[album.id] = musicset
     end
     group['group_count'] = group_count
     group['listset'] = listset
     summary << group
   end
+end
+
+jpath = json_dir + "albums.json"
+json_data = JSON.pretty_generate(all_albums)
+open(jpath, 'w') do |io|
+  io.write json_data
 end
 
 summary_data = JSON.pretty_generate(summary)
