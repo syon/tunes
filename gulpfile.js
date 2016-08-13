@@ -19,8 +19,8 @@ var bundler = browserify({
 
 gulp.task('browserify', function () {
   process.env.NODE_ENV = 'production';
-  bundler.plugin('minifyify', {map: 'map.json', output: './public/js/map.json'});
-  bundler.bundle().pipe(fs.createWriteStream("public/js/bundle.js"));
+  bundler.plugin('minifyify', {map: 'map.json', output: './public/assets/js/map.json'});
+  bundler.bundle().pipe(fs.createWriteStream("public/assets/js/bundle.js"));
 });
 
 gulp.task('watch', function () {
@@ -30,12 +30,12 @@ gulp.task('watch', function () {
       var updateStart = Date.now();
       watcher.bundle()
         .pipe(source('bundle.js'))
-        .pipe(gulp.dest('./public/js/'));
+        .pipe(gulp.dest('./public/assets/js/'));
       console.log('Updated in ', (Date.now() - updateStart) + 'ms');
     })
     .bundle()
     .pipe(source('bundle.js'))
-    .pipe(gulp.dest('./public/js/'));
+    .pipe(gulp.dest('./public/assets/js/'));
 });
 
 gulp.task('less', function () {
@@ -43,7 +43,7 @@ gulp.task('less', function () {
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
-    .pipe(gulp.dest('./public/css'));
+    .pipe(gulp.dest('./public/assets/css'));
 });
 
 gulp.task('jade', function () {
