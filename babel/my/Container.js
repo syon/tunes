@@ -94,9 +94,7 @@ class Container extends React.Component {
         backgroundColor: 'rgb(72, 72, 72)',
       },
       trackbox: {
-        marginTop: 64 - 8,
-        backgroundImage: 'url(/assets/sono.png)',
-        backgroundSize: 'cover',
+        // paddingTop: 64 - 8,
       },
     };
     return (

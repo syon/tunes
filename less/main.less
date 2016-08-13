@@ -1,8 +1,16 @@
+html, body, #app {
+	height: 100%;
+  overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	background-color: #303030;
 	font-family: Roboto, sans-serif;
 	margin: 0;
+  background-image: url(/assets/sono.png);
+  background-size: cover;
 }
 
 .playing {
@@ -11,7 +19,6 @@ body {
 		animation: sound-playing 5s ease-out infinite;
 	}
 }
-
 
 @keyframes sound-playing {
 	0% { background-color: #69c3ef; }

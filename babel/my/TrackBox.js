@@ -33,8 +33,12 @@ class TrackBox extends React.Component {
         // click on padding area will be missed.
         padding: '0',
       },
+      dummy: {
+        height: 64 - 8,
+      },
     };
     let nodes = [];
+    nodes.push(<div style={styles.dummy}></div>);
     _.each(tracks, (t) => {
       const isSelected = (t.id === this.props.playingId);
       const isPlaying = isSelected && (this.props.status === Sound.status.PLAYING);
@@ -49,7 +53,7 @@ class TrackBox extends React.Component {
       );
     });
     return (
-      <List style={styles.list}>
+      <List className={'TrackBoxList'} style={styles.list}>
         {nodes}
       </List>
     );
