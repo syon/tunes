@@ -4,7 +4,8 @@
   "description": "Tunes",
   "scripts": {
     "watch": "gulp",
-    "build": "gulp bundle"
+    "build": "gulp bundle",
+    "spa": "gulp spa"
   },
   "dependencies": {
     "axios": "^0.13.1",

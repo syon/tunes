@@ -18,6 +18,17 @@ body {
     background-color: #69c3ef;
   }
 }
+a[href="/about/"] {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+a[href="/about/"]:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 #about {
   color: rgba(255, 255, 255, 0.87);
 }

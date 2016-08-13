@@ -39,6 +39,9 @@ class MenuBox extends React.Component {
       sidemenu: {
         backgroundColor: '#1812A8',
       },
+      divider: {
+        backgroundColor: 'rgba(255, 255, 255, 0.15)',
+      },
       subheader: {
         display: 'flex',
         justifyContent: 'space-between',
@@ -49,12 +52,14 @@ class MenuBox extends React.Component {
         padding: '0',
       },
     };
+    nodes.push(<Divider style={styles.divider} />);
+    nodes.push(<a href="/about/">このサイトについて・利用規約</a>);
     _.each(this.props.structure, (grp) => {
       let grpCnt = '';
       if (grp.group_id === 'albums') {
         grpCnt = grp.group_count;
       }
-      nodes.push(<Divider />);
+      nodes.push(<Divider style={styles.divider} />);
       nodes.push(
         <Subheader style={styles.subheader}>
           <span>{grp.group_id}</span>
