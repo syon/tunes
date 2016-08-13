@@ -1,6 +1,9 @@
 import React from 'react';
 import Sound from 'react-sound';
 import Slider from 'material-ui/Slider';
+import Popover from 'material-ui/Popover';
+import FlatButton from 'material-ui/FlatButton';
+import VolumeUp from 'material-ui/svg-icons/av/volume-up';
 
 const propTypes = {
   track: React.PropTypes.object,
@@ -14,6 +17,9 @@ class SoundPlayer extends React.Component {
 
     this.handleSongPlaying = this.handleSongPlaying.bind(this);
     this.handleSliderChange = this.handleSliderChange.bind(this);
+    this.handlePopover = this.handlePopover.bind(this);
+    this.handleRequestClose = this.handleRequestClose.bind(this);
+    this.handleVolume = this.handleVolume.bind(this);
     this.calcElapse = this.calcElapse.bind(this);
     this.calcRemain = this.calcRemain.bind(this);
 
@@ -23,6 +29,8 @@ class SoundPlayer extends React.Component {
       fromPosition: 0,
       duration: 0,
       progress: 0,
+      volumeOpen: false,
+      volume: 0.75,
     };
   }
 
@@ -37,6 +45,24 @@ class SoundPlayer extends React.Component {
 
   handleSliderChange(event, rate) {
     this.setState({ fromPosition: rate * this.state.duration });
+  }
+
+  handlePopover(event) {
+    event.preventDefault();
+    this.setState({
+      volumeOpen: !this.state.volumeOpen,
+      anchorEl: event.currentTarget,
+    });
+  }
+
+  handleRequestClose() {
+    this.setState({
+      volumeOpen: false,
+    });
+  }
+
+  handleVolume(event, vol) {
+    this.setState({ volume: vol });
   }
 
   formatTime(millisec) {
@@ -73,6 +99,13 @@ class SoundPlayer extends React.Component {
       slider: {
         margin: '6px 0',
       },
+      subCtrl: {
+        display: 'flex',
+        justifyContent: 'flex-end',
+      },
+      popover: {
+        padding: '10px',
+      },
     };
     return (
       <div>
@@ -83,6 +116,7 @@ class SoundPlayer extends React.Component {
           onLoading={this.handleSongLoading}
           onPlaying={this.handleSongPlaying}
           onFinishedPlaying={this.handleSongFinishedPlaying}
+          volume={this.state.volume * 100}
         />
         <div style={styles.current}>
           <div style={styles.elarem}>
@@ -95,6 +129,28 @@ class SoundPlayer extends React.Component {
             sliderStyle={styles.slider}
           />
         </div>
+        <div style={styles.subCtrl}>
+          <FlatButton
+            onTouchTap={this.handlePopover}
+            label="Volume"
+            icon={<VolumeUp />}
+          />
+        </div>
+        <Popover
+          open={this.state.volumeOpen}
+          anchorEl={this.state.anchorEl}
+          anchorOrigin={{ horizontal: 'left', vertical: 'bottom' }}
+          targetOrigin={{ horizontal: 'left', vertical: 'top' }}
+          onRequestClose={this.handleRequestClose}
+          style={styles.popover}
+        >
+          <Slider
+            style={{ height: 100 }}
+            axis="y"
+            defaultValue={this.state.volume}
+            onChange={this.handleVolume}
+          />
+        </Popover>
       </div>
     );
   }
