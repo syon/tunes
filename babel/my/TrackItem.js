@@ -57,12 +57,12 @@ class TrackItem extends React.Component {
       );
     });
     let fabIcon = this.props.isPlaying ? <Pause /> : <PlayArrow />;
-    let fabClass = this.props.isPlaying ? 'playing' : '';
+    let playingClass = this.props.isPlaying ? 'playing' : '';
     return (
-      <div onClick={this.handleClick} style={styles.wrap}>
+      <div className={playingClass} onClick={this.handleClick} style={styles.wrap}>
         <FloatingActionButton
           mini
-          className={fabClass}
+          className={'fab'}
           onClick={this.handleClick}
         >
           {fabIcon}

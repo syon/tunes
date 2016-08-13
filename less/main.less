@@ -5,9 +5,13 @@ body {
 	margin: 0;
 }
 
-.playing button {
-	animation: sound-playing 5s ease-out infinite;
+.playing {
+	background-color: rgba(255,255,255,.05);
+	.fab {
+		animation: sound-playing 5s ease-out infinite;
+	}
 }
+
 
 @keyframes sound-playing {
 	0% { background-color: #69c3ef; }
