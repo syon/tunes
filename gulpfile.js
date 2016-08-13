@@ -47,7 +47,6 @@ gulp.task('less', function () {
 });
 
 gulp.task('jade', function () {
-  console.log(__dirname);
   return gulp.src('./app/download/*.jade')
     .pipe(jade({
       basedir: __dirname,
