@@ -26,9 +26,6 @@ class TrackBox extends React.Component {
   render() {
     const tracks = this.props.album.tracks;
     const styles = {
-      list: {
-        backgroundColor: 'rgba(0,0,0,.4)',
-      },
       listitem: {
         // click on padding area will be missed.
         padding: '0',
@@ -53,7 +50,7 @@ class TrackBox extends React.Component {
       );
     });
     return (
-      <List className={'TrackBoxList'} style={styles.list}>
+      <List>
         {nodes}
       </List>
     );
