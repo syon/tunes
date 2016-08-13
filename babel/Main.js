@@ -33,9 +33,9 @@ class Main extends React.Component {
   }
 
   loadTracklistFromServer(activeAlbumId) {
-    axios.get(`/tracklists/${activeAlbumId}.json`)
+    axios.get('/tracklists/albums.json')
       .then((response) => {
-        this.setState({ album: response.data });
+        this.setState({ album: response.data[activeAlbumId] });
       })
       .catch((response) => {
         console.error(response);

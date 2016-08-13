@@ -16,9 +16,6 @@ class TrackItem extends React.Component {
     super(props, context);
 
     this.handleClick = this.handleClick.bind(this);
-
-    this.state = {
-    };
   }
 
   handleClick() {
@@ -31,11 +28,14 @@ class TrackItem extends React.Component {
       wrap: {
         display: 'flex',
         alignItems: 'center',
-        padding: '8px 16px',
+        padding: '16px',
       },
       trackinfo: {
         flexGrow: '1',
         paddingLeft: '1em',
+      },
+      title: {
+        margin: '8px 0 12px',
       },
       tags: {
         display: 'flex',
@@ -68,7 +68,7 @@ class TrackItem extends React.Component {
           {fabIcon}
         </FloatingActionButton>
         <div style={styles.trackinfo}>
-          <h3>{t.title}</h3>
+          <h3 style={styles.title}>{t.title}</h3>
           <div style={styles.tags}>
             {tags}
           </div>

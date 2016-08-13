@@ -109,6 +109,7 @@ end
 # Update structure json
 #
 summary = []
+all_albums = {}
 open(json_dir + "_structure.json") do |io|
   structure = JSON.load(io)
   structure.each do |group|
@@ -135,20 +136,21 @@ open(json_dir + "_structure.json") do |io|
         musicset[:tracks].push(track)
       end
 
-      jpath = json_dir + "#{album.id}.json"
-      json_data = JSON.pretty_generate(musicset)
-      open(jpath, 'w') do |io|
-        io.write json_data
-      end
-
       album['count'] = musicset[:tracks].length
       group_count += album['count']
       listset << album
+      all_albums[album.id] = musicset
     end
     group['group_count'] = group_count
     group['listset'] = listset
     summary << group
   end
+end
+
+jpath = json_dir + "albums.json"
+json_data = JSON.pretty_generate(all_albums)
+open(jpath, 'w') do |io|
+  io.write json_data
 end
 
 summary_data = JSON.pretty_generate(summary)
