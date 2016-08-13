@@ -53,7 +53,7 @@ class MenuBox extends React.Component {
       },
     };
     nodes.push(<Divider style={styles.divider} />);
-    nodes.push(<a href="/about/">このサイトについて・利用規約</a>);
+    nodes.push(<a href="/about.html">このサイトについて・利用規約</a>);
     _.each(this.props.structure, (grp) => {
       let grpCnt = '';
       if (grp.group_id === 'albums') {

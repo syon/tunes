@@ -33,7 +33,7 @@ body {
     background-color: #69c3ef;
   }
 }
-a[href="/about/"] {
+a[href="/about.html"] {
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -41,7 +41,7 @@ a[href="/about/"] {
   text-decoration: none;
   color: #fff;
 }
-a[href="/about/"]:hover {
+a[href="/about.html"]:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 #about {
