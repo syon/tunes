@@ -112,6 +112,7 @@ class RightDrawer extends React.Component {
             style={styles.button}
             icon={<FileDownload />}
             target="_blank"
+            disabled={!this.props.track.id}
           />
         </div>
       </Drawer>
