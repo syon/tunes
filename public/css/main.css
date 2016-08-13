@@ -45,6 +45,9 @@ a[href="/about/"]:hover {
   margin: 0 auto;
   text-decoration: none;
 }
+.docs-logo:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 .docs-logo > img {
   width: 150px;
   height: 150px;
