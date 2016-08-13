@@ -104,7 +104,7 @@ class RightDrawer extends React.Component {
         />
         <div>
           <div style={styles.commentHead}>
-            <Avatar src="/assets/mojiro.jpg" style={styles.commentAvatar} />
+            <Avatar src="/assets/img/mojiro.jpg" style={styles.commentAvatar} />
             <span>{'ANDY\'s comment:'}</span>
           </div>
           <p style={styles.commentText}>{this.props.track.desc}</p>

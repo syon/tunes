@@ -36,7 +36,7 @@ function Logo() {
   return (
     <header style={styles.header}>
       <a href="/" style={styles.anchor}>
-        <img src="/assets/logo.png" alt="音の園" style={styles.logo} />
+        <img src="/assets/img/logo.png" alt="音の園" style={styles.logo} />
         <h1 style={styles.title}>音の園</h1>
         <h3 style={styles.author}>music by ANDY</h3>
       </a>
