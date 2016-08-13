@@ -1,7 +1,7 @@
 [
   {
     "group_id": "albums",
-    "group_count": 135,
+    "group_count": 136,
     "listset": [
       {
         "id": "game_decision",
@@ -42,6 +42,14 @@
           "和風短編曲集"
         ],
         "count": 9
+      },
+      {
+        "id": "game_aquacocktail",
+        "listname": "アクア カクテル",
+        "tags": [
+          "アクア カクテル"
+        ],
+        "count": 1
       },
       {
         "id": "game_detective",

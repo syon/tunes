@@ -932,6 +932,23 @@
       }
     ]
   },
+  "game_aquacocktail": {
+    "listname": "アクア カクテル",
+    "tracks": [
+      {
+        "id": "Sangotokainokaiwa",
+        "filepath": "/materials/Sangotokainokaiwa.mp3",
+        "title": "サンゴと貝の会話",
+        "time": 200,
+        "desc": null,
+        "tags": [
+          "アクア カクテル",
+          "神秘的",
+          "疾走感"
+        ]
+      }
+    ]
+  },
   "game_detective": {
     "listname": "探偵 中園エイジ",
     "tracks": [
