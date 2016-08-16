@@ -5,7 +5,6 @@ require 'json'
 require 'ap'
 
 site_url = "http://oto-no-sono.com"
-base_dir = 'resources/materials/'
 json_dir = "public/tracklists/"
 def find_tagmatch_music_list(musics, tag)
   list = []
@@ -26,12 +25,12 @@ end
 #
 # Write info on mp3 file with CSV
 #
-csv = CSV.table(json_dir + "_def.tsv", col_sep:"\t")
+csv = CSV.table("resources/def.tsv", col_sep:"\t")
 musics = []
 csv.map do |df|
   music = {}
   cate_id = df[:filename]
-  path = "#{base_dir}#{cate_id}"
+  path = "resources/materials/#{cate_id}"
   begin
     AudioInfo.open(path) do |info|
       music[:time] = info.length
