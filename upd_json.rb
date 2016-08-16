@@ -1,14 +1,11 @@
-require 'dotenv'
 require 'taglib'
 require 'audioinfo'
 require 'csv'
 require 'json'
 require 'ap'
 
-Dotenv.load
-
 site_url = "http://oto-no-sono.com"
-base_dir = ENV['MATERIALS_DIR']
+base_dir = 'resources/materials/'
 json_dir = "public/tracklists/"
 def find_tagmatch_music_list(musics, tag)
   list = []

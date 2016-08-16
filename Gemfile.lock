@@ -5,7 +5,6 @@ GEM
       cicphash (>= 1.0.0)
     awesome_print (1.7.0)
     cicphash (1.1.0)
-    dotenv (2.1.1)
     flacinfo-rb (1.0)
     moumar-wmainfo-rb (0.8)
     mp4info (1.7.3)
@@ -27,7 +26,6 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  dotenv
   ruby-audioinfo
   taglib-ruby
 
