@@ -30,7 +30,7 @@ DEPENDENCIES
   taglib-ruby
 
 RUBY VERSION
-   ruby 2.0.0p647
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.5
