@@ -111,7 +111,7 @@ end
 #
 summary = []
 all_albums = {}
-open("resources/structure.json") do |io|
+open("resources/settings.json") do |io|
   structure = JSON.load(io)
   structure.each do |group|
     listset = []

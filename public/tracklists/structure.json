@@ -1,7 +1,6 @@
 [
   {
     "group_id": "albums",
-    "group_count": 136,
     "listset": [
       {
         "id": "game_decision",
@@ -99,11 +98,11 @@
         ],
         "count": 9
       }
-    ]
+    ],
+    "group_count": 136
   },
   {
     "group_id": "scenes",
-    "group_count": 246,
     "listset": [
       {
         "id": "scene_cheerful",
@@ -217,6 +216,7 @@
         ],
         "count": 5
       }
-    ]
+    ],
+    "group_count": 246
   }
 ]
