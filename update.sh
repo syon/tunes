@@ -3,4 +3,4 @@
 #  - Generate download pages
 git pull
 bundle install
-bundle exec ruby upd_json.rb
+bundle exec ruby restructure.rb
