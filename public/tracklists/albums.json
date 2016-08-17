@@ -7,7 +7,7 @@
         "filepath": "/materials/decision-overture.mp3",
         "title": "OVERTURE~序曲~",
         "time": 180,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -19,7 +19,7 @@
         "filepath": "/materials/decision-boukennohajimari.mp3",
         "title": "冒険の始まり",
         "time": 48,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -32,7 +32,7 @@
         "filepath": "/materials/decision-chiheisennokanatahe.mp3",
         "title": "地平線の彼方へ",
         "time": 154,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -44,7 +44,7 @@
         "filepath": "/materials/decision-mikainochihe.mp3",
         "title": "未開の地へ",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -57,7 +57,7 @@
         "filepath": "/materials/decision-sworddancer.mp3",
         "title": "ソードダンサー",
         "time": 199,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -69,7 +69,7 @@
         "filepath": "/materials/decision-seichounokane.mp3",
         "title": "成長の鐘",
         "time": 70,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -82,7 +82,7 @@
         "filepath": "/materials/decision-oukokukishidan.mp3",
         "title": "王国騎士団",
         "time": 167,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -94,7 +94,7 @@
         "filepath": "/materials/decision-saikai.mp3",
         "title": "再会",
         "time": 28,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -107,7 +107,7 @@
         "filepath": "/materials/decision-torus.mp3",
         "title": "貿易都市トーラス",
         "time": 177,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -119,7 +119,7 @@
         "filepath": "/materials/decision-hitobantomatteikukai.mp3",
         "title": "一晩泊まっていくかい？",
         "time": 17,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -131,7 +131,7 @@
         "filepath": "/materials/decision-neige.mp3",
         "title": "雪の国ネージュ",
         "time": 146,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -143,7 +143,7 @@
         "filepath": "/materials/decision-tsuioku.mp3",
         "title": "追憶",
         "time": 39,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い"
@@ -154,7 +154,7 @@
         "filepath": "/materials/decision-river.mp3",
         "title": "水都リーベル",
         "time": 220,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -166,7 +166,7 @@
         "filepath": "/materials/decision-mizunodoukutsu.mp3",
         "title": "水の洞窟",
         "time": 175,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -178,7 +178,7 @@
         "filepath": "/materials/decision-kunossosu.mp3",
         "title": "クノッソス迷宮",
         "time": 197,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -191,7 +191,7 @@
         "filepath": "/materials/decision-kazenodaichi.mp3",
         "title": "風の大地",
         "time": 190,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -204,7 +204,7 @@
         "filepath": "/materials/decision-mizunosono.mp3",
         "title": "水の園",
         "time": 221,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -216,7 +216,7 @@
         "filepath": "/materials/decision-mizunomiko.mp3",
         "title": "水の巫女",
         "time": 106,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -229,7 +229,7 @@
         "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
         "title": "光と闇の狭間へ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -242,7 +242,7 @@
         "filepath": "/materials/decision-souennorekuiemu.mp3",
         "title": "蒼炎のレクイエム",
         "time": 94,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -255,7 +255,7 @@
         "filepath": "/materials/decision-shironosekai.mp3",
         "title": "白の世界",
         "time": 90,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -269,7 +269,7 @@
         "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
         "title": "君の瞳と教会の花",
         "time": 136,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -282,7 +282,7 @@
         "filepath": "/materials/decision-boukennokirokuwokokohe.mp3",
         "title": "冒険の記録をここに…",
         "time": 162,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "エンディング",
@@ -312,7 +312,7 @@
         "filepath": "/materials/BattleField.mp3",
         "title": "バトルフィールド",
         "time": 169,
-        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？ この曲と「戦いの舞い」のセットがおすすめです。",
+        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？この曲と「戦いの舞い」のセットがおすすめです。\"",
         "tags": [
           "RPG",
           "バトル",
@@ -360,7 +360,7 @@
         "filepath": "/materials/TatakaiNoMai.mp3",
         "title": "戦いの舞い",
         "time": 218,
-        "desc": "音の園バトル第一弾ということで、持てる力と知恵と勇気を振り絞りました。(トライフォース！) 私は大抵バトル曲を作ろうとするとパクりかクッサいメロディで失敗するんですが今回はそれらを20%くらいは回避できたかも！ただしイントロは王道で（笑） ヴァイオリンとバンドサウンドの躍動感あるメロディラインを意識しました。隠し味で所々にパッパラパ~のブラスをリズム要素で入れてます。ヴァイオリンもベースもドラムも大活躍！是非バンドで演奏したいものです。",
+        "desc": "音の園バトル第一弾ということで、持てる力と知恵と勇気を振り絞りました。(トライフォース！)私は大抵バトル曲を作ろうとするとパクりかクッサいメロディで失敗するんですが今回はそれらを20%くらいは回避できたかも！ただしイントロは王道で（笑）ヴァイオリンとバンドサウンドの躍動感あるメロディラインを意識しました。隠し味で所々にパッパラパ~のブラスをリズム要素で入れてます。ヴァイオリンもベースもドラムも大活躍！是非バンドで演奏したいものです。",
         "tags": [
           "RPG",
           "バトル"
@@ -477,7 +477,7 @@
         "filepath": "/materials/Jukai.mp3",
         "title": "樹海",
         "time": 207,
-        "desc": null,
+        "desc": "",
         "tags": [
           "RPG",
           "ピアノ",
@@ -489,7 +489,7 @@
         "filepath": "/materials/Sajinnomiyako.mp3",
         "title": "砂塵の都",
         "time": 221,
-        "desc": null,
+        "desc": "",
         "tags": [
           "RPG",
           "緊張感"
@@ -540,7 +540,7 @@
         "filepath": "/materials/ItsOurTurn.mp3",
         "title": "It's our turn",
         "time": 184,
-        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!! なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
+        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!!なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
         "tags": [
           "バロック",
           "壮大",
@@ -563,7 +563,7 @@
         "filepath": "/materials/DarkCastle.mp3",
         "title": "Dark Castle",
         "time": 143,
-        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が... 実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
+        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が...実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
         "tags": [
           "バロック",
           "緊張感",
@@ -600,7 +600,7 @@
         "filepath": "/materials/Comeback.mp3",
         "title": "Comeback",
         "time": 105,
-        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑） ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
+        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑）ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
         "tags": [
           "バロック",
           "壮大",
@@ -612,7 +612,7 @@
         "filepath": "/materials/Vacant.mp3",
         "title": "Vacant",
         "time": 82,
-        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？ いや、まぁ私に聞かれても困るんですが...(聞いていない)",
+        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？いや、まぁ私に聞かれても困るんですが...(聞いていない)",
         "tags": [
           "バロック",
           "緊張感",
@@ -649,7 +649,7 @@
         "filepath": "/materials/Operations.mp3",
         "title": "Operations",
         "time": 92,
-        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！ 急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？ 軍艦巻きとか？？？",
+        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？軍艦巻きとか？？？",
         "tags": [
           "バロック",
           "壮大",
@@ -677,7 +677,7 @@
         "filepath": "/materials/Itsumonokimi.mp3",
         "title": "いつものキミ",
         "time": 185,
-        "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
+        "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
         "tags": [
           "夏恋",
           "明るい"
@@ -711,7 +711,7 @@
         "filepath": "/materials/Komorebiyori.mp3",
         "title": "木漏れ日和",
         "time": 167,
-        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑) ちょっとした日常の場面で流れていそうな感じですね。",
+        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑)ちょっとした日常の場面で流れていそうな感じですね。",
         "tags": [
           "夏恋",
           "明るい",
@@ -760,7 +760,7 @@
         "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
         "title": "飛火入夏虫",
         "time": 131,
-        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？ あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
+        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
         "tags": [
           "夏恋",
           "緊張感",
@@ -795,7 +795,7 @@
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
         "time": 269,
-        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？ まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
+        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
         "tags": [
           "夏恋",
           "夜",
@@ -860,7 +860,7 @@
         "filepath": "/materials/NatsuMatsuri.mp3",
         "title": "夏祭り",
         "time": 153,
-        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？ 今年も祭りに行きたいなぁ。",
+        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？今年も祭りに行きたいなぁ。",
         "tags": [
           "和風短編曲集",
           "夜",
@@ -872,7 +872,7 @@
         "filepath": "/materials/Yuunaginouta.mp3",
         "title": "夕凪の唄",
         "time": 134,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -885,7 +885,7 @@
         "filepath": "/materials/Yuunagi.mp3",
         "title": "夕凪",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -899,7 +899,7 @@
         "filepath": "/materials/Towanojojou.mp3",
         "title": "永遠の叙情",
         "time": 65,
-        "desc": "和風カテゴリ行きになりましたが、若干洋風な感じもしなくもないです（笑） サウンドノベルなどのゲーム再開時、栞（しおり）を選ぶ時、または少し怖く不思議な物語を語る時とかどうですか？ 他にも変な使い方があればぜひ教えてください（笑）",
+        "desc": "和風カテゴリ行きになりましたが、若干洋風な感じもしなくもないです（笑） サウンドノベルなどのゲーム再開時、栞（しおり）を選ぶ時、または少し怖く不思議な物語を語る時とかどうですか？他にも変な使い方があればぜひ教えてください（笑）",
         "tags": [
           "和風短編曲集",
           "暗い",
@@ -940,7 +940,7 @@
         "filepath": "/materials/Sangotokai.mp3",
         "title": "サンゴと貝",
         "time": 200,
-        "desc": null,
+        "desc": "",
         "tags": [
           "アクア カクテル",
           "神秘的",
@@ -991,7 +991,7 @@
         "filepath": "/materials/Koushouhaomakasekudasai.mp3",
         "title": "交渉はお任せください!!",
         "time": 257,
-        "desc": null,
+        "desc": "",
         "tags": [
           "探偵",
           "明るい"
@@ -1013,7 +1013,7 @@
         "filepath": "/materials/Shinjitsuwomotomete.mp3",
         "title": "真実を求めて",
         "time": 172,
-        "desc": null,
+        "desc": "",
         "tags": [
           "探偵",
           "ピアノ",
@@ -1049,7 +1049,7 @@
         "filepath": "/materials/SeeYouAgain.mp3",
         "title": "See you again…",
         "time": 142,
-        "desc": "曲名通り、エンディングっぽいのを目指して作りました。今回この探偵シリーズの曲を作っていて思ったのですが、あんまりハードボイルドじゃないなぁと。やっぱり私にはハードボイルドはまだ早いのか！？ そんなワケで、次回はさらなるハードボイルドを目指して「シーユーアゲイン！」「また会う日まで！」",
+        "desc": "曲名通り、エンディングっぽいのを目指して作りました。今回この探偵シリーズの曲を作っていて思ったのですが、あんまりハードボイルドじゃないなぁと。やっぱり私にはハードボイルドはまだ早いのか！？そんなワケで、次回はさらなるハードボイルドを目指して「シーユーアゲイン！」「また会う日まで！」",
         "tags": [
           "探偵",
           "エンディング"
@@ -1065,7 +1065,7 @@
         "filepath": "/materials/Shihenokodou.mp3",
         "title": "死への鼓動",
         "time": 188,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1088,7 +1088,7 @@
         "filepath": "/materials/Ihen.mp3",
         "title": "異変",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1112,7 +1112,7 @@
         "filepath": "/materials/Kagerou.mp3",
         "title": "カゲロウ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1124,7 +1124,7 @@
         "filepath": "/materials/Kaidan.mp3",
         "title": "階段",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1136,7 +1136,7 @@
         "filepath": "/materials/Chikatsuuro.mp3",
         "title": "地下通路",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1148,7 +1148,7 @@
         "filepath": "/materials/Eiminnosenritsu.mp3",
         "title": "永眠の旋律",
         "time": 144,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1161,7 +1161,7 @@
         "filepath": "/materials/Tokiwokatarumono.mp3",
         "title": "時を語る者",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "ピアノ",
@@ -1209,7 +1209,7 @@
         "filepath": "/materials/Kyoukaiato.mp3",
         "title": "教会跡",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1233,7 +1233,7 @@
         "filepath": "/materials/Ruikon.mp3",
         "title": "涙痕",
         "time": 168,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1246,7 +1246,7 @@
         "filepath": "/materials/ClingtoLife.mp3",
         "title": "Cling to Life",
         "time": 198,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1310,7 +1310,7 @@
         "filepath": "/materials/Towanokioku.mp3",
         "title": "永遠の記憶",
         "time": 100,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -1352,7 +1352,7 @@
         "filepath": "/materials/Moon.mp3",
         "title": "Moon",
         "time": 148,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -1376,7 +1376,7 @@
         "filepath": "/materials/Crater.mp3",
         "title": "Crater",
         "time": 110,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "緊張感"
@@ -1387,7 +1387,7 @@
         "filepath": "/materials/Jupiter.mp3",
         "title": "Jupiter",
         "time": 160,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -1428,7 +1428,7 @@
         "filepath": "/materials/Aletter.mp3",
         "title": "A letter -手紙-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1439,7 +1439,7 @@
         "filepath": "/materials/ForeignCountry.mp3",
         "title": "Foreign Country -異国-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -1450,7 +1450,7 @@
         "filepath": "/materials/Darkness.mp3",
         "title": "Darkness -闇-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1461,7 +1461,7 @@
         "filepath": "/materials/Passage.mp3",
         "title": "Passage -通路-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -1472,7 +1472,7 @@
         "filepath": "/materials/Corpse.mp3",
         "title": "Corpse -遺体-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1483,7 +1483,7 @@
         "filepath": "/materials/Colorless.mp3",
         "title": "Colorless -無色-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -1494,7 +1494,7 @@
         "filepath": "/materials/Cofin.mp3",
         "title": "Cofin -棺-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1505,7 +1505,7 @@
         "filepath": "/materials/Worship.mp3",
         "title": "Worship -礼拝-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1516,7 +1516,7 @@
         "filepath": "/materials/Home.mp3",
         "title": "Home -帰還-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -1532,7 +1532,7 @@
         "filepath": "/materials/RomancingsagaOpeningBV.mp3",
         "title": "オープニングタイトル",
         "time": 211,
-        "desc": null,
+        "desc": "",
         "tags": [
           "ゲーム音楽カバー",
           "Romancing SaGa"
@@ -1543,7 +1543,7 @@
         "filepath": "/materials/Romancingsaga2Dungeon1BV.mp3",
         "title": "ダンジョン#1",
         "time": 223,
-        "desc": null,
+        "desc": "",
         "tags": [
           "ゲーム音楽カバー",
           "Romancing SaGa"
@@ -1554,7 +1554,7 @@
         "filepath": "/materials/StarOcean2StabBV.mp3",
         "title": "Stab the sword of justice",
         "time": 164,
-        "desc": null,
+        "desc": "",
         "tags": [
           "ゲーム音楽カバー",
           "Star Ocean2"
@@ -1565,7 +1565,7 @@
         "filepath": "/materials/ChronoTriggerBattle1BV.mp3",
         "title": "戦い",
         "time": 239,
-        "desc": null,
+        "desc": "",
         "tags": [
           "ゲーム音楽カバー",
           "Chrono Trigger"
@@ -1690,7 +1690,7 @@
         "filepath": "/materials/decision-seichounokane.mp3",
         "title": "成長の鐘",
         "time": 70,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -1703,7 +1703,7 @@
         "filepath": "/materials/decision-saikai.mp3",
         "title": "再会",
         "time": 28,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -1716,7 +1716,7 @@
         "filepath": "/materials/decision-torus.mp3",
         "title": "貿易都市トーラス",
         "time": 177,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -1728,7 +1728,7 @@
         "filepath": "/materials/decision-hitobantomatteikukai.mp3",
         "title": "一晩泊まっていくかい？",
         "time": 17,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -1740,7 +1740,7 @@
         "filepath": "/materials/decision-river.mp3",
         "title": "水都リーベル",
         "time": 220,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -1752,7 +1752,7 @@
         "filepath": "/materials/decision-kazenodaichi.mp3",
         "title": "風の大地",
         "time": 190,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -1765,7 +1765,7 @@
         "filepath": "/materials/decision-shironosekai.mp3",
         "title": "白の世界",
         "time": 90,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -1779,7 +1779,7 @@
         "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
         "title": "君の瞳と教会の花",
         "time": 136,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -1792,7 +1792,7 @@
         "filepath": "/materials/BattleField.mp3",
         "title": "バトルフィールド",
         "time": 169,
-        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？ この曲と「戦いの舞い」のセットがおすすめです。",
+        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？この曲と「戦いの舞い」のセットがおすすめです。\"",
         "tags": [
           "RPG",
           "バトル",
@@ -1877,7 +1877,7 @@
         "filepath": "/materials/ItsOurTurn.mp3",
         "title": "It's our turn",
         "time": 184,
-        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!! なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
+        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!!なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
         "tags": [
           "バロック",
           "壮大",
@@ -1889,7 +1889,7 @@
         "filepath": "/materials/Comeback.mp3",
         "title": "Comeback",
         "time": 105,
-        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑） ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
+        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑）ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
         "tags": [
           "バロック",
           "壮大",
@@ -1901,7 +1901,7 @@
         "filepath": "/materials/Koushouhaomakasekudasai.mp3",
         "title": "交渉はお任せください!!",
         "time": 257,
-        "desc": null,
+        "desc": "",
         "tags": [
           "探偵",
           "明るい"
@@ -1912,7 +1912,7 @@
         "filepath": "/materials/Itsumonokimi.mp3",
         "title": "いつものキミ",
         "time": 185,
-        "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。 完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
+        "desc": "この曲は「音の園を立ち上げよう！」と決めた時に一番最初に作った曲なので思い入れがあります。私は元々ファンタジー系の曲が好きでそればっか作ってたので、恋愛ゲーム系の曲を作るのは初めてでした。完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）",
         "tags": [
           "夏恋",
           "明るい"
@@ -1923,7 +1923,7 @@
         "filepath": "/materials/Komorebiyori.mp3",
         "title": "木漏れ日和",
         "time": 167,
-        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑) ちょっとした日常の場面で流れていそうな感じですね。",
+        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑)ちょっとした日常の場面で流れていそうな感じですね。",
         "tags": [
           "夏恋",
           "明るい",
@@ -1985,7 +1985,7 @@
         "filepath": "/materials/NatsuMatsuri.mp3",
         "title": "夏祭り",
         "time": 153,
-        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？ 今年も祭りに行きたいなぁ。",
+        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？今年も祭りに行きたいなぁ。",
         "tags": [
           "和風短編曲集",
           "夜",
@@ -1997,7 +1997,7 @@
         "filepath": "/materials/Yuunaginouta.mp3",
         "title": "夕凪の唄",
         "time": 134,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -2010,7 +2010,7 @@
         "filepath": "/materials/Yuunagi.mp3",
         "title": "夕凪",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -2055,7 +2055,7 @@
         "filepath": "/materials/decision-tsuioku.mp3",
         "title": "追憶",
         "time": 39,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い"
@@ -2066,7 +2066,7 @@
         "filepath": "/materials/decision-mizunodoukutsu.mp3",
         "title": "水の洞窟",
         "time": 175,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -2078,7 +2078,7 @@
         "filepath": "/materials/decision-kunossosu.mp3",
         "title": "クノッソス迷宮",
         "time": 197,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -2091,7 +2091,7 @@
         "filepath": "/materials/decision-mizunomiko.mp3",
         "title": "水の巫女",
         "time": 106,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -2104,7 +2104,7 @@
         "filepath": "/materials/decision-souennorekuiemu.mp3",
         "title": "蒼炎のレクイエム",
         "time": 94,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -2129,7 +2129,7 @@
         "filepath": "/materials/Towanojojou.mp3",
         "title": "永遠の叙情",
         "time": 65,
-        "desc": "和風カテゴリ行きになりましたが、若干洋風な感じもしなくもないです（笑） サウンドノベルなどのゲーム再開時、栞（しおり）を選ぶ時、または少し怖く不思議な物語を語る時とかどうですか？ 他にも変な使い方があればぜひ教えてください（笑）",
+        "desc": "和風カテゴリ行きになりましたが、若干洋風な感じもしなくもないです（笑） サウンドノベルなどのゲーム再開時、栞（しおり）を選ぶ時、または少し怖く不思議な物語を語る時とかどうですか？他にも変な使い方があればぜひ教えてください（笑）",
         "tags": [
           "和風短編曲集",
           "暗い",
@@ -2141,7 +2141,7 @@
         "filepath": "/materials/Shihenokodou.mp3",
         "title": "死への鼓動",
         "time": 188,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2164,7 +2164,7 @@
         "filepath": "/materials/Ihen.mp3",
         "title": "異変",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2188,7 +2188,7 @@
         "filepath": "/materials/Kagerou.mp3",
         "title": "カゲロウ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2200,7 +2200,7 @@
         "filepath": "/materials/Kaidan.mp3",
         "title": "階段",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2212,7 +2212,7 @@
         "filepath": "/materials/Chikatsuuro.mp3",
         "title": "地下通路",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2224,7 +2224,7 @@
         "filepath": "/materials/Eiminnosenritsu.mp3",
         "title": "永眠の旋律",
         "time": 144,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2273,7 +2273,7 @@
         "filepath": "/materials/Kyoukaiato.mp3",
         "title": "教会跡",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2297,7 +2297,7 @@
         "filepath": "/materials/Ruikon.mp3",
         "title": "涙痕",
         "time": 168,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2310,7 +2310,7 @@
         "filepath": "/materials/ClingtoLife.mp3",
         "title": "Cling to Life",
         "time": 198,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2362,7 +2362,7 @@
         "filepath": "/materials/Towanokioku.mp3",
         "title": "永遠の記憶",
         "time": 100,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -2374,7 +2374,7 @@
         "filepath": "/materials/ForeignCountry.mp3",
         "title": "Foreign Country -異国-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -2385,7 +2385,7 @@
         "filepath": "/materials/Passage.mp3",
         "title": "Passage -通路-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -2396,7 +2396,7 @@
         "filepath": "/materials/Colorless.mp3",
         "title": "Colorless -無色-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "暗い"
@@ -2412,7 +2412,7 @@
         "filepath": "/materials/decision-mikainochihe.mp3",
         "title": "未開の地へ",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -2425,7 +2425,7 @@
         "filepath": "/materials/decision-saikai.mp3",
         "title": "再会",
         "time": 28,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -2438,7 +2438,7 @@
         "filepath": "/materials/decision-hitobantomatteikukai.mp3",
         "title": "一晩泊まっていくかい？",
         "time": 17,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -2450,7 +2450,7 @@
         "filepath": "/materials/decision-river.mp3",
         "title": "水都リーベル",
         "time": 220,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -2462,7 +2462,7 @@
         "filepath": "/materials/decision-shironosekai.mp3",
         "title": "白の世界",
         "time": 90,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -2476,7 +2476,7 @@
         "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
         "title": "君の瞳と教会の花",
         "time": 136,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -2548,7 +2548,7 @@
         "filepath": "/materials/Komorebiyori.mp3",
         "title": "木漏れ日和",
         "time": 167,
-        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑) ちょっとした日常の場面で流れていそうな感じですね。",
+        "desc": "ギター曲です。「アコースティックギター」の音色は曲に暖かい雰囲気を与えてくれるのでお気に入りです。まぁ作曲する以上どんな楽器の音色も好きなんですけど(笑)ちょっとした日常の場面で流れていそうな感じですね。",
         "tags": [
           "夏恋",
           "明るい",
@@ -2608,7 +2608,7 @@
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
         "time": 269,
-        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？ まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
+        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
         "tags": [
           "夏恋",
           "夜",
@@ -2657,7 +2657,7 @@
         "filepath": "/materials/Yuunaginouta.mp3",
         "title": "夕凪の唄",
         "time": 134,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -2670,7 +2670,7 @@
         "filepath": "/materials/Yuunagi.mp3",
         "title": "夕凪",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -2713,7 +2713,7 @@
         "filepath": "/materials/decision-overture.mp3",
         "title": "OVERTURE~序曲~",
         "time": 180,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -2725,7 +2725,7 @@
         "filepath": "/materials/decision-chiheisennokanatahe.mp3",
         "title": "地平線の彼方へ",
         "time": 154,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -2737,7 +2737,7 @@
         "filepath": "/materials/decision-sworddancer.mp3",
         "title": "ソードダンサー",
         "time": 199,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -2749,7 +2749,7 @@
         "filepath": "/materials/decision-seichounokane.mp3",
         "title": "成長の鐘",
         "time": 70,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -2762,7 +2762,7 @@
         "filepath": "/materials/decision-oukokukishidan.mp3",
         "title": "王国騎士団",
         "time": 167,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -2774,7 +2774,7 @@
         "filepath": "/materials/decision-neige.mp3",
         "title": "雪の国ネージュ",
         "time": 146,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -2786,7 +2786,7 @@
         "filepath": "/materials/decision-mizunosono.mp3",
         "title": "水の園",
         "time": 221,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -2798,7 +2798,7 @@
         "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
         "title": "光と闇の狭間へ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -2811,7 +2811,7 @@
         "filepath": "/materials/decision-souennorekuiemu.mp3",
         "title": "蒼炎のレクイエム",
         "time": 94,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -2824,7 +2824,7 @@
         "filepath": "/materials/decision-boukennokirokuwokokohe.mp3",
         "title": "冒険の記録をここに…",
         "time": 162,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "エンディング",
@@ -2923,7 +2923,7 @@
         "filepath": "/materials/ItsOurTurn.mp3",
         "title": "It's our turn",
         "time": 184,
-        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!! なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
+        "desc": "ずーっと一定のマーチリズムが続くので、シミュレーションRPGならプレイヤーターン、RPGなら「さぁ行くぞ！」みたいな場面がピッタリかも？ シミュレーションRPGと言えば、もちろん「ファイアーエムブレム」!!なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。",
         "tags": [
           "バロック",
           "壮大",
@@ -2960,7 +2960,7 @@
         "filepath": "/materials/Comeback.mp3",
         "title": "Comeback",
         "time": 105,
-        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑） ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
+        "desc": "当サイト(音の園)を作ってくれている友人に、ある日「パレードみたいな曲を30分で作ってみて」と言われて作りました。「制限時間内でお題をこなす」という「遊び」を我々はたまにやります（笑）ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）",
         "tags": [
           "バロック",
           "壮大",
@@ -2985,7 +2985,7 @@
         "filepath": "/materials/Operations.mp3",
         "title": "Operations",
         "time": 92,
-        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！ 急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？ 軍艦巻きとか？？？",
+        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？軍艦巻きとか？？？",
         "tags": [
           "バロック",
           "壮大",
@@ -2997,7 +2997,7 @@
         "filepath": "/materials/Yuunagi.mp3",
         "title": "夕凪",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "和風短編曲集",
           "安らぎ",
@@ -3023,7 +3023,7 @@
         "filepath": "/materials/ClingtoLife.mp3",
         "title": "Cling to Life",
         "time": 198,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3053,7 +3053,7 @@
         "filepath": "/materials/decision-boukennohajimari.mp3",
         "title": "冒険の始まり",
         "time": 48,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -3066,7 +3066,7 @@
         "filepath": "/materials/decision-mikainochihe.mp3",
         "title": "未開の地へ",
         "time": 171,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "穏やか",
@@ -3079,7 +3079,7 @@
         "filepath": "/materials/decision-neige.mp3",
         "title": "雪の国ネージュ",
         "time": 146,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -3091,7 +3091,7 @@
         "filepath": "/materials/decision-mizunodoukutsu.mp3",
         "title": "水の洞窟",
         "time": 175,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -3103,7 +3103,7 @@
         "filepath": "/materials/decision-kunossosu.mp3",
         "title": "クノッソス迷宮",
         "time": 197,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -3116,7 +3116,7 @@
         "filepath": "/materials/decision-mizunosono.mp3",
         "title": "水の園",
         "time": 221,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "神秘的",
@@ -3128,7 +3128,7 @@
         "filepath": "/materials/decision-mizunomiko.mp3",
         "title": "水の巫女",
         "time": 106,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -3141,7 +3141,7 @@
         "filepath": "/materials/decision-shironosekai.mp3",
         "title": "白の世界",
         "time": 90,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -3155,7 +3155,7 @@
         "filepath": "/materials/decision-kiminohitomitokyoukainohana.mp3",
         "title": "君の瞳と教会の花",
         "time": 136,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -3203,7 +3203,7 @@
         "filepath": "/materials/Jukai.mp3",
         "title": "樹海",
         "time": 207,
-        "desc": null,
+        "desc": "",
         "tags": [
           "RPG",
           "ピアノ",
@@ -3215,7 +3215,7 @@
         "filepath": "/materials/Vacant.mp3",
         "title": "Vacant",
         "time": 82,
-        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？ いや、まぁ私に聞かれても困るんですが...(聞いていない)",
+        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？いや、まぁ私に聞かれても困るんですが...(聞いていない)",
         "tags": [
           "バロック",
           "緊張感",
@@ -3264,7 +3264,7 @@
         "filepath": "/materials/Aletter.mp3",
         "title": "A letter -手紙-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3275,7 +3275,7 @@
         "filepath": "/materials/Darkness.mp3",
         "title": "Darkness -闇-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3286,7 +3286,7 @@
         "filepath": "/materials/Corpse.mp3",
         "title": "Corpse -遺体-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3297,7 +3297,7 @@
         "filepath": "/materials/Cofin.mp3",
         "title": "Cofin -棺-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3308,7 +3308,7 @@
         "filepath": "/materials/Worship.mp3",
         "title": "Worship -礼拝-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3319,7 +3319,7 @@
         "filepath": "/materials/Home.mp3",
         "title": "Home -帰還-",
         "time": 114,
-        "desc": null,
+        "desc": "",
         "tags": [
           "Last Month",
           "神秘的"
@@ -3330,7 +3330,7 @@
         "filepath": "/materials/Sangotokai.mp3",
         "title": "サンゴと貝",
         "time": 200,
-        "desc": null,
+        "desc": "",
         "tags": [
           "アクア カクテル",
           "神秘的",
@@ -3371,7 +3371,7 @@
         "filepath": "/materials/decision-torus.mp3",
         "title": "貿易都市トーラス",
         "time": 177,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -3383,7 +3383,7 @@
         "filepath": "/materials/decision-kazenodaichi.mp3",
         "title": "風の大地",
         "time": 190,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -3396,7 +3396,7 @@
         "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
         "title": "光と闇の狭間へ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -3447,7 +3447,7 @@
         "filepath": "/materials/Operations.mp3",
         "title": "Operations",
         "time": 92,
-        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！ 急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？ 軍艦巻きとか？？？",
+        "desc": "ディスクシステムで「グリーンベレー」っていうアクションゲームが大昔にありましたが、そんな感じです。ミリタリーなイメージがピッタリかも？ 「ミッション発生！急げ急げ、任務を遂行せよ！」特殊部隊を養成している組織などで流れていそうな曲です。例えるなら「エースコンバットで、機体に乗り込む時」みたいな？ 軍艦とか？？軍艦巻きとか？？？",
         "tags": [
           "バロック",
           "壮大",
@@ -3483,7 +3483,7 @@
         "filepath": "/materials/Jupiter.mp3",
         "title": "Jupiter",
         "time": 160,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -3519,7 +3519,7 @@
         "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
         "title": "飛火入夏虫",
         "time": 131,
-        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？ あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
+        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
         "tags": [
           "夏恋",
           "緊張感",
@@ -3531,7 +3531,7 @@
         "filepath": "/materials/Sangotokai.mp3",
         "title": "サンゴと貝",
         "time": 200,
-        "desc": null,
+        "desc": "",
         "tags": [
           "アクア カクテル",
           "神秘的",
@@ -3574,7 +3574,7 @@
         "filepath": "/materials/decision-kunossosu.mp3",
         "title": "クノッソス迷宮",
         "time": 197,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -3587,7 +3587,7 @@
         "filepath": "/materials/decision-souennorekuiemu.mp3",
         "title": "蒼炎のレクイエム",
         "time": 94,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -3623,7 +3623,7 @@
         "filepath": "/materials/Sajinnomiyako.mp3",
         "title": "砂塵の都",
         "time": 221,
-        "desc": null,
+        "desc": "",
         "tags": [
           "RPG",
           "緊張感"
@@ -3669,7 +3669,7 @@
         "filepath": "/materials/DarkCastle.mp3",
         "title": "Dark Castle",
         "time": 143,
-        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が... 実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
+        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が...実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
         "tags": [
           "バロック",
           "緊張感",
@@ -3681,7 +3681,7 @@
         "filepath": "/materials/Vacant.mp3",
         "title": "Vacant",
         "time": 82,
-        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？ いや、まぁ私に聞かれても困るんですが...(聞いていない)",
+        "desc": "その名の通り「空虚」「もぬけの殻」本来、その場所にいるべき人たちがいない、ただならぬ雰囲気、響くのは鐘の音だけ...そんな場面をイメージしました。忽然と姿を消した者たちの行方は？？いや、まぁ私に聞かれても困るんですが...(聞いていない)",
         "tags": [
           "バロック",
           "緊張感",
@@ -3730,7 +3730,7 @@
         "filepath": "/materials/Shinjitsuwomotomete.mp3",
         "title": "真実を求めて",
         "time": 172,
-        "desc": null,
+        "desc": "",
         "tags": [
           "探偵",
           "ピアノ",
@@ -3766,7 +3766,7 @@
         "filepath": "/materials/Moon.mp3",
         "title": "Moon",
         "time": 148,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -3778,7 +3778,7 @@
         "filepath": "/materials/Crater.mp3",
         "title": "Crater",
         "time": 110,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "緊張感"
@@ -3789,7 +3789,7 @@
         "filepath": "/materials/TondeHiniiruNatsunoMushi.mp3",
         "title": "飛火入夏虫",
         "time": 131,
-        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？ あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
+        "desc": "こういうテイストの曲ってちょっと難しいんですが、曲名だけはやたらと「ドヤ顔」のような気がします。という訳で、キャラクターたちの少しふざけたやり取りや、コメディな雰囲気を演出したい時にいかがでしょう？あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？",
         "tags": [
           "夏恋",
           "緊張感",
@@ -3813,7 +3813,7 @@
         "filepath": "/materials/Shihenokodou.mp3",
         "title": "死への鼓動",
         "time": 188,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3825,7 +3825,7 @@
         "filepath": "/materials/Ihen.mp3",
         "title": "異変",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3849,7 +3849,7 @@
         "filepath": "/materials/Kagerou.mp3",
         "title": "カゲロウ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3861,7 +3861,7 @@
         "filepath": "/materials/Kaidan.mp3",
         "title": "階段",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3873,7 +3873,7 @@
         "filepath": "/materials/Chikatsuuro.mp3",
         "title": "地下通路",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3885,7 +3885,7 @@
         "filepath": "/materials/Eiminnosenritsu.mp3",
         "title": "永眠の旋律",
         "time": 144,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3898,7 +3898,7 @@
         "filepath": "/materials/Tokiwokatarumono.mp3",
         "title": "時を語る者",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "ピアノ",
@@ -3946,7 +3946,7 @@
         "filepath": "/materials/Kyoukaiato.mp3",
         "title": "教会跡",
         "time": 123,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3970,7 +3970,7 @@
         "filepath": "/materials/Ruikon.mp3",
         "title": "涙痕",
         "time": 168,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -3983,7 +3983,7 @@
         "filepath": "/materials/ClingtoLife.mp3",
         "title": "Cling to Life",
         "time": 198,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -4065,7 +4065,7 @@
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
         "time": 269,
-        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？ まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
+        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
         "tags": [
           "夏恋",
           "夜",
@@ -4078,7 +4078,7 @@
         "filepath": "/materials/NatsuMatsuri.mp3",
         "title": "夏祭り",
         "time": 153,
-        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？ 今年も祭りに行きたいなぁ。",
+        "desc": "お祭りと言えば世界各国、様々な様式で行われますが、やっぱり日本の祭りの雰囲気はひと味もふた味も違います。祭り自体が行われる「場所」に意味があり、歴史と趣（おもむき）、風情あり。人々がたくさん集まる場所に活気やパワーが生まれるのは共通してますが、日本のこの独特な雰囲気は何でしょう？お城とか神社とか花火とか。それに加えて浴衣、提灯、笛、太鼓。こんな歴史を持っていれば日本の祭りはとても楽しくて、独特な雰囲気になるはずです。リズムとメロディだけの曲って本当に不思議です。そして賑やかな場所から少し離れた場所へ行くと急激に感じる寂しさ静けさ。さて、ここで皆さんに面白い仕掛けを。この曲を聴きながら「音量のボリューム」を「7、8レベルくらい下げてみて」ください。お祭り会場から少し離れたような雰囲気が出ませんか？今年も祭りに行きたいなぁ。",
         "tags": [
           "和風短編曲集",
           "夜",
@@ -4120,7 +4120,7 @@
         "filepath": "/materials/DarkCastle.mp3",
         "title": "Dark Castle",
         "time": 143,
-        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が... 実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
+        "desc": "ダークでサイバーな空間を演出してみたかったのですが、Coolな雰囲気と同時にWildな殺気も漂ってしまいました。若干「ムサ苦しい」雰囲気も混じってる気が...実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。",
         "tags": [
           "バロック",
           "緊張感",
@@ -4144,7 +4144,7 @@
         "filepath": "/materials/Moon.mp3",
         "title": "Moon",
         "time": 148,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -4168,7 +4168,7 @@
         "filepath": "/materials/Jupiter.mp3",
         "title": "Jupiter",
         "time": 160,
-        "desc": null,
+        "desc": "",
         "tags": [
           "エレクトロン",
           "サイバー",
@@ -4209,7 +4209,7 @@
         "filepath": "/materials/decision-boukennohajimari.mp3",
         "title": "冒険の始まり",
         "time": 48,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4222,7 +4222,7 @@
         "filepath": "/materials/decision-mizunomiko.mp3",
         "title": "水の巫女",
         "time": 106,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "暗い",
@@ -4235,7 +4235,7 @@
         "filepath": "/materials/decision-shironosekai.mp3",
         "title": "白の世界",
         "time": 90,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "明るい",
@@ -4249,7 +4249,7 @@
         "filepath": "/materials/Jukai.mp3",
         "title": "樹海",
         "time": 207,
-        "desc": null,
+        "desc": "",
         "tags": [
           "RPG",
           "ピアノ",
@@ -4284,7 +4284,7 @@
         "filepath": "/materials/Shinjitsuwomotomete.mp3",
         "title": "真実を求めて",
         "time": 172,
-        "desc": null,
+        "desc": "",
         "tags": [
           "探偵",
           "ピアノ",
@@ -4345,7 +4345,7 @@
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
         "time": 269,
-        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？ まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
+        "desc": "私は夜道のあの「何とも言えない静けさ」が好きなんです。お祭りの後の帰り道とか...。ロマンチックだし夜っていうだけで何故か風情を感じるんです。でも一つだけ苦手なのがあって、、、聞いてくれます？まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)",
         "tags": [
           "夏恋",
           "夜",
@@ -4369,7 +4369,7 @@
         "filepath": "/materials/Eiminnosenritsu.mp3",
         "title": "永眠の旋律",
         "time": 144,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -4382,7 +4382,7 @@
         "filepath": "/materials/Tokiwokatarumono.mp3",
         "title": "時を語る者",
         "time": 121,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "ピアノ",
@@ -4394,7 +4394,7 @@
         "filepath": "/materials/Ruikon.mp3",
         "title": "涙痕",
         "time": 168,
-        "desc": null,
+        "desc": "",
         "tags": [
           "時の館",
           "暗い",
@@ -4425,7 +4425,7 @@
         "filepath": "/materials/decision-sworddancer.mp3",
         "title": "ソードダンサー",
         "time": 199,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -4437,7 +4437,7 @@
         "filepath": "/materials/decision-seichounokane.mp3",
         "title": "成長の鐘",
         "time": 70,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "バトル",
@@ -4450,7 +4450,7 @@
         "filepath": "/materials/BattleField.mp3",
         "title": "バトルフィールド",
         "time": 169,
-        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？ この曲と「戦いの舞い」のセットがおすすめです。",
+        "desc": "「作戦通り行くぞ」「やってるやってる、さぁ〜てオレらも参戦しますかね」「敵襲です!!」そんなキャラクターたちの声が聞こえてきそうなお気に入りの一曲です。実際のバトルとまではいかず、その手前や状況までを演出するときにいかがでしょう？この曲と「戦いの舞い」のセットがおすすめです。\"",
         "tags": [
           "RPG",
           "バトル",
@@ -4462,7 +4462,7 @@
         "filepath": "/materials/TatakaiNoMai.mp3",
         "title": "戦いの舞い",
         "time": 218,
-        "desc": "音の園バトル第一弾ということで、持てる力と知恵と勇気を振り絞りました。(トライフォース！) 私は大抵バトル曲を作ろうとするとパクりかクッサいメロディで失敗するんですが今回はそれらを20%くらいは回避できたかも！ただしイントロは王道で（笑） ヴァイオリンとバンドサウンドの躍動感あるメロディラインを意識しました。隠し味で所々にパッパラパ~のブラスをリズム要素で入れてます。ヴァイオリンもベースもドラムも大活躍！是非バンドで演奏したいものです。",
+        "desc": "音の園バトル第一弾ということで、持てる力と知恵と勇気を振り絞りました。(トライフォース！)私は大抵バトル曲を作ろうとするとパクりかクッサいメロディで失敗するんですが今回はそれらを20%くらいは回避できたかも！ただしイントロは王道で（笑）ヴァイオリンとバンドサウンドの躍動感あるメロディラインを意識しました。隠し味で所々にパッパラパ~のブラスをリズム要素で入れてます。ヴァイオリンもベースもドラムも大活躍！是非バンドで演奏したいものです。",
         "tags": [
           "RPG",
           "バトル"
@@ -4515,7 +4515,7 @@
         "filepath": "/materials/decision-overture.mp3",
         "title": "OVERTURE~序曲~",
         "time": 180,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4527,7 +4527,7 @@
         "filepath": "/materials/decision-boukennohajimari.mp3",
         "title": "冒険の始まり",
         "time": 48,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4540,7 +4540,7 @@
         "filepath": "/materials/decision-chiheisennokanatahe.mp3",
         "title": "地平線の彼方へ",
         "time": 154,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4552,7 +4552,7 @@
         "filepath": "/materials/decision-oukokukishidan.mp3",
         "title": "王国騎士団",
         "time": 167,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4564,7 +4564,7 @@
         "filepath": "/materials/decision-kazenodaichi.mp3",
         "title": "風の大地",
         "time": 190,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4577,7 +4577,7 @@
         "filepath": "/materials/decision-hikaritoyaminohazamahe.mp3",
         "title": "光と闇の狭間へ",
         "time": 116,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "オープニング",
@@ -4630,7 +4630,7 @@
         "filepath": "/materials/decision-boukennokirokuwokokohe.mp3",
         "title": "冒険の記録をここに…",
         "time": 162,
-        "desc": null,
+        "desc": "",
         "tags": [
           "DECISION",
           "エンディング",
@@ -4668,7 +4668,7 @@
         "filepath": "/materials/SeeYouAgain.mp3",
         "title": "See you again…",
         "time": 142,
-        "desc": "曲名通り、エンディングっぽいのを目指して作りました。今回この探偵シリーズの曲を作っていて思ったのですが、あんまりハードボイルドじゃないなぁと。やっぱり私にはハードボイルドはまだ早いのか！？ そんなワケで、次回はさらなるハードボイルドを目指して「シーユーアゲイン！」「また会う日まで！」",
+        "desc": "曲名通り、エンディングっぽいのを目指して作りました。今回この探偵シリーズの曲を作っていて思ったのですが、あんまりハードボイルドじゃないなぁと。やっぱり私にはハードボイルドはまだ早いのか！？そんなワケで、次回はさらなるハードボイルドを目指して「シーユーアゲイン！」「また会う日まで！」",
         "tags": [
           "探偵",
           "エンディング"
