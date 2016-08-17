@@ -2,6 +2,7 @@ require 'taglib'
 require 'audioinfo'
 require 'csv'
 require 'json'
+require 'yaml'
 require 'ap'
 
 site_url = "http://oto-no-sono.com"
@@ -111,8 +112,8 @@ end
 #
 summary = []
 all_albums = {}
-open("resources/settings.json") do |io|
-  structure = JSON.load(io)
+open("resources/settings.yml") do |io|
+  structure = YAML.load_file(io)
   structure.each do |group|
     listset = []
     albums = group['listset']
