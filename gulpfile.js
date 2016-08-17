@@ -12,7 +12,7 @@ var gulp = require('gulp'),
     path = require('path');
 
 var bundler = browserify({
-  entries: ['babel/app.js'],
+  entries: ['app/babel/app.js'],
   transform: [[babelify, {presets: ["es2015", "react"]}]],
   debug: true // sourcemapping
 });
