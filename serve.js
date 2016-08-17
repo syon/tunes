@@ -1,7 +1,13 @@
+/* eslint no-console: "off" */
 const nodeStatic = require('node-static');
+const dotenv     = require('dotenv');
 
-const serve = new nodeStatic.Server(`${__dirname}/public/`);
+dotenv.config();
+
+console.log(`Listening Port: ${process.env.SERVE_PORT}`);
+
+const serve = new nodeStatic.Server(__dirname);
 require('http').createServer((req, res) => {
   req.addListener('end', () => serve.serve(req, res));
   req.resume();
-}).listen(7777);
+}).listen(process.env.SERVE_PORT);
