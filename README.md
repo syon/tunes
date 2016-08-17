@@ -14,18 +14,19 @@ $ npm install -g coffee-script
 $ npm install -g gulp
 
 $ npm install
+
+$ docker build -t syon/tunes .
+$ docker images
 ```
 
 ### Update music data with Docker
 
 ```sh
-$ docker build -t syon/tunes .
-$ docker images
 $ docker run -it --rm -v (pwd):/app syon/tunes
 root@xxxxxxxxxxxx:/app# sh update.sh
 ```
 
-- To add a album, just add tag and update `structure.json`.
+- To add a album, update `resources/settings.yml` and just add tags on `def.tsv`.
 
 ### Build
 
