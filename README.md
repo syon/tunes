@@ -22,8 +22,7 @@ $ docker images
 ### Update music data with Docker
 
 ```sh
-$ docker run -it --rm -v (pwd):/app syon/tunes
-root@xxxxxxxxxxxx:/app# sh update.sh
+$ docker run -it --rm -v (pwd):/app syon/tunes /bin/bash update.sh
 ```
 
 - To add a album, update `resources/settings.yml` and just add tags on `def.tsv`.
