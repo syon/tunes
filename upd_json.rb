@@ -120,7 +120,7 @@ open("resources/settings.yml") do |io|
     group_count = 0
 
     albums.each do |album|
-      musicset = {listname: album.listname, tracks: []}
+      musicset = {nm: album.nm, tracks: []}
 
       match_list = []
       album.tags.each do |tag|

@@ -1,6 +1,6 @@
 {
   "game_decision": {
-    "listname": "DECISION",
+    "nm": "DECISION",
     "tracks": [
       {
         "id": "decision-overture",
@@ -292,7 +292,7 @@
     ]
   },
   "game_rpg": {
-    "listname": "RPG",
+    "nm": "RPG",
     "tracks": [
       {
         "id": "MonogatariwoTsumugumono",
@@ -498,7 +498,7 @@
     ]
   },
   "game_baroque": {
-    "listname": "バロックの城",
+    "nm": "バロックの城",
     "tracks": [
       {
         "id": "EdgeOfTheSteel",
@@ -659,7 +659,7 @@
     ]
   },
   "game_renai": {
-    "listname": "夏の恋、いつものキミ",
+    "nm": "夏の恋、いつものキミ",
     "tracks": [
       {
         "id": "Aiwotsutaerukotoba",
@@ -817,7 +817,7 @@
     ]
   },
   "game_wafu": {
-    "listname": "和風短編曲集",
+    "nm": "和風短編曲集",
     "tracks": [
       {
         "id": "Tabinooyado",
@@ -933,7 +933,7 @@
     ]
   },
   "game_aquacocktail": {
-    "listname": "アクア カクテル",
+    "nm": "アクア カクテル",
     "tracks": [
       {
         "id": "Sangotokai",
@@ -950,7 +950,7 @@
     ]
   },
   "game_detective": {
-    "listname": "探偵 中園エイジ",
+    "nm": "探偵 中園エイジ",
     "tracks": [
       {
         "id": "8bit_sousakaishi",
@@ -1058,7 +1058,7 @@
     ]
   },
   "game_horror": {
-    "listname": "時の館",
+    "nm": "時の館",
     "tracks": [
       {
         "id": "Shihenokodou",
@@ -1333,7 +1333,7 @@
     ]
   },
   "game_planet": {
-    "listname": "エレクトロン",
+    "nm": "エレクトロン",
     "tracks": [
       {
         "id": "BluePlanet",
@@ -1421,7 +1421,7 @@
     ]
   },
   "game_lastmonth": {
-    "listname": "Last Month",
+    "nm": "Last Month",
     "tracks": [
       {
         "id": "Aletter",
@@ -1525,7 +1525,7 @@
     ]
   },
   "game_cover": {
-    "listname": "ゲーム音楽カバー",
+    "nm": "ゲーム音楽カバー",
     "tracks": [
       {
         "id": "RomancingsagaOpeningBV",
@@ -1574,7 +1574,7 @@
     ]
   },
   "game_other": {
-    "listname": "その他",
+    "nm": "その他",
     "tracks": [
       {
         "id": "Hadakanoousama",
@@ -1683,7 +1683,7 @@
     ]
   },
   "scene_cheerful": {
-    "listname": "明るい",
+    "nm": "明るい",
     "tracks": [
       {
         "id": "decision-seichounokane",
@@ -2048,7 +2048,7 @@
     ]
   },
   "scene_dark": {
-    "listname": "暗い・悲しい",
+    "nm": "暗い・悲しい",
     "tracks": [
       {
         "id": "decision-tsuioku",
@@ -2405,7 +2405,7 @@
     ]
   },
   "scene_honobono": {
-    "listname": "穏やか・安らぎ",
+    "nm": "穏やか・安らぎ",
     "tracks": [
       {
         "id": "decision-mikainochihe",
@@ -2706,7 +2706,7 @@
     ]
   },
   "scene_grandeur": {
-    "listname": "壮大",
+    "nm": "壮大",
     "tracks": [
       {
         "id": "decision-overture",
@@ -3046,7 +3046,7 @@
     ]
   },
   "scene_mysterious": {
-    "listname": "神秘的",
+    "nm": "神秘的",
     "tracks": [
       {
         "id": "decision-boukennohajimari",
@@ -3364,7 +3364,7 @@
     ]
   },
   "scene_speedy": {
-    "listname": "疾走感",
+    "nm": "疾走感",
     "tracks": [
       {
         "id": "decision-torus",
@@ -3567,7 +3567,7 @@
     ]
   },
   "scene_tense": {
-    "listname": "緊張感",
+    "nm": "緊張感",
     "tracks": [
       {
         "id": "decision-kunossosu",
@@ -4058,7 +4058,7 @@
     ]
   },
   "scene_night": {
-    "listname": "夜",
+    "nm": "夜",
     "tracks": [
       {
         "id": "YomichiWoNukete",
@@ -4113,7 +4113,7 @@
     ]
   },
   "scene_cyber": {
-    "listname": "サイバー",
+    "nm": "サイバー",
     "tracks": [
       {
         "id": "DarkCastle",
@@ -4202,7 +4202,7 @@
     ]
   },
   "scene_piano": {
-    "listname": "ピアノ",
+    "nm": "ピアノ",
     "tracks": [
       {
         "id": "decision-boukennohajimari",
@@ -4418,7 +4418,7 @@
     ]
   },
   "scene_battle": {
-    "listname": "バトル",
+    "nm": "バトル",
     "tracks": [
       {
         "id": "decision-sworddancer",
@@ -4508,7 +4508,7 @@
     ]
   },
   "scene_opening": {
-    "listname": "オープニング",
+    "nm": "オープニング",
     "tracks": [
       {
         "id": "decision-overture",
@@ -4623,7 +4623,7 @@
     ]
   },
   "scene_ending": {
-    "listname": "エンディング",
+    "nm": "エンディング",
     "tracks": [
       {
         "id": "decision-boukennokirokuwokokohe",
@@ -4703,7 +4703,7 @@
     ]
   },
   "scene_8bit": {
-    "listname": "8bit",
+    "nm": "8bit",
     "tracks": [
       {
         "id": "8bit_sousakaishi",

@@ -27,7 +27,7 @@ class AlbumItem extends React.Component {
     };
     return (
       <div onClick={this.handleClick} style={styles.menuitem}>
-        <div>{a.listname}</div>
+        <div>{a.nm}</div>
         <div>{a.count}</div>
       </div>
     );

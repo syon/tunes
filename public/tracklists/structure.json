@@ -4,7 +4,7 @@
     "listset": [
       {
         "id": "game_decision",
-        "listname": "DECISION",
+        "nm": "DECISION",
         "tags": [
           "DECISION"
         ],
@@ -12,7 +12,7 @@
       },
       {
         "id": "game_rpg",
-        "listname": "RPG",
+        "nm": "RPG",
         "tags": [
           "RPG"
         ],
@@ -20,7 +20,7 @@
       },
       {
         "id": "game_baroque",
-        "listname": "バロックの城",
+        "nm": "バロックの城",
         "tags": [
           "バロック"
         ],
@@ -28,7 +28,7 @@
       },
       {
         "id": "game_renai",
-        "listname": "夏の恋、いつものキミ",
+        "nm": "夏の恋、いつものキミ",
         "tags": [
           "夏恋"
         ],
@@ -36,7 +36,7 @@
       },
       {
         "id": "game_wafu",
-        "listname": "和風短編曲集",
+        "nm": "和風短編曲集",
         "tags": [
           "和風短編曲集"
         ],
@@ -44,7 +44,7 @@
       },
       {
         "id": "game_aquacocktail",
-        "listname": "アクア カクテル",
+        "nm": "アクア カクテル",
         "tags": [
           "アクア カクテル"
         ],
@@ -52,7 +52,7 @@
       },
       {
         "id": "game_detective",
-        "listname": "探偵 中園エイジ",
+        "nm": "探偵 中園エイジ",
         "tags": [
           "探偵"
         ],
@@ -60,7 +60,7 @@
       },
       {
         "id": "game_horror",
-        "listname": "時の館",
+        "nm": "時の館",
         "tags": [
           "時の館"
         ],
@@ -68,7 +68,7 @@
       },
       {
         "id": "game_planet",
-        "listname": "エレクトロン",
+        "nm": "エレクトロン",
         "tags": [
           "エレクトロン"
         ],
@@ -76,7 +76,7 @@
       },
       {
         "id": "game_lastmonth",
-        "listname": "Last Month",
+        "nm": "Last Month",
         "tags": [
           "Last Month"
         ],
@@ -84,7 +84,7 @@
       },
       {
         "id": "game_cover",
-        "listname": "ゲーム音楽カバー",
+        "nm": "ゲーム音楽カバー",
         "tags": [
           "ゲーム音楽カバー"
         ],
@@ -92,7 +92,7 @@
       },
       {
         "id": "game_other",
-        "listname": "その他",
+        "nm": "その他",
         "tags": [
           "その他"
         ],
@@ -106,7 +106,7 @@
     "listset": [
       {
         "id": "scene_cheerful",
-        "listname": "明るい",
+        "nm": "明るい",
         "tags": [
           "明るい"
         ],
@@ -114,7 +114,7 @@
       },
       {
         "id": "scene_dark",
-        "listname": "暗い・悲しい",
+        "nm": "暗い・悲しい",
         "tags": [
           "暗い"
         ],
@@ -122,7 +122,7 @@
       },
       {
         "id": "scene_honobono",
-        "listname": "穏やか・安らぎ",
+        "nm": "穏やか・安らぎ",
         "tags": [
           "穏やか"
         ],
@@ -130,7 +130,7 @@
       },
       {
         "id": "scene_grandeur",
-        "listname": "壮大",
+        "nm": "壮大",
         "tags": [
           "壮大"
         ],
@@ -138,7 +138,7 @@
       },
       {
         "id": "scene_mysterious",
-        "listname": "神秘的",
+        "nm": "神秘的",
         "tags": [
           "神秘的"
         ],
@@ -146,7 +146,7 @@
       },
       {
         "id": "scene_speedy",
-        "listname": "疾走感",
+        "nm": "疾走感",
         "tags": [
           "疾走感"
         ],
@@ -154,7 +154,7 @@
       },
       {
         "id": "scene_tense",
-        "listname": "緊張感",
+        "nm": "緊張感",
         "tags": [
           "緊張感"
         ],
@@ -162,7 +162,7 @@
       },
       {
         "id": "scene_night",
-        "listname": "夜",
+        "nm": "夜",
         "tags": [
           "夜"
         ],
@@ -170,7 +170,7 @@
       },
       {
         "id": "scene_cyber",
-        "listname": "サイバー",
+        "nm": "サイバー",
         "tags": [
           "サイバー"
         ],
@@ -178,7 +178,7 @@
       },
       {
         "id": "scene_piano",
-        "listname": "ピアノ",
+        "nm": "ピアノ",
         "tags": [
           "ピアノ"
         ],
@@ -186,7 +186,7 @@
       },
       {
         "id": "scene_battle",
-        "listname": "バトル",
+        "nm": "バトル",
         "tags": [
           "バトル"
         ],
@@ -194,7 +194,7 @@
       },
       {
         "id": "scene_opening",
-        "listname": "オープニング",
+        "nm": "オープニング",
         "tags": [
           "オープニング"
         ],
@@ -202,7 +202,7 @@
       },
       {
         "id": "scene_ending",
-        "listname": "エンディング",
+        "nm": "エンディング",
         "tags": [
           "エンディング"
         ],
@@ -210,7 +210,7 @@
       },
       {
         "id": "scene_8bit",
-        "listname": "8bit",
+        "nm": "8bit",
         "tags": [
           "8bit"
         ],
