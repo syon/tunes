@@ -4,10 +4,11 @@ const dotenv     = require('dotenv');
 
 dotenv.config();
 
-console.log(`Listening Port: ${process.env.SERVE_PORT}`);
+console.log(`Listening Port: ${process.env.LISTEN_PORT}`);
+console.log(`Serving directory: ${process.env.SERVE_DIR}`);
 
-const serve = new nodeStatic.Server(__dirname);
+const serve = new nodeStatic.Server(`${__dirname}/${process.env.SERVE_DIR}`);
 require('http').createServer((req, res) => {
   req.addListener('end', () => serve.serve(req, res));
   req.resume();
-}).listen(process.env.SERVE_PORT);
+}).listen(process.env.LISTEN_PORT);
