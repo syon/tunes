@@ -24,11 +24,11 @@ def duration(sec)
 end
 
 #
-# Write info on mp3 file with CSV
+# Write info on mp3 file from yaml
 #
 yaml = YAML.load_file('resources/musics.yml')
 musics = []
-yaml.map do |df|
+yaml[:tracks].map do |df|
   music = {}
   mp3 = "resources/materials/#{df[:id]}.mp3"
   begin
@@ -57,8 +57,8 @@ yaml.map do |df|
   music[:id]       = df[:id]
   music[:filename] = "#{df[:id]}.mp3"
   music[:title]    = df[:title]
-  music[:artist]   = df[:artist]
-  music[:album]    = df[:album]
+  music[:artist]   = yaml[:artist]
+  music[:album]    = yaml[:album]
   music[:tags]     = df[:tags]
   music[:desc]     = df[:desc]
 
