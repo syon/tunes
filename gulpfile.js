@@ -47,12 +47,12 @@ gulp.task('less', function () {
 });
 
 gulp.task('jade', function () {
-  return gulp.src('./app/download/*.jade')
+  return gulp.src('./app/**/*.jade')
     .pipe(jade({
       basedir: __dirname,
       locals: {}
     }))
-    .pipe(gulp.dest('./public/download'));
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('coffee', function() {
