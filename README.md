@@ -16,22 +16,25 @@ $ npm install -g gulp
 $ npm install
 ```
 
-### Update music json
+### Update music data with Docker
 
 ```sh
-$ bundle exec ruby upd_json.rb
+$ docker build -t syon/tunes .
+$ docker images
+$ docker run -it --rm -v (pwd):/app syon/tunes
+root@xxxxxxxxxxxx:/app# sh update.sh
 ```
 
-- To add a album, just add tag and make json file.
+- To add a album, just add tag and update `structure.json`.
 
 ### Build
 
 ```sh
-$ gulp
+$ npm run build
 ```
 
-### Play
+### Web server
 
 ```sh
-$ gulp server
+$ node serve
 ```
