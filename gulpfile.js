@@ -39,7 +39,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('less', function () {
-  return gulp.src('./less/**/*.less')
+  return gulp.src('./app/less/**/*.less')
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
