@@ -26,9 +26,9 @@ end
 #
 # Write info on mp3 file with CSV
 #
-csv = CSV.table("resources/def.tsv", col_sep: "\t", encoding: 'UTF-8')
+yaml = YAML.load_file('resources/musics.yml')
 musics = []
-csv.map do |df|
+yaml.map do |df|
   music = {}
   cate_id = df[:filename]
   path = "resources/materials/#{cate_id}"
@@ -61,7 +61,7 @@ csv.map do |df|
   music[:title]    = df[:title]
   music[:artist]   = df[:artist]
   music[:album]    = df[:album]
-  music[:tags]     = df[:tags].split "/" if df[:tags]
+  music[:tags]     = df[:tags]
   music[:desc]     = df[:desc]
 
   musics.push music
