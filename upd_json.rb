@@ -25,7 +25,7 @@ end
 #
 # Write info on mp3 file with CSV
 #
-csv = CSV.table("resources/def.tsv", col_sep:"\t")
+csv = CSV.table("resources/def.tsv", col_sep: "\t", encoding: 'UTF-8')
 musics = []
 csv.map do |df|
   music = {}
@@ -76,14 +76,14 @@ musics.each do |m|
   begin
     m_id = m[:id]
     puts m_id
-    buf = File.open("generate/download/_template.jade.tmpl")
+    buf = File.open("generate/download/_template.jade.tmpl", encoding: 'UTF-8')
     txt = buf.read
     buf.close
 
     txt.gsub!('@id@', m_id)
     txt.gsub!('@title@', m[:title])
     txt.gsub!('@time@', duration(m[:time]))
-    txt.gsub!('@tags@', m[:tags].to_s)
+    txt.gsub!('@tags@', "[\"#{m[:tags].join('","')}\"]")
     txt.gsub!('@desc@', (m[:desc] || ''))
     File.open("app/download/#{m_id}.jade", "w"){|w| w.write(txt)}
   rescue => e
