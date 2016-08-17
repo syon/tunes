@@ -1,6 +1,5 @@
 ---
 - :id: decision-overture
-  :filename: decision-overture.mp3
   :title: OVERTURE~序曲~
   :artist: ANDY
   :album: 音の園
@@ -11,7 +10,6 @@
   :desc:
 
 - :id: decision-boukennohajimari
-  :filename: decision-boukennohajimari.mp3
   :title: 冒険の始まり
   :artist: ANDY
   :album: 音の園
@@ -23,7 +21,6 @@
   :desc:
 
 - :id: decision-chiheisennokanatahe
-  :filename: decision-chiheisennokanatahe.mp3
   :title: 地平線の彼方へ
   :artist: ANDY
   :album: 音の園
@@ -34,7 +31,6 @@
   :desc:
 
 - :id: decision-mikainochihe
-  :filename: decision-mikainochihe.mp3
   :title: 未開の地へ
   :artist: ANDY
   :album: 音の園
@@ -46,7 +42,6 @@
   :desc:
 
 - :id: decision-sworddancer
-  :filename: decision-sworddancer.mp3
   :title: ソードダンサー
   :artist: ANDY
   :album: 音の園
@@ -57,7 +52,6 @@
   :desc:
 
 - :id: decision-seichounokane
-  :filename: decision-seichounokane.mp3
   :title: 成長の鐘
   :artist: ANDY
   :album: 音の園
@@ -69,7 +63,6 @@
   :desc:
 
 - :id: decision-oukokukishidan
-  :filename: decision-oukokukishidan.mp3
   :title: 王国騎士団
   :artist: ANDY
   :album: 音の園
@@ -80,7 +73,6 @@
   :desc:
 
 - :id: decision-saikai
-  :filename: decision-saikai.mp3
   :title: 再会
   :artist: ANDY
   :album: 音の園
@@ -92,7 +84,6 @@
   :desc:
 
 - :id: decision-torus
-  :filename: decision-torus.mp3
   :title: 貿易都市トーラス
   :artist: ANDY
   :album: 音の園
@@ -103,7 +94,6 @@
   :desc:
 
 - :id: decision-hitobantomatteikukai
-  :filename: decision-hitobantomatteikukai.mp3
   :title: 一晩泊まっていくかい？
   :artist: ANDY
   :album: 音の園
@@ -114,7 +104,6 @@
   :desc:
 
 - :id: decision-neige
-  :filename: decision-neige.mp3
   :title: 雪の国ネージュ
   :artist: ANDY
   :album: 音の園
@@ -125,7 +114,6 @@
   :desc:
 
 - :id: decision-tsuioku
-  :filename: decision-tsuioku.mp3
   :title: 追憶
   :artist: ANDY
   :album: 音の園
@@ -135,7 +123,6 @@
   :desc:
 
 - :id: decision-river
-  :filename: decision-river.mp3
   :title: 水都リーベル
   :artist: ANDY
   :album: 音の園
@@ -146,7 +133,6 @@
   :desc:
 
 - :id: decision-mizunodoukutsu
-  :filename: decision-mizunodoukutsu.mp3
   :title: 水の洞窟
   :artist: ANDY
   :album: 音の園
@@ -157,7 +143,6 @@
   :desc:
 
 - :id: decision-kunossosu
-  :filename: decision-kunossosu.mp3
   :title: クノッソス迷宮
   :artist: ANDY
   :album: 音の園
@@ -169,7 +154,6 @@
   :desc:
 
 - :id: decision-kazenodaichi
-  :filename: decision-kazenodaichi.mp3
   :title: 風の大地
   :artist: ANDY
   :album: 音の園
@@ -181,7 +165,6 @@
   :desc:
 
 - :id: decision-mizunosono
-  :filename: decision-mizunosono.mp3
   :title: 水の園
   :artist: ANDY
   :album: 音の園
@@ -192,7 +175,6 @@
   :desc:
 
 - :id: decision-mizunomiko
-  :filename: decision-mizunomiko.mp3
   :title: 水の巫女
   :artist: ANDY
   :album: 音の園
@@ -204,7 +186,6 @@
   :desc:
 
 - :id: decision-hikaritoyaminohazamahe
-  :filename: decision-hikaritoyaminohazamahe.mp3
   :title: 光と闇の狭間へ
   :artist: ANDY
   :album: 音の園
@@ -216,7 +197,6 @@
   :desc:
 
 - :id: decision-souennorekuiemu
-  :filename: decision-souennorekuiemu.mp3
   :title: 蒼炎のレクイエム
   :artist: ANDY
   :album: 音の園
@@ -228,7 +208,6 @@
   :desc:
 
 - :id: decision-shironosekai
-  :filename: decision-shironosekai.mp3
   :title: 白の世界
   :artist: ANDY
   :album: 音の園
@@ -241,7 +220,6 @@
   :desc:
 
 - :id: decision-kiminohitomitokyoukainohana
-  :filename: decision-kiminohitomitokyoukainohana.mp3
   :title: 君の瞳と教会の花
   :artist: ANDY
   :album: 音の園
@@ -253,7 +231,6 @@
   :desc:
 
 - :id: decision-boukennokirokuwokokohe
-  :filename: decision-boukennokirokuwokokohe.mp3
   :title: 冒険の記録をここに…
   :artist: ANDY
   :album: 音の園
@@ -264,7 +241,6 @@
   :desc:
 
 - :id: MonogatariwoTsumugumono
-  :filename: MonogatariwoTsumugumono.mp3
   :title: Opening Theme ~物語を紡ぐもの~
   :artist: ANDY
   :album: 音の園
@@ -276,7 +252,6 @@
   :desc: "「紡ぐ」という言葉、私は好きです。綺麗な言葉です。本来の意味は少し違う例えなのですが、一つの物語を紡ぐものたち、それは即ち、人であり、大地であり、時代であり、想いであり、モノであり、詩であり...と様々ですが、これが私の物語を「紡ぐ」イメージ。「もの」としたのは様々な意味に応用したかったからです。ファンタジーRPGのオープニングやタイトル画面で使って頂ければこんなに嬉しい事はありません。"
 
 - :id: BattleField
-  :filename: BattleField.mp3
   :title: バトルフィールド
   :artist: ANDY
   :album: 音の園
@@ -288,7 +263,6 @@
     この曲と「戦いの舞い」のセットがおすすめです。"
 
 - :id: VillageInTheForest
-  :filename: VillageInTheForest.mp3
   :title: Village in the Forest
   :artist: ANDY
   :album: 音の園
@@ -298,7 +272,6 @@
   :desc: 森の奥深くに住む人々、あるいは動物たち。木漏れ日が差し込む中、ゆっくりと時間が過ぎていく生活。そんな人生も良いと思いませんか？ 情報化社会において、日々多忙に生活する私たちとは、全く違うこんな暮らしを、私は少しうらやましくも思います。せめて想像だけでもさせてください…。
 
 - :id: IhounoChizu
-  :filename: IhounoChizu.mp3
   :title: 異邦の地図
   :artist: ANDY
   :album: 音の園
@@ -309,7 +282,6 @@
   :desc: 未だ見ぬ土地へ、地図を片手に急ぎ足。その一歩を踏み出し、様々な感動に出会う。これぞ冒険者の醍醐味。
 
 - :id: BlueEarth
-  :filename: BlueEarth.mp3
   :title: Blue Earth
   :artist: ANDY
   :album: 音の園
@@ -321,7 +293,6 @@
   :desc: RPGの広大なフィールドマップを意識して作曲しました。あえて冒険者たちの感情「よし、いくぞ」的な「元気モリモリ、パッパラパー♪」みたいなものは表現せず、その作品の世界観やフィールドの広さそのものを意識してみました。序盤のフィールド音楽などにオススメです。
 
 - :id: TatakaiNoMai
-  :filename: TatakaiNoMai.mp3
   :title: 戦いの舞い
   :artist: ANDY
   :album: 音の園
@@ -332,7 +303,6 @@
     ヴァイオリンとバンドサウンドの躍動感あるメロディラインを意識しました。隠し味で所々にパッパラパ~のブラスをリズム要素で入れてます。ヴァイオリンもベースもドラムも大活躍！是非バンドで演奏したいものです。
 
 - :id: PastoralLife
-  :filename: PastoralLife.mp3
   :title: Pastoral Life
   :artist: ANDY
   :album: 音の園
@@ -343,7 +313,6 @@
   :desc: ほのぼの系で遊牧的で、牛とかニワトリとかと一緒に生活を共にする遊牧民の里をイメージしました。後半が展開するのでやはりRPGの村などに使用されるのがオススメです。(全くそんなイメージで作曲しましたので)
 
 - :id: Inishienoiseki
-  :filename: Inishienoiseki.mp3
   :title: 古の遺跡
   :artist: ANDY
   :album: 音の園
@@ -353,7 +322,6 @@
   :desc: 冒険者たちの遺跡好きには本当に頭が下がります。みなさん遺跡探索本当に好きですよね。じゃあこの曲で決まりですよ。どこまで最低限の音で遺跡を表現できるか追求してみました。
 
 - :id: Fanfare
-  :filename: Fanfare.mp3
   :title: ファンファーレ
   :artist: ANDY
   :album: 音の園
@@ -364,7 +332,6 @@
   :desc: こちらは「ファンファーレのみ」となります。 ご了承くださいませ。
 
 - :id: AudienceWithTheKing
-  :filename: AudienceWithTheKing.mp3
   :title: Audience with the King
   :artist: ANDY
   :album: 音の園
@@ -375,7 +342,6 @@
   :desc: イントロのトランペットのファンファーレが印象的な曲です。「王様」「王国」「お城」「兵士」こんなキーワードをイメージしました。王国はもちろん、城の中や、王様との謁見中などにも使用できるかと思います。平和な王国ではなく、戦乱の中において緊張感のある戦況、状態の王国がイメージできます。
 
 - :id: TsukiyonoHourousha
-  :filename: TsukiyonoHourousha.mp3
   :title: 月夜の放浪者
   :artist: ANDY
   :album: 音の園
@@ -386,7 +352,6 @@
   :desc: 当サイト音の園の「異邦の地図」という曲のアレンジバージョンです。その名の通り、夜の行動時に流れていそうなイメージ。夜っぽい曲は好きなので個人的にお気に入りの一曲です。
 
 - :id: Dungeon
-  :filename: Dungeon.mp3
   :title: ダンジョン
   :artist: ANDY
   :album: 音の園
@@ -396,7 +361,6 @@
   :desc: "「戦火」のアレンジの元となった曲。曲の雰囲気自体はゆったりしているので私的にRPGの「ダンジョン」などでも使用できる曲だと思います。洞窟系よりも、もう少し人工的な施設の奥深くへ侵入するイメージといいますか。良い場面があったら教えてください(笑)"
 
 - :id: Kaiteishinden
-  :filename: Kaiteishinden.mp3
   :title: 海底神殿
   :artist: ANDY
   :album: 音の園
@@ -406,7 +370,6 @@
   :desc: 海底から地上を仰ぐようなイメージで書きました。リコーダーのメロディがそのような役割を果たしてくれたかな〜と思っています。
 
 - :id: Senka
-  :filename: Senka.mp3
   :title: 戦火
   :artist: ANDY
   :album: 音の園
@@ -417,7 +380,6 @@
   :desc: 久々にイメージ通りの曲が出来ました。ボスバトル直前の会話、もしくは対峙的な感じでもいけますし、奇襲され、壊滅寸前の炎が荒れ狂う街や城などの場面でも威力を発揮するかと思います。
 
 - :id: TakeOff
-  :filename: TakeOff.mp3
   :title: Take Off
   :artist: ANDY
   :album: 音の園
@@ -429,7 +391,6 @@
   :desc: またまたこの曲も「30分でこの写真に合う曲作ってみて」という当サイト(音の園)を作ってくれている友人のお題。飛行機が飛んでいる写真だったのですが、ぶっちゃけ30分はシンドイので今度は「1時間」でお願いしようかと思ってます。友人曰く「シューティングゲームのスタートボタンを押してくれ」的な画面で流れていそう、と言ってました。なるほど〜。あと飛行船に乗る前とか、急げ的なシーンにもどうですか？
 
 - :id: Jukai
-  :filename: Jukai.mp3
   :title: 樹海
   :artist: ANDY
   :album: 音の園
@@ -440,7 +401,6 @@
   :desc:
 
 - :id: Sajinnomiyako
-  :filename: Sajinnomiyako.mp3
   :title: 砂塵の都
   :artist: ANDY
   :album: 音の園
@@ -450,7 +410,6 @@
   :desc:
 
 - :id: EdgeOfTheSteel
-  :filename: EdgeOfTheSteel.mp3
   :title: Edge of the Steel
   :artist: ANDY
   :album: 音の園
@@ -460,7 +419,6 @@
   :desc: 私はウィザードリィの音楽が好きで作曲者の「羽田健太郎」さんの作る世界観が大好きでした。その後も作曲者は違えど、同作品のコンセプトはやはりクラシックがテーマ。一度思いっきり「いかにもゲーム音楽っぽい、クラシックっぽい、オーケストラっぽいオープニング」を作ってみたいと思い試行錯誤、、、ちょっとピアノが活躍するコンチェルトちっくな感じになりましたが、、、中世の騎士たちが活躍する世界観をイメージしてもらえたなら本望です。
 
 - :id: PlayerUnit
-  :filename: PlayerUnit.mp3
   :title: Player Unit
   :artist: ANDY
   :album: 音の園
@@ -471,7 +429,6 @@
   :desc: キャラクターメイキング時や、出撃ユニットの選択画面、編成画面などをイメージしましたが、あとあと聴いてみるとお城とかでも使えそうな感じです。因みに私はコンフィグ設定から抜け出せなくなる事が良くあります。フォントやメニュー画面のカラーを2時間くらいかけて決めて、散々こだわった挙げ句「次の日からはもうプレイしていない」ことが良くあります。特に「FF７」で良くあったなこの現象...(笑)
 
 - :id: PlayerUnitLess
-  :filename: PlayerUnitLess.mp3
   :title: Player Unit (Snare less)
   :artist: ANDY
   :album: 音の園
@@ -482,7 +439,6 @@
   :desc: この曲を作っていて太鼓の「スネア」をミュートした時に、意外と「また違った雰囲気が出るな」と感じたので、アップしました。お好みでどうぞ！！
 
 - :id: ItsOurTurn
-  :filename: ItsOurTurn.mp3
   :title: It's our turn
   :artist: ANDY
   :album: 音の園
@@ -494,7 +450,6 @@
     なのでちょっと参考にしてみました。それっぽいのお探しでしの方はぜひ。
 
 - :id: DarkWind
-  :filename: DarkWind.mp3
   :title: Dark Wind
   :artist: ANDY
   :album: 音の園
@@ -504,7 +459,6 @@
   :desc: 聴いての通り不気味な感じの曲です。悪役サイドの回想時や、絶体絶命「2歩」手前くらいの場面で使用されるのがよろしいかと。。。もちろん寝る前に聴いていただいても全然OKです。（変な夢みても知りません）
 
 - :id: DarkCastle
-  :filename: DarkCastle.mp3
   :title: Dark Castle
   :artist: ANDY
   :album: 音の園
@@ -516,7 +470,6 @@
     実は当サイトの「黒い風」のアレンジだったりします。ミノタウロスでも出てきそうな雰囲気〜。
 
 - :id: PreemptiveAttack
-  :filename: PreemptiveAttack.mp3
   :title: Preemptive Attack
   :artist: ANDY
   :album: 音の園
@@ -528,7 +481,6 @@
   :desc: 意識せず曲を作るとどうしても歌もののように段々盛り上がるように構成しがちなのですが、「曲の頭から常に一定の高揚感をキープする」ことを意識しました。シミュレーションRPGのような戦略的なバトルのイメージで作曲しましたのでそういった場面の雰囲気で使えるかも?!
 
 - :id: ChargetheEnemy
-  :filename: ChargetheEnemy.mp3
   :title: Charge the Enemy
   :artist: ANDY
   :album: 音の園
@@ -539,7 +491,6 @@
   :desc: 一定の躍動感のある状況でありながら、静けさの後に襲ってくる襲撃にプレイヤーたちは次ぎなる作戦を実行する。静と動が入り交じる戦い。さあ、作戦開始だ！
 
 - :id: Comeback
-  :filename: Comeback.mp3
   :title: Comeback
   :artist: ANDY
   :album: 音の園
@@ -551,7 +502,6 @@
     ぶっちゃけ全く「遊びになっていない」のですが... なので若干短めのループですが、ミッションコンプリート時や、依頼達成の時に少し流れたりとかで使えるかもしれません。でもパレードじゃないこれ（笑）
 
 - :id: Vacant
-  :filename: Vacant.mp3
   :title: Vacant
   :artist: ANDY
   :album: 音の園
@@ -563,7 +513,6 @@
     いや、まぁ私に聞かれても困るんですが...(聞いていない)
 
 - :id: EnemyRaid
-  :filename: EnemyRaid.mp3
   :title: Enemy Raid
   :artist: ANDY
   :album: 音の園
@@ -574,7 +523,6 @@
   :desc: ピンチな場面って感じですね。この曲のままでそのままバトルに突入するシーンもありかも。ってことで主人公たちの状況がヤバい場面で使っていただければ光栄です。
 
 - :id: Sorrow
-  :filename: Sorrow.mp3
   :title: Sorrow
   :artist: ANDY
   :album: 音の園
@@ -586,7 +534,6 @@
   :desc: シリアスでドラマティックな「エンドロール」や「テロップ」で流れているようなイメージです。どちらかというと雰囲気が暗くて金属的なので、葬送行進曲のような、「仲間の死を乗り越える」といった場面でもいけるかもしれません。
 
 - :id: Operations
-  :filename: Operations.mp3
   :title: Operations
   :artist: ANDY
   :album: 音の園
@@ -599,7 +546,6 @@
     軍艦巻きとか？？？
 
 - :id: 8bit_sousakaishi
-  :filename: 8bit_sousakaishi.mp3
   :title: 捜査開始 (8bit)
   :artist: ANDY
   :album: 音の園
@@ -609,7 +555,6 @@
   :desc: 当サイトの「Main Street ~捜査開始~」という曲をファミコンテイストで表現したらどんな感じかな？という好奇心により生み出されました。恥ずかしいですが「成長の記録」としてアップしておきます。ファミコン音源、スーファミ音源などのリメイク音源の比較が面白いように、同タイトル曲の聞き比べをしてみると面白いかも？
 
 - :id: MainStreetSousakaishi
-  :filename: MainStreetSousakaishi.mp3
   :title: Main Street ~捜査開始~
   :artist: ANDY
   :album: 音の園
@@ -619,7 +564,6 @@
   :desc: 私は探偵ゲームの「探偵神宮寺三郎」が大好きなんです。このゲームの作曲家「馳見Ace大地」さんの作るJAZZの世界観は本当に最高です。そんな感じで私も作ってみようと。ジャズポップテイストを私なりに解釈してハードボイルドなイメージを意識して出来たのがこんな感じの曲です。「どこへいく？」など、これから捜査を開始する時の移動画面や、メインストリートを歩く主人公、オープニングなどをイメージしました。「ファミコン探偵倶楽部」とか「EVEシリーズ」も大好きです。探偵はカッコいいんですよ。うん。
 
 - :id: Profiling
-  :filename: Profiling.mp3
   :title: プロファイリング
   :artist: ANDY
   :album: 音の園
@@ -630,7 +574,6 @@
   :desc: "「警部どの、ここでしたかぁ〜。 ...で、害者は？...あぁこいつは酷いですね...滅多刺しだ...。何か手がかりはありましたか？」「バカモノ、今それを捜査しとるとこだわい」「す、すいません...。」「まったく、キミは一体何年この仕事をしとるのかね。」「す、すいません...。」"
 
 - :id: Koushouhaomakasekudasai
-  :filename: Koushouhaomakasekudasai.mp3
   :title: 交渉はお任せください!!
   :artist: ANDY
   :album: 音の園
@@ -640,7 +583,6 @@
   :desc:
 
 - :id: Giwaku
-  :filename: Giwaku.mp3
   :title: 疑惑
   :artist: ANDY
   :album: 音の園
@@ -650,7 +592,6 @@
   :desc: あんまり音楽用語とか興味ないかもですが「ホールトーン」っていう「不思議な音階」を使ったメロディの曲です。ちょっと怪しい空気や、不思議な雰囲気を出した時に便利なのです。ポールモールじゃないですよ。あれはタバコです。ちなみに私はタバコは一度も吸った事が無いし吸いません。ちなみにお酒も飲めません。(聞いてない)
 
 - :id: Shinjitsuwomotomete
-  :filename: Shinjitsuwomotomete.mp3
   :title: 真実を求めて
   :artist: ANDY
   :album: 音の園
@@ -661,7 +602,6 @@
   :desc:
 
 - :id: Suiri
-  :filename: Suiri.mp3
   :title: 推理
   :artist: ANDY
   :album: 音の園
@@ -671,7 +611,6 @@
   :desc: 一概に推理と言っても、様々な雰囲気があると思います。まだ全然情報が無く、手探りの状態での推理。ある程度情報が集まり、まとめに入る段階の推理など。この曲はアップテンポで若干サイバーちっくなので後者のイメージなのですが、「解ける一歩手前」まで真相に近づいた感があります。まぁ、私が勝手にそう感じているだけなのですが。
 
 - :id: Dawn
-  :filename: Dawn.mp3
   :title: Dawn
   :artist: ANDY
   :album: 音の園
@@ -683,7 +622,6 @@
   :desc: 永く続いた困難に終わりを告げる光、「夜明け」と共に物語は終焉へと向かう。その先に待っているものは償いなのか、それとも新たな未来への一歩なのか。「行こう...夜明けと共に...」
 
 - :id: SeeYouAgain
-  :filename: SeeYouAgain.mp3
   :title: See you again…
   :artist: ANDY
   :album: 音の園
@@ -694,7 +632,6 @@
     そんなワケで、次回はさらなるハードボイルドを目指して「シーユーアゲイン！」「また会う日まで！」
 
 - :id: BluePlanet
-  :filename: BluePlanet.mp3
   :title: Blue Planet
   :artist: ANDY
   :album: 音の園
@@ -705,7 +642,6 @@
   :desc: "「空」というよりは「宇宙」を舞台にしたイメージで作曲しました。その為、空間の広さを演出するにはどうしたら良いか試行錯誤しました。結果こんな感じなんですが、なかなか「宇宙感」が出たかも。前向きでポップな感じなので、ゲームだけでなく動画などにもおすすめです。"
 
 - :id: Moon
-  :filename: Moon.mp3
   :title: Moon
   :artist: ANDY
   :album: 音の園
@@ -716,7 +652,6 @@
   :desc:
 
 - :id: Approach
-  :filename: Approach.mp3
   :title: Approach
   :artist: ANDY
   :album: 音の園
@@ -727,7 +662,6 @@
   :desc: シューティングカテゴリ行きでしたが、正直パズルゲームでも良いかと思ってます。ぶっちゃけテトリスの動画見ながら作ってましたので。ステージ10を越えてきたあたりでしょうか...。
 
 - :id: Crater
-  :filename: Crater.mp3
   :title: Crater
   :artist: ANDY
   :album: 音の園
@@ -737,7 +671,6 @@
   :desc:
 
 - :id: Jupiter
-  :filename: Jupiter.mp3
   :title: Jupiter
   :artist: ANDY
   :album: 音の園
@@ -748,7 +681,6 @@
   :desc:
 
 - :id: Chaser
-  :filename: Chaser.mp3
   :title: Chaser
   :artist: ANDY
   :album: 音の園
@@ -759,7 +691,6 @@
   :desc: "「追うもの、追われるもの」がテーマの曲です。生身というよりは「乗り物に乗っていること」が前提の雰囲気かと思います。是非バイクや飛行機、ヘリコプター、パトカーなどで追ってください、逃げ回ってください。パズルゲームとかサウンドノベルでも使えるかも？"
 
 - :id: IntoTheDepth
-  :filename: IntoTheDepth.mp3
   :title: Into the Depth
   :artist: ANDY
   :album: 音の園
@@ -770,7 +701,6 @@
   :desc: "「Chaser」よりもテンポが速く、危機感が迫っている印象です。とりあえずまだまだゆっくり出来そうにありません。"
 
 - :id: Aiwotsutaerukotoba
-  :filename: Aiwotsutaerukotoba.mp3
   :title: 愛を伝える言葉
   :artist: ANDY
   :album: 音の園
@@ -780,7 +710,6 @@
   :desc: 告白するのは勇気が要りますし、愛を伝えるのは簡単ではありません。そんな胸が詰まりそうな想いをイメージしました。少しメロディが高めですが、そこも「胸が詰まって言葉が出ない」ような雰囲気を出そうとした結果なのですが。。。私にもそんな時代がありました。遥か昔の話です。(遠い目)
 
 - :id: Itsumonokimi
-  :filename: Itsumonokimi.mp3
   :title: いつものキミ
   :artist: ANDY
   :album: 音の園
@@ -791,7 +720,6 @@
     完成した時はもっと色々なジャンルの曲にも挑戦したいという前向きな気持ちにしてくれた曲です。ところで、この曲で一番こだわった部分は...ズバリ「曲名」です（笑）
 
 - :id: Amenochi
-  :filename: Amenochi.mp3
   :title: 雨のち…
   :artist: ANDY
   :album: 音の園
@@ -802,7 +730,6 @@
   :desc: 最初はちょっと悲しい曲に聴こえますが、だんだんと前向きなメロディになっていきます。その頃にはこの雨も止んでるのかな？
 
 - :id: Shiawasenokairou
-  :filename: Shiawasenokairou.mp3
   :title: 幸せの回廊
   :artist: ANDY
   :album: 音の園
@@ -812,7 +739,6 @@
   :desc: 私は「幸せはずっと続くものでは無い」と思っております。人生や身体の体調と同じで幸せにもバイオリズムがあり、幸せの「大きさ」や「カタチ」も年齢とともに変化します。この曲はずっと明るい感じでいくかと思いきや、途中で少し暗く、寂しい、ノスタルジックなメロディになります。それでも最後は前向きなメロディで完結するのですが、そんな不安定な幸せの回廊をぐるぐる歩くのが人生だと思います。
 
 - :id: Komorebiyori
-  :filename: Komorebiyori.mp3
   :title: 木漏れ日和
   :artist: ANDY
   :album: 音の園
@@ -824,7 +750,6 @@
     ちょっとした日常の場面で流れていそうな感じですね。
 
 - :id: Eternity
-  :filename: Eternity.mp3
   :title: Eternity
   :artist: ANDY
   :album: 音の園
@@ -835,7 +760,6 @@
   :desc:
 
 - :id: Hakuchuumu
-  :filename: Hakuchuumu.mp3
   :title: 白昼夢
   :artist: ANDY
   :album: 音の園
@@ -846,7 +770,6 @@
   :desc: いわゆる「回想シーン」で使うことを想定したのですが、「回想その1」とかっていう曲名を付けるのがイヤでイヤで...多分曲名をあれこれ何回も変えてた時間の方が明らかに長いです。この曲名も若干微妙なのですが...。
 
 - :id: Natsukusa
-  :filename: Natsukusa.mp3
   :title: 夏草
   :artist: ANDY
   :album: 音の園
@@ -858,7 +781,6 @@
   :desc: 恋愛ゲームといえば「夏」がピッタリ。夏の田んぼ道や、学校へ行く道、自然豊かな場面など色々イメージ出来そうです。個人的にお気に入りの一曲です！夏草の匂いが漂ってこれば良いのですが。。。
 
 - :id: TondeHiniiruNatsunoMushi
-  :filename: TondeHiniiruNatsunoMushi.mp3
   :title: 飛火入夏虫
   :artist: ANDY
   :album: 音の園
@@ -870,7 +792,6 @@
     あと、どっかにコソコソ侵入する時とかそんな場面でもいけるかも！？
 
 - :id: After5
-  :filename: After5.mp3
   :title: アフター５
   :artist: ANDY
   :album: 音の園
@@ -880,7 +801,6 @@
   :desc: 当サイト「夏草」のアレンジです。 夏草とはまた違った夕暮れ時を表現してみました。どちらかというと、少し清々しい雰囲気で、一日の何かひと仕事終えた後ようなイメージです。
 
 - :id: RelaxTime
-  :filename: RelaxTime.mp3
   :title: リラックスタイム
   :artist: ANDY
   :album: 音の園
@@ -891,7 +811,6 @@
   :desc: またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)
 
 - :id: YomichiWoNukete
-  :filename: YomichiWoNukete.mp3
   :title: 夜道を抜けて
   :artist: ANDY
   :album: 音の園
@@ -904,7 +823,6 @@
     まぁ聞いてください。それは夜道の天敵「ムシ」なんです...。自販機で飲み物を買う際に急降下してきた時は腰の骨を折るかと思いました。(反射的に避けるのでむちゃくちゃな姿勢になる)
 
 - :id: Kugatsunoaozora
-  :filename: Kugatsunoaozora.mp3
   :title: 九月の蒼空
   :artist: ANDY
   :album: 音の園
@@ -914,7 +832,6 @@
   :desc: "「愛を伝える言葉」のキー(調)を少し下げたバージョンです。こちらの方がキーを下げた分、少し落ち着いて聴けますのでタイトル画面などにもおすすめです。あと回想シーンなどにも合うかもしれません。お好みでどうぞ♪"
 
 - :id: Tabinooyado
-  :filename: Tabinooyado.mp3
   :title: 旅のお宿
   :artist: ANDY
   :album: 音の園
@@ -925,7 +842,6 @@
   :desc: 旅人を迎える寝床と言えば旅の宿。「宿屋の音楽を作ろう」と思ったものの、頭の中で宿屋を色々イメージしてると、「いんやはや、ようこそおいでくださいますたぁ」という女将さんのドヤ顔しか沸かなくなり、こんな感じの曲になりました。私的には大成功なのですが...汗。私自身、宿や和食屋さんで聴きたいので、是非ともよろしくお願いいたします。
 
 - :id: Wakoku
-  :filename: Wakoku.mp3
   :title: 倭国
   :artist: ANDY
   :album: 音の園
@@ -935,7 +851,6 @@
   :desc: 倭国大和王国、または昔の中国が舞台で、その中でもとりわけ「旅のテーマ」です。振り向けば遥か彼方にある故郷、前を向けばまだ着かぬ目的地への道のり。とても長く果てしない。旅路は何も草むらや田んぼ道だけでなく、町内といえども目的地でない限りまだ旅の途中。のんびりで良いのです。たまには寄り道もして、確実に前へ前へ進みましょう。いつか辿り着くその時まで。
 
 - :id: HaruiroKomachi
-  :filename: HaruiroKomachi.mp3
   :title: 春色小町
   :artist: ANDY
   :album: 音の園
@@ -947,7 +862,6 @@
   :desc: 春がすぐそこまで来ているような「フワフワ」な雰囲気の曲です。テンポも遅めなのでゆったりとした時間を演出したい時にいかがでしょうか？？
 
 - :id: NatsuMatsuri
-  :filename: NatsuMatsuri.mp3
   :title: 夏祭り
   :artist: ANDY
   :album: 音の園
@@ -959,7 +873,6 @@
     今年も祭りに行きたいなぁ。
 
 - :id: Yuunaginouta
-  :filename: Yuunaginouta.mp3
   :title: 夕凪の唄
   :artist: ANDY
   :album: 音の園
@@ -971,7 +884,6 @@
   :desc:
 
 - :id: Yuunagi
-  :filename: Yuunagi.mp3
   :title: 夕凪
   :artist: ANDY
   :album: 音の園
@@ -984,7 +896,6 @@
   :desc:
 
 - :id: Towanojojou
-  :filename: Towanojojou.mp3
   :title: 永遠の叙情
   :artist: ANDY
   :album: 音の園
@@ -996,7 +907,6 @@
     他にも変な使い方があればぜひ教えてください（笑）
 
 - :id: Oborozuki
-  :filename: Oborozuki.mp3
   :title: おぼろ月
   :artist: ANDY
   :album: 音の園
@@ -1007,7 +917,6 @@
   :desc: 色々な場面に使えそうなんですが、とりわけ私の中でのキーワードは「宵闇」「息を潜める」です。緊張感のある場面において力を発揮するかもしれません。そーいば最近おぼろ月見てないなぁ。
 
 - :id: RinneTensei
-  :filename: RinneTensei.mp3
   :title: 輪廻転生
   :artist: ANDY
   :album: 音の園
@@ -1018,7 +927,6 @@
   :desc: 誰でも死後の世界は気になります。私もその一人。死なない限り一生分からない事がある。輪廻転生をテーマにした物語は色々ありますが、共通している事がとにかく「壮大な物語」であること。時代を跨ぐ者、その時代に生きる者たち、その想いは本当に様々です。和風ジャンル、と一括りにしてしまうのもアレなんですが、イメージしたのはやはり「日本」であり、戦国時代などになります。私自身、生粋の日本人として日本の歴史を舞台にしたテーマには興味があります。現世と違い、立場や使命、出生で、どうにもならない時代で運命を受け入れる者たち、革命を起こす者たちの想いは壮大であり、その時代時代の集大成です。そんな感じで私自身、この曲に様々な想いを詰め込みました。
 
 - :id: Shihenokodou
-  :filename: Shihenokodou.mp3
   :title: 死への鼓動
   :artist: ANDY
   :album: 音の園
@@ -1029,7 +937,6 @@
   :desc:
 
 - :id: IntheRoom
-  :filename: IntheRoom.mp3
   :title: In the Room
   :artist: ANDY
   :album: 音の園
@@ -1039,7 +946,6 @@
   :desc: ゆったりと時間が流れているのは分かる、だけどここが不気味な場所であることは間違いない。でも、どこかこの旋律が落ち着くのはなぜ...。俺がこの空間に慣れてしまったからだろうか。あぁ、不気味だけどなぜか心地良い...。
 
 - :id: Ihen
-  :filename: Ihen.mp3
   :title: 異変
   :artist: ANDY
   :album: 音の園
@@ -1050,7 +956,6 @@
   :desc:
 
 - :id: OnestepfromDarkness
-  :filename: OnestepfromDarkness.mp3
   :title: One step from Darkness
   :artist: ANDY
   :album: 音の園
@@ -1061,7 +966,6 @@
   :desc: "「怖さ」とは何か？ 「音」「絵」「演出」色々考えてみたのですが、怖さの一つに私は「ダイナミクス」があると思います。音で言うなら「いきなり大きい音を鳴らす」これは身構えてなければ当然ビビります。もちろん怖さと驚きは似て非なるものですが...。音一つにしてもジワジワ来る怖さ、イキナリ来る怖さ、色々ありますね。ダイナミクスレンジ、ようは音に限らず何でも「差」が大きければ良い意味でも悪い意味でも驚きがあります。やはり何でも「演出」がカギなのですね。というわけで、もっと怖さを研究してみます（怖い〜）"
 
 - :id: Kagerou
-  :filename: Kagerou.mp3
   :title: カゲロウ
   :artist: ANDY
   :album: 音の園
@@ -1072,7 +976,6 @@
   :desc:
 
 - :id: Kaidan
-  :filename: Kaidan.mp3
   :title: 階段
   :artist: ANDY
   :album: 音の園
@@ -1083,7 +986,6 @@
   :desc:
 
 - :id: Chikatsuuro
-  :filename: Chikatsuuro.mp3
   :title: 地下通路
   :artist: ANDY
   :album: 音の園
@@ -1094,7 +996,6 @@
   :desc:
 
 - :id: Eiminnosenritsu
-  :filename: Eiminnosenritsu.mp3
   :title: 永眠の旋律
   :artist: ANDY
   :album: 音の園
@@ -1106,7 +1007,6 @@
   :desc:
 
 - :id: Tokiwokatarumono
-  :filename: Tokiwokatarumono.mp3
   :title: 時を語る者
   :artist: ANDY
   :album: 音の園
@@ -1117,7 +1017,6 @@
   :desc:
 
 - :id: Gouon
-  :filename: Gouon.mp3
   :title: 轟音
   :artist: ANDY
   :album: 音の園
@@ -1128,7 +1027,6 @@
   :desc: 地下へ続く通路を見つけた。奥からすごい轟音が響く。一体この先に何があるのだろう...。確かめなければ...。
 
 - :id: Gouon2
-  :filename: Gouon2.mp3
   :title: 轟音#2
   :artist: ANDY
   :album: 音の園
@@ -1139,7 +1037,6 @@
   :desc: 広い空洞に出た。館の地下にこんな空洞があるなんて...。まだまだ奥へ進めそうだ。風が吹いているからきっと抜け道はあるだろう。
 
 - :id: Alone
-  :filename: Alone.mp3
   :title: Alone
   :artist: ANDY
   :album: 音の園
@@ -1150,7 +1047,6 @@
   :desc: 孤独。一人ぼっちという意味だけでなく、例えその場に複数の人間がいたといても「孤立」してしまっている状態。そこには信用も信頼も無く、あるのは疑いの眼差しと不安な心だけ。
 
 - :id: Kyoukaiato
-  :filename: Kyoukaiato.mp3
   :title: 教会跡
   :artist: ANDY
   :album: 音の園
@@ -1161,7 +1057,6 @@
   :desc:
 
 - :id: Tokeitou
-  :filename: Tokeitou.mp3
   :title: 時計塔
   :artist: ANDY
   :album: 音の園
@@ -1172,7 +1067,6 @@
   :desc: すごい金属音が一定のリズムを刻んでいる。鐘の音も聴こえるけどここは時計塔か。とにかく、あまり長居したくない場所であることは間違いない。
 
 - :id: Ruikon
-  :filename: Ruikon.mp3
   :title: 涙痕
   :artist: ANDY
   :album: 音の園
@@ -1184,7 +1078,6 @@
   :desc:
 
 - :id: ClingtoLife
-  :filename: ClingtoLife.mp3
   :title: Cling to Life
   :artist: ANDY
   :album: 音の園
@@ -1196,7 +1089,6 @@
   :desc:
 
 - :id: Tsumi
-  :filename: Tsumi.mp3
   :title: 罪
   :artist: ANDY
   :album: 音の園
@@ -1208,7 +1100,6 @@
   :desc: 罪を犯す者、耐えきれなくなり告白する者、その運命を変える。そしてそれらに翻弄される者たち。裏切りと虚構の果てに、いつか本当の罪を分かち合える日は来るのだろうか。生き延びる為に、残された者たちは命と引き換えに罪を犯す。このクソ喰らえなデスゲームによって...。
 
 - :id: TsumiCelesta
-  :filename: TsumiCelesta.mp3
   :title: 罪 (Celesta ver)
   :artist: ANDY
   :album: 音の園
@@ -1220,7 +1111,6 @@
   :desc: 当サイトの「罪」という曲のオルゴール(ちっく)バージョンです。こちらも原曲と一緒に演出の使い分けでの使用をオススメします。あくまでオルゴール「ちっく」なのです。（あ〜オルゴールの音源ほし〜泣）
 
 - :id: Dasshutsu
-  :filename: Dasshutsu.mp3
   :title: 脱出
   :artist: ANDY
   :album: 音の園
@@ -1231,7 +1121,6 @@
   :desc: ついにこのクソ喰らえなデスゲームから脱出する方法を見つけた。多くの犠牲を出してしまったが、もはや迷っている時間は無い。残された時間内にここから脱出しなければ...。数多の屍の上に立つ俺たちは、犠牲になった者たちが残してくれたヒントを総動員させ脱獄を決行する。この中に裏切り者がいるとも知らずに...。
 
 - :id: Tamashiinokaihou
-  :filename: Tamashiinokaihou.mp3
   :title: 魂の解放
   :artist: ANDY
   :album: 音の園
@@ -1243,7 +1132,6 @@
   :desc: どこからか、またあの声が聞こえる。あの旋律とともに。そうか、なぜあの旋律が心地よかったのか、今ようやく分かった気がする。ようやく乗り越えた悲しみの先に、更なる受け入れれない事実がある。全てを解放し、生か死か、私には選ぶ権利がある。そして、物語は終焉を迎える。
 
 - :id: Towanokioku
-  :filename: Towanokioku.mp3
   :title: 永遠の記憶
   :artist: ANDY
   :album: 音の園
@@ -1254,7 +1142,6 @@
   :desc:
 
 - :id: Fate
-  :filename: Fate.mp3
   :title: Fate
   :artist: ANDY
   :album: 音の園
@@ -1266,7 +1153,6 @@
   :desc: 当サイトの「Prison Break」という曲のアレンジバージョンです。ゴリゴリなベースギターが主体のプログレッシヴロックな原曲に対し、しっとり系でアレンジしました。メロディのテーマは同じですので、物語の展開に応じて、静と動を演出する時なんかにオススメです。個人的に、人知を越えた絶句してしまうような神秘的、あるいは惨状的な場面などにオススメです。
 
 - :id: Aletter
-  :filename: Aletter.mp3
   :title: A letter -手紙-
   :artist: ANDY
   :album: 音の園
@@ -1276,7 +1162,6 @@
   :desc:
 
 - :id: ForeignCountry
-  :filename: ForeignCountry.mp3
   :title: Foreign Country -異国-
   :artist: ANDY
   :album: 音の園
@@ -1286,7 +1171,6 @@
   :desc:
 
 - :id: Darkness
-  :filename: Darkness.mp3
   :title: Darkness -闇-
   :artist: ANDY
   :album: 音の園
@@ -1296,7 +1180,6 @@
   :desc:
 
 - :id: Passage
-  :filename: Passage.mp3
   :title: Passage -通路-
   :artist: ANDY
   :album: 音の園
@@ -1306,7 +1189,6 @@
   :desc:
 
 - :id: Corpse
-  :filename: Corpse.mp3
   :title: Corpse -遺体-
   :artist: ANDY
   :album: 音の園
@@ -1316,7 +1198,6 @@
   :desc:
 
 - :id: Colorless
-  :filename: Colorless.mp3
   :title: Colorless -無色-
   :artist: ANDY
   :album: 音の園
@@ -1326,7 +1207,6 @@
   :desc:
 
 - :id: Cofin
-  :filename: Cofin.mp3
   :title: Cofin -棺-
   :artist: ANDY
   :album: 音の園
@@ -1336,7 +1216,6 @@
   :desc:
 
 - :id: Worship
-  :filename: Worship.mp3
   :title: Worship -礼拝-
   :artist: ANDY
   :album: 音の園
@@ -1346,7 +1225,6 @@
   :desc:
 
 - :id: Home
-  :filename: Home.mp3
   :title: Home -帰還-
   :artist: ANDY
   :album: 音の園
@@ -1356,7 +1234,6 @@
   :desc:
 
 - :id: Sangotokai
-  :filename: Sangotokai.mp3
   :title: サンゴと貝
   :artist: ANDY
   :album: 音の園
@@ -1367,7 +1244,6 @@
   :desc:
 
 - :id: RomancingsagaOpeningBV
-  :filename: RomancingsagaOpeningBV.mp3
   :title: オープニングタイトル
   :artist: ANDY/伊藤賢治
   :album: 音の園
@@ -1377,7 +1253,6 @@
   :desc:
 
 - :id: Romancingsaga2Dungeon1BV
-  :filename: Romancingsaga2Dungeon1BV.mp3
   :title: ダンジョン#1
   :artist: ANDY/伊藤賢治
   :album: 音の園
@@ -1387,7 +1262,6 @@
   :desc:
 
 - :id: StarOcean2StabBV
-  :filename: StarOcean2StabBV.mp3
   :title: Stab the sword of justice
   :artist: ANDY/桜庭統
   :album: 音の園
@@ -1397,7 +1271,6 @@
   :desc:
 
 - :id: ChronoTriggerBattle1BV
-  :filename: ChronoTriggerBattle1BV.mp3
   :title: 戦い
   :artist: ANDY/光田康典
   :album: 音の園
@@ -1407,7 +1280,6 @@
   :desc:
 
 - :id: Hadakanoousama
-  :filename: Hadakanoousama.mp3
   :title: 裸の王様
   :artist: ANDY
   :album: 音の園
@@ -1416,7 +1288,6 @@
   :desc: この曲を一言で表すなら「ガキ大将現る！」です。なのに一体なんでこの曲名になったのでしょうか...汗。
 
 - :id: NightWalking
-  :filename: NightWalking.mp3
   :title: Night Walking
   :artist: ANDY
   :album: 音の園
@@ -1425,7 +1296,6 @@
   :desc: ある日TVで「インドの特集」みたいな番組を見ておりました。そこで流れていたベースラインを聴いて「これだ！」と勢いで作った覚えがあります。...で、一番気になる「そのベースラインをそのままパクったのか？」っていう質問ですが、正直全く覚えてないですね、まぁいつでもこの曲を「消す準備」は出来ておりますが。。。
 
 - :id: 8bit_rockman5
-  :filename: 8bit_rockman5.mp3
   :title: ロックマン５ ステージセレクト
   :artist: ANDY
   :album: 音の園
@@ -1436,7 +1306,6 @@
   :desc: "「30分で何かコピーして」という当サイト(音の園)を作ってくれてる友人の何気ない一言により、生み出されたナンバー。慣れないファミコンサウンドの音色作りに意外と手こずり、結局1時間くらいやってました。なぜこの曲を選択したのかは、私にも一切身に覚えがありません。まぁロックマンは大好きなのですが（笑）"
 
 - :id: 8bit_retrotitle
-  :filename: 8bit_retrotitle.mp3
   :title: レトロタイトル
   :artist: ANDY
   :album: 音の園
@@ -1446,7 +1315,6 @@
   :desc: 当サイト(音の園)を作ってくれている友人が「次はこんなん作ってみた」という何気ない一言により「分かった」とこちらも応戦して作った曲です。意外とまともな感じで出来たので、「成長の記録」と割り切って記念にアップしておきます。実用性は低いので、参考曲までに。
 
 - :id: 8bit_fly
-  :filename: 8bit_fly.mp3
   :title: Fly!
   :artist: ANDY
   :album: 音の園
@@ -1458,7 +1326,6 @@
   :desc: 当サイト(音の園)を作ってくれている友人と「ゲームエンジンを使って、何か簡単なゲームを作ってみよう」という流れで作った曲です。ファミコンテイストの音源を用いて作った簡単なシューティングゲームのループサウンドです。実用性は低いので、参考曲までに。
 
 - :id: 8bit_stage2
-  :filename: 8bit_stage2.mp3
   :title: ステージ２
   :artist: ANDY
   :album: 音の園
@@ -1470,7 +1337,6 @@
   :desc: その名も「ステージ2」 15分くらいで作ったループサウンドです。一応上げときます。
 
 - :id: AttakaShichu
-  :filename: AttakaShichu.mp3
   :title: あったかシチュー
   :artist: ANDY
   :album: 音の園
@@ -1480,7 +1346,6 @@
   :desc: デイリーミュージックと謳い、質とかあんまり考えずに前向きに「１日何か曲を作ろう！」と言って作った第一弾です。しかし悲しいことに、このプロジェクトはわずか2日にて終了します。人間の本質である「怠慢」を思い知らされた時期でした。「今も」ですが。
 
 - :id: HealingVoyager
-  :filename: HealingVoyager.mp3
   :title: Healing Voyager
   :artist: ANDY
   :album: 音の園
@@ -1490,7 +1355,6 @@
   :desc: Moog社の「Minimoog Voyager」っていうシンセサイザー（楽器の名前です）を買って何か一発曲を作りたいなぁ〜と作った曲です。可愛いくて癒し的な曲を作りたかったのですが、せめて名前だけでも癒しにしようと「ヒーリングボイジャー」と名付けました。出番が少なくなり便利なソフトウェア音源だけで完結しようと思い売ってしまいましたが、また機会があれば購入したいです。
 
 - :id: MachiNoTomoshibi
-  :filename: MachiNoTomoshibi.mp3
   :title: 街の灯火
   :artist: ANDY
   :album: 音の園

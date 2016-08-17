@@ -30,16 +30,15 @@ yaml = YAML.load_file('resources/musics.yml')
 musics = []
 yaml.map do |df|
   music = {}
-  cate_id = df[:filename]
-  path = "resources/materials/#{cate_id}"
+  mp3 = "resources/materials/#{df[:id]}.mp3"
   begin
-    AudioInfo.open(path) do |info|
+    AudioInfo.open(mp3) do |info|
       music[:time] = info.length
     end
   rescue
   end
 
-  TagLib::MPEG::File.open(path) do |file|
+  TagLib::MPEG::File.open(mp3) do |file|
     ## Cannot embed Japanese...
     ## cf. http://www.rubydoc.info/gems/taglib-ruby/TagLib/ID3v2/Tag
     # tag = file.id3v2_tag
@@ -55,9 +54,8 @@ yaml.map do |df|
     file.save
   end
 
-  music[:id] = df[:filename].clone
-  music[:id].slice!('.mp3')
-  music[:filename] = df[:filename]
+  music[:id]       = df[:id]
+  music[:filename] = "#{df[:id]}.mp3"
   music[:title]    = df[:title]
   music[:artist]   = df[:artist]
   music[:album]    = df[:album]
