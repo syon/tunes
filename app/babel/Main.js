@@ -21,7 +21,7 @@ class Main extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/tracklists/_structure.json')
+    axios.get('/tracklists/structure.json')
       .then((response) => {
         this.setState({ structure: response.data });
       })

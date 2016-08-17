@@ -1,0 +1,222 @@
+[
+  {
+    "group_id": "albums",
+    "group_count": 136,
+    "listset": [
+      {
+        "id": "game_decision",
+        "listname": "DECISION",
+        "tags": [
+          "DECISION"
+        ],
+        "count": 23
+      },
+      {
+        "id": "game_rpg",
+        "listname": "RPG",
+        "tags": [
+          "RPG"
+        ],
+        "count": 17
+      },
+      {
+        "id": "game_baroque",
+        "listname": "バロックの城",
+        "tags": [
+          "バロック"
+        ],
+        "count": 13
+      },
+      {
+        "id": "game_renai",
+        "listname": "夏の恋、いつものキミ",
+        "tags": [
+          "夏恋"
+        ],
+        "count": 13
+      },
+      {
+        "id": "game_wafu",
+        "listname": "和風短編曲集",
+        "tags": [
+          "和風短編曲集"
+        ],
+        "count": 9
+      },
+      {
+        "id": "game_aquacocktail",
+        "listname": "アクア カクテル",
+        "tags": [
+          "アクア カクテル"
+        ],
+        "count": 1
+      },
+      {
+        "id": "game_detective",
+        "listname": "探偵 中園エイジ",
+        "tags": [
+          "探偵"
+        ],
+        "count": 9
+      },
+      {
+        "id": "game_horror",
+        "listname": "時の館",
+        "tags": [
+          "時の館"
+        ],
+        "count": 22
+      },
+      {
+        "id": "game_planet",
+        "listname": "エレクトロン",
+        "tags": [
+          "エレクトロン"
+        ],
+        "count": 7
+      },
+      {
+        "id": "game_lastmonth",
+        "listname": "Last Month",
+        "tags": [
+          "Last Month"
+        ],
+        "count": 9
+      },
+      {
+        "id": "game_cover",
+        "listname": "ゲーム音楽カバー",
+        "tags": [
+          "ゲーム音楽カバー"
+        ],
+        "count": 4
+      },
+      {
+        "id": "game_other",
+        "listname": "その他",
+        "tags": [
+          "その他"
+        ],
+        "count": 9
+      }
+    ]
+  },
+  {
+    "group_id": "scenes",
+    "group_count": 246,
+    "listset": [
+      {
+        "id": "scene_cheerful",
+        "listname": "明るい",
+        "tags": [
+          "明るい"
+        ],
+        "count": 29
+      },
+      {
+        "id": "scene_dark",
+        "listname": "暗い・悲しい",
+        "tags": [
+          "暗い"
+        ],
+        "count": 29
+      },
+      {
+        "id": "scene_honobono",
+        "listname": "穏やか・安らぎ",
+        "tags": [
+          "穏やか"
+        ],
+        "count": 24
+      },
+      {
+        "id": "scene_grandeur",
+        "listname": "壮大",
+        "tags": [
+          "壮大"
+        ],
+        "count": 27
+      },
+      {
+        "id": "scene_mysterious",
+        "listname": "神秘的",
+        "tags": [
+          "神秘的"
+        ],
+        "count": 26
+      },
+      {
+        "id": "scene_speedy",
+        "listname": "疾走感",
+        "tags": [
+          "疾走感"
+        ],
+        "count": 16
+      },
+      {
+        "id": "scene_tense",
+        "listname": "緊張感",
+        "tags": [
+          "緊張感"
+        ],
+        "count": 40
+      },
+      {
+        "id": "scene_night",
+        "listname": "夜",
+        "tags": [
+          "夜"
+        ],
+        "count": 4
+      },
+      {
+        "id": "scene_cyber",
+        "listname": "サイバー",
+        "tags": [
+          "サイバー"
+        ],
+        "count": 7
+      },
+      {
+        "id": "scene_piano",
+        "listname": "ピアノ",
+        "tags": [
+          "ピアノ"
+        ],
+        "count": 17
+      },
+      {
+        "id": "scene_battle",
+        "listname": "バトル",
+        "tags": [
+          "バトル"
+        ],
+        "count": 7
+      },
+      {
+        "id": "scene_opening",
+        "listname": "オープニング",
+        "tags": [
+          "オープニング"
+        ],
+        "count": 9
+      },
+      {
+        "id": "scene_ending",
+        "listname": "エンディング",
+        "tags": [
+          "エンディング"
+        ],
+        "count": 6
+      },
+      {
+        "id": "scene_8bit",
+        "listname": "8bit",
+        "tags": [
+          "8bit"
+        ],
+        "count": 5
+      }
+    ]
+  }
+]

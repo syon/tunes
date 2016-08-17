@@ -111,7 +111,7 @@ end
 #
 summary = []
 all_albums = {}
-open(json_dir + "_structure.json") do |io|
+open("resources/structure.json") do |io|
   structure = JSON.load(io)
   structure.each do |group|
     listset = []
@@ -155,6 +155,6 @@ open(jpath, 'w') do |io|
 end
 
 summary_data = JSON.pretty_generate(summary)
-open(json_dir + "_structure.json", 'w') do |io|
+open(json_dir + "structure.json", 'w') do |io|
   io.write summary_data
 end
