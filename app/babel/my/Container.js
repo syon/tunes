@@ -109,7 +109,7 @@ class Container extends React.Component {
         />
         <div style={styles.fixed}>
           <AppBar
-            title={this.props.album.listname}
+            title={this.props.album.nm}
             onLeftIconButtonTouchTap={this.handleAppbarBtn}
             showMenuIconButton={!isWide}
           />
