@@ -60,7 +60,7 @@ yaml[:tracks].map do |df|
   music[:artist]   = yaml[:artist]
   music[:album]    = yaml[:album]
   music[:tags]     = df[:tags]
-  music[:desc]     = df[:desc]
+  music[:desc]     = df[:desc].gsub("\n", "") if df[:desc]
 
   musics.push music
 end
