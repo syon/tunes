@@ -426,6 +426,18 @@
         ]
       },
       {
+        "id": "Sadame",
+        "filepath": "/materials/Sadame.mp3",
+        "title": "運命~さだめ~",
+        "time": 126,
+        "desc": "悲しみの運命を背負う、そんな孤独で悲壮感漂う曲です。当サイト「使命の果てに」のアレンジ曲になります。キーは高めで原曲ほど盛り上がらないので、故郷が滅ぼされたり、悲しいイベント時に流れる曲としていかがでしょうか？",
+        "tags": [
+          "RPG",
+          "暗い",
+          "悲しい"
+        ]
+      },
+      {
         "id": "Dungeon",
         "filepath": "/materials/Dungeon.mp3",
         "title": "ダンジョン",
@@ -493,6 +505,20 @@
         "tags": [
           "RPG",
           "緊張感"
+        ]
+      },
+      {
+        "id": "Shimeinohateni",
+        "filepath": "/materials/Shimeinohateni.mp3",
+        "title": "使命の果てに",
+        "time": 106,
+        "desc": "受け入れられない運命、幾許の苦難を乗り越えそれを受け入れた時、それは運命から「使命」に変わる。穏やかに始まり、悲愴的になり、壮大で衝撃的な展開をしますので、重要なイベントシーンなどにいかがでしょうか？",
+        "tags": [
+          "RPG",
+          "オープニング",
+          "悲しい",
+          "神秘的",
+          "壮大"
         ]
       }
     ]
@@ -779,18 +805,6 @@
         ]
       },
       {
-        "id": "RelaxTime",
-        "filepath": "/materials/RelaxTime.mp3",
-        "title": "リラックスタイム",
-        "time": 122,
-        "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
-        "tags": [
-          "夏恋",
-          "明るい",
-          "穏やか"
-        ]
-      },
-      {
         "id": "YomichiWoNukete",
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
@@ -801,6 +815,31 @@
           "夜",
           "穏やか",
           "ピアノ"
+        ]
+      },
+      {
+        "id": "Tsukiyowoterasuhotarutachi",
+        "filepath": "/materials/Tsukiyowoterasuhotarutachi.mp3",
+        "title": "月夜を照らす蛍たち",
+        "time": 122,
+        "desc": "「夏草の夜バージョンです。夜の行動時に流していただけると雰囲気が出ると思います。音の園で使いまわした曲の中でダントツの1位です。もうやりません。",
+        "tags": [
+          "夏恋",
+          "ピアノ",
+          "神秘的",
+          "夜"
+        ]
+      },
+      {
+        "id": "RelaxTime",
+        "filepath": "/materials/RelaxTime.mp3",
+        "title": "リラックスタイム",
+        "time": 122,
+        "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
+        "tags": [
+          "夏恋",
+          "明るい",
+          "穏やか"
         ]
       },
       {
@@ -964,9 +1003,9 @@
         ]
       },
       {
-        "id": "MainStreetSousakaishi",
-        "filepath": "/materials/MainStreetSousakaishi.mp3",
-        "title": "Main Street ~捜査開始~",
+        "id": "MainStreet",
+        "filepath": "/materials/MainStreet.mp3",
+        "title": "Main Street",
         "time": 213,
         "desc": "私は探偵ゲームの「探偵神宮寺三郎」が大好きなんです。このゲームの作曲家「馳見Ace大地」さんの作るJAZZの世界観は本当に最高です。そんな感じで私も作ってみようと。ジャズポップテイストを私なりに解釈してハードボイルドなイメージを意識して出来たのがこんな感じの曲です。「どこへいく？」など、これから捜査を開始する時の移動画面や、メインストリートを歩く主人公、オープニングなどをイメージしました。「ファミコン探偵倶楽部」とか「EVEシリーズ」も大好きです。探偵はカッコいいんですよ。うん。",
         "tags": [
@@ -2113,6 +2152,18 @@
         ]
       },
       {
+        "id": "Sadame",
+        "filepath": "/materials/Sadame.mp3",
+        "title": "運命~さだめ~",
+        "time": 126,
+        "desc": "悲しみの運命を背負う、そんな孤独で悲壮感漂う曲です。当サイト「使命の果てに」のアレンジ曲になります。キーは高めで原曲ほど盛り上がらないので、故郷が滅ぼされたり、悲しいイベント時に流れる曲としていかがでしょうか？",
+        "tags": [
+          "RPG",
+          "暗い",
+          "悲しい"
+        ]
+      },
+      {
         "id": "Amenochi",
         "filepath": "/materials/Amenochi.mp3",
         "title": "雨のち…",
@@ -2592,18 +2643,6 @@
         ]
       },
       {
-        "id": "RelaxTime",
-        "filepath": "/materials/RelaxTime.mp3",
-        "title": "リラックスタイム",
-        "time": 122,
-        "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
-        "tags": [
-          "夏恋",
-          "明るい",
-          "穏やか"
-        ]
-      },
-      {
         "id": "YomichiWoNukete",
         "filepath": "/materials/YomichiWoNukete.mp3",
         "title": "夜道を抜けて",
@@ -2614,6 +2653,18 @@
           "夜",
           "穏やか",
           "ピアノ"
+        ]
+      },
+      {
+        "id": "RelaxTime",
+        "filepath": "/materials/RelaxTime.mp3",
+        "title": "リラックスタイム",
+        "time": 122,
+        "desc": "またまた当サイト「夏草」のアレンジです。(どんなけ使い回す笑) 四六時中問わず、息抜き的な感じの場面でいかがですか？ ゆったりしている時や、考え事をまとめている時、お風呂に入っている時、トイレに入っている時、放課後のちょっとした休憩時、密談とか。色々応用できそうな感じにしてみました。(しかし実際に応用できるかのだろうか...)",
+        "tags": [
+          "夏恋",
+          "明るい",
+          "穏やか"
         ]
       },
       {
@@ -2892,6 +2943,20 @@
           "壮大",
           "明るい",
           "疾走感"
+        ]
+      },
+      {
+        "id": "Shimeinohateni",
+        "filepath": "/materials/Shimeinohateni.mp3",
+        "title": "使命の果てに",
+        "time": 106,
+        "desc": "受け入れられない運命、幾許の苦難を乗り越えそれを受け入れた時、それは運命から「使命」に変わる。穏やかに始まり、悲愴的になり、壮大で衝撃的な展開をしますので、重要なイベントシーンなどにいかがでしょうか？",
+        "tags": [
+          "RPG",
+          "オープニング",
+          "悲しい",
+          "神秘的",
+          "壮大"
         ]
       },
       {
@@ -3211,6 +3276,20 @@
         ]
       },
       {
+        "id": "Shimeinohateni",
+        "filepath": "/materials/Shimeinohateni.mp3",
+        "title": "使命の果てに",
+        "time": 106,
+        "desc": "受け入れられない運命、幾許の苦難を乗り越えそれを受け入れた時、それは運命から「使命」に変わる。穏やかに始まり、悲愴的になり、壮大で衝撃的な展開をしますので、重要なイベントシーンなどにいかがでしょうか？",
+        "tags": [
+          "RPG",
+          "オープニング",
+          "悲しい",
+          "神秘的",
+          "壮大"
+        ]
+      },
+      {
         "id": "Vacant",
         "filepath": "/materials/Vacant.mp3",
         "title": "Vacant",
@@ -3232,6 +3311,19 @@
           "夏恋",
           "ピアノ",
           "神秘的"
+        ]
+      },
+      {
+        "id": "Tsukiyowoterasuhotarutachi",
+        "filepath": "/materials/Tsukiyowoterasuhotarutachi.mp3",
+        "title": "月夜を照らす蛍たち",
+        "time": 122,
+        "desc": "「夏草の夜バージョンです。夜の行動時に流していただけると雰囲気が出ると思います。音の園で使いまわした曲の中でダントツの1位です。もうやりません。",
+        "tags": [
+          "夏恋",
+          "ピアノ",
+          "神秘的",
+          "夜"
         ]
       },
       {
@@ -4074,6 +4166,19 @@
         ]
       },
       {
+        "id": "Tsukiyowoterasuhotarutachi",
+        "filepath": "/materials/Tsukiyowoterasuhotarutachi.mp3",
+        "title": "月夜を照らす蛍たち",
+        "time": 122,
+        "desc": "「夏草の夜バージョンです。夜の行動時に流していただけると雰囲気が出ると思います。音の園で使いまわした曲の中でダントツの1位です。もうやりません。",
+        "tags": [
+          "夏恋",
+          "ピアノ",
+          "神秘的",
+          "夜"
+        ]
+      },
+      {
         "id": "NatsuMatsuri",
         "filepath": "/materials/NatsuMatsuri.mp3",
         "title": "夏祭り",
@@ -4354,6 +4459,19 @@
         ]
       },
       {
+        "id": "Tsukiyowoterasuhotarutachi",
+        "filepath": "/materials/Tsukiyowoterasuhotarutachi.mp3",
+        "title": "月夜を照らす蛍たち",
+        "time": 122,
+        "desc": "「夏草の夜バージョンです。夜の行動時に流していただけると雰囲気が出ると思います。音の園で使いまわした曲の中でダントツの1位です。もうやりません。",
+        "tags": [
+          "夏恋",
+          "ピアノ",
+          "神秘的",
+          "夜"
+        ]
+      },
+      {
         "id": "Kugatsunoaozora",
         "filepath": "/materials/Kugatsunoaozora.mp3",
         "title": "九月の蒼空",
@@ -4599,6 +4717,20 @@
         ]
       },
       {
+        "id": "Shimeinohateni",
+        "filepath": "/materials/Shimeinohateni.mp3",
+        "title": "使命の果てに",
+        "time": 106,
+        "desc": "受け入れられない運命、幾許の苦難を乗り越えそれを受け入れた時、それは運命から「使命」に変わる。穏やかに始まり、悲愴的になり、壮大で衝撃的な展開をしますので、重要なイベントシーンなどにいかがでしょうか？",
+        "tags": [
+          "RPG",
+          "オープニング",
+          "悲しい",
+          "神秘的",
+          "壮大"
+        ]
+      },
+      {
         "id": "EdgeOfTheSteel",
         "filepath": "/materials/EdgeOfTheSteel.mp3",
         "title": "Edge of the Steel",
@@ -4610,9 +4742,9 @@
         ]
       },
       {
-        "id": "MainStreetSousakaishi",
-        "filepath": "/materials/MainStreetSousakaishi.mp3",
-        "title": "Main Street ~捜査開始~",
+        "id": "MainStreet",
+        "filepath": "/materials/MainStreet.mp3",
+        "title": "Main Street",
         "time": 213,
         "desc": "私は探偵ゲームの「探偵神宮寺三郎」が大好きなんです。このゲームの作曲家「馳見Ace大地」さんの作るJAZZの世界観は本当に最高です。そんな感じで私も作ってみようと。ジャズポップテイストを私なりに解釈してハードボイルドなイメージを意識して出来たのがこんな感じの曲です。「どこへいく？」など、これから捜査を開始する時の移動画面や、メインストリートを歩く主人公、オープニングなどをイメージしました。「ファミコン探偵倶楽部」とか「EVEシリーズ」も大好きです。探偵はカッコいいんですよ。うん。",
         "tags": [

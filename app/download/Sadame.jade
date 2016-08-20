@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title 運命~さだめ~ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('悲しみの運命を背負う、そんな孤独で悲壮感漂う曲です。当サイト「使命の果てに」のアレンジ曲になります。キーは高めで原曲ほど盛り上がらないので、故郷が滅ぼされたり、悲しいイベント時に流れる曲としていかがでしょうか？', ["RPG","暗い","悲しい"])
+
+block track
+  .trackdetail#track_id(data-track="Sadame")
+    +tracktitle("運命~さだめ~", "2:06")
+
+    p.taglist
+      +taglist(["RPG","暗い","悲しい"])
+
+    include /generate/download/player.jade
+
+    p
+      | 悲しみの運命を背負う、そんな孤独で悲壮感漂う曲です。当サイト「使命の果てに」のアレンジ曲になります。キーは高めで原曲ほど盛り上がらないので、故郷が滅ぼされたり、悲しいイベント時に流れる曲としていかがでしょうか？
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("Sadame", "運命~さだめ~")

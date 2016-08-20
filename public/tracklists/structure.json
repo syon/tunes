@@ -16,7 +16,7 @@
         "tags": [
           "RPG"
         ],
-        "count": 17
+        "count": 19
       },
       {
         "id": "game_baroque",
@@ -32,7 +32,7 @@
         "tags": [
           "夏恋"
         ],
-        "count": 13
+        "count": 14
       },
       {
         "id": "game_wafu",
@@ -99,7 +99,7 @@
         "count": 9
       }
     ],
-    "group_count": 136
+    "group_count": 139
   },
   {
     "group_id": "scenes",
@@ -118,7 +118,7 @@
         "tags": [
           "暗い"
         ],
-        "count": 29
+        "count": 30
       },
       {
         "id": "scene_honobono",
@@ -134,7 +134,7 @@
         "tags": [
           "壮大"
         ],
-        "count": 27
+        "count": 28
       },
       {
         "id": "scene_mysterious",
@@ -142,7 +142,7 @@
         "tags": [
           "神秘的"
         ],
-        "count": 26
+        "count": 28
       },
       {
         "id": "scene_speedy",
@@ -166,7 +166,7 @@
         "tags": [
           "夜"
         ],
-        "count": 4
+        "count": 5
       },
       {
         "id": "scene_cyber",
@@ -182,7 +182,7 @@
         "tags": [
           "ピアノ"
         ],
-        "count": 17
+        "count": 18
       },
       {
         "id": "scene_battle",
@@ -198,7 +198,7 @@
         "tags": [
           "オープニング"
         ],
-        "count": 9
+        "count": 10
       },
       {
         "id": "scene_ending",
@@ -217,6 +217,6 @@
         "count": 5
       }
     ],
-    "group_count": 246
+    "group_count": 253
   }
 ]
