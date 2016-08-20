@@ -1,3 +1,15 @@
+#download {
+  height: auto;
+  background: url(/assets/img/sono_dark.png) center center / cover no-repeat fixed;
+  padding-bottom: 40px;
+  color: #fff;
+}
+#download .container {
+  max-width: 600px;
+  margin: 1.5em auto;
+  background-color: #222;
+  border-radius: 4px;
+}
 #download .container .inner {
   padding: 2em 2em 1em;
 }
