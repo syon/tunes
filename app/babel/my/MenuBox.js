@@ -37,7 +37,7 @@ class MenuBox extends React.Component {
     const nodes = [];
     const styles = {
       sidemenu: {
-        backgroundColor: '#1812A8',
+        backgroundColor: '#fff',
       },
       divider: {
         backgroundColor: 'rgba(255, 255, 255, 0.15)',

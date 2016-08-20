@@ -7,8 +7,17 @@ function Logo() {
       flexDirection: 'column',
       alignItems: 'center',
       paddingBottom: 20,
-      backgroundColor: '#1812A8',
-      background: 'linear-gradient(#01014B, #1812A8)',
+      backgroundColor: '#fff',
+    },
+    pretitle: {
+      color: '#888',
+      textAlign: 'center',
+    },
+    afttitle: {
+      margin: '0 0 8px',
+      color: '#888',
+      textAlign: 'center',
+      fontSize: '12px',
     },
     anchor: {
       textDecoration: 'none',
@@ -19,8 +28,8 @@ function Logo() {
       margin: '25px auto 10px',
     },
     title: {
-      margin: '0 0 8px',
-      color: 'white',
+      margin: '0',
+      color: '#666',
       textAlign: 'center',
       fontWeight: 400,
       fontSize: '26px',
@@ -36,8 +45,10 @@ function Logo() {
   return (
     <header style={styles.header}>
       <a href="/" style={styles.anchor}>
-        <img src="/assets/img/logo.png" alt="音の園" style={styles.logo} />
-        <h1 style={styles.title}>音の園</h1>
+        <img src="/assets/img/logo.png" alt="IMPROVIS" style={styles.logo} />
+        <div style={styles.pretitle}>音の園</div>
+        <h1 style={styles.title}>IMPROVIS</h1>
+        <div style={styles.afttitle}>― インプロヴィス ―</div>
         <h3 style={styles.author}>music by ANDY</h3>
       </a>
     </header>
