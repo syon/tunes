@@ -1,0 +1,26 @@
+extends /generate/download/_layout.jade
+
+include /generate/download/_mixins.jade
+
+block title
+  title Lake of Water Dragon ~水竜の湖~ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+
+block meta
+  +meta('', ["SilverForest"])
+
+block track
+  .trackdetail#track_id(data-track="sf-09")
+    +tracktitle("Lake of Water Dragon ~水竜の湖~", "2:08")
+
+    p.taglist
+      +taglist(["SilverForest"])
+
+    include /generate/download/player.jade
+
+    p
+      | 
+
+block tunescript
+  script
+    :coffee
+      Tunes.appendSingleTrack("sf-09", "Lake of Water Dragon ~水竜の湖~")

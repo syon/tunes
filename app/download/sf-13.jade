@@ -3,14 +3,14 @@ extends /generate/download/_layout.jade
 include /generate/download/_mixins.jade
 
 block title
-  title Coco ~妖精ココ~ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
+  title Silver Rain ~永遠の白銀~ - mp3ファイルのダウンロード | フリー音楽素材 BGM「音の園」
 
 block meta
   +meta('', ["SilverForest"])
 
 block track
-  .trackdetail#track_id(data-track="sf-02")
-    +tracktitle("Coco ~妖精ココ~", "2:02")
+  .trackdetail#track_id(data-track="sf-13")
+    +tracktitle("Silver Rain ~永遠の白銀~", "2:02")
 
     p.taglist
       +taglist(["SilverForest"])
@@ -23,4 +23,4 @@ block track
 block tunescript
   script
     :coffee
-      Tunes.appendSingleTrack("sf-02", "Coco ~妖精ココ~")
+      Tunes.appendSingleTrack("sf-13", "Silver Rain ~永遠の白銀~")

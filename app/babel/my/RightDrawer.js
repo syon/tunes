@@ -49,10 +49,10 @@ class RightDrawer extends React.Component {
   render() {
     const styles = {
       appbar: {
-        backgroundColor: 'rgb(7, 5, 98)',
+        // backgroundColor: 'rgb(7, 5, 98)',
       },
       drawer: {
-        backgroundColor: 'rgba(32, 32, 45, 0.9)',
+        backgroundColor: 'hsla(240,17%,90%,0.9)',
       },
       commentHead: {
         display: 'flex',

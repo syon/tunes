@@ -15,7 +15,7 @@ class Main extends React.Component {
 
     this.state = {
       structure: [],
-      activeAlbumId: 'game_wafu',
+      activeAlbumId: 'SilverForest',
       album: {},
     };
   }

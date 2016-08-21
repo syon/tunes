@@ -40,7 +40,7 @@ class MenuBox extends React.Component {
         backgroundColor: '#fff',
       },
       divider: {
-        backgroundColor: 'rgba(255, 255, 255, 0.15)',
+        backgroundColor: 'rgba(0, 0, 0, 0.07)',
       },
       subheader: {
         display: 'flex',
@@ -70,7 +70,7 @@ class MenuBox extends React.Component {
         const isActive = album.id === this.props.activeAlbumId;
         let activeStyle = {};
         if (isActive) {
-          activeStyle = { backgroundColor: '#3a34ea' };
+          activeStyle = { backgroundColor: 'rgba(195, 231, 249, 0.5)' };
         }
         nodes.push(
           <ListItem style={activeStyle} innerDivStyle={styles.listitem}>

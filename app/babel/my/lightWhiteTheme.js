@@ -26,7 +26,7 @@ export default {
     clockCircleColor: fade(fullWhite, 0.12),
   },
   appBar: {
-    textColor: fullWhite,
+    textColor: '#666',
   },
   floatingActionButton: {
     color: '#69c3ef',
