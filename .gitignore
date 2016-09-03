@@ -6,5 +6,6 @@ build
 /build/
 /bower_components/
 /node_modules/
-/public/download/*.html
 /resources/materials/*.mp3
+/public/
+/app/download/
