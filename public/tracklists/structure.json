@@ -3,6 +3,14 @@
     "group_id": "albums",
     "listset": [
       {
+        "id": "BlueFantasy",
+        "nm": "Blue Fantasy",
+        "tags": [
+          "BlueFantasy"
+        ],
+        "count": 27
+      },
+      {
         "id": "SilverForest",
         "nm": "Silver Forest",
         "tags": [
@@ -43,6 +51,6 @@
         "count": 10
       }
     ],
-    "group_count": 69
+    "group_count": 96
   }
 ]

@@ -1,4 +1,279 @@
 {
+  "BlueFantasy": {
+    "nm": "Blue Fantasy",
+    "tracks": [
+      {
+        "id": "bf-Suishounoprelude",
+        "filepath": "/materials/bf-Suishounoprelude.mp3",
+        "title": "水晶のプレリュード",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Akaitsubasa",
+        "filepath": "/materials/bf-Akaitsubasa.mp3",
+        "title": "赤い翼",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Maintheme",
+        "filepath": "/materials/bf-Maintheme.mp3",
+        "title": "メインテーマ",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Haounoshiro",
+        "filepath": "/materials/bf-Haounoshiro.mp3",
+        "title": "覇王の城",
+        "time": 116,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Ryuukishi",
+        "filepath": "/materials/bf-Ryuukishi.mp3",
+        "title": "竜騎士",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Baronnoyoake",
+        "filepath": "/materials/bf-Baronnoyoake.mp3",
+        "title": "バロンの夜明け",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Aokihoshinosekai",
+        "filepath": "/materials/bf-Aokihoshinosekai.mp3",
+        "title": "蒼き星の世界",
+        "time": 192,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Shiromadoushi",
+        "filepath": "/materials/bf-Shiromadoushi.mp3",
+        "title": "白魔道士",
+        "time": 164,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Rothenotheme",
+        "filepath": "/materials/bf-Rothenotheme.mp3",
+        "title": "ローザのテーマ",
+        "time": 96,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Kirinodoukutsu",
+        "filepath": "/materials/bf-Kirinodoukutsu.mp3",
+        "title": "霧の洞窟",
+        "time": 142,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Mistdragon",
+        "filepath": "/materials/bf-Mistdragon.mp3",
+        "title": "ミストドラゴン",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Kokounoshoukanshi",
+        "filepath": "/materials/bf-Kokounoshoukanshi.mp3",
+        "title": "孤高の召喚士",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Ryokuhatsunoshoujo",
+        "filepath": "/materials/bf-Ryokuhatsunoshoujo.mp3",
+        "title": "緑髪の少女",
+        "time": 192,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Rydia",
+        "filepath": "/materials/bf-Rydia.mp3",
+        "title": "リディア",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Ouza",
+        "filepath": "/materials/bf-Ouza.mp3",
+        "title": "王座",
+        "time": 190,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Nakiseikishi",
+        "filepath": "/materials/bf-Nakiseikishi.mp3",
+        "title": "亡き聖騎士",
+        "time": 192,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Paladin",
+        "filepath": "/materials/bf-Paladin.mp3",
+        "title": "パラディン",
+        "time": 129,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Shourinotheme",
+        "filepath": "/materials/bf-Shourinotheme.mp3",
+        "title": "勝利のテーマ",
+        "time": 98,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Mishidiakohan",
+        "filepath": "/materials/bf-Mishidiakohan.mp3",
+        "title": "ミシディア湖畔",
+        "time": 192,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Saihatenobokujou",
+        "filepath": "/materials/bf-Saihatenobokujou.mp3",
+        "title": "最果ての牧場",
+        "time": 174,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Agarutonohoshizora",
+        "filepath": "/materials/bf-Agarutonohoshizora.mp3",
+        "title": "アガルトの星空",
+        "time": 146,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Genjuukai",
+        "filepath": "/materials/bf-Genjuukai.mp3",
+        "title": "幻獣界",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Leviathan",
+        "filepath": "/materials/bf-Leviathan.mp3",
+        "title": "幻獣王リヴァイアサン",
+        "time": 178,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Kazenimichibikarete",
+        "filepath": "/materials/bf-Kazenimichibikarete.mp3",
+        "title": "風に導かれて",
+        "time": 180,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Crystalroom",
+        "filepath": "/materials/bf-Crystalroom.mp3",
+        "title": "クリスタルルーム",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Saigonotatakai",
+        "filepath": "/materials/bf-Saigonotatakai.mp3",
+        "title": "最後の戦い",
+        "time": 154,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      },
+      {
+        "id": "bf-Bluefantasy",
+        "filepath": "/materials/bf-Bluefantasy.mp3",
+        "title": "Blue Fantasy",
+        "time": 112,
+        "desc": "",
+        "tags": [
+          "BlueFantasy"
+        ]
+      }
+    ]
+  },
   "SilverForest": {
     "nm": "Silver Forest",
     "tracks": [

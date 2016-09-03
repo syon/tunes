@@ -1,5 +1,10 @@
 - group_id: albums
   listset:
+    - id: BlueFantasy
+      nm: Blue Fantasy
+      tags:
+        - BlueFantasy
+
     - id: SilverForest
       nm: Silver Forest
       tags:
