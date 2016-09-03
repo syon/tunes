@@ -80,6 +80,66 @@
       - SilverForest
     :desc: |
 
+  - :id: ss-SealedStory
+    :title: Sealed Story ~封印された物語~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-TotheOverworld
+    :title: To the Overworld ~上の世界へ~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-RayofWater
+    :title: Ray of Water ~水の森~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-Encounter
+    :title: Encounter ~戦闘~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-GotIt
+    :title: Got It ~勝利~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-UnknownCity
+    :title: Unknown City ~未知の都市~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-Cave
+    :title: Cave ~忘れられた洞穴~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-StrongerthanMe
+    :title: Stronger than Me ~強敵~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-FateoftheGirl
+    :title: Fate of the Girl ~少女の運命~
+    :tags:
+      - SealedStory
+    :desc: |
+
+  - :id: ss-NewWorld
+    :title: New World ~知らなかった世界~
+    :tags:
+      - SealedStory
+    :desc: |
+
   - :id: BlissfulNight
     :title: Blissful Night
     :tags:

@@ -11,6 +11,14 @@
         "count": 13
       },
       {
+        "id": "SealedStory",
+        "nm": "Sealed Story",
+        "tags": [
+          "SealedStory"
+        ],
+        "count": 10
+      },
+      {
         "id": "MidnightCelebration",
         "nm": "Midnight Celebration",
         "tags": [
@@ -19,7 +27,7 @@
         "count": 11
       }
     ],
-    "group_count": 24
+    "group_count": 34
   },
   {
     "group_id": "scenes",

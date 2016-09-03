@@ -5,6 +5,11 @@
       tags:
         - SilverForest
 
+    - id: SealedStory
+      nm: Sealed Story
+      tags:
+        - SealedStory
+
     - id: MidnightCelebration
       nm: Midnight Celebration
       tags:

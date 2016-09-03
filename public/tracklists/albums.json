@@ -134,6 +134,111 @@
       }
     ]
   },
+  "SealedStory": {
+    "nm": "Sealed Story",
+    "tracks": [
+      {
+        "id": "ss-SealedStory",
+        "filepath": "/materials/ss-SealedStory.mp3",
+        "title": "Sealed Story ~封印された物語~",
+        "time": 138,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-TotheOverworld",
+        "filepath": "/materials/ss-TotheOverworld.mp3",
+        "title": "To the Overworld ~上の世界へ~",
+        "time": 139,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-RayofWater",
+        "filepath": "/materials/ss-RayofWater.mp3",
+        "title": "Ray of Water ~水の森~",
+        "time": 148,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-Encounter",
+        "filepath": "/materials/ss-Encounter.mp3",
+        "title": "Encounter ~戦闘~",
+        "time": 148,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-GotIt",
+        "filepath": "/materials/ss-GotIt.mp3",
+        "title": "Got It ~勝利~",
+        "time": 44,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-UnknownCity",
+        "filepath": "/materials/ss-UnknownCity.mp3",
+        "title": "Unknown City ~未知の都市~",
+        "time": 126,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-Cave",
+        "filepath": "/materials/ss-Cave.mp3",
+        "title": "Cave ~忘れられた洞穴~",
+        "time": 132,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-StrongerthanMe",
+        "filepath": "/materials/ss-StrongerthanMe.mp3",
+        "title": "Stronger than Me ~強敵~",
+        "time": 134,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-FateoftheGirl",
+        "filepath": "/materials/ss-FateoftheGirl.mp3",
+        "title": "Fate of the Girl ~少女の運命~",
+        "time": 144,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      },
+      {
+        "id": "ss-NewWorld",
+        "filepath": "/materials/ss-NewWorld.mp3",
+        "title": "New World ~知らなかった世界~",
+        "time": 135,
+        "desc": "",
+        "tags": [
+          "SealedStory"
+        ]
+      }
+    ]
+  },
   "MidnightCelebration": {
     "nm": "Midnight Celebration",
     "tracks": [
