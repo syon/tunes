@@ -5,6 +5,11 @@
       tags:
         - SilverForest
 
+    - id: MidnightCelebration
+      nm: Midnight Celebration
+      tags:
+        - MidnightCelebration
+
 - group_id: scenes
   listset:
     - id: scene_cheerful
