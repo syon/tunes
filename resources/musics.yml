@@ -2,6 +2,168 @@
 :artist: ANDY
 :album: IMPROVIS
 :tracks:
+  - :id: bf-Suishounoprelude
+    :title: 水晶のプレリュード
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Akaitsubasa
+    :title: 赤い翼
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Maintheme
+    :title: メインテーマ
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Haounoshiro
+    :title: 覇王の城
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Ryuukishi
+    :title: 竜騎士
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Baronnoyoake
+    :title: バロンの夜明け
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Aokihoshinosekai
+    :title: 蒼き星の世界
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Shiromadoushi
+    :title: 白魔道士
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Rothenotheme
+    :title: ローザのテーマ
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Kirinodoukutsu
+    :title: 霧の洞窟
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Mistdragon
+    :title: ミストドラゴン
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Kokounoshoukanshi
+    :title: 孤高の召喚士
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Ryokuhatsunoshoujo
+    :title: 緑髪の少女
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Rydia
+    :title: リディア
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Ouza
+    :title: 王座
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Nakiseikishi
+    :title: 亡き聖騎士
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Paladin
+    :title: パラディン
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Shourinotheme
+    :title: 勝利のテーマ
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Wizard
+    :title: 賢者テラ
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Mishidiakohan
+    :title: ミシディア湖畔
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Agarutonohoshizora
+    :title: アガルトの星空
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Genjuukai
+    :title: 幻獣界
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Leviathan
+    :title: 幻獣王リヴァイアサン
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Kazenimichibikarete
+    :title: 風に導かれて
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Crystalroom
+    :title: クリスタルルーム
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Saigonotatakai
+    :title: 最後の戦い
+    :tags:
+      - BlueFantasy
+    :desc: |
+
+  - :id: bf-Bluefantasy
+    :title: Blue Fantasy
+    :tags:
+      - BlueFantasy
+    :desc: |
+
   - :id: sf-01
     :title: Silver Forest ~白銀の世界~
     :tags:
