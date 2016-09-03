@@ -95,7 +95,6 @@ class RightDrawer extends React.Component {
           title={this.props.track.title}
           iconElementLeft={iel}
           style={styles.appbar}
-          titleStyle={{ color: '#fff' }}
         />
         <SoundPlayer
           track={this.props.track}
