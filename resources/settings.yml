@@ -24,10 +24,3 @@
       nm: Wild Neverland
       tags:
         - WildNeverland
-
-- group_id: scenes
-  listset:
-    - id: scene_cheerful
-      nm: "明るい"
-      tags:
-        - "明るい"
