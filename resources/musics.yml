@@ -140,67 +140,67 @@
       - SealedStory
     :desc: |
 
-  - :id: BlissfulNight
+  - :id: bn-BlissfulNight
     :title: Blissful Night
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: BlissfulNight-another-scene
+  - :id: bn-BlissfulNight-another-scene
     :title: Blissful Night ~another scene~
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: BlissfulNight-piano-arrange
+  - :id: bn-BlissfulNight-piano-arrange
     :title: Blissful Night ~piano arrange~
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: BlissfulNight-feelings-on-piano
+  - :id: bn-BlissfulNight-feelings-on-piano
     :title: Blissful Night ~feelings on piano~
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: BlissfulNight-memories
+  - :id: bn-BlissfulNight-memories
     :title: Blissful Night ~memories~
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: StarryNight
+  - :id: bn-StarryNight
     :title: Starry Night
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: CongealedNight
+  - :id: bn-CongealedNight
     :title: Congealed Night
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: SnowyDay
+  - :id: bn-SnowyDay
     :title: Snowy Day
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: WinterForest
+  - :id: bn-WinterForest
     :title: Winter Forest
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: SacredNight
+  - :id: bn-SacredNight
     :title: Sacred Night
     :tags:
       - MidnightCelebration
     :desc: |
 
-  - :id: SacredNight-at-the-crack-of-dawn
+  - :id: bn-SacredNight-at-the-crack-of-dawn
     :title: Sacred Night -at the crack of dawn-
     :tags:
       - MidnightCelebration
