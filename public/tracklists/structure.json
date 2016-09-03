@@ -9,9 +9,17 @@
           "SilverForest"
         ],
         "count": 13
+      },
+      {
+        "id": "MidnightCelebration",
+        "nm": "Midnight Celebration",
+        "tags": [
+          "MidnightCelebration"
+        ],
+        "count": 11
       }
     ],
-    "group_count": 13
+    "group_count": 24
   },
   {
     "group_id": "scenes",
