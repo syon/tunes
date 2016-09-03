@@ -110,7 +110,7 @@ class SoundPlayer extends React.Component {
     return (
       <div>
         <Sound
-          url={`http://oto-no-sono.com${this.props.track.filepath}`}
+          url={`http://improvis.oto-no-sono.com${this.props.track.filepath}`}
           playStatus={this.props.status}
           playFromPosition={this.state.fromPosition}
           onLoading={this.handleSongLoading}
