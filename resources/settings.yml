@@ -20,6 +20,11 @@
       tags:
         - GreenofMana
 
+    - id: WildNeverland
+      nm: Wild Neverland
+      tags:
+        - WildNeverland
+
 - group_id: scenes
   listset:
     - id: scene_cheerful
