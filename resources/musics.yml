@@ -164,6 +164,150 @@
       - BlueFantasy
     :desc: |
 
+  - :id: gm-Risingsun
+    :title: ライジングサン
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Kakutougijou
+    :title: 格闘技場
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Rekuiemu
+    :title: レクイエム
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Juriasunoyabou
+    :title: ジュリアスの野望
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Danger
+    :title: Danger!!
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Hateshinakisenjou
+    :title: 果てしなき戦場
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Mura
+    :title: 村
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Dungeon1
+    :title: ダンジョン#1
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Sentou1
+    :title: 戦闘#1
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Oukyuunotheme
+    :title: 王宮のテーマ
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Dwarf
+    :title: ドワーフのテーマ
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Jemanojikaku
+    :title: ジェマの自覚
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Chokobotanjou
+    :title: チョコボ誕生
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Moogle
+    :title: モーグリ
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Kanashiminonakade
+    :title: 哀しみのなかで
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Dungeon2
+    :title: ダンジョン#2
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Gransukoukoku
+    :title: グランス公国
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Omoihashirabeninosete
+    :title: 想いは調べにのせて
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Dungeon3
+    :title: ダンジョン#3
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Joutaiijou
+    :title: 状態異常
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Mananoshinden
+    :title: マナの神殿
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Mananoshimei
+    :title: マナの使命
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Sentou2
+    :title: 戦闘#2
+    :tags:
+      - GreenofMana
+    :desc: |
+
+  - :id: gm-Densetsuyoeienni
+    :title: 伝説よ永遠に
+    :tags:
+      - GreenofMana
+    :desc: |
+
   - :id: sf-SilverForest
     :title: Silver Forest ~白銀の世界~
     :tags:
