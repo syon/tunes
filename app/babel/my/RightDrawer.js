@@ -52,7 +52,7 @@ class RightDrawer extends React.Component {
         // backgroundColor: 'rgb(7, 5, 98)',
       },
       drawer: {
-        backgroundColor: 'hsla(240,17%,90%,0.9)',
+        backgroundColor: 'hsla(240,17%,90%,0.1)',
       },
       commentHead: {
         display: 'flex',
