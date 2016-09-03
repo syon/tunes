@@ -5,7 +5,7 @@ require 'json'
 require 'yaml'
 require 'ap'
 
-site_url = "http://oto-no-sono.com"
+site_url = "http://improvis.oto-no-sono.com"
 json_dir = "public/tracklists/"
 def find_tagmatch_music_list(musics, tag)
   list = []
