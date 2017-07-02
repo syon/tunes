@@ -1,7 +1,13 @@
 html, body, #app {
   height: 100%;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+}
+
+@media(max-width:400px) {
+  html, body, #app {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 body {
